@@ -31,3 +31,7 @@ define hm = Character('Hall Monitor', color="#800000")
 #######
 # VFX #
 #######
+
+
+label start:
+    jump scene1
