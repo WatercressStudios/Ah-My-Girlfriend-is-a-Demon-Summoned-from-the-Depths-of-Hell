@@ -3,7 +3,7 @@
 #########################
 define pro = Character('Makoto', color="#800000")
 define bp = Character('Beepy', color="#800000")
-define st = Character('STan', color="#800000")
+define st = Character('S\u26E7Tan', color="#800000")
 define riv = Character('Misaki', color="#800000")
 define sis = Character('Yumi', color="#800000")
 define mm = Character('Mami', color="#800000")

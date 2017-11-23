@@ -16,7 +16,7 @@ sceneNumber = input()
 
 lineCount = 1
 
-with open(inputFilePath, 'r') as infile, open(outputFilePath, 'w') as outfile:
+with open(inputFilePath, encoding="utf8") as infile, open(outputFilePath, 'w') as outfile:
     for line in infile:
         if '    pro' in line[:7]:
             outfile.write('    voice "' + routeTag + '-' + sceneNumber + '-' + str(lineCount) + '.mp3" #Makoto (Reece Bridger)\n')
