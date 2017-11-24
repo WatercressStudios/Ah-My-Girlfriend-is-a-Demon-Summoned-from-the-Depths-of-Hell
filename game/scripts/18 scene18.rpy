@@ -50,12 +50,12 @@ label scene18:
     "I make my choice fairly quickly. I walk forward, get my wallet out, and prepare to let the woman in front of me know who exactly she was dealing with."
 
     pro "Hey, uh, can I have an, um… blueberry muffin?"
-    #vs "Sure."
+    vs "Sure."
 
     "She had bent like a… bendy… thing. She was so easily willing to give me my muffin."
     "This would be easy."
 
-    #vs "Alright, that's $4.00."
+    vs "Alright, that's $4.00."
 
     "Not a hefty price to pay. I reach into my wallet, pull out my coins, and…"
     "$2.00."
@@ -73,7 +73,7 @@ label scene18:
     "Almost as if the bearer of bad news had come late, {i}she{/i} popped up right next to me, pink and pretty wallet in her hand."
     "Of {i}course{/i} things had to get worse."
 
-    #vs "So… two blueberry muffins?"
+    vs "So… two blueberry muffins?"
     riv "Y-yeah. One for me, one for h-him."
 
     "One… for me?"
@@ -81,7 +81,7 @@ label scene18:
     "This definitely feels like humiliation." 
     "Still, I suppose that I cannot complain..."
 
-    #vs "Alright, that's $8."
+    vs "Alright, that's $8."
     riv "H-Here."
 
     "She hands the money. The woman at the concession stand gives a smile - toothy, likely fake - as she hands the two muffins to her."
