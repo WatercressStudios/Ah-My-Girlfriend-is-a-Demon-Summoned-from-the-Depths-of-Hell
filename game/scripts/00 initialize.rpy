@@ -12,6 +12,7 @@ define lu = Character('Lucy', color="#800000")
 define co = Character('Councillor', color="#800000")
 define q = Character('???', color="#800000")
 define hm = Character('Hall Monitor', color="#800000")
+define vs = Character('Lunch Lady', color="#800000")
 
 ######################
 # Sprite Declaration #
