@@ -16,7 +16,7 @@ label scene16:
     sis "You done?"
     
     voice "C-16-2.mp3" #Makoto (Reece Bridger)
-    pro "Yes. We have finished our… gathering."
+    pro "Yes. We have finished ourâ€¦ gathering."
     
     voice "C-16-3.mp3" #Yumi (Kaito)
     sis "Cool."
@@ -41,13 +41,13 @@ label scene16:
     "Personally, I am asking the same question as Lucifer, myself."
 
     voice "C-16-8.mp3" #Mami 
-    mm "M-My necklace… it's gone!"
+    mm "M-My necklaceâ€¦ it's gone!"
     
     voice "C-16-9.mp3" #Makoto (Reece Bridger)
     pro "...Gone?"
     
     voice "C-16-10.mp3" #Mami 
-    mm "I've lost it, I've dropped it, I-I might not be able to have it again, I…"
+    mm "I've lost it, I've dropped it, I-I might not be able to have it again, Iâ€¦"
 
     "She trails, looking off."
     "Honestly, I'm not sure how one could even lose something they had placed on their neck, but I suppose I wouldn't know. I've never worn one, after all."
@@ -56,10 +56,10 @@ label scene16:
     bb "Aww, sucks that it {i}vanished,{/i} sis. How do you think you lost it?"
     
     voice "C-16-12.mp3" #Mami 
-    mm "I don't… I can't… I… I had it."
+    mm "I don'tâ€¦ I can'tâ€¦ Iâ€¦ I had it."
     
     voice "C-16-13.mp3" #Mami 
-    mm "Did I drop it…? No, of course not, but then..."
+    mm "Did I drop itâ€¦? No, of course not, but then..."
 
     "She seems... despondent, in a way. Incapable of response, as if she had seen what laid on the deepest circles of Hell and lived to tell the tale."
     "Of course, she almost certainly had."
@@ -68,7 +68,7 @@ label scene16:
     lu "Do you want to, um, find it?"
     
     voice "C-16-15.mp3" #Mami 
-    mm "I… please… I…"
+    mm "Iâ€¦ pleaseâ€¦ Iâ€¦"
     
     voice "C-16-16.mp3" #Bubble 
     bb "Don't we need to go homeeeeee, though?"
@@ -94,7 +94,7 @@ label scene16:
     sis "...We can wait a bit, I suppose. I can pack the car while you go look."
     
     voice "C-16-23.mp3" #Lucy (Vivi)
-    lu "...And I can help! I've got an eye for detail, so, um…"
+    lu "...And I can help! I've got an eye for detail, so, umâ€¦"
     
     voice "C-16-24.mp3" #Mami 
     mm "Y-You can help?"
@@ -102,7 +102,7 @@ label scene16:
     voice "C-16-25.mp3" #Makoto (Reece Bridger)
     pro "Me too, if this bothers you that much."
 
-    "Truth be told, I would rather be heading home by now - but given Mammon's… reaction, I suppose that there wasn't much of a choice. As the summoner, I seemed to be her master, and what sort of master would voluntarily let their subjects suffer?"
+    "Truth be told, I would rather be heading home by now - but given Mammon'sâ€¦ reaction, I suppose that there wasn't much of a choice. As the summoner, I seemed to be her master, and what sort of master would voluntarily let their subjects suffer?"
     "A lot of masters, probably, but not me. I give the trolley to my sister, nod as she takes it, and walk to where the other three are."
     "They are looking at me somewhat expectantly. Their eyes bore into me. The words that come out of my mouth are stilted. Stuttery."
 
@@ -110,7 +110,7 @@ label scene16:
     pro "So, uh, what do we do?"
     
     voice "C-16-27.mp3" #Lucy (Vivi)
-    lu "We look. I know how to look for these things, so, uh…"
+    lu "We look. I know how to look for these things, so, uhâ€¦"
     
     voice "C-16-28.mp3" #Bubble 
     bb "This is {i}boooooorrrrrrrriiiiinnnnnnggggg{/i}..."
@@ -122,45 +122,45 @@ label scene16:
     bb "Okkkkaaaaayyyyyyyyyyyy..."
 
     "She leaves, and as she does so we look through the labyrinthine parking lot; we take our separate paths wordlessly for the sake of efficiency."
-    "Now that the sun is nearly gone from the sky, there are almost no mortals inhabiting this parking lot. That is… convenient. Preferable, even. If I had to bump into someone, if I had to talk to someone who had no idea what the depths of this world were, I..."
+    "Now that the sun is nearly gone from the sky, there are almost no mortals inhabiting this parking lot. That isâ€¦ convenient. Preferable, even. If I had to bump into someone, if I had to talk to someone who had no idea what the depths of this world were, I..."
     "...Wouldn't know what to do. And {i}God{/i} knew what would happen if the Demon Lord Sebastian Wolfgang IV was caught off guard."
     "But now was not the time for unlikely hypotheticals. I had a necklace I needed to find. I turned a corner and saw a new part of the parking lot. Cars. Abandoned trolleys. Litter."
     "Eventually, I see a glint under one of the dumpsters. I walk forward, slightly curious. Is that what I'm looking for? Is that the thing Mammon covets so dearly? I'm not entirely sure."
-    "Still, I suppose there is no harm in looking. I walk to the dumpster, pick the… chain thing up, and--"
+    "Still, I suppose there is no harm in looking. I walk to the dumpster, pick theâ€¦ chain thing up, and--"
 
     voice "C-16-31.mp3" #Mami 
     mm "{b}Mine!{/b}"
 
-    "A force appears with the speed of a lightning bolt and wrenches the thing from my hands just as I am about to look at it. My body jolts. I look around. The sensation, the {i}thoughts{/i} are familiar. Is this…?"
+    "A force appears with the speed of a lightning bolt and wrenches the thing from my hands just as I am about to look at it. My body jolts. I look around. The sensation, the {i}thoughts{/i} are familiar. Is thisâ€¦?"
 
     voice "C-16-32.mp3" #Mami 
     mm "You found it. {i}You found it~!{/i}"
 
     "In front of me is Mammon, bent over slightly. She is clutching, caressing the necklace, She isn't looking at me, nor the two demons coming up from behind her; she is only looking at the object in her hands."
     "Her {i}precious{/i} possession, as expected from the lord of greed."
-    "I question how much it means, given her… extreme reaction."
+    "I question how much it means, given herâ€¦ extreme reaction."
 
     voice "C-16-33.mp3" #Makoto (Reece Bridger)
     pro "What's so important about that necklace, anyway? You're fawning over it."
 
-    "To be honest, I would have preferred to ask why losing it prompted such a reaction from her, but I suppose that this is the… better way of asking it."
+    "To be honest, I would have preferred to ask why losing it prompted such a reaction from her, but I suppose that this is theâ€¦ better way of asking it."
 
     voice "C-16-34.mp3" #Mami 
-    mm "It's…"
+    mm "It'sâ€¦"
 
     "She pauses. Shakes her head. Continues."
 
     voice "C-16-35.mp3" #Mami 
-    mm "It's a necklace that my friend Leviathan gave to me, back… around a year ago, I guess."
+    mm "It's a necklace that my friend Leviathan gave to me, backâ€¦ around a year ago, I guess."
     
     voice "C-16-36.mp3" #Mami 
-    mm "Admittedly it… might not be the most valuable; admittedly, I only took it because Levi made it, but…"
+    mm "Admittedly itâ€¦ might not be the most valuable; admittedly, I only took it because Levi made it, butâ€¦"
     
     voice "C-16-37.mp3" #Mami 
     mm "That's sort of the reason, y'know?"
     
     voice "C-16-38.mp3" #Mami 
-    mm "Like, Levi's a friend. She's not really my {i}bestest{/i} friend or anything like that but, like…"
+    mm "Like, Levi's a friend. She's not really my {i}bestest{/i} friend or anything like that but, likeâ€¦"
     
     voice "C-16-39.mp3" #Mami 
     mm "I still value her."
@@ -183,7 +183,7 @@ label scene16:
     "Honestly, I don't know anything about this 'Levi' person, but I nod. The least I can do is pretend I understand."
 
     voice "C-16-45.mp3" #Mami 
-    mm "And it's… like that with everyone. All my friends. All my family. I try to keep the things they give me. I try to show them that their gifts matter."
+    mm "And it'sâ€¦ like that with everyone. All my friends. All my family. I try to keep the things they give me. I try to show them that their gifts matter."
     
     voice "C-16-46.mp3" #Mami 
     mm "I don't want to lose them; I don't want them to dislike me... I want to show them that they're important; I want to show them that I care."
@@ -199,7 +199,7 @@ label scene16:
     "I guess I will need to hold Mammon in a different light."
 
     voice "C-16-48.mp3" #Bubble 
-    bb "Aww, you found it? I thought I did a good job of hiding it…"
+    bb "Aww, you found it? I thought I did a good job of hiding itâ€¦"
 
     "Beelzebub and Lucifer walk onto the scene - the former with a sort of exaggerated frown on her face as her sister turns around, glaring at her."
 
@@ -210,12 +210,12 @@ label scene16:
     bb "Yep!"
     
     voice "C-16-51.mp3" #Mami 
-    mm "You…"
+    mm "Youâ€¦"
     
     voice "C-16-52.mp3" #Bubble 
     bb "...got like, super flustered and stuff."
 
-    "She giggles. You hear about twins finishing each other's sentences, but… I'm pretty sure that isn't what Mami's thinking."
+    "She giggles. You hear about twins finishing each other's sentences, butâ€¦ I'm pretty sure that isn't what Mami's thinking."
     "What Mami's actually thinking...  would probably raise the age rating of this game."
 
     voice "C-16-53.mp3" #Bubble 
@@ -263,7 +263,7 @@ label scene16:
     "Of all the--"
 
     voice "C-16-64.mp3" #Mami 
-    mm "Fine. Let's just… walk, yeah."
+    mm "Fine. Let's justâ€¦ walk, yeah."
     
     voice "C-16-65.mp3" #Lucy (Vivi)
     lu "W-We might be able to make it back before sundown if w-we begin now."

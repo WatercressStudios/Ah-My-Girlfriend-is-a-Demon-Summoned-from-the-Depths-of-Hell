@@ -29,7 +29,7 @@ label scene27:
     riv "Hmph. After leaving us to rot in our cells, you have some gumption to show your faces."
     
     voice "C-27-8.mp3" #Beepy (Hikari)
-    bp "Well, I mean… detention was for {i}you two,{/i} not us."
+    bp "Well, I meanâ€¦ detention was for {i}you two,{/i} not us."
     
     voice "C-27-9.mp3" #Beepy (Hikari)
     bp "Would {i}you{/i} wanna serve time for something you didn't do?"
@@ -43,19 +43,19 @@ label scene27:
     "In that moment, S_Tan barreled at us with a hug."
 
     voice "C-27-12.mp3" #Makoto (Reece Bridger)
-    pro "A-Augh… this grip…!"
+    pro "A-Aughâ€¦ this gripâ€¦!"
     
     voice "C-27-13.mp3" #Makoto (Reece Bridger)
-    pro "I… I think my ribs are… p-puncturing my diaphragm!"
+    pro "Iâ€¦ I think my ribs areâ€¦ p-puncturing my diaphragm!"
     
     voice "C-27-14.mp3" #Misaki (Kikari)
-    riv "Cease, minion! Jeez…!"
+    riv "Cease, minion! Jeezâ€¦!"
     
     voice "C-27-15.mp3" #STan (Dani)
     st "As you command, Misaki-chan~!"
     
     voice "C-27-16.mp3" #Misaki (Kikari)
-    riv "...Rrgh…" 
+    riv "...Rrghâ€¦" 
 
     "With a giddy smile, S_Tan bounced back away. Out of the corner of my eye, I could catch Beepy rolling her eyes."
 
@@ -66,7 +66,7 @@ label scene27:
     st "Oh, and which Fantastic Finale game is the best! I like the thirteenth one the most~!"
     
     voice "C-27-19.mp3" #Beepy (Hikari)
-    bp "You oughtta save it for the party, at least…"
+    bp "You oughtta save it for the party, at leastâ€¦"
     
     voice "C-27-20.mp3" #STan (Dani)
     st "Party!? We're having a {i}party!?{/i}"
@@ -78,7 +78,7 @@ label scene27:
     pro "...This is the first I've heard of it. Your guess is as good as mine."
     
     voice "C-27-23.mp3" #Beepy (Hikari)
-    bp "Shit. I wasn't supposed to mention that…"
+    bp "Shit. I wasn't supposed to mention thatâ€¦"
     
     voice "C-27-24.mp3" #Beepy (Hikari)
     bp "...Eh, whatever. Cat's out of the bag now."
@@ -87,13 +87,13 @@ label scene27:
     bp "Lucy and the twins stayed behind to plan a party for you."
     
     voice "C-27-26.mp3" #Beepy (Hikari)
-    bp "Their logic was like… if you won, sweet, we'll get to eat and have fun and celebrate."
+    bp "Their logic was likeâ€¦ if you won, sweet, we'll get to eat and have fun and celebrate."
     
     voice "C-27-27.mp3" #Beepy (Hikari)
-    bp "And if Misaki kicked your ass, well… at least you'll have a nice meal?"
+    bp "And if Misaki kicked your ass, wellâ€¦ at least you'll have a nice meal?"
     
     voice "C-27-28.mp3" #Makoto (Reece Bridger)
-    pro "This sounds suspiciously like something Bubble would come up with…"
+    pro "This sounds suspiciously like something Bubble would come up withâ€¦"
     
     voice "C-27-29.mp3" #Beepy (Hikari)
     bp "...Riiiight, Bubble. Yeah. Her idea."
@@ -110,7 +110,7 @@ label scene27:
     st "Teehee! It's okay, I won't give away your little secret~?"
     
     voice "C-27-33.mp3" #STan (Dani)
-    st "Though, I wish you would've told me my other sisters came out to play… I would've visited!"
+    st "Though, I wish you would've told me my other sisters came out to playâ€¦ I would've visited!"
     
     voice "C-27-34.mp3" #Beepy (Hikari)
     bp "...Gee, I wonder why I didn't tell you."
@@ -126,7 +126,7 @@ label scene27:
 
     #scene courtyard2
 
-    "Turning my head to look, I see three familiar… familiars, scampering down the block."
+    "Turning my head to look, I see three familiarâ€¦ familiars, scampering down the block."
 
     #bb enter stage left
     voice "C-27-38.mp3" #Bubble 
@@ -150,25 +150,25 @@ label scene27:
     bb "We're here because we got an {b}extra special{/b} surprise for you!"
     
     voice "C-27-44.mp3" #Makoto (Reece Bridger)
-    pro "Oh, a surprise…"
+    pro "Oh, a surpriseâ€¦"
     
     voice "C-27-45.mp3" #Mami 
     mm "What? It's not a bad surprise. Or are you not grateful for the gifts that we shower upon you!?"
     
     voice "C-27-46.mp3" #Mami 
-    mm "Stuck up prick is what you are…" 
+    mm "Stuck up prick is what you areâ€¦" 
     
     voice "C-27-47.mp3" #Makoto (Reece Bridger)
-    pro "N-No, I-I'm grateful, really, it's just…"
+    pro "N-No, I-I'm grateful, really, it's justâ€¦"
     
     voice "C-27-48.mp3" #Makoto (Reece Bridger)
-    pro "Beepy… already let me in on the surprise party."
+    pro "Beepyâ€¦ already let me in on the surprise party."
     
     voice "C-27-49.mp3" #Lucy (Vivi)
-    lu "...Aw… that's no fun."
+    lu "...Awâ€¦ that's no fun."
     
     voice "C-27-50.mp3" #Lucy (Vivi)
-    lu "I made pretty decorations and party favours and everything. Th-They aren't… that good, but…"
+    lu "I made pretty decorations and party favours and everything. Th-They aren'tâ€¦ that good, butâ€¦"
     
     voice "C-27-51.mp3" #Mami 
     mm "Hey, what the hell, Beepy!? This whole thing was your idea, wasn't it!?"
@@ -183,16 +183,16 @@ label scene27:
     mm "Hold it, lard ass, you're not getting off that easy!"
     
     voice "C-27-54.mp3" #Bubble 
-    bb "Nyuu…"
+    bb "Nyuuâ€¦"
     
     voice "C-27-55.mp3" #Lucy (Vivi)
     lu "...Well, at least neither of you guys got hurt in the final battle. I think that's a good thing."
     
     voice "C-27-56.mp3" #Lucy (Vivi)
-    lu "A-And you look like you two are going to be good friends, too. W-We should all… be friends together."
+    lu "A-And you look like you two are going to be good friends, too. W-We should allâ€¦ be friends together."
     
     voice "C-27-57.mp3" #Lucy (Vivi)
-    lu "...I-If you wanna be my friend too, I mean, I… I wouldn't mind at all…"
+    lu "...I-If you wanna be my friend too, I mean, Iâ€¦ I wouldn't mind at allâ€¦"
 
     "Lucy was a little skittish, but she meant well with every word."
 
@@ -217,7 +217,7 @@ label scene27:
     riv "No, no, I won't have that! There's too much to do!"
     
     voice "C-27-63.mp3" #Makoto (Reece Bridger)
-    pro "...But they planned a party and everything…" 
+    pro "...But they planned a party and everythingâ€¦" 
     
     voice "C-27-64.mp3" #Misaki (Kikari)
     riv "As the Everlasting Matriarch of the Forgotten Realms, the value of time itself is not lost on me!"
@@ -235,7 +235,7 @@ label scene27:
     riv "We have to submit that infernal paperwork, gather the necessary materials for rituals."
     
     voice "C-27-68.mp3" #Misaki (Kikari)
-    riv "{i}Proper{/i} materials, not the dollar-store junk you grabbed… from the dollar store."
+    riv "{i}Proper{/i} materials, not the dollar-store junk you grabbedâ€¦ from the dollar store."
     
     voice "C-27-69.mp3" #Makoto (Reece Bridger)
     pro "Hey, it worked, didn't it?"
@@ -244,16 +244,16 @@ label scene27:
     riv "Not to mention the lessons! We have to set a curriculum if we are to influence the masses!"
     
     voice "C-27-71.mp3" #Misaki (Kikari)
-    riv "There are innumerable ways to greatness! Geomancy, necromancy, hydromancy…"
+    riv "There are innumerable ways to greatness! Geomancy, necromancy, hydromancyâ€¦"
     
     voice "C-27-72.mp3" #Misaki (Kikari)
     riv "...A-A whole lot of 'mancies!"
     
     voice "C-27-73.mp3" #Makoto (Reece Bridger)
-    pro "I guess they would drive you a little antsy…" 
+    pro "I guess they would drive you a little antsyâ€¦" 
     
     voice "C-27-74.mp3" #Misaki (Kikari)
-    riv "Wh--! I… sh-shut your filthy mouth, sinner…" 
+    riv "Wh--! Iâ€¦ sh-shut your filthy mouth, sinnerâ€¦" 
     
     voice "C-27-75.mp3" #Misaki (Kikari)
     riv "If you're going to be my able-bodied assistant in this scheme, I'll need you at your best!"
@@ -267,7 +267,7 @@ label scene27:
     #beepy and satan watch from the foreground
 
     voice "C-27-78.mp3" #Beepy (Hikari)
-    bp "They're at it again…"
+    bp "They're at it againâ€¦"
     
     voice "C-27-79.mp3" #STan (Dani)
     st "I read that this's just another one of their mating rituals, y'know. It'll be fiiiine~!"
@@ -282,10 +282,10 @@ label scene27:
     bb "Well I'm not sticking around! There's a delicious meal waiting back home!"
     
     voice "C-27-83.mp3" #Mami 
-    mm "H-Hey, wait up! Damn, she's fast…"
+    mm "H-Hey, wait up! Damn, she's fastâ€¦"
     
     voice "C-27-84.mp3" #Lucy (Vivi)
-    lu "I… I guess I'll be going too…" 
+    lu "Iâ€¦ I guess I'll be going tooâ€¦" 
     
     voice "C-27-85.mp3" #STan (Dani)
     st "You go ahead guys! I'm gonna make a few calls~!"
@@ -293,7 +293,7 @@ label scene27:
     #scene fade to black
 
     "So, in the end, Misaki and I agreed to work together, and form the Occult Club."
-    "We're not… dating or anything. It's just a mutually beneficial collaboration." 
+    "We're notâ€¦ dating or anything. It's just a mutually beneficial collaboration." 
     "As insistent as S_Tan is on that point..."
     "In a way, I'm kind of glad. Everything else ended up working out for the best."
     "Misaki's very determined to make this a success, and I don't intend to let her down."
@@ -303,7 +303,7 @@ label scene27:
     "{b}RING! RING!{/b}"
 
     voice "C-27-86.mp3" #Makoto (Reece Bridger)
-    pro "Huh… that's my cell."
+    pro "Huhâ€¦ that's my cell."
     
     voice "C-27-87.mp3" #Makoto (Reece Bridger)
     pro "It's from Yumi?"
@@ -318,13 +318,13 @@ label scene27:
     sis "{b}Makoto! Where the {i}hell{/i} are you!?{/b}"
     
     voice "C-27-90.mp3" #Makoto (Reece Bridger)
-    pro "Whoa, whoa, stop shouting! You nearly blew out my eardrums…!"
+    pro "Whoa, whoa, stop shouting! You nearly blew out my eardrumsâ€¦!"
     
     voice "C-27-91.mp3" #Yumi (Kaito)
     sis "You're supposed to be supervising your little demon gremlin friends! Come home right now!"
     
     voice "C-27-92.mp3" #Makoto (Reece Bridger)
-    pro "...I, uh… I made plans."
+    pro "...I, uhâ€¦ I made plans."
     
     voice "C-27-93.mp3" #Yumi (Kaito)
     sis "{i}Plans!?{/i} Listen, they're all here for that dumb party!"
@@ -336,7 +336,7 @@ label scene27:
     bp "It was probably S_Tan. Whole family's together, I think."
     
     voice "C-27-96.mp3" #Yumi (Kaito)
-    sis "What're you… g-gimme back my phone!"
+    sis "What're youâ€¦ g-gimme back my phone!"
     
     voice "C-27-97.mp3" #Makoto (Reece Bridger)
     pro "Beepy!? What's going on over there?"
@@ -358,7 +358,7 @@ label scene27:
     "...But that can wait. Alongside the Countess, my path is clear."
     
     voice "C-27-101.mp3" #Misaki (Kikari)
-    riv "What are you monologuing about…?"
+    riv "What are you monologuing aboutâ€¦?"
     
     voice "C-27-102.mp3" #Makoto (Reece Bridger)
     pro "Nothing. Just imagining the monument we're going to erect as a testament to our legacy."
@@ -367,7 +367,7 @@ label scene27:
     riv "...D-Don't use that word, 'erect.' It's lewd!"
     
     voice "C-27-104.mp3" #Makoto (Reece Bridger)
-    pro "...But I was… w-whatever…" 
+    pro "...But I wasâ€¦ w-whateverâ€¦" 
 
     #credits
 

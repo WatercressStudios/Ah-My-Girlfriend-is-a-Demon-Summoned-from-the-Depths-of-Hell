@@ -26,12 +26,12 @@ label scene15:
     voice "C-15-4.mp3" #Bubble 
     bb "So cool!"
 
-    "Lucifer stands away from the rest of the group, looking at the street around her. Her eyes stop, focusing on a shop on the other side. She seems almost fixated in a way. I can’t help but look."
+    "Lucifer stands away from the rest of the group, looking at the street around her. Her eyes stop, focusing on a shop on the other side. She seems almost fixated in a way. I canâ€™t help but look."
     "..."
-    "The place seems to be an… arts and crafts shop of some sort? I don't quite know what's inside, and I don't quite care either. I turn back to the main group, walking towards them as they continue to look at the store."
+    "The place seems to be anâ€¦ arts and crafts shop of some sort? I don't quite know what's inside, and I don't quite care either. I turn back to the main group, walking towards them as they continue to look at the store."
 
     voice "C-15-5.mp3" #Bubble 
-    bb "So wait, there's… food in there?"
+    bb "So wait, there'sâ€¦ food in there?"
     
     voice "C-15-6.mp3" #Yumi (Kaito)
     sis "Yeah. You take whatever you need from the shelves and then you buy it at the checkout."
@@ -51,7 +51,7 @@ label scene15:
     bb "Can we go in? Can we go in? Can we? Can we!?"
     
     voice "C-15-11.mp3" #Makoto (Reece Bridger)
-    pro "Of course. That is where we’ll gather the ingredients we need."
+    pro "Of course. That is where weâ€™ll gather the ingredients we need."
 
     "Somehow, my dull tone did nothing to deter her excitement."
 
@@ -59,7 +59,7 @@ label scene15:
     bb "Awesome! Awesome! Awesome!"
     
     voice "C-15-13.mp3" #Lucy (Vivi)
-    lu "Um…"
+    lu "Umâ€¦"
     
     voice "C-15-14.mp3" #Yumi (Kaito)
     sis "Hey, could you be a little quieter? People are gonna notice you screaming."
@@ -71,7 +71,7 @@ label scene15:
     lu "Can we, uh--"
     
     voice "C-15-17.mp3" #Yumi (Kaito)
-    sis "So there's nothing I can do about… {i}this?{/i}"
+    sis "So there's nothing I can do aboutâ€¦ {i}this?{/i}"
     
     voice "C-15-18.mp3" #Mami 
     mm "Nope. Once you get her like this there's no going back."
@@ -84,10 +84,10 @@ label scene15:
     voice "C-15-20.mp3" #Lucy (Vivi)
     lu "Can we, uh, go to that art store over there?"
 
-    "Again, it didn’t interest me, but I suppose that we could at the very least humour her if we have the time."
+    "Again, it didnâ€™t interest me, but I suppose that we could at the very least humour her if we have the time."
 
     voice "C-15-21.mp3" #Lucy (Vivi)
-    lu "It's just, um, that I sorta want to - um, like, try doing art again? Try seeing if I can draw this time? I, um, understand if that's not something we can do but, um…"
+    lu "It's just, um, that I sorta want to - um, like, try doing art again? Try seeing if I can draw this time? I, um, understand if that's not something we can do but, umâ€¦"
     
     voice "C-15-22.mp3" #Lucy (Vivi)
     lu "..."
@@ -114,7 +114,7 @@ label scene15:
     sis "Just make sure you've got those other two under control."
     
     voice "C-15-28.mp3" #Makoto (Reece Bridger)
-    pro "Alright, ma'a-- uh, Sis…"
+    pro "Alright, ma'a-- uh, Sisâ€¦"
 
     "She sighs, before looking at Lucifer."
 
@@ -122,7 +122,7 @@ label scene15:
     sis "Alright, follow me."
     
     voice "C-15-30.mp3" #Lucy (Vivi)
-    lu "Alright, uh… thanks, I--"
+    lu "Alright, uhâ€¦ thanks, I--"
     
     voice "C-15-31.mp3" #Yumi (Kaito)
     sis "Don't mention it."
@@ -139,7 +139,7 @@ label scene15:
     bb "Yeah, yeah!"
 
     "I supposed it was time for me to find out how much I was going to enjoy their company."
-    "Probably not much, but I’m an optimist at heart."
+    "Probably not much, but Iâ€™m an optimist at heart."
 
     voice "C-15-35.mp3" #Makoto (Reece Bridger)
     pro "Alright, let us enter this abode, then."
@@ -149,7 +149,7 @@ label scene15:
     "..."
 
     "The supermarket."
-    "As I said before, a place of many things: discounts, greed, and human vulnerability especially. I learned this from an early age by simply observing people…"
+    "As I said before, a place of many things: discounts, greed, and human vulnerability especially. I learned this from an early age by simply observing peopleâ€¦"
     "One thing that I seemed to had forgotten was that the supermarket was a place of sheer, bitter cold."
 
     scene marketinside
@@ -179,7 +179,7 @@ label scene15:
     bb "Those aren't made to be healthy, those are made to be cheap! You can't work with those if you want to make good food!"
 
     "I suppose it is only fitting that the spirit of gluttony is, itself, a picky eater."
-    "Oh well, I suppose I will humour her… {i}wishes,{/i} or whatever the word is."
+    "Oh well, I suppose I will humour herâ€¦ {i}wishes,{/i} or whatever the word is."
 
     voice "C-15-41.mp3" #Makoto (Reece Bridger)
     pro "What would you propose I use instead?"
@@ -196,7 +196,7 @@ label scene15:
     "Too little too late. I lean forward, grabbing the eggs from the top shelf, and place them carefully in the trolley."
     "All my hard earned money, gone. I sigh, begin to push forward, and--"
 
-    #This line is Satan’s.
+    #This line is Satanâ€™s.
     voice "C-15-44.mp3" #STan (Dani)
     st "Hey! You guys!"
 
@@ -219,7 +219,7 @@ label scene15:
     pro "Hello."
 
     "Her tone is curt, slightly irritated. Her words are short. Stuttered. It seems unlike the Countess I knew before."
-    "That doesn’t bother me in the slightest. I turn back to the aisle, and-"
+    "That doesnâ€™t bother me in the slightest. I turn back to the aisle, and-"
 
     voice "C-15-49.mp3" #Misaki (Kikari)
     riv "Move."
@@ -255,7 +255,7 @@ label scene15:
     pro "Do you need everything there?"
     
     voice "C-15-56.mp3" #Misaki (Kikari)
-    riv "Y-Yes. I-i need to, um…"
+    riv "Y-Yes. I-i need to, umâ€¦"
     
     voice "C-15-57.mp3" #Misaki (Kikari)
     riv "..."
@@ -268,7 +268,7 @@ label scene15:
     "I suppose I understand. Magic - {i}summoning{/i} to be more specific - was taxing. If the summoner wasn't in peak condition, then the spell would simply burn the flesh in order to meet its cost."
     "Obviously, I did not want to try and summon without the required mana."
     "And somehow, I doubted that even Misaki was foolish enough to do so."
-    "If she wasn’t able to replenish her stamina, then she would hardly be ready for our showdown."
+    "If she wasnâ€™t able to replenish her stamina, then she would hardly be ready for our showdown."
     "But was there any satisfaction to be found in that sort of victory?"
     "No!"
     "It was hollow at best."
@@ -281,12 +281,12 @@ label scene15:
     "She paused. Glared at me."
 
     voice "C-15-60.mp3" #Misaki (Kikari)
-    riv "There’s no need for you to do that."
+    riv "Thereâ€™s no need for you to do that."
     
     voice "C-15-61.mp3" #Makoto (Reece Bridger)
     pro "I want to."
 
-    "She pauses again. Looks away, for a moment…"
+    "She pauses again. Looks away, for a momentâ€¦"
 
     voice "C-15-62.mp3" #Misaki (Kikari)
     riv "Fine."

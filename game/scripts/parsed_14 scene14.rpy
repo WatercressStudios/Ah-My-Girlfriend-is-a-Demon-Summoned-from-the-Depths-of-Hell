@@ -4,14 +4,14 @@ label scene14:
 
     "Riding in the car always seemed so thrilling when I was younger."
 
-    "Iím sure that if you had asked my younger self why I liked the feeling so much, he would have been able to give you an answer."
+    "I‚Äôm sure that if you had asked my younger self why I liked the feeling so much, he would have been able to give you an answer."
     "Maybe not one that was {i}detailed,{/i} but an answer nonetheless. Something about how they were {i}fast{/i} or {i}cool,{/i} or how the feeling was {i}thrilling,{/i} or something like that."
-    "I donít know, really."
-    "To be honest, I donít even really {i}want{/i} to know. Past me made terrible mistakes. {i}Lord{/i} knew that I wouldnít want to revisit any of {i}those{/i} memories."
+    "I don‚Äôt know, really."
+    "To be honest, I don‚Äôt even really {i}want{/i} to know. Past me made terrible mistakes. {i}Lord{/i} knew that I wouldn‚Äôt want to revisit any of {i}those{/i} memories."
 
     scene caroutside
 
-    "So when I see our old Toyota lying in the middle of the garage, I canít exactly say that I feel any particular emotion - no nostalgia, no excitement for the trip coming up aheadÖ"
+    "So when I see our old Toyota lying in the middle of the garage, I can‚Äôt exactly say that I feel any particular emotion - no nostalgia, no excitement for the trip coming up ahead‚Ä¶"
 
     voice "C-14-1.mp3" #Mami 
     mm "Shotgun!"
@@ -24,24 +24,24 @@ label scene14:
     "Unfortunately, it seemed the current task was not going to be easy."
 
     voice "C-14-3.mp3" #Mami 
-    mm "Hey, yísnooze yílose. Big reason why Beepy ainít with us right now."
+    mm "Hey, y‚Äôsnooze y‚Äôlose. Big reason why Beepy ain‚Äôt with us right now."
 
-    "Actually, I was pretty sure that Beepy chose to stay behind so she could lay around as per usual - but I donít dare interrupt."
+    "Actually, I was pretty sure that Beepy chose to stay behind so she could lay around as per usual - but I don‚Äôt dare interrupt."
 
     voice "C-14-4.mp3" #Bubble 
-    bb "Címon, please?"
+    bb "C‚Äômon, please?"
     
     voice "C-14-5.mp3" #Mami 
     mm "Nuh-uh. I just called dibs. {i}Shotgun.{/i}"
     
     voice "C-14-6.mp3" #Bubble 
-    bb "But canít I just--?"
+    bb "But can‚Äôt I just--?"
     
     voice "C-14-7.mp3" #Mami 
-    mm "Nope! Calling dibs is a divine right and thereís absolutely nothing you can do to get them now that I have them."
+    mm "Nope! Calling dibs is a divine right and there‚Äôs absolutely nothing you can do to get them now that I have them."
     
     voice "C-14-8.mp3" #Bubble 
-    bb "But thatís not {i}faiiiiiiirrrrrrrrrr!{/i}"
+    bb "But that‚Äôs not {i}faiiiiiiirrrrrrrrrr!{/i}"
 
     "Mammon flashes a toothy grin as Bubble starts begging and clinging to her."
 
@@ -51,7 +51,7 @@ label scene14:
     voice "C-14-10.mp3" #Yumi (Kaito)
     sis "Look, can we please just all get in the car already?"
 
-    "My sister calls from inside the car. It was like a sort of demonic aura: I could sense her frustration, even though I couldnít see her right now.."
+    "My sister calls from inside the car. It was like a sort of demonic aura: I could sense her frustration, even though I couldn‚Äôt see her right now.."
     "And although they seemed to be members of the Sins, it was as if my sister was a demonic force more powerful than any of them could ever hope to be."
     "I was impressed."
     "I was also afraid."
@@ -63,11 +63,11 @@ label scene14:
     "I look into the back seat as well. Beelzebub is sitting on the opposite side of the door, still squabbling with her sister."
     "The seat in front of me - the one next to the door - was empty. Pristine. Comfortable, even."
     "Less could be said about the spot in the middle."
-    "It was slightly raised compared to the surrounding seats. It was also of a different colour than the others - a grape juice incident from long ago; the memories haunt me to this day.î
-    ìThe floor below was bumped up, making it so that anyone of a human size could not sit properly, for reasons that no mortal man would ever be allowed to know."
+    "It was slightly raised compared to the surrounding seats. It was also of a different colour than the others - a grape juice incident from long ago; the memories haunt me to this day.‚Äù
+    ‚ÄúThe floor below was bumped up, making it so that anyone of a human size could not sit properly, for reasons that no mortal man would ever be allowed to know."
     "The middle seat."
     "A circle of Hell that not even Dante would have the courage to enter."
-    "I couldnít help but loathe the times where I was damned to that cruel fate."
+    "I couldn‚Äôt help but loathe the times where I was damned to that cruel fate."
     "Turning oneself into a human pretzel is truly an interesting skill - but doing it for a long time is painful at best."
     "Would I have to face this eternal punishment again?"
     "I look away from the back seats, towards Lucifer."
@@ -76,26 +76,26 @@ label scene14:
     lu "..."
     
     voice "C-14-12.mp3" #Lucy (Vivi)
-    lu "I-Iím not sitting there."
+    lu "I-I‚Äôm not sitting there."
 
     "I am about to open my mouth to protest before a loud {i}BEEP{/i} explodes from the car."
 
     voice "C-14-13.mp3" #Yumi (Kaito)
-    sis "Címon, we donít have all day!"
+    sis "C‚Äômon, we don‚Äôt have all day!"
 
-    "I look at Lucifer, hoping that my expression allows her to understand my plight - to understand how much I donít want to have to face this seemingly divine retribution."
-
-    "..."
+    "I look at Lucifer, hoping that my expression allows her to understand my plight - to understand how much I don‚Äôt want to have to face this seemingly divine retribution."
 
     "..."
 
-    "Her expression doesnít change. She looks at me, then at the middle seat."
+    "..."
 
-    "She looks at me again, her eyes practically begging. I understand her plight. I understand how much she doesnít want to have to face this torture of Abaddonís design."
+    "Her expression doesn‚Äôt change. She looks at me, then at the middle seat."
 
-    "D-Did she justÖ?"
+    "She looks at me again, her eyes practically begging. I understand her plight. I understand how much she doesn‚Äôt want to have to face this torture of Abaddon‚Äôs design."
 
-    "She did, didnít sheÖ?"
+    "D-Did she just‚Ä¶?"
+
+    "She did, didn‚Äôt she‚Ä¶?"
 
     "I sigh as I slide into place."
 
@@ -121,17 +121,17 @@ label scene14:
 
     "...What {i}is{/i} that noise?"
 
-    "I look around the car, trying to see what would have made that {i}infernal{/i} drone. I see my sister in the driverís seat, a slight scowl on her face as she navigates the labyrinthine city streets. I see Mammon on the other side, absentmindedly looking out the window and seeing the city. I see Beelzebub, looking through her own window--"
+    "I look around the car, trying to see what would have made that {i}infernal{/i} drone. I see my sister in the driver‚Äôs seat, a slight scowl on her face as she navigates the labyrinthine city streets. I see Mammon on the other side, absentmindedly looking out the window and seeing the city. I see Beelzebub, looking through her own window--"
 
     #sfx window
 
-    "And as the window goes down, the facts fall into place. Iíve found my culprit."
+    "And as the window goes down, the facts fall into place. I‚Äôve found my culprit."
 
     voice "C-14-14.mp3" #Makoto (Reece Bridger)
     pro "What are you {i}doing?{/i}"
     
     voice "C-14-15.mp3" #Bubble 
-    bb "Juuuuussssttttttttttttt playiní around!"
+    bb "Juuuuussssttttttttttttt playin‚Äô around!"
 
     "She presses the button on the door, sending the window downwards again."
 
@@ -151,13 +151,13 @@ label scene14:
 
     #sfx window
 
-    "Somehow, even though I try to avoid them, memories of my moreÖ immature self always seem to come back and haunt me."
+    "Somehow, even though I try to avoid them, memories of my more‚Ä¶ immature self always seem to come back and haunt me."
 
     voice "C-14-20.mp3" #Makoto (Reece Bridger)
     pro "Is it?"
     
     voice "C-14-21.mp3" #Bubble 
-    bb "Yep! I havenít been in one of these before, so it's fun checking out all the cool things I can do!"
+    bb "Yep! I haven‚Äôt been in one of these before, so it's fun checking out all the cool things I can do!"
     
     voice "C-14-22.mp3" #Makoto (Reece Bridger)
     pro "...I see."
@@ -165,7 +165,7 @@ label scene14:
     "Joy."
 
     voice "C-14-23.mp3" #Yumi (Kaito)
-    sis "Arenít you going to get bored of that?"
+    sis "Aren‚Äôt you going to get bored of that?"
 
     "The frustration in her voice is growing by leaps and bounds. It seems as if brother and sister are united at last."
 
@@ -175,20 +175,20 @@ label scene14:
     #sfx window
 
     voice "C-14-25.mp3" #Yumi (Kaito)
-    sis "Well, you can do it later if you really wanna; Iím trying to drive here."
+    sis "Well, you can do it later if you really wanna; I‚Äôm trying to drive here."
 
     voice "C-14-26.mp3" #Bubble 
     bb "{i}Okayyyyyyyy.{/i}"
 
     #sfx window
 
-    "The window closes for a final time as Beelzebub slumps backwards, pouting and crossing her arms. It is almost as if she is a child, throwing a temper tantrum just because she wasnít able to get her way."
+    "The window closes for a final time as Beelzebub slumps backwards, pouting and crossing her arms. It is almost as if she is a child, throwing a temper tantrum just because she wasn‚Äôt able to get her way."
 
-    "And I suppose IÖunderstand why she would like the windows. They were new. Interesting. Unlike anything she had probably seen before."
+    "And I suppose I‚Ä¶understand why she would like the windows. They were new. Interesting. Unlike anything she had probably seen before."
 
     "And I suppose, thinking about it, I was the same way when I lacked the knowledge and intelligence I have now. I remember playing with the windows just like she had been. I remember being told to stop by everyone else in the car."
 
-    "...So much for trying to forget. I sigh and lean back, letting my feet drop off the middle seatís bump."
+    "...So much for trying to forget. I sigh and lean back, letting my feet drop off the middle seat‚Äôs bump."
 
     "It was going to be a long pilgrimage..." 
 

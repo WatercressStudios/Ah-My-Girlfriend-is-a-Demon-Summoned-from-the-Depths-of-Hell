@@ -252,5 +252,4 @@
 
     "With confidence surging through me, I began walking towards my destiny…"
 
-    return
-    #jump scene2
+    jump scene2
