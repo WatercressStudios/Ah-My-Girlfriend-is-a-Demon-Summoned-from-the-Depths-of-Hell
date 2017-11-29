@@ -1,5 +1,5 @@
 label scene12:
-    scene makotohouse
+    scene house with dissolve
 
     "At last, another tedious and tiresome school day draws to a close."
     "I feel drained and weary all at once, like Samson without his flowing mane of hair."
@@ -10,7 +10,7 @@ label scene12:
     "Oh well; there’s not much I can do about that."
     "Better for me to head inside and relax than worry about things beyond my control."
     
-    #scene black
+    scene hallway with dissolve
 
     "I open the door to my house and exchange my usual greeting."
 
@@ -262,8 +262,6 @@ label scene12:
     
     voice "C-12-61.mp3" #Lucy (Vivi)
     lu "*Sniff* J-Just call me Lucy, okay…?"
-
-    #scene livingroom
 
     "Well… that could have gone better."
     "She had a burst of confidence just a second ago, but it fell apart as soon as started talking."

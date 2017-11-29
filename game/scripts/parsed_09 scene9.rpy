@@ -1,5 +1,5 @@
 label scene9:
-    scene courtyard
+    scene courtyard day1 with dissolve
 
     "Akumahou High School - a modern-day prison that traps and contains the darkness I have grown so fond of."
     "Within these bland, uninviting walls, I am nothing more than an average high-schooler, carrying out the most mundane of business."
@@ -88,7 +88,7 @@ label scene9:
     pro "Still, I can’t risk having you seen by anyone else! Especially not--"
 
     #hide cg
-    #scene black
+    scene black with dissolve
     #q line here voiced by Misaki
 
     voice "C-9-21.mp3" #??? 
@@ -262,7 +262,7 @@ label scene9:
 
     "An uncomfortable dread wells up within my gut. As soon as my rival finishes her chant for a second time…"
 
-    #scene black
+    scene black with dissolve
 
     "...she appears."
 
@@ -284,7 +284,7 @@ label scene9:
     riv "{b}Oh my God, {i}stop!{/i}{/b}"
 
     #hide cg
-    #scene courtyard
+    scene courtyard day1
 
     "In an instant, the demon’s introduction was brought to a halt."
 

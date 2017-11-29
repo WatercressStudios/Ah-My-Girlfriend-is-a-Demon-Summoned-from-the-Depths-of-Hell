@@ -1,6 +1,6 @@
 label scene17:
 
-    scene makotohouse
+    scene house night with dissolve
 
     #show bubble, lucy, and mami
     #bubble is on the far left, mami right next to her
@@ -9,8 +9,12 @@ label scene17:
 
     "At long last, we finally reach my dwelling. Eager to leave the land of mortals, I head toward my room."
     "But unfortunately, I have more pressing matters to tend to."
+    
+    scene hallway with dissolve
+    
+    "My elder sister is already waiting for me inside."
 
-    show yumi on right
+    #show yumi on right
 
     voice "C-17-1.mp3" #Yumi (Kaito)
     sis "So, how was your walk?"
@@ -241,13 +245,15 @@ label scene17:
     hide yumi with dissolve
     hide lucy with dissolve
 
+    scene black with dissolve
+    
     "Damn it all... If fortune is on my side, then perhaps Elizabeth is being put through these same sorts of trials. She did the same ritual, after all. Then, perhaps, we may yet be on even footing."
 
     "I grab my instruments of purification - disguised as mere soap and a towel - from the closet, and pour holy water from the sink into a sacred vessel. With prudence, I may be able to salvage some experience from this."
 
     "But when I finally make it to the battlefield..."
 
-    scene garage clean
+    scene garage with dissolve
 
     voice "C-17-60.mp3" #Makoto (Reece Bridger)
     pro "It’s... already been cleaned?"
@@ -383,10 +389,12 @@ label scene17:
 
     "I haven’t been deceived, have I?"
 
-    scene bg makotohouse with dissolve
+    scene movie1 with dissolve
 
     "Just as I begin to think that, Beepy abducts me to the living room. She sits me on the couch and snuggles up next to me before covering the two of us under an outright absurd number of blankets."
 
+    scene movie2 with dissolve
+    
     "With the stage set, she turns on the TV and starts channel-surfing."
 
     voice "C-17-94.mp3" #Beepy (Hikari)
@@ -395,6 +403,8 @@ label scene17:
     voice "C-17-95.mp3" #Beepy (Hikari)
     bp "What a {i}crazy{/i} coincidence!"
      
+    scene movie1 with dissolve
+    
     "Don’t tell me."
 
     "Was this all part of some diabolical plot?"
@@ -403,12 +413,20 @@ label scene17:
 
     "Regardless, I’m her prisoner. Until this movie ends, these blankets may as well be made of concrete. No, worse - {i}magic resistant{/i} concrete. Needless to say, I’m not going anywhere."
 
+    scene movie3 with dissolve
+    
     "The movie itself seems to be about a society that consists entirely of giant robots. The giant robots can’t talk, so all they ever do is fight."
 
+    scene movie4 with dissolve
+    
     "However, a group of teenaged giant robots runs into alien technology that gives each of them the power to release a human from their cockpit and control it remotely."
 
+    scene movie5 with dissolve
+    
     "With this power, they get the ability to talk through their disputes. A group of evil robots ends up having this same power, but the teenagers use their superior communication skills to persuade the villains into a different course of action."
 
+    scene movie1 with dissolve
+    
     "Before I know it, the film reaches its end."
 
     voice "C-17-96.mp3" #Beepy (Hikari)
@@ -445,17 +463,17 @@ label scene17:
     voice "C-17-105.mp3" #Beepy (Hikari)
     bp "Sure, sure. Nighty night!"
 
-    scene makotoroom with dissolve
+    scene bedroom night with dissolve
 
     "Now then."
 
     "I know the extent of Beepy’s villainous machinations. Though she said that the previous night was the last where she would occupy my bed, I’m far too intelligent to fall for such a blatant ruse."
 
-    scene makotohouse with dissolve
+    scene movie1 with dissolve
 
     "With my nightly preparations complete, I check the living room. Beepy’s stil there, none the wiser. Excellent."
 
-    scene makotoroom with dissolve
+    scene bedroom night with dissolve
 
     "But this fight isn’t over. Cleverly, I check all around my room just in case she’s played some sort of trick. Under the bed, in all the drawers, in the closet - even my backpack. No sign of her."
 

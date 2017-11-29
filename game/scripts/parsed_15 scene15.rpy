@@ -1,12 +1,10 @@
 label scene15:
 
-    scene black
+    scene black with dissolve
 
     "Eventually, the car stops. The doors open and everyone moves out, eager to get their feet onto solid land again."
 
-    scene carinside
-
-    scene marketoutside
+    scene store exterior with dissolve
 
     "The supermarket."
     "A place of sheer, unadulterated anarchy - a place where mortals trample over one another to get the best deals on their bread and water."
@@ -144,7 +142,7 @@ label scene15:
     voice "C-15-35.mp3" #Makoto (Reece Bridger)
     pro "Alright, let us enter this abode, then."
 
-    scene black
+    scene black with dissolve
 
     "..."
 
@@ -152,7 +150,7 @@ label scene15:
     "As I said before, a place of many things: discounts, greed, and human vulnerability especially. I learned this from an early age by simply observing people…"
     "One thing that I seemed to had forgotten was that the supermarket was a place of sheer, bitter cold."
 
-    scene marketinside
+    scene store interior with dissolve
 
     "The three of us walked down the aisles of this maze; I pushed the trolley in front of me while music that could only have been written by Beleth played on the loudspeakers above."
     "We were about a third of the way through our grocery list - foodstuffs which could help replenish my mana for the upcoming fight - as we went down yet another aisle."

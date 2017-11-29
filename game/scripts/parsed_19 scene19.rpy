@@ -1,4 +1,15 @@
 label scene19:
+    
+    scene black with dissolve
+    
+    "The remaining hours in the school day went by uneventfully."
+    "Not a moment too soon, either. Beepy's curled-up mass weighed against my back."
+    "With no other commitments, I went home, eager to apply myself."
+    "Tomorrow was the duel with the Countess, after all. I'd wasted enough time with frivoloties." 
+    "When we arrived, Beepy trudged off to find a warm bed to curl up into."
+    "Lucifer, on the other hand, ambushed me with other plans..." 
+    
+    scene living room with dissolve
 
     voice "C-19-1.mp3" #Makoto (Reece Bridger)
     pro "So, you're telling me…"

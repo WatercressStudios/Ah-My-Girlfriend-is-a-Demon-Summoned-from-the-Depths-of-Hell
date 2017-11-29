@@ -1,6 +1,6 @@
 label scene7:
 
-    scene livingroom
+    scene living room with dissolve
 
     "Time passes quickly. Surprisingly, Beepy and Yumi get along with each other - even better than it initially seemed."
     "Though, I’m not thrilled that their relationship hinges on their mutual exasperation…"
@@ -138,10 +138,10 @@ label scene7:
     voice "C-7-37.mp3" #Beepy (Hikari)
     bp "...Weirdo."
 
-    scene hallway2
+    scene black with dissolve
     "With no one following me, I make a beeline to my room."
 
-    scene makotoroom
+    scene bedroom night with dissolve
     
     voice "C-7-38.mp3" #Makoto (Reece Bridger)
     pro "Finally, some privacy…"
@@ -178,15 +178,15 @@ label scene7:
     "Like lavender and jasmine. Gentle and relaxing."
     "It's a nice feeling. Disarming, even. I feel myself getting drowsy…"
 
-    scene black
+    scene black with dissolve
     "Safe in my own domain, I drift to sleep…" 
     "..."
     "... …"
     "... … …"
+    
+    scene bedroom dark with dissolve
+    
     "...?"
-    
-    scene makotoroomdark
-    
     "It's still dark. Yet I'm stirred awake."
     "Usually I'm a heavy sleeper. Even the excitement of the coming day wouldn't keep me from getting an even eight hours of sleep."
     "But I had a feeling - no, it was more than that."
@@ -268,6 +268,9 @@ label scene7:
     "The situation being largely out of my control, I decided to live and let live. Drifting back to sleep as best I could…"
     "For a while, I could feel the rhythmic rise and fall of her chest as she slept. For whatever reason, the sensation was calming."
     "...Yumi absolutely {i}cannot{/i} find out about this. Under no circumstance!"
+    
+    scene black with dissolve
+    
     "..."
     "... …"
     "... … …"

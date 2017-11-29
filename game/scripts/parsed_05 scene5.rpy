@@ -1,5 +1,5 @@
 label scene5:
-    scene makotoroom
+    scene bedroom with dissolve
 
     "Entering my room, I'm careful to close the door behind me. All the better to cut off any escape routes."
     "Of course, she could just go out the window - or use magic or {i}something.{/i} I guess it's really a useless gesture…."

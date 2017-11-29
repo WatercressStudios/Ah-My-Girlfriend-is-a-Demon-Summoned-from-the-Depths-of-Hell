@@ -1,5 +1,5 @@
 label scene23:
-    scene makotoroom
+    scene bedroom with dissolve
 
     "My eyes flutter open to greet the new day."
     "All that anxiety and loneliness from last night almost feels unreal."
@@ -17,7 +17,7 @@ label scene23:
     "Not just her, but everyone else, too. They deserve an apology just as much."
     "With my mind made up, I freshen up and head out of my room."
 
-    #scene livingroom
+    scene living room with dissolve
 
     "Just as I thought, everyone is already awake and seated at the table."
     "There’s an awkward silence hanging in the air. Usually things would be a little more lively, but everyone is content to sit there this morning."
@@ -313,7 +313,7 @@ label scene23:
 
     "Saying my farewells to the first honest friends I’ve had in awhile…"
 
-    #scene black
+    scene black with dissolve
 
     "I step out of the house and towards the school."
 

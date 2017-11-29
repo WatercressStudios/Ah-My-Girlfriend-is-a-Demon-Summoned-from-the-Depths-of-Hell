@@ -1,5 +1,5 @@
 label scene26:
-    scene classroom
+    scene classroom evening1
 
     "This wasn't quite the finale I had hoped for."
     "Stuck in this stuffy classroom for an hour, an arm's reach from Misaki."
@@ -22,11 +22,10 @@ label scene26:
 
     "As the door closed behind him. Silence hung over the room."
 
-    #scene classroom2
-
     #we should have CGs with different perspectives of a single classroom, they'll be a help for coordinating these scenes
     #misaki neutral scowl
 
+    "Turning my head slightly behind me, I get a better look at Misaki's expression."
     "Misaki's leaning back in her seat, arms folded. She seemed content to wait out the clock."
     "...It was alien seeing her so composed like this. Usually, she was fuming at any little thing."
     "Maybe she was just as exhausted as I was. She must've been."
@@ -63,6 +62,9 @@ label scene26:
     "I couldn't stand it. Something didn't feel right about this."
     "The silence was grating. Perhaps smalltalk was the domain of simpler minds, but…"
     "...I would rather have that in their air than nothing at all."
+    "Turning my chair around, I face her desk."
+    
+    scene classroom evening2 with dissolve
 
     voice "C-26-10.mp3" #Makoto (Reece Bridger)
     pro "So, uh… Countess--"
@@ -373,7 +375,7 @@ label scene26:
     voice "C-26-99.mp3" #Makoto (Reece Bridger)
     pro "Y-Yeah, definitely."
 
-    scene classroom
+    scene classroom evening1 with dissolve
     #sfx door opening
 
     "Parting ways, we settled back into our seats as the councillor returned, a mug of coffee in hand."

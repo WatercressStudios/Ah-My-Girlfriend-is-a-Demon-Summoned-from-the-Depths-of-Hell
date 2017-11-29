@@ -1,6 +1,6 @@
 label scene14:
 
-    scene black
+    scene black with dissolve
 
     "Riding in the car always seemed so thrilling when I was younger."
 
@@ -9,7 +9,7 @@ label scene14:
     "I don’t know, really."
     "To be honest, I don’t even really {i}want{/i} to know. Past me made terrible mistakes. {i}Lord{/i} knew that I wouldn’t want to revisit any of {i}those{/i} memories."
 
-    scene caroutside
+    #scene caroutside cg stuff
 
     "So when I see our old Toyota lying in the middle of the garage, I can’t exactly say that I feel any particular emotion - no nostalgia, no excitement for the trip coming up ahead…"
 
@@ -58,7 +58,7 @@ label scene14:
     "So I decided to take slow steps across the back of the car to its left side - briefly hoping that my sister would not start it and accidently take me from this mortal plane." 
     "The back door is open. Lucifer is standing by it, looking inside."
 
-    scene carinsideview
+    #scene carinsideview cg stuff
 
     "I look into the back seat as well. Beelzebub is sitting on the opposite side of the door, still squabbling with her sister."
     "The seat in front of me - the one next to the door - was empty. Pristine. Comfortable, even."
@@ -99,7 +99,7 @@ label scene14:
 
     "I sigh as I slide into place."
 
-    scene carinside
+    #scene carinside cg stuff
 
     "..."
 

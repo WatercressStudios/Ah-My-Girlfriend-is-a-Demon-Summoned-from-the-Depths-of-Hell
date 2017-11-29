@@ -1,5 +1,5 @@
 ﻿label scene1:
-    scene black
+    scene black with dissolve
 
     "Tuesday. The most accursed day of the week."
     "The foolish, unenlightened masses regularly assume that Monday is the worst out their lot -  but Tuesday is where the true despair begins."
@@ -69,7 +69,7 @@
     "Now I gotta get back into character and recount my spiel all over again. Alright, from the top…"
 
     #fade CG
-    #scene black
+    scene black with dissolve
 
     "Tuesday: a day fraught with disaster and despair."
     "Wait, that doesn’t sound right…"
@@ -138,7 +138,7 @@
     "Way to kill the mood…"
 
     #fade CG
-    #scene livingroom
+    scene living room with dissolve
 
     "My attempt to escape this mundane existence was over as soon as it started."
     "In an instant, I’ve gone from Sebastian Wolfgang IV, a thousand year-old practitioner of the dark arts…"

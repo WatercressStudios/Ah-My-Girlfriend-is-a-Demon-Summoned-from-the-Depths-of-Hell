@@ -53,6 +53,7 @@ label scene3:
     q "Hey, is there a light in here? Oh, it's over here! Lemme just get that~!"
 
     #sfx click
+    scene garage mess with dissolve
 
     "The lights flickered back to life…"
 
@@ -126,6 +127,8 @@ label scene3:
     voice "C-3-26.mp3" #??? 
     q "I'm Satan of Wrath! And I'm here to bring smiles to the faces of everyone around the world!"
 
+    scene garage mess with dissolve
+    
     voice "C-3-27.mp3" #Makoto (Reece Bridger)
     pro "...Wait, {i}Satan{/i}!?"
     

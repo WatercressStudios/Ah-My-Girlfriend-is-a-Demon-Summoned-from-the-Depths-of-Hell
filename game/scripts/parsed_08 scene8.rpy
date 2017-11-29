@@ -1,5 +1,5 @@
 label scene8:
-    scene makotoroom
+    scene bedroom with dissolve
 
     "I can see the sunlight flooding into my room as my eyes creak open."
     "It’s hard to believe a new day had arisen, but by some miracle of the cosmos, I’m awake."
@@ -150,11 +150,11 @@ label scene8:
     voice "C-8-27.mp3" #Makoto (Reece Bridger)
     pro "I shall take my leave of you. Do not sully the estate while I am away!"
 
-    #scene black
+    scene black with dissolve
 
     "In a haste, I hurry out of my room and head towards the living room."
 
-    #scene livingroom
+    scene living room with dissolve
 
     "I still can’t believe I’ve been saddled with such a useless layabout… What was that Satan even thinking!?"
     "She was probably too busy thinking of a good way to infuriate me to give decent help."
@@ -229,7 +229,7 @@ label scene8:
     "She is right about Beepy, though. Someone like her doesn’t deserve to stand by my side as I conquer the world."
     "I’ll have to summon Satan again after school and convince her to take her back; that’s all I can do to resolve this."
 
-    #scene black
+    scene black with dissolve
 
     "I finish up breakfast faster than a hellhound before departing for school."
     "Usually, today would be like any other: I would leave my dark abode to challenge the world once again, looking down at the scurrying plebeians."
