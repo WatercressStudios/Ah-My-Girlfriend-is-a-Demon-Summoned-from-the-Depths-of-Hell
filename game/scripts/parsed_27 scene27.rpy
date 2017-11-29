@@ -1,5 +1,5 @@
 label scene27:
-    scene courtyard1
+    scene courtyard evening1 with dissolve
 
     "Finally released from our imprisonment, we emerged into the blinding daylight."
     "The sun was steady on its descent. Time marched to its own drum, it seemed."
@@ -124,7 +124,7 @@ label scene27:
     voice "C-27-37.mp3" #Makoto (Reece Bridger)
     pro "...Huh? Really?"
 
-    #scene courtyard2
+    scene courtyard evening2 with dissolve
 
     "Turning my head to look, I see three familiar… familiars, scampering down the block."
 
@@ -196,7 +196,7 @@ label scene27:
 
     "Lucy was a little skittish, but she meant well with every word."
 
-    scene courtyard1
+    scene courtyard evening1 with dissolve
 
     voice "C-27-58.mp3" #Makoto (Reece Bridger)
     pro "Heh, well, Countess. It seems they have a grand feast awaiting us~"
@@ -290,7 +290,7 @@ label scene27:
     voice "C-27-85.mp3" #STan (Dani)
     st "You go ahead guys! I'm gonna make a few calls~!"
 
-    #scene fade to black
+    scene black with dissolve
 
     "So, in the end, Misaki and I agreed to work together, and form the Occult Club."
     "We're not… dating or anything. It's just a mutually beneficial collaboration." 

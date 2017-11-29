@@ -1,5 +1,5 @@
 label scene6:
-    scene hallway2
+    scene hallway with dissolve
 
     "Sure enough, Yumi was waiting for me."
     "I thought her time-out was supposed to relax her, but instead it just wound her up even tighter."
@@ -221,7 +221,7 @@ label scene6:
     voice "C-6-67.mp3" #Yumi (Kaito)
     sis "Heh! This isn't actually so bad…"
 
-    scene black
+    scene black with dissolve
     "The three of us moved into the living room..."
 
     voice "C-6-68.mp3" #Beepy (Hikari)

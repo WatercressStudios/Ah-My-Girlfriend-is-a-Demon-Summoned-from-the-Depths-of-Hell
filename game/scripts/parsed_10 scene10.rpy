@@ -1,5 +1,5 @@
 label scene10:
-    scene classroom
+    scene classroom1
 
     "The first step of my training is to survive another arduous day in this circle of Hell."
     "It seems I am to temporarily set aside any plans for world domination and endure hours upon hours of monotonous lectures and assignments."
@@ -36,6 +36,8 @@ label scene10:
 
     #all of Makoto’s lines at this point should be done in whisper-speak
 
+    scene classroom2 with dissolve
+    
     voice "C-10-4.mp3" #Makoto (Reece Bridger)
     pro "What do you think you’re doing, Beepy!? You almost sent me to the afterlife just now!"
 
@@ -94,12 +96,12 @@ label scene10:
     voice "C-10-18.mp3" #Makoto (Reece Bridger)
     pro "I had an idea that was going to establish my place among the others, but before I knew it…"
 
-    #scene white
+    scene white with dissolve
 
     voice "C-10-19.mp3" #Makoto (Reece Bridger)
     pro "...She got in my way."
 
-    #scene principal’s office, sepia tone on BG and sprites
+    scene meeting with dissolve
 
     voice "C-10-20.mp3" #Councillor 
     co "I must say, not only am I surprised to see anyone submit an application for an ‘Occult Club’ of all things…"
@@ -148,12 +150,12 @@ label scene10:
     voice "C-10-34.mp3" #Councillor 
     co "And hopefully, you two can come to a better understanding of who’s more suited to run it."
 
-    #scene white
+    scene white with dissolve
 
     voice "C-10-35.mp3" #Makoto (Reece Bridger)
     pro "A simple enough task, but that woman had to make things complicated…"
 
-    #scene courtyard, sepia tone on BG and sprites
+    scene courtyard day2 with dissolve
     #enter Misaki stage right
 
     voice "C-10-36.mp3" #Misaki (Kikari)
@@ -211,7 +213,7 @@ label scene10:
     voice "C-10-52.mp3" #Misaki (Kikari)
     riv "Don’t count on it, for it is {i}you{/i} who will recognize your rightful place at my side soon enough!"
 
-    #scene white
+    scene white with dissolve
 
     voice "C-10-53.mp3" #Makoto (Reece Bridger)
     pro "And that was how it all started."
@@ -222,7 +224,7 @@ label scene10:
     voice "C-10-55.mp3" #Makoto (Reece Bridger)
     pro "Evidently, she must have had the same idea."
 
-    #scene classroom
+    scene classroom2 with dissolve
     #enter Beepy stage left
 
     voice "C-10-56.mp3" #Beepy (Hikari)
@@ -313,7 +315,7 @@ label scene10:
     voice "C-10-81.mp3" #Makoto (Reece Bridger)
     pro "Now if you don’t mind, I’d like to get back to my studies."
 
-    #exit Beepy stage left
+    scene classroom1 with dissolve
 
     "I cut off conversation with Beepy and resume taking notes."
     "The silence should help me concentrate, but my mind keeps wandering back to our discussion from mere moments ago."

@@ -1,6 +1,6 @@
 label scene4:
 
-    scene black
+    scene black with dissolve
 
     #all q lines voiced by beepy
     
@@ -62,7 +62,7 @@ label scene4:
     "Now that she was actually prompting me to do so… I was hesitant."
     "But I had no other choice. I slowly did as instructed..." 
 
-    scene garage
+    scene garage mess
     "...And found S⛧Tan next to another strange-looking girl."
 
     #note: go back and revise based on Instant's concept!
@@ -127,7 +127,7 @@ label scene4:
     voice "C-4-32.mp3" #STan (Dani)
     st "{i}(That wasn't like we rehearsed…){/i}" 
 
-    #scene garage
+    scene garage mess with dissolve
 
     "The girl who called herself Belphegor stared at me with a look not unlike a bored college student who had just delivered a C-grade presentation."
     "...Come to think of it, a C might be a bit too generous."
@@ -203,7 +203,7 @@ label scene4:
     voice "C-4-51.mp3" #STan (Dani)
     st "{b}Infernal vanishing ninjutsu, {i}gooo~!{/i}{/b}"
 
-    #scene white with dissolve
+    scene white with dissolve
 
     voice "C-4-52.mp3" #Makoto (Reece Bridger)
     pro "Wha!?"
@@ -211,7 +211,7 @@ label scene4:
     "At first, there was silence. S⛧Tan threw some kind of capsule on the ground, but then…"
     "A blinding light engulfed the garage!"
 
-    scene garage
+    scene garage mess with dissolve
 
     "And when it cleared, Beepy was sitting there, staring into space." 
 
@@ -286,7 +286,7 @@ label scene4:
 
     "When the energy finally returned to my leg, I headed towards the locked door and fiddled with it until it finally opened."
 
-    scene hallway
+    scene living room with dissolve
 
     voice "C-4-71.mp3" #Makoto (Reece Bridger)
     pro "...Crap, where is she?"
@@ -394,7 +394,7 @@ label scene4:
     "This is bad. This is really {b}really{/b} bad!"
     "Scrambling to my feet, I give chase."
 
-    scene hallway2
+    scene hallway with dissolve
 
     "Somehow, I manage to keep up with her - though I nearly tripped on my cape in the process." "Blasted thing just gets in the way most of the time…"
     "She was already at the door to her room! I had to stop her, here and now!"

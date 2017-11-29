@@ -1,5 +1,5 @@
 label scene25:
-    scene washroom
+    scene black with dissolve
 
     voice "C-25-1.mp3" #Makoto (Reece Bridger)
     pro "This is it. The final showdown."
@@ -15,6 +15,10 @@ label scene25:
     
     voice "C-25-5.mp3" #Beepy (Hikari)
     bp "I thought you guys were {i}already{/i} losers."
+    
+    scene bathroom with dissolve
+    
+    "...I mean, she has a point, kind of. I'm the one trying to hype myself up in a public bathroom."
     
     voice "C-25-6.mp3" #Makoto (Reece Bridger)
     pro "I-I'm trying to get in the mindset, here…"
@@ -102,7 +106,7 @@ label scene25:
     voice "C-25-32.mp3" #Beepy (Hikari)
     bp "Kick her ass, Makoto!"
 
-    scene black
+    scene black with dissolve
     
     voice "C-25-33.mp3" #Beepy (Hikari)
     bp "...But not literally. That's assault."
@@ -111,7 +115,7 @@ label scene25:
     "... …"
     "... … …" 
 
-    scene rooftop1
+    scene rooftop with dissolve
     "Through the winding hallways and the mountainous staircases, I had finally reached the rooftop."
     "The wind cut against my face. On all sides, I was surrounded by towering chain-link fences."
     "I could feel swirling arcane forces, caged within like animals. How appropriate."
@@ -221,8 +225,6 @@ label scene25:
     voice "C-25-68.mp3" #Beepy (Hikari)
     bp "Aaah, fine, fine, you don't have to shout, jeez…" 
 
-    #scene rooftop2
-
     #enter beepy stage left
 
     voice "C-25-69.mp3" #Beepy (Hikari)
@@ -295,18 +297,18 @@ label scene25:
     st "{i}{b}Prism Shower Sparkle Beam~!{/b}{/i}"
 
     #sfx energy blast
-    #screen goes white
+    scene white
 
     "With a flourish of her hands, she unleashed the energy in one grand gesture."
     "I shielded my eyes, it was so bright! Was this her true power!?"
 
-    #screen goes black
+    scene black with dissolve
     "The light disappeared. I was afraid to look at what happened to Beepy."
     "I couldn't hear her. Was she obliterated in the blast? Was… was I foolhardy?"
     "I… I didn't want to lose Beepy. Not like this."
     "Steeling myself to face the truth, I reopened my eyes." 
 
-    #scene is as it was before; beepy has eyes closed.
+    scene rooftop with dissolve
 
     "What I saw was… not quite what I was expecting."
     "Beepy was just… standing there."
@@ -415,9 +417,6 @@ label scene25:
     voice "C-25-119.mp3" #Makoto (Reece Bridger)
     pro "..."
 
-    scene rooftop1
-    #misaki at center
-
     voice "C-25-120.mp3" #Makoto (Reece Bridger)
     pro "So the demon battle didn't work out. It seems we are at an impasse."
     
@@ -500,11 +499,11 @@ label scene25:
     voice "C-25-143.mp3" #Beepy (Hikari)
     bp "This isn't some schlocky romcom, S_Tan…"
 
-    #scene fade to black
+    scene black with dissolve
     "Our climatic duel went on for what felt like hours."
     "And as the dust cleared…"
 
-    scene rooftop1
+    scene rooftop with dissolve
     #misaki's exhausted
 
     voice "C-25-144.mp3" #Makoto (Reece Bridger)
@@ -601,7 +600,7 @@ label scene25:
     
     #sfx door clang
 
-    #scene black
+    scene black with dissolve
     voice "C-25-172.mp3" #Hall Monitor 
     hm "C'mon, this way. Off the roof."
     

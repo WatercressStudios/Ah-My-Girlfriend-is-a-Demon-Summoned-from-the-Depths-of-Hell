@@ -1,5 +1,5 @@
 label scene13:
-    scene hallway2
+    scene living room with dissolve
 
     "When you’re a demon overlord who has powers beyond human comprehension, you expect fervent cooperation from anyone and everyone."
     "Surely, one would not think to question my motivations when their existence could be erased at the drop of a hat."
@@ -111,7 +111,7 @@ label scene13:
     voice "C-13-29.mp3" #Makoto (Reece Bridger)
     pro "But of course! I shall lead the way posthaste!"
 
-    #scene livingroom
+    scene hallway with dissolve
 
     "I lead her back downstairs in a manner similar to how one would use the Bifröst Bridge to reach Asgard."
     "Once she sees the demons, she recognizes their lack of hostility - but is still a little on edge."
@@ -291,7 +291,7 @@ label scene13:
     voice "C-13-74.mp3" #Beepy (Hikari)
     bp "Take your time…"
 
-    #scene black
+    scene black with dissolve
 
     "With our farewells exchanged, I follow everyone else into the garage."
 

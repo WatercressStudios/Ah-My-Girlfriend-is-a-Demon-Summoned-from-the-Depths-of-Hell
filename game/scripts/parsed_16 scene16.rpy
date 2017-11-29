@@ -1,11 +1,11 @@
 label scene16:
 
-    scene marketinside
+    scene black with dissolve
 
     "Eventually, we each go our separate ways, Misaki and Satan exit the supermarket early, to the sadness of the two demons and the indifference of myself."
     "Once we had everything we needed, we - {i}I{/i} paid and left, the voices of the two demons squabbling behind me."
 
-    scene marketoutside
+    scene store exteriornight with dissolve
 
     "We enter the carpark, the legion of people I saw before having vanished into the late afternoon." 
     "Where they go I don't know - probably to their unassuming, unexciting suburban life, if I had to guess."

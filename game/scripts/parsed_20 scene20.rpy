@@ -1,5 +1,5 @@
 label scene20:
-    scene livingroom
+    scene living room with dissolve
 
     "After what feels like hours, I’m finally finished with Lucy’s art session."
     "Now would be the time for me to relax - yet for some reason, I am unable to."
@@ -79,11 +79,13 @@ label scene20:
     
     voice "C-20-18.mp3" #Bubble 
     bb "{b}Okay!{/b} The super awesome secret magical skill we’re going to learn today iiiiis…"
-
-    "Bubble drags me into the kitchen and presents the stove like how Mother Harlot presents her seven-headed beast."
-
+    
     voice "C-20-19.mp3" #Bubble 
     bb "{b}Cooking~!{/b}"
+    
+    scene kitchen with dissolve
+
+    "Bubble drags me into the kitchen and presents the stove like how Mother Harlot presents her seven-headed beast."
     
     voice "C-20-20.mp3" #Bubble 
     bb "{b}Yaaaaaaaaaaaaay! Woo-hoo~!{/b}"
@@ -205,7 +207,7 @@ label scene20:
     voice "C-20-47.mp3" #Bubble 
     bb "Alright, enough blabbity blab! Let’s make some {b}food~!{/b}"
 
-    #scene black
+    scene black with dissolve
 
     "And so, rather begrudgingly, I start making lasagna with Bubble."
     "Turns out we have more than enough ingredients, and Bubble is there to guide me through every step in preparing the dish."
@@ -213,7 +215,7 @@ label scene20:
     "In no time, we manage to combine all the ingredients together and place it in the oven, heating it at a temperature to rival that of Muspelheim."
     "And soon enough… it is done."
 
-    #scene livingroom
+    scene living room with dissolve
 
     "I can smell every inch of melted cheese, savory meat, and assorted veggies from the pan."
     "Even I have to admit… it looks devilishly delightful."
@@ -379,7 +381,7 @@ label scene20:
 
     "...I take it back. They’re brats through and through."
 
-    #scene black
+    scene black with dissolve
 
     "We all gather at the table to enjoy the delicious lasagna."
     "I do feel proud about learning how to cook something, but…"

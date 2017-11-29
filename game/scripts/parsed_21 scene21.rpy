@@ -1,6 +1,6 @@
 label scene21:
 
-    scene makotoroom
+    scene bedroom with dissolve
 
     "Now, to make my preparations."
 
@@ -70,7 +70,7 @@ label scene21:
 
     #sudden cut
     #play music literallyanythingelse
-    scene bg makotoroom
+    scene bedroom with dissolve
 
     voice "C-21-4.mp3" #STan (Dani)
     st "Hello!"
@@ -369,7 +369,7 @@ label scene21:
 
     #sfx paper
 
-    scene makotoroom
+    scene bedroom with dissolve
     with dissolve
 
     "...That is, until a piece of paper slips under my door."
@@ -402,7 +402,7 @@ label scene21:
 
     "Though... I suppose I’m somewhat fond of them."
 
-    #fade to black
+    scene black with dissolve
 
     "Nevertheless, I return to my research. There’s simply too much at stake for me to indulge this distraction."
 

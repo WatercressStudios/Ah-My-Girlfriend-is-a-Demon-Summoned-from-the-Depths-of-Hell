@@ -1,5 +1,5 @@
 label scene22:
-    scene makotoroom
+    scene bedroom night with dissolve
 
     "Finally, my last-minute cramming is finished."
     "I allow myself a good, long stretch and take a moment to admire my handiwork."
@@ -16,25 +16,17 @@ label scene22:
     voice "C-12-2.mp3" #Makoto (Reece Bridger)
     pro "...Well, whatever. At least I did what I could."
 
-    #scene black
+    scene black with dissolve
 
-    "Dusting myself off and stretching my legs, I make my way to the bathroom and cleanse myself of any detrimental impurities."
-    "And then…"
-
-    #scene makotoroomdark
-
-    "It was finally time for bed."
+    "Cleaning myself of impurities in the bathroom, I determined that it was finally time for bed."
     "Time once again to drift away into that dark void and slumber until the next day."
     "I can at least sleep knowing that after all my hard work, I’m prepared for what lies ahead tomorrow."
     "With no other obligations to attend to, I drape myself in blankets and close my eyes, then drift off to sleep."
-
-    #scene black
-
     "..."
     "... …"
     "... … …"
 
-    #scene makotoroomdark
+    scene bedroom dark with dissolve
 
     "For some unexplainable reason, my eyes open once again."
     "Why am I unable to sleep? Has the Sandman decided not to sprinkle his dust over me this evening?"
@@ -88,7 +80,7 @@ label scene22:
     "Makoto Takaya’s sake."
     "With my mind made up, I begin to close my eyes…"
 
-    #scene black
+    scene black with dissolve
 
     "...And finally start to sleep."
 

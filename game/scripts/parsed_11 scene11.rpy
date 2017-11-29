@@ -1,5 +1,5 @@
 label scene11:
-    scene classroom
+    scene classroom1 with dissolve
 
     "Several minutes pass without either of us saying a word to each other."
     "I’m concentrating harder than ever on my notes, while Beepy stares out the window, bored out of her mind."
@@ -107,7 +107,7 @@ label scene11:
     "But I have to try. No demon lord would admit defeat so easily, and I cannot let her steal that which is rightfully mine."
     "I must double my efforts and train harder than ever before! By the time my training is complete, they’ll be begging for mercy on judgement day!"
 
-    #scene classroom
+    scene classroom1 with dissolve
     #sfx ring
 
     "*RING!*"

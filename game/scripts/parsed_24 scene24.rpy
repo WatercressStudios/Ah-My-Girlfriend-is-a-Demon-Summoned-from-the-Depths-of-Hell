@@ -1,5 +1,5 @@
 label scene24:
-    scene classroom
+    scene classroom1 with dissolve
 
     "It’s another ordinary day for the students of Akumahou High School."
     "Yet another long, tiresome day of sitting through endless lectures; the students accept their fate and absorb knowledge like flies."
@@ -8,7 +8,7 @@ label scene24:
     "Yet on this particular day - at this particular moment in time - my enthusiasm cannot be quelled."
     "The day has finally come -  the moment I’ve been waiting for ever since that fateful encounter two days ago…"
 
-    #scene courtyard, sepia tone
+    scene courtyard day1 with dissolve
     #show Misaki confident
 
     "My final showdown with Misaki Tendou, better known as Countess Elizabeth, the Everlasting Matriarch of the Forgotten Realms."
@@ -18,7 +18,7 @@ label scene24:
     "I’m prepared now, more than ever, to show her who deserves to lead the Occult Club."
     "It’s almost sad to know that this may very well be our last showdown… but that’s why it’s all the more important to make this a fight worth remembering."
 
-    #scene classroom
+    scene classroom1 with dissolve
 
     "Honestly, it’s the only thing I’ve been thinking about all day."
     "I’ve hardly been paying attention to any of the lectures lately… Well, I can always study later, I guess."
@@ -28,6 +28,8 @@ label scene24:
 
     "*RING!*"
 
+    scene school hallway with dissolve
+    
     "I bolt out of my seat and head towards our meeting place."
     "But… something feels off."
     "It took me longer than usual to fling my backpack over my shoulders and make my way out the door."

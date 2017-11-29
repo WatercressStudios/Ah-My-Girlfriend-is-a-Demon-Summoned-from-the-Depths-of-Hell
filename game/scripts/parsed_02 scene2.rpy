@@ -8,7 +8,7 @@ label scene2:
     "I am only a man; granted, one that has witnessed a millenia of barbarism, but I'd probably need a little help."
     "The preparations are complete. The stars have aligned. The time to act is now." 
 
-    scene garage
+    scene garage evil with dissolve
 
     voice "C-2-1.mp3" #Makoto (Reece Bridger)
     pro "Ah… everything is proceeding just as I have foreseen. What an absolute thrill!"
@@ -168,7 +168,7 @@ label scene2:
     "The stimuli continue to assault and overwhelm me."
     "I can hardly differentiate the screeching winds from my elder sister’s incontinent screaming." 
 
-    #scene black
+    scene black with dissolve
 
     "Overwhelmed by the power, I close my eyes. Perhaps if I become acutely aware, I will wake up from this horrible nightmare."
     "I would cast aside my thousand-year career as a practitioner of the dark arts if this were all to be some foolish boy’s warped vision!"

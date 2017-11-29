@@ -1,10 +1,10 @@
 label scene18:
 
-    scene black
+    scene black with dissolve
 
     "Here again..."
 
-    scene schoolhallway
+    scene school hallway with dissolve
 
     "..."
     "I try to walk through the halls, pushing past the mundanes walking in the opposite direction and pushing through those who seem to think it wise to stand right in the middle - even though others are trying to travel.."
@@ -35,7 +35,7 @@ label scene18:
     "But she is not what matters right now. All I need to do here is take my lunch and begone, like the witches of Salem."
     "{i}Especially{/i} given where I need to attain it."
 
-    scene cafeteria
+    scene cafeteria with dissolve
 
     "The school cafeteria."
     "Disorder, uncleanliness, and horrible food reign supreme here, hanging over its subjects like a miasma. Few survived a trip here with their sanity in-tact, and those that did found it hard to desensitize themselves to the pain."
