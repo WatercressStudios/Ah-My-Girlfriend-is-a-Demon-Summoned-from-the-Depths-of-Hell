@@ -1,7 +1,7 @@
 label scene19:
 
     voice "C-19-1.mp3" #Makoto (Reece Bridger)
-    pro "So, you're telling me…"
+    pro "So, you're telling meâ€¦"
     
     voice "C-19-2.mp3" #Lucy (Vivi)
     lu "Yeah?"
@@ -10,7 +10,7 @@ label scene19:
     pro "That you want me to be the next subject of your art project?"
     
     voice "C-19-4.mp3" #Lucy (Vivi)
-    lu "I-uhh, I mean, if you don't mind…"
+    lu "I-uhh, I mean, if you don't mindâ€¦"
 
     voice "C-19-5.mp3" #Makoto (Reece Bridger)
     pro "Of course I mind! I want nothing to do with your worldly trifles. Quite honestly, it's a waste of my time."
@@ -19,9 +19,9 @@ label scene19:
     pro "This so called 'art' won't help me end this miserable world, will it? No?"
 
     voice "C-19-7.mp3" #Lucy (Vivi)
-    lu "N-No…"
+    lu "N-Noâ€¦"
 
-    "I can't believe she's chosen to approach me about this. I'd never accept a proposition such as this… unless it were a painting fit for a dark lord."
+    "I can't believe she's chosen to approach me about this. I'd never accept a proposition such as thisâ€¦ unless it were a painting fit for a dark lord."
     "Not to mention, I cannot risk what otherworldly powers she'll use."
 
     "What if she were to steal my soul and put it into such a painting? I couldn't live a lifetime in a frame. I can't achieve my goals in a state like that, and I'm sure it would be utterly boring!"
@@ -38,7 +38,7 @@ label scene19:
 
     "Shaking my head and frowning, I cut her off."
 
-    "I sigh exasperatedly; I don't want to deal with the blowback from a situation like this. If the others were to hear that I made Lucy cry, I'd never hear the end of it - or worse…"
+    "I sigh exasperatedly; I don't want to deal with the blowback from a situation like this. If the others were to hear that I made Lucy cry, I'd never hear the end of it - or worseâ€¦"
 
     "Unfortunately, I have no other choice but to participate."
 
@@ -46,7 +46,7 @@ label scene19:
 
     "And, as much as I hate to say it, I pity her - which is odd, considering she's the Demon Lord of Pride. These demons really are nothing like the versions in the books."
 
-    "Sometimes I wonder if they're playing a big trick on me - a ruse only to prove a point, to embarrass me for having the audacity to summon them… One of them."
+    "Sometimes I wonder if they're playing a big trick on me - a ruse only to prove a point, to embarrass me for having the audacity to summon themâ€¦ One of them."
 
     "I'm not quite sure when this became a house party, but here I am."
 
@@ -55,7 +55,7 @@ label scene19:
     "I'll suffer through these trials and tribulations if it means getting what I rightfully deserve."
 
     voice "C-19-10.mp3" #Makoto (Reece Bridger)
-    pro "Fine, I'll do it. Let me get prepared, I must don some more… appropriate attire."
+    pro "Fine, I'll do it. Let me get prepared, I must don some moreâ€¦ appropriate attire."
 
     voice "C-19-11.mp3" #Lucy (Vivi)
     lu "Appropriate? No, what you're wearing is fine, I promise!"
@@ -71,15 +71,15 @@ label scene19:
 
     "...Wait."
 
-    "Does she want to draw me… nude?"
+    "Does she want to draw meâ€¦ nude?"
 
     "Nononoooo, that's neeever going to happen."
 
     voice "C-19-15.mp3" #Makoto (Reece Bridger)
-    pro "I-uh, I-I don't think that's uhh… a good idea! No!"
+    pro "I-uh, I-I don't think that's uhhâ€¦ a good idea! No!"
 
     voice "C-19-16.mp3" #Lucy (Vivi)
-    lu "Oh, don't be so afraid! That cosplay stuff is kind of beneath me anyways…"
+    lu "Oh, don't be so afraid! That cosplay stuff is kind of beneath me anywaysâ€¦"
 
     voice "C-19-17.mp3" #Makoto (Reece Bridger)
     pro "I'm not going to participate if you expect me to get naked!"
@@ -104,13 +104,13 @@ label scene19:
     lu "No! I mean, regular {i}people{/i} clothes! I don't want to see you naked, dear God no!"
 
     voice "C-19-21.mp3" #Lucy (Vivi)
-    lu "Gross…"
+    lu "Grossâ€¦"
 
     voice "C-19-22.mp3" #Makoto (Reece Bridger)
     pro "Hey!"
 
     voice "C-19-23.mp3" #Lucy (Vivi)
-    lu "I just want to draw you as you are, exposed and unobstructed…"
+    lu "I just want to draw you as you are, exposed and unobstructedâ€¦"
 
     voice "C-19-24.mp3" #Lucy (Vivi)
     lu "No, that doesn't sound right. Like, without that ridiculous facade you put on. Just you being you, okay?"
@@ -124,7 +124,7 @@ label scene19:
     "Lucy walks up and puts a finger over my mouth, forcing me to quiet down."
 
     voice "C-19-27.mp3" #Lucy (Vivi)
-    lu "Just… sit on the bed, okay?"
+    lu "Justâ€¦ sit on the bed, okay?"
 
     "Frowning, I resign myself to this fate, sit down, and cross my arms."
 
@@ -143,7 +143,7 @@ label scene19:
 
     "The room grows silent - awkwardly so. Only her pencil breaks through the velvety veil, making slight scritching sounds as she gently glides it along the paper. Other than that, there is nothing."
 
-    "It's… odd. She made all of this talk about 'exposing your true self,' but here I am, doing nothing."
+    "It'sâ€¦ odd. She made all of this talk about 'exposing your true self,' but here I am, doing nothing."
 
     "Sitting in a room, alone with her."
 
@@ -155,7 +155,7 @@ label scene19:
 
     "If there's nothing after the end of the world - if there's nothing to enjoy - then what's the point?"
 
-    "I suppose there's the age old saying, 'the journey is more than the destination,’ but I'm a realist. The destination is {i}infinitely{/i} more important."
+    "I suppose there's the age old saying, 'the journey is more than the destination,â€™ but I'm a realist. The destination is {i}infinitely{/i} more important."
 
     "Actually, I'll, uh, decide when I get there."
 
@@ -168,21 +168,21 @@ label scene19:
     "I wonder if that's how I look when I'm practicing my dark arts?"
 
     voice "C-19-31.mp3" #Lucy (Vivi)
-    lu "Mm! Almost done~! Thanks for sitting so still; you're a natural, or something…"
+    lu "Mm! Almost done~! Thanks for sitting so still; you're a natural, or somethingâ€¦"
 
     voice "C-19-32.mp3" #Lucy (Vivi)
-    lu "You know, your stance says a lot about you. You look so… sad?"
+    lu "You know, your stance says a lot about you. You look soâ€¦ sad?"
 
     voice "C-19-33.mp3" #Makoto (Reece Bridger)
     pro "Sad?"
 
     voice "C-19-34.mp3" #Lucy (Vivi)
-    lu "Y-Yeah. I mean, I don't want to offend, but... You know, you're always frowning and you cross your arms and legs like you want to close yourself off from the world and I think that's really sad and…"
+    lu "Y-Yeah. I mean, I don't want to offend, but... You know, you're always frowning and you cross your arms and legs like you want to close yourself off from the world and I think that's really sad andâ€¦"
 
     voice "C-19-35.mp3" #Lucy (Vivi)
-    lu "I guess it makes it easier to draw you, since your expression isn't exactly a complicated one. The fact that you hide your hands makes it much easier as well - man, hands are hard to draw! Anyways…"
+    lu "I guess it makes it easier to draw you, since your expression isn't exactly a complicated one. The fact that you hide your hands makes it much easier as well - man, hands are hard to draw! Anywaysâ€¦"
 
-    "Sad? No! I'm the great and all powerful Wolfgang IV! Just one look from my eyes, and all shall run in terror! They attempt to dodge fate, but it'll come to all in the end…"
+    "Sad? No! I'm the great and all powerful Wolfgang IV! Just one look from my eyes, and all shall run in terror! They attempt to dodge fate, but it'll come to all in the endâ€¦"
 
     "Sad, huh?"
 
@@ -198,7 +198,7 @@ label scene19:
     "Lucy looks at me, perplexed. Then, it hits her."
 
     voice "C-19-39.mp3" #Lucy (Vivi)
-    lu "Yeah… I'm sure."
+    lu "Yeahâ€¦ I'm sure."
 
     voice "C-19-40.mp3" #Lucy (Vivi)
     lu "Wanna see?"
@@ -219,7 +219,7 @@ label scene19:
     "She must've seen my reaction, as she continues speaking."
 
     voice "C-19-42.mp3" #Lucy (Vivi)
-    lu "It speaks volumes, seeing you like this. You look so… forlorn? About everything. No confidence, no {i}pride{/i}."
+    lu "It speaks volumes, seeing you like this. You look soâ€¦ forlorn? About everything. No confidence, no {i}pride{/i}."
 
     voice "C-19-43.mp3" #Lucy (Vivi)
     lu "Which is weird, you seem so prideful when you're cosplaying! But, in the end, that's just a painting."
@@ -237,7 +237,7 @@ label scene19:
     lu "Sure, sometimes you can get lost in pride - as I find myself doing sometimes - but it's bad to have a lack of it too. It's all about balance, yeah?"
 
     voice "C-19-48.mp3" #Lucy (Vivi)
-    lu "And… Uhh, y-you'd be a whole lot cuter if you did so…"
+    lu "Andâ€¦ Uhh, y-you'd be a whole lot cuter if you did soâ€¦"
 
     "Blushing, she goes back to work, as if she'd said nothing."
 
@@ -245,7 +245,7 @@ label scene19:
 
     "Implying I'm cute at all?"
 
-    "I'm not cute! I'm a dark…"
+    "I'm not cute! I'm a darkâ€¦"
 
     "I really don't have the energy for that right now."
 

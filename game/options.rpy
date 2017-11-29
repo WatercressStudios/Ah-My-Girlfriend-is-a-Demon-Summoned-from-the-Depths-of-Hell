@@ -23,7 +23,9 @@ init -1 python hide:
     # with tracebacks and other debugging logs.
     config.name = "Ah! My Girlfriend is a Demon Summoned from the Depths of Hell!"
     config.version = "0.0"
-
+    
+    config.allow_skipping = True
+    
     #########################################
     # Themes
 
@@ -280,3 +282,5 @@ init -1 python hide:
 
     #########################################
     ## More customizations can go here.
+    
+default preferences.skip_unseen = True

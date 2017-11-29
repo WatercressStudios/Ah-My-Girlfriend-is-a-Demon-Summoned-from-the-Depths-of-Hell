@@ -8,10 +8,10 @@ label scene22:
     "Except, of course, for the sudden onset of exhaustion..."
 
     voice "C-12-1.mp3" #Makoto (Reece Bridger)
-    pro "Oof… how long have I been studying…?"
+    pro "Oofâ€¦ how long have I been studyingâ€¦?"
 
     "I glance over to my alarm clock to see how many fleeting hours have passed."
-    "It’s 11:20 now. I should have been ready for bed 20 minutes ago!"
+    "Itâ€™s 11:20 now. I should have been ready for bed 20 minutes ago!"
 
     voice "C-12-2.mp3" #Makoto (Reece Bridger)
     pro "...Well, whatever. At least I did what I could."
@@ -19,74 +19,74 @@ label scene22:
     #scene black
 
     "Dusting myself off and stretching my legs, I make my way to the bathroom and cleanse myself of any detrimental impurities."
-    "And then…"
+    "And thenâ€¦"
 
     #scene makotoroomdark
 
     "It was finally time for bed."
     "Time once again to drift away into that dark void and slumber until the next day."
-    "I can at least sleep knowing that after all my hard work, I’m prepared for what lies ahead tomorrow."
+    "I can at least sleep knowing that after all my hard work, Iâ€™m prepared for what lies ahead tomorrow."
     "With no other obligations to attend to, I drape myself in blankets and close my eyes, then drift off to sleep."
 
     #scene black
 
     "..."
-    "... …"
-    "... … …"
+    "... â€¦"
+    "... â€¦ â€¦"
 
     #scene makotoroomdark
 
     "For some unexplainable reason, my eyes open once again."
     "Why am I unable to sleep? Has the Sandman decided not to sprinkle his dust over me this evening?"
-    "No… There has to be an explanation for why I’m feeling this way."
+    "Noâ€¦ There has to be an explanation for why Iâ€™m feeling this way."
     "I turn over on my side to try and find an answer."
 
     voice "C-12-3.mp3" #Makoto (Reece Bridger)
-    pro "Hey, Beepy…"
+    pro "Hey, Beepyâ€¦"
     
     voice "C-12-4.mp3" #Makoto (Reece Bridger)
-    pro "Huh…?"
+    pro "Huhâ€¦?"
 
     "But Beepy is not there."
-    "She hasn’t snuck under my sheets and curled up beside me like she always has."
-    "It’s more than just an answer I’ve found - it’s a realization that’s hit me like a truck."
-    "I’ve driven Beepy away… and now I’m all by myself. Here, in my room, with no one else to share this bed with."
-    "For the first time in my life, I feel… abandoned. Unwanted."
+    "She hasnâ€™t snuck under my sheets and curled up beside me like she always has."
+    "Itâ€™s more than just an answer Iâ€™ve found - itâ€™s a realization thatâ€™s hit me like a truck."
+    "Iâ€™ve driven Beepy awayâ€¦ and now Iâ€™m all by myself. Here, in my room, with no one else to share this bed with."
+    "For the first time in my life, I feelâ€¦ abandoned. Unwanted."
     "{i}Alone.{/i}"
 
     voice "C-12-5.mp3" #Makoto (Reece Bridger)
     pro "..."
 
     "I turn over on my back, staring up at my bedroom ceiling and trying to make sense of it all."
-    "I think back to the time I spent with Beepy. Even though I thought of her as a pain and a useless demon…"
+    "I think back to the time I spent with Beepy. Even though I thought of her as a pain and a useless demonâ€¦"
     "She was trying to help me this whole time."
     "Beepy was trying to make me into a better person."
-    "And I… all I did was yell at her. Call her a nuisance."
+    "And Iâ€¦ all I did was yell at her. Call her a nuisance."
     "I was so obsessed with just trying to learn any dark arts I could - to gain an upper hand over Misaki - that I lost sight of what she was trying to teach me."
-    "Now she’s left me alone as a result… and I feel that loss more than ever."
-    "Even when I didn’t want her in the same bed as me, her presence alone is preferable to the intense loneliness I’m feeling."
-    "And it wasn’t just her, either; Mami telling me to hold on to what matters to me, Lucy encouraging me to take pride in myself - even Bubble teaching me how to provide for myself and for other people."
+    "Now sheâ€™s left me alone as a resultâ€¦ and I feel that loss more than ever."
+    "Even when I didnâ€™t want her in the same bed as me, her presence alone is preferable to the intense loneliness Iâ€™m feeling."
+    "And it wasnâ€™t just her, either; Mami telling me to hold on to what matters to me, Lucy encouraging me to take pride in myself - even Bubble teaching me how to provide for myself and for other people."
     "They were all giving me the knowledge and wisdom I needed to make it through life."
     "But all I had for their help was scorn."
     "I turned a blind eye to their advice, believing their words to just be a waste of time."
-    "And it’s only now, after I’ve turned my back on them, do I realize all of this."
+    "And itâ€™s only now, after Iâ€™ve turned my back on them, do I realize all of this."
     "They must think I want nothing to do with them now."
-    "Or worse, Beepy must not want anything to do with me anymore…"
+    "Or worse, Beepy must not want anything to do with me anymoreâ€¦"
 
     voice "C-12-6.mp3" #Makoto (Reece Bridger)
-    pro "What have I been doing all this time…?"
+    pro "What have I been doing all this timeâ€¦?"
 
-    "I try to find the words to describe this pit of despair I’m in… but nothing comes from it."
+    "I try to find the words to describe this pit of despair Iâ€™m inâ€¦ but nothing comes from it."
     "My mind is completely blank - too exhausted to think anymore."
-    "All I know for certain is that… this doesn’t feel right."
-    "It isn’t right for me to treat their help like a waste of time, and it’s not right for them to feel they’ve wasted their energy on me."
+    "All I know for certain is thatâ€¦ this doesnâ€™t feel right."
+    "It isnâ€™t right for me to treat their help like a waste of time, and itâ€™s not right for them to feel theyâ€™ve wasted their energy on me."
     "I was the one who caused this rift - and now, more than I ever, do I realize that this is no way to live."
-    "I have to be the one to mend these bridges. I have to come clean and own up to what I’ve done."
-    "I’m not even sure if they’ll forgive me… but I still have to make things right."
-    "Not for the sake of some petty duel, but for the demons who’ve helped me…"
+    "I have to be the one to mend these bridges. I have to come clean and own up to what Iâ€™ve done."
+    "Iâ€™m not even sure if theyâ€™ll forgive meâ€¦ but I still have to make things right."
+    "Not for the sake of some petty duel, but for the demons whoâ€™ve helped meâ€¦"
     "And also for my sake."
-    "Makoto Takaya’s sake."
-    "With my mind made up, I begin to close my eyes…"
+    "Makoto Takayaâ€™s sake."
+    "With my mind made up, I begin to close my eyesâ€¦"
 
     #scene black
 
