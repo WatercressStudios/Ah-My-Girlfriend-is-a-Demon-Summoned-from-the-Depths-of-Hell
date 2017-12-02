@@ -4,6 +4,7 @@ label scene4:
 
     #all q lines voiced by beepy
     
+    #music light hearted
     voice "C-4-1.mp3" #STan (Dani)
     st "Ooookayyyy! Now remember, we can make anything happen if we all sing along~!"
     
@@ -47,11 +48,15 @@ label scene4:
     voice "C-4-11.mp3" #STan (Dani)
     st "Ohhh, let's not be such a grumpy gus! C'mon, up we goooo~!"
     
+    #sfx boink
+    
     voice "C-4-12.mp3" #??? 
     q "I'm not grumpy… And d-don't grab me there, i-it's…! I'm ticklish… h-heheh, th-that's sexual harrassment, y-you know…"
     
     voice "C-4-13.mp3" #Makoto (Reece Bridger)
     pro "What the…?"
+    
+    #music fade out
     
     voice "C-4-14.mp3" #STan (Dani)
     st "Okay! You can open your eyes, Makoto~!"
@@ -67,10 +72,13 @@ label scene4:
 
     #note: go back and revise based on Instant's concept!
 
+    #music calm
     "She was cocooned in a comfy-looking robe. Wrapped as snuggly as she was, she almost ready for bed."
     "The dull expression on her face and the way her head tilted forward only provided more validation to that look." 
     "With S⛧Tan and this girl right next to each other, one smiling so brightly and the other… {i}not…{/i}"
     "It really was looking at night and day."
+    
+    #sfx downer
     
     voice "C-4-16.mp3" #Beepy (Hikari)
     bp "I was having such a nice dream too… couldn't you let me sleep…?"
@@ -96,12 +104,15 @@ label scene4:
     voice "C-4-23.mp3" #Beepy (Hikari)
     bp "Nn… {i}Fiiiine,{/i} I'll do the stupid… idol thing…"
     
+    #sfx sparkle
+    
     voice "C-4-24.mp3" #STan (Dani)
     st "Yaaayy~~!"
     
     "Stepping back, S⛧Tan eagerly watched as 'Beepy' readied herself."
 
     #cg for this might be appropriate too idk
+    #music magical girl theme beepy ver
 
     voice "C-4-25.mp3" #Beepy (Hikari)
     bp "Alright, uhhh… how'd it go again…?"
@@ -121,6 +132,9 @@ label scene4:
     voice "C-4-30.mp3" #Beepy (Hikari)
     bp "...Where was I? ...Eh, whatever. I'm Belphegor of Sloth. Can I go now?"
     
+    #sfx downer
+    #music fadeout
+    
     voice "C-4-31.mp3" #Makoto (Reece Bridger)
     pro "..."
     
@@ -132,6 +146,7 @@ label scene4:
     "The girl who called herself Belphegor stared at me with a look not unlike a bored college student who had just delivered a C-grade presentation."
     "...Come to think of it, a C might be a bit too generous."
 
+    #music lighthearted
     voice "C-4-33.mp3" #STan (Dani)
     st "Way to go! I'm so proud of you, you put in so much effort this time~!"
     
@@ -203,6 +218,8 @@ label scene4:
     voice "C-4-51.mp3" #STan (Dani)
     st "{b}Infernal vanishing ninjutsu, {i}gooo~!{/i}{/b}"
 
+    #sfx fwoosh
+    #music fadeout
     scene white with dissolve
 
     voice "C-4-52.mp3" #Makoto (Reece Bridger)
@@ -224,6 +241,7 @@ label scene4:
     voice "C-4-55.mp3" #Beepy (Hikari)
     bp "She just said what it was, didn't she? Jeez, you're stupid…"
     
+    #music beepy theme
     voice "C-4-56.mp3" #Beepy (Hikari)
     bp "Boy, though… she watches too many shonen anime. Too much excitement." 
     
@@ -266,6 +284,7 @@ label scene4:
     bp "...It's drafty in here. I'm gonna go someplace else."
 
     #beepy exit stage left 
+    #music fadeout
 
     "Without another word, she stepped out of view."
     "Suddenly alone, I was confronted by the mess left in the strange demon girls' wake."
@@ -284,7 +303,8 @@ label scene4:
     voice "C-4-70.mp3" #Makoto (Reece Bridger)
     pro "I should find Beepy."
 
-    "When the energy finally returned to my leg, I headed towards the locked door and fiddled with it until it finally opened."
+    #music everyday life
+    "When the energy finally returned to my legs, I headed towards the locked door and fiddled with it until it finally opened."
 
     scene living room with dissolve
 
@@ -294,7 +314,7 @@ label scene4:
     "Not here either."
     "She couldn't have gotten far. For someone so tired-looking, she really gets around - and not in the way demons normally do!"
     "It's fine, it's fine. She's probably {i}somewhere.{/i} I just need to--"
-
+    
     voice "C-4-72.mp3" #Yumi (Kaito)
     sis "{b}There{/b} you are, Makoto!"
     
@@ -328,6 +348,8 @@ label scene4:
     
     voice "C-4-80.mp3" #Makoto (Reece Bridger)
     pro "N-Nooo!"
+    
+    #sfx fling
 
     "Placing both arms on my shoulders, she casts me aside like a ragdoll. It seems my resistance was infantile at best…"
     #sfx thud
@@ -342,6 +364,8 @@ label scene4:
 
     #sfx door opening
     "Yumi swung the door to the garage open and surveyed the damage."
+    
+    #music cut
 
     voice "C-4-83.mp3" #Yumi (Kaito)
     sis "..."
@@ -363,6 +387,8 @@ label scene4:
     
     voice "C-4-87.mp3" #Makoto (Reece Bridger)
     pro "Then… {i}not{/i} that."
+    
+    #music yumi theme
     
     voice "C-4-88.mp3" #Yumi (Kaito)
     sis "I can't {b}believe{/b} you!. The one thing Mom and Dad specifically said {i}not{/i} to do was practice that occult shit in the house!"
@@ -389,6 +415,8 @@ label scene4:
     sis "Ooh, wait 'til they hear about this! You're gonna be in {b}{i}so{/b}{/i} much trouble!"
 
     #yumi exit stage right 
+    
+    #sfx stomping
 
     "Before I could reply, she’d already turned around and stomped off in a rage."
     "This is bad. This is really {b}really{/b} bad!"
@@ -396,7 +424,8 @@ label scene4:
 
     scene hallway with dissolve
 
-    "Somehow, I manage to keep up with her - though I nearly tripped on my cape in the process." "Blasted thing just gets in the way most of the time…"
+    "Somehow, I manage to keep up with her - though I nearly tripped on my cape in the process." 
+    "Blasted thing just gets in the way most of the time…"
     "She was already at the door to her room! I had to stop her, here and now!"
     
     voice "C-4-96.mp3" #Makoto (Reece Bridger)
@@ -417,6 +446,8 @@ label scene4:
     voice "C-4-100.mp3" #Yumi (Kaito)
     sis "You just need to think really hard about what's important, Makoto. Just grow up and-and…"
     
+    #music cut
+    
     voice "C-4-101.mp3" #Yumi (Kaito)
     sis "...Wha?"
 
@@ -424,6 +455,7 @@ label scene4:
     "She just stood there, watching…"
 
     #enter beepy stage left
+
 
     voice "C-4-102.mp3" #Beepy (Hikari)
     bp "...Hullo."
@@ -434,6 +466,7 @@ label scene4:
     voice "C-4-104.mp3" #Makoto (Reece Bridger)
     pro "Beepy…? What are you doing in my sister's room?"
     
+    #music shenanigans
     voice "C-4-105.mp3" #Beepy (Hikari)
     bp "I was trying to find yours, but... this, uh, wasn't it."
     

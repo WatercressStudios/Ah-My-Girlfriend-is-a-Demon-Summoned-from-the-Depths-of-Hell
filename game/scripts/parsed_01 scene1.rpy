@@ -11,6 +11,7 @@
     "But who am I, you ask?"
 
     #show CG of pro starring in the bathroom mirror, obscuring his face with his hand and smiling wickedly
+    #music dark chuuni theme
 
     voice "C-1-1.mp3" #Makoto (Reece Bridger)
     pro "Come now, have you truly forgotten me?"
@@ -33,6 +34,7 @@
     pro "You stand in the presence of Sebastian Wolfgang IV, the Chaotic Lord of Thunder, the one that will bring this world to its--"
 
     #sfx bang
+    #music abrupt cut
     #show pro’s face growing exasperated
 
     "*BANG! BANG! BANG!*"
@@ -64,6 +66,8 @@
     voice "C-1-15.mp3" #Makoto (Reece Bridger)
     pro "Okay..."
 
+    #sfx footsteps
+    
     "I could hear that vile person’s steps as she walked away."
     "Damn it, my concentration is all messed up! Who does she think she is, interrupting a demon lord in the middle of his monologue!?"
     "Now I gotta get back into character and recount my spiel all over again. Alright, from the top…"
@@ -71,6 +75,8 @@
     #fade CG
     scene black with dissolve
 
+    
+    #music chuuni theme
     "Tuesday: a day fraught with disaster and despair."
     "Wait, that doesn’t sound right…"
     "Tuesday: a mediocre day in a mediocre existence that highlights our mundane mediocrity for all to see."
@@ -126,6 +132,7 @@
 
     #sfx bang
     #show pro’s face growing exasperated
+    #music hard cut again
 
     "*BANG! BANG! BANG!*"
 
@@ -140,6 +147,7 @@
     #fade CG
     scene living room with dissolve
 
+    #music yumi theme
     "My attempt to escape this mundane existence was over as soon as it started."
     "In an instant, I’ve gone from Sebastian Wolfgang IV, a thousand year-old practitioner of the dark arts…"
     "...back to Makoto Takaya - a boring, normal high schooler with absolutely nothing special about him."
@@ -236,7 +244,7 @@
     sis "So… just try to behave yourself, okay?"
 
     voice "C-1-50.mp3" #Makoto (Reece Bridger)
-    pro "Sure…"
+    pro "Sure..."
 
     #exit sis stage left
 
@@ -250,6 +258,7 @@
     voice "C-1-51.mp3" #Makoto (Reece Bridger)
     pro "Plain old Makoto will behave himself - but Sebastian Wolfgang IV cannot be held down by mere mortals."
 
+    #music stop
     "With confidence surging through me, I began walking towards my destiny…"
 
     jump scene2

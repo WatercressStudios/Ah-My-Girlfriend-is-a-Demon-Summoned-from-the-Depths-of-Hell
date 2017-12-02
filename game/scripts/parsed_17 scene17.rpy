@@ -12,6 +12,8 @@ label scene17:
     
     scene hallway with dissolve
     
+    #music yumi theme
+    #sfx door open
     "My elder sister is already waiting for me inside."
 
     #show yumi on right
@@ -34,6 +36,7 @@ label scene17:
     voice "C-17-6.mp3" #Mami 
     mm "{i}Yeeeeaaaah,{/i} hate to break it to you, but most of us are the fire and brimstone type."
     
+    #sfx sweatdrop
     voice "C-17-7.mp3" #Lucy (Vivi)
     lu "U-Um, I know some ice spells, but I’m not really any good at them, so..."
     
@@ -43,6 +46,7 @@ label scene17:
     voice "C-17-9.mp3" #Yumi (Kaito)
     sis "Yeah, you’re a real fearsome bunch and all, but have you considered the help of a mortal artifact?"
 
+    #sfx downer
     voice "C-17-10.mp3" #Yumi (Kaito)
     sis "It’s called a {i}freezer.{/i}."
     
@@ -71,10 +75,10 @@ label scene17:
     voice "C-17-17.mp3" #Mami 
     mm "That’s different! I--"
 
-    #music cuts out
-
     voice "C-17-18.mp3" #Yumi (Kaito)
     sis "Oh, shut up. Beepy is already working on dinner for everyone anyways."
+    
+    #music cut
 
     "..."
 
@@ -88,14 +92,17 @@ label scene17:
     pro "Yumi, I’m... so proud of you."
     
     voice "C-17-20.mp3" #Yumi (Kaito)
-    sis "Excuse me?"
+    sis "...Excuse me?"
 
+    #music chuuni shit
+    
     voice "C-17-21.mp3" #Makoto (Reece Bridger)
     pro "For years, you’ve rejected your calling! Though you carry the blood of a sorcerer in your veins just as much - no, perhaps even more than I - your emotional state has always sealed your true potential!"
 
     voice "C-17-22.mp3" #Makoto (Reece Bridger)
     pro "But now you’ve awoken, and your latent talent has allowed you to surpass even my years of study!"
 
+    #sfx sweatdrop
     voice "C-17-23.mp3" #Yumi (Kaito)
     sis "What the hell are you on about this time?"
 
@@ -105,23 +112,29 @@ label scene17:
     voice "C-17-25.mp3" #Makoto (Reece Bridger)
     pro "Beepy would never do something as useful as making dinner, let alone for other people! Even though I couldn’t, you must have become cognizant of your powers and started to control her!"
 
-    #music comes back
+    #show beepy on right
 
-    show beepy on right
-
+    #music cut
     voice "C-17-26.mp3" #Beepy (Hikari)
     bp "Nah. I was just reheating the leftover pizza. There’s even enough for everyone."
 
     "She sets it down in front of us."
 
+    #music lighthearted
     voice "C-17-27.mp3" #Bubble 
     bb "Finally!"
+    
+    #sfx yoink
 
     voice "C-17-28.mp3" #Mami 
     mm "Hey! Take one at a time!"
+    
+    #sfx yoink
 
     voice "C-17-29.mp3" #Bubble 
     bb "But if you steal it from me, then {i}you{/i} have two! How’s that fair!?"
+
+    #sfx yoink
 
     voice "C-17-30.mp3" #Mami 
     mm "It’s because you started it! You stole from me like, 20 minutes ago!"
@@ -138,8 +151,6 @@ label scene17:
     voice "C-17-32.mp3" #Beepy (Hikari)
     bp "Pssshh. The {i}microwave?{/i}"
 
-    #music cuts out again
-
     voice "C-17-33.mp3" #Beepy (Hikari)
     bp "Everyone knows that if you {i}really{/i} want to reheat pizza, you’ve gotta use the oven."
 
@@ -151,8 +162,6 @@ label scene17:
 
     voice "C-17-34.mp3" #Makoto (Reece Bridger)
     pro "Yumi... I take it back. The power stored within your veins has been unleashed after all."
-
-    #music comes back
 
     voice "C-17-35.mp3" #Yumi (Kaito)
     sis "You’re an idiot."
@@ -186,6 +195,8 @@ label scene17:
 
     voice "C-17-45.mp3" #Beepy (Hikari)
     bp "But you know what? An electric eel isn’t an eel, a killer whale isn’t a whale, and a red panda isn’t a panda!"
+    
+    #sfx sparkle
 
     voice "C-17-46.mp3" #Beepy (Hikari)
     bp "Your expectations can be wrong where you least expect it~!"
@@ -208,11 +219,13 @@ label scene17:
     voice "C-17-52.mp3" #Beepy (Hikari)
     bp "Oh. ‘Kay."
 
+    #music cut
     voice "C-17-53.mp3" #Yumi (Kaito)
     sis "The only ‘Armageddon’ here is what you did to the garage."
 
     "What? What sort of foul development...?"
 
+    #music yumi theme
     voice "C-17-54.mp3" #Yumi (Kaito)
     sis "Really about time you dealt with that, don’t you think?"
 
@@ -251,6 +264,10 @@ label scene17:
 
     "I grab my instruments of purification - disguised as mere soap and a towel - from the closet, and pour holy water from the sink into a sacred vessel. With prudence, I may be able to salvage some experience from this."
 
+    
+    #sfx door open
+    
+    #music cut
     "But when I finally make it to the battlefield..."
 
     scene garage with dissolve
@@ -273,9 +290,9 @@ label scene17:
     pro "You {i}what!?{/i}"
 
     voice "C-17-65.mp3" #Makoto (Reece Bridger)
-    pro "I see..."
+    pro "...I see..."
 
-    #cue fight music, if we have it
+    #music fight
 
     voice "C-17-66.mp3" #Makoto (Reece Bridger)
     pro "You’re not Beepy!"
@@ -298,7 +315,7 @@ label scene17:
     voice "C-17-72.mp3" #Makoto (Reece Bridger)
     pro "But your wretched life... is {b}{i}forfeit!{/b}{/i}"
 
-    #play music whateverwasplayingbeforeIdunnoman
+    #music cut
 
     voice "C-17-73.mp3" #Beepy (Hikari)
     bp "The third page of your math notebook has a doodle of a wolf."
@@ -309,6 +326,7 @@ label scene17:
     voice "C-17-75.mp3" #Makoto (Reece Bridger)
     pro "W-What?"
 
+    #music beepy theme
     voice "C-17-76.mp3" #Beepy (Hikari)
     bp "Iunno. I got bored when I was in your backpack, so I looked through some of your stuff. Thought bringing it up might prove my identity or somethin’."
 
@@ -321,13 +339,14 @@ label scene17:
     voice "C-17-79.mp3" #Beepy (Hikari)
     bp "Yeah, whatever. I just figured your sis might make you clean the garage, so I went ahead and did it for ya."
 
+    #sfx sparkle
     voice "C-17-80.mp3" #Beepy (Hikari)
     bp "So now we can just relax for the rest of the night~!"
 
     voice "C-17-81.mp3" #Makoto (Reece Bridger)
     pro "Hmm... This is fantastic! Now I can spend this time preparing for my duel! Thanks to your support, Elizabeth’s demise will surely be at hand!"
 
-    #sad music
+    #music cut
 
     voice "C-17-82.mp3" #Beepy (Hikari)
     bp "...Oh."
@@ -338,12 +357,14 @@ label scene17:
     voice "C-17-84.mp3" #Beepy (Hikari)
     bp "I mean..."
 
+    #music sad
     voice "C-17-85.mp3" #Beepy (Hikari)
     bp "I just thought, y’know, since I made you pizza - in the oven and everything - and cleaned the garage for you... you might spare a little bit of time to hang out with me."
 
     voice "C-17-86.mp3" #Beepy (Hikari)
     bp "Especially because without my help you would’ve been stuck scrubbing the floor all night."
 
+    #sfx downer
     voice "C-17-87.mp3" #Beepy (Hikari)
     bp "But I guess your responsibilities are just... too important."
 
@@ -375,10 +396,11 @@ label scene17:
     voice "C-17-91.mp3" #Makoto (Reece Bridger)
     pro "No, that’s not it. We should make each other’s acquaintance! Just for a bit!"
 
+    #music cut
     voice "C-17-92.mp3" #Beepy (Hikari)
     bp "That means ‘hang out’ in normal people talk, right?"
 
-    #happy music
+    #music lighthearted
 
     show beepy smile
 
@@ -394,6 +416,7 @@ label scene17:
     "Just as I begin to think that, Beepy abducts me to the living room. She sits me on the couch and snuggles up next to me before covering the two of us under an outright absurd number of blankets."
 
     scene movie2 with dissolve
+    #sfx turning on tv
     
     "With the stage set, she turns on the TV and starts channel-surfing."
 
@@ -411,12 +434,17 @@ label scene17:
 
     "And if so, how long has it been in motion?"
 
+    #music cut
     "Regardless, I’m her prisoner. Until this movie ends, these blankets may as well be made of concrete. No, worse - {i}magic resistant{/i} concrete. Needless to say, I’m not going anywhere."
 
+    #sfx dramatic music
+    #sfx explosions
     scene movie3 with dissolve
     
+    #music film score
     "The movie itself seems to be about a society that consists entirely of giant robots. The giant robots can’t talk, so all they ever do is fight."
 
+    #sfx opening a sealed container, scifi stuff
     scene movie4 with dissolve
     
     "However, a group of teenaged giant robots runs into alien technology that gives each of them the power to release a human from their cockpit and control it remotely."
@@ -427,7 +455,7 @@ label scene17:
 
     scene movie1 with dissolve
     
-    "Before I know it, the film reaches its end."
+    "Before I know it, the film reaches its end, and the credits roll."
 
     voice "C-17-96.mp3" #Beepy (Hikari)
     bp "Yowza! I thought that’d be pretentious, but it really was as good as they said!"
@@ -443,8 +471,10 @@ label scene17:
 
     "First you steal two hours of my time, and now my dignity?"
 
+    #music cut
     "Demons are more fierce than I could have ever known. And yet..."
 
+    #music calm 
     voice "C-17-100.mp3" #Makoto (Reece Bridger)
     pro "...It was nice. I prefer the content of my eldritch texts, but as a brief intermission, I suppose it was an acceptable use of my time."
 
@@ -465,6 +495,7 @@ label scene17:
 
     scene bedroom night with dissolve
 
+    #music before bed
     "Now then."
 
     "I know the extent of Beepy’s villainous machinations. Though she said that the previous night was the last where she would occupy my bed, I’m far too intelligent to fall for such a blatant ruse."
@@ -508,6 +539,7 @@ label scene17:
 
     #sfx fabric
 
+    #music cut
     "And so, the sweet embrace of slumber is to grab hold of me once again."
 
     "..."
@@ -519,6 +551,7 @@ label scene17:
     voice "C-17-106.mp3" #Beepy (Hikari)
     bp "Zzz..."
 
+    #music romantic
     voice "C-17-107.mp3" #Makoto (Reece Bridger)
     pro "What!? Beepy!? How--"
 
@@ -547,5 +580,10 @@ label scene17:
 
     voice "C-17-115.mp3" #Makoto (Reece Bridger)
     pro "Good night, Beepy."
+    
+    #music cut
+    "..."
+    "... ..."
+    "... ... ..."
 
     jump scene18

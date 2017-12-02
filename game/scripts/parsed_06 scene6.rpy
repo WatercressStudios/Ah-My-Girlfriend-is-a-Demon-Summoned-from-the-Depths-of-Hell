@@ -1,6 +1,7 @@
 label scene6:
     scene hallway with dissolve
 
+    #music yumi theme
     "Sure enough, Yumi was waiting for me."
     "I thought her time-out was supposed to relax her, but instead it just wound her up even tighter."
 
@@ -40,6 +41,7 @@ label scene6:
     voice "C-6-12.mp3" #Yumi (Kaito)
     sis "Rrgh… I hate to admit it, but…"
     
+    #music cut
     voice "C-6-13.mp3" #Yumi (Kaito)
     sis "...I might have to believe you."
     
@@ -55,11 +57,14 @@ label scene6:
     voice "C-6-16.mp3" #Yumi (Kaito)
     sis "Like… she can't be your cosplayer girlfriend, for one."
     
+    #music light hearted
     voice "C-6-17.mp3" #Makoto (Reece Bridger)
     pro "W-What!? {b}Girlfriend?{/b}"
     
     voice "C-6-18.mp3" #Yumi (Kaito)
     sis "Yeah, you don't really have the charisma for that. Or the personality. Or, well, anything that a girl would want."
+    
+    #sfx downer
     
     voice "C-6-19.mp3" #Makoto (Reece Bridger)
     pro "Th-Thanks for the vote of confidence, sis."
@@ -182,6 +187,8 @@ label scene6:
     voice "C-6-55.mp3" #Makoto (Reece Bridger)
     pro "I’m right here!" 
     
+    #dual UI for yumi and beepy
+    
     voice "C-6-56.mp3" #Yumi (Kaito)
     sis "We know."
     
@@ -234,8 +241,10 @@ label scene6:
     pro "Is that really the part you're taking issue with, Yumi!?"
     
     "After some deliberation, we placed the order and bided our time..."
+    
+    #music cut
     "..."
-    "... …"
-    "... … …"
+    "... ..."
+    "... ... ..."
     
     jump scene7

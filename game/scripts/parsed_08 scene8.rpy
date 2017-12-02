@@ -1,4 +1,5 @@
 label scene8:
+    
     scene bedroom with dissolve
 
     "I can see the sunlight flooding into my room as my eyes creak open."
@@ -10,7 +11,7 @@ label scene8:
     voice "C-8-1.mp3" #Makoto (Reece Bridger)
     pro "Well, I guess I should get ready…"
 
-    "I start to get up and give the day my dark blessings, but then…"
+    "I rise up and give the day my dark blessings, but then…"
 
     voice "C-8-2.mp3" #Beepy (Hikari)
     bp "Mmn..."
@@ -37,6 +38,7 @@ label scene8:
     voice "C-8-4.mp3" #Beepy (Hikari)
     bp "Mm… Morning already…?"
 
+    #music beepy theme
     "As lethargic in the morning as she is any other time of day… If I had actually sold my soul for this, I’d be demanding it back right about now."
     "She eventually looks at me and gives me a lazy - if earnest - smile."
 
@@ -71,7 +73,7 @@ label scene8:
     "I immediately try to jolt out of bed and over to my closet, when another overwhelming force keeps me glued to my bed."
     "I turn back around to see…"
 
-    #show CG of bp in bed, clutching pro’s arm and looking sad.
+    #music romantic
 
     voice "C-8-10.mp3" #Beepy (Hikari)
     bp "Hey… don’t go."
@@ -95,6 +97,7 @@ label scene8:
 
     #hide CG
 
+    #music cut
     "I yank myself away from Beepy and race over to the closet, pulling together my school uniform as fast as I can."
 
     #show bp tired
@@ -117,6 +120,8 @@ label scene8:
     
     voice "C-8-19.mp3" #Makoto (Reece Bridger)
     pro "Y-You {b}What!?{/b}"
+    
+    #music lighthearted
     
     voice "C-8-20.mp3" #Beepy (Hikari)
     bp "I don’t like to be woken up by loud noises… I don’t even like the {i}thought{/i} of being woken up by one, honestly."
@@ -152,11 +157,13 @@ label scene8:
 
     scene black with dissolve
 
+    #music cut
     "In a haste, I hurry out of my room and head towards the living room."
 
     scene living room with dissolve
 
-    "I still can’t believe I’ve been saddled with such a useless layabout… What was that Satan even thinking!?"
+    #music yumi theme
+    "I still can’t believe I’ve been saddled with such a useless layabout… What was Satan even thinking!?"
     "She was probably too busy thinking of a good way to infuriate me to give decent help."
     "Well, that’s just fine! A being such as I - who has seen the beginning and end of all things - hardly needs help anyways."
     "I already know how today is going to go; now all I have to do is see it through."
@@ -229,8 +236,9 @@ label scene8:
     "She is right about Beepy, though. Someone like her doesn’t deserve to stand by my side as I conquer the world."
     "I’ll have to summon Satan again after school and convince her to take her back; that’s all I can do to resolve this."
 
-    scene black with dissolve
+    scene house with dissolve
 
+    #music cut
     "I finish up breakfast faster than a hellhound before departing for school."
     "Usually, today would be like any other: I would leave my dark abode to challenge the world once again, looking down at the scurrying plebeians."
     "But today is an exceptional day - one brought about by the stars’ alignment, so that I can assert my dominance at long last."
@@ -240,6 +248,8 @@ label scene8:
 
     #show CG of pro riding train, holding onto a handrail while having his eyes closed and smiling wickedly
 
+    #music dark chuuni
+    
     "Perhaps I shall forget all pretense and convince the world that I have unlocked unimaginable power."
     "‘Tremble before me, mundanes! I have arrived to bring about a new world order!’"
     "...Nah, that’s too bold. Maybe I should wrap myself in mystery and only reveal my hand when the time is right…?"
@@ -251,6 +261,10 @@ label scene8:
     "Summoning a demon should make me feel like nothing’s impossible for me now, so what’s wrong?"
     "Why do I still feel weak? What is preventing me from realizing my full potential and bringing the world to its knees?"
     "...And why do I feel a heavier burden than usual this morning?"
+    #music cut
     "...Eh, it’s probably nothing."
+    "..."
+    "... ..."
+    "... ... ..."
 
     jump scene9

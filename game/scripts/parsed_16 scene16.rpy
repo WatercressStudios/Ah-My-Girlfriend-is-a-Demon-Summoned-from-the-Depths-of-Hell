@@ -2,8 +2,9 @@ label scene16:
 
     scene black with dissolve
 
+    #music market
     "Eventually, we each go our separate ways, Misaki and Satan exit the supermarket early, to the sadness of the two demons and the indifference of myself."
-    "Once we had everything we needed, we - {i}I{/i} paid and left, the voices of the two demons squabbling behind me."
+    "Once we had everything we needed, we - {i}I{/i} paid and left, the voices of the twin demons squabbling behind me."
 
     scene store exteriornight with dissolve
 
@@ -26,12 +27,14 @@ label scene16:
     voice "C-16-4.mp3" #Yumi (Kaito)
     sis "Okay, put your stuff in--"
     
+    #music abrupt cut
     voice "C-16-5.mp3" #Mami 
     mm "{b}Uwaaaaa--!{/b}"
 
     "A scream - piercing, louder than the judgement of the gods - sounded through the parking lot. I turn, unsure of who the noise is coming from. A banshee? A mandrake? A child?"
     "...None of the above, apparently."
 
+    #music intense
     voice "C-16-6.mp3" #Mami 
     mm "Where is it? {b}Where is it!?{/b}"
     
@@ -41,7 +44,7 @@ label scene16:
     "Personally, I am asking the same question as Lucifer, myself."
 
     voice "C-16-8.mp3" #Mami 
-    mm "M-My necklace… it's gone!"
+    mm "M-My necklace... it's gone!"
     
     voice "C-16-9.mp3" #Makoto (Reece Bridger)
     pro "...Gone?"
@@ -56,7 +59,7 @@ label scene16:
     bb "Aww, sucks that it {i}vanished,{/i} sis. How do you think you lost it?"
     
     voice "C-16-12.mp3" #Mami 
-    mm "I don't… I can't… I… I had it."
+    mm "I don't... I can't.. I... I had it."
     
     voice "C-16-13.mp3" #Mami 
     mm "Did I drop it…? No, of course not, but then..."
@@ -70,6 +73,7 @@ label scene16:
     voice "C-16-15.mp3" #Mami 
     mm "I… please… I…"
     
+    #music cut
     voice "C-16-16.mp3" #Bubble 
     bb "Don't we need to go homeeeeee, though?"
     
@@ -88,6 +92,7 @@ label scene16:
     voice "C-16-21.mp3" #Mami 
     mm "Tch. Typical."
 
+    #music yumi's theme
     "My sister sighs."
 
     voice "C-16-22.mp3" #Yumi (Kaito)
@@ -118,10 +123,14 @@ label scene16:
     voice "C-16-29.mp3" #Makoto (Reece Bridger)
     pro "Go help my, uh, sister then."
     
+    #sfx downer
     voice "C-16-30.mp3" #Bubble 
     bb "Okkkkaaaaayyyyyyyyyyyy..."
 
+    #music cut
     "She leaves, and as she does so we look through the labyrinthine parking lot; we take our separate paths wordlessly for the sake of efficiency."
+    
+    #music calm
     "Now that the sun is nearly gone from the sky, there are almost no mortals inhabiting this parking lot. That is… convenient. Preferable, even. If I had to bump into someone, if I had to talk to someone who had no idea what the depths of this world were, I..."
     "...Wouldn't know what to do. And {i}God{/i} knew what would happen if the Demon Lord Sebastian Wolfgang IV was caught off guard."
     "But now was not the time for unlikely hypotheticals. I had a necklace I needed to find. I turned a corner and saw a new part of the parking lot. Cars. Abandoned trolleys. Litter."
@@ -150,6 +159,7 @@ label scene16:
 
     "She pauses. Shakes her head. Continues."
 
+    #music sad
     voice "C-16-35.mp3" #Mami 
     mm "It's a necklace that my friend Leviathan gave to me, back… around a year ago, I guess."
     
@@ -191,13 +201,13 @@ label scene16:
     voice "C-16-47.mp3" #Mami 
     mm "I guess that's why this necklace is important to me."
 
-    "Hm."
-    "Interesting."
+    "Hm. Interesting."
     "I knew that Mammon in front of me was the embodiment of greed..."
     "...but I supposed I never really saw that possessiveness as a good thing."
     "Hoarding things, keeping them just because you value the people who gave them to you."
     "I guess I will need to hold Mammon in a different light."
 
+    #music cut
     voice "C-16-48.mp3" #Bubble 
     bb "Aww, you found it? I thought I did a good job of hiding it…"
 
@@ -215,6 +225,7 @@ label scene16:
     voice "C-16-52.mp3" #Bubble 
     bb "...got like, super flustered and stuff."
 
+    #music lighthearted
     "She giggles. You hear about twins finishing each other's sentences, but… I'm pretty sure that isn't what Mami's thinking."
     "What Mami's actually thinking...  would probably raise the age rating of this game."
 
@@ -248,6 +259,7 @@ label scene16:
     voice "C-16-60.mp3" #Bubble 
     bb "Your sis got tired of waiting so she decided to take the stuff home without us."
 
+    #music cut
     "..."
     "{i}What.{/i}"
     
@@ -262,6 +274,7 @@ label scene16:
 
     "Of all the--"
 
+    #sfx sweatdrop
     voice "C-16-64.mp3" #Mami 
     mm "Fine. Let's just… walk, yeah."
     
