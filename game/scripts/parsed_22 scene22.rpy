@@ -31,6 +31,9 @@ label scene22:
     "For some unexplainable reason, my eyes open once again."
     "Why am I unable to sleep? Has the Sandman decided not to sprinkle his dust over me this evening?"
     "No… There has to be an explanation for why I’m feeling this way."
+    
+    #sfx bedsprings creak
+    
     "I turn over on my side to try and find an answer."
 
     voice "C-12-3.mp3" #Makoto (Reece Bridger)
@@ -39,6 +42,7 @@ label scene22:
     voice "C-12-4.mp3" #Makoto (Reece Bridger)
     pro "Huh…?"
 
+    #music moody and alone and sad
     "But Beepy is not there."
     "She hasn’t snuck under my sheets and curled up beside me like she always has."
     "It’s more than just an answer I’ve found - it’s a realization that’s hit me like a truck."
@@ -82,6 +86,7 @@ label scene22:
 
     scene black with dissolve
 
+    #music cut
     "...And finally start to sleep."
 
     jump scene23

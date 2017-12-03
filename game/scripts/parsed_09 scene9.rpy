@@ -1,8 +1,9 @@
 label scene9:
     scene courtyard day1 with dissolve
 
+    #music school
     "Akumahou High School - a modern-day prison that traps and contains the darkness I have grown so fond of."
-    "Within these bland, uninviting walls, I am nothing more than an average high-schooler, carrying out the most mundane of business."
+    "Within these bland, uninviting borders, I am nothing more than an average high-schooler, carrying out the most mundane of business."
     "Every single student is indistinguishable from the rest, like a pack of ghosts on their way to the netherrealm."
     "There’s no joy to be found here - just a cold and uncaring society that has no tolerance for the old ways."
     "But the day has come where I shed off those shackles at long last! There’s no need to doubt myself now."
@@ -20,12 +21,16 @@ label scene9:
     voice "C-9-2.mp3" #??? 
     q "Probably not."
     
+    #music cut
     voice "C-9-3.mp3" #Makoto (Reece Bridger)
     pro "{b}What the--!?{/b}"
 
     "I immediately turn around to confront the fool who dares speak to me at this dreadful hour."
     "But no one is there. In fact, no one has bothered to approach me at all."
     "Meanwhile, the weight in my backpack is still there… Something’s {i}definitely{/i} wrong."
+    
+    #sfx unzip
+    
     "I take it off for a brief moment. I unzip it slightly and gingerly put my hand inside, and that’s when I realize…"
     "Something’s in there that wasn’t before. Something soft, and… {i}squishy?{/i}"
 
@@ -35,10 +40,10 @@ label scene9:
     "...Are you shitting me?"
     "I quickly unzip the entire backpack and peer inside, only to find…"
 
-    #show cg of Beepy hiding inside Makoto’s backpack, looking tired and groggy
-
     voice "C-9-5.mp3" #Beepy (Hikari)
     bp "Hey, close the bag… The sun’s hurting my eyes."
+    
+    #music beepy theme
     
     voice "C-9-6.mp3" #Makoto (Reece Bridger)
     pro "{b}B-Beepy!?{/b} What are you doing in there!?"
@@ -88,6 +93,7 @@ label scene9:
     pro "Still, I can’t risk having you seen by anyone else! Especially not--"
 
     #hide cg
+    #music cut
     scene black with dissolve
     #q line here voiced by Misaki
 
@@ -100,6 +106,7 @@ label scene9:
 
     #show cg of Misaki with a condescendingly smug look, flicking her hair back. Faceless students look at her in confusion
 
+    #music misaki theme
     voice "C-9-22.mp3" #Misaki (Kikari)
     riv "Like a ballad composed by stars dancing across the universe, I have arrived once again!"
     
@@ -128,6 +135,8 @@ label scene9:
 
     voice "C-9-26.mp3" #Makoto (Reece Bridger)
     pro "Sh-Shut up!"
+    
+    #sfx zip
 
     "I immediately zip up my backpack and throw it back over my shoulder, hiding Beepy’s presence from the world once again."
     "And at last… my rival and I face one another yet again."
@@ -179,7 +188,7 @@ label scene9:
     voice "C-9-38.mp3" #Misaki (Kikari)
     riv "I don’t {i}care{/i} how long it is! You have to say the full title always - no exceptions!"
 
-    "Our squabble is not going unnoticed by the worms around us."
+    "Our squabble's not unnoticed by the worms around us."
     "They must think it ironic that we - bitter enemies that have been locked in battle for eons - are now arguing like an old married couple."
     "Regardless, my rival sighs and continues her monologue."
 
@@ -238,6 +247,9 @@ label scene9:
 
     #show Misaki confident, eyes closed
 
+    #sfx arm swing
+    
+    #music cut
     "In a single motion, she raises her right arm heavenward and sends her left arm towards the earth, assuming a position of power."
 
     voice "C-9-52.mp3" #Misaki (Kikari)
@@ -266,8 +278,11 @@ label scene9:
 
     "...she appears."
 
+    #music magical girl theme
     #show cg of Satan’s flowery introduction
 
+    #sfx sparkle
+    
     voice "C-9-56.mp3" #STan (Dani)
     st "I’m the one who inspires others to ridicule your taste in games and anime!"
     
@@ -280,6 +295,7 @@ label scene9:
     voice "C-9-59.mp3" #STan (Dani)
     st "Yes, it’s all thanks to me, the master of wrath, the world’s original idol, the one and only--"
     
+    #music abrupt cut
     voice "C-9-60.mp3" #Misaki (Kikari)
     riv "{b}Oh my God, {i}stop!{/i}{/b}"
 
@@ -290,6 +306,7 @@ label scene9:
 
     #enter Satan stage left, show Satan concerned
 
+    #music satan theme
     voice "C-9-61.mp3" #STan (Dani)
     st "Why, sweetie, whatever is the matter?"
 
@@ -381,6 +398,8 @@ label scene9:
     "In a flash, Satan grabs my rival’s waist and pulls her close, then presses their faces together."
 
     #show Satan smiling coyly
+    
+    #sfx sparkle
 
     voice "C-9-82.mp3" #STan (Dani)
     st "But {i}no one{/i} said I couldn’t be seen with a girl~!"
@@ -395,6 +414,8 @@ label scene9:
 
     voice "C-9-85.mp3" #Misaki (Kikari)
     riv "G-Get off me!"
+    
+    #sfx shove
 
     "My rival shoves Satan away and points straight at her."
 
@@ -411,6 +432,7 @@ label scene9:
 
     #show Satan smiling
 
+    #music cut
     voice "C-9-89.mp3" #STan (Dani)
     st "Which reminds me! How’s that demon I gave you working out, Makoto?"
     
@@ -428,6 +450,7 @@ label scene9:
     voice "C-9-93.mp3" #STan (Dani)
     st "So I gave him a demon of his very own, free of charge~! At least, for a good month or so."
     
+    #music hijinks
     voice "C-9-94.mp3" #Misaki (Kikari)
     riv "You have gotta be--"
     
@@ -565,6 +588,7 @@ label scene9:
 
     #exit Satan and Beepy stage left
     #show Misaki annoyed
+    #music cut
 
     voice "C-9-125.mp3" #Misaki (Kikari)
     riv "Th-This isn’t over! I refuse to let it end like this!"
@@ -579,6 +603,7 @@ label scene9:
 
     #show Misaki confident, eyes closes
 
+    #music misaki theme
     voice "C-9-127.mp3" #Misaki (Kikari)
     riv "Hehe… Hehehehahaha. {b}Hahahahahahaha!{/b}"
     
@@ -661,6 +686,7 @@ label scene9:
     riv "I will bestow my beauty upon everything I see, and win the everlasting devotion of all creation!"
 
     #exit Misaki stage right
+    #music cut
 
     "We shake hands on the arrangement, and the date is set in stone."
     "Finally, a chance for me to exterminate my bitter rival from history! The opportunity could not have been sweeter!"
@@ -678,6 +704,10 @@ label scene9:
 
     #exit Beepy stage left
 
+    scene black with dissolve
     "Oblivious to her demands, I march forward into the school, ready to start training in earnest."
+    "..."
+    "... ..."
+    "... ... ..."
 
     jump scene10

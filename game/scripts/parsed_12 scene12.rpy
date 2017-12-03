@@ -12,6 +12,7 @@ label scene12:
     
     scene hallway with dissolve
 
+    #sfx door open
     "I open the door to my house and exchange my usual greeting."
 
     voice "C-12-1.mp3" #Makoto (Reece Bridger)
@@ -21,6 +22,7 @@ label scene12:
 
     #enter Bubble stage right
 
+    #music hijinks
     voice "C-12-2.mp3" #Bubble 
     bb "Yay~! Welcome home, Makoto~!"
 
@@ -34,6 +36,8 @@ label scene12:
 
     voice "C-12-4.mp3" #Mami 
     mm "{b}Hey!{/b} What do you think you're doing!?"
+    
+    #sfx cartoon pull
 
     "Before I know it, the strange girl is violently pulled away…"
     "...by another, almost identical-looking girl. Only, her skin is a lighter shade of blue…"
@@ -71,6 +75,8 @@ label scene12:
     voice "C-12-11.mp3" #Lucy (Vivi)
     lu "{b}Ah!{/b} Wait! Y-Y-You're not supposed to see me either!"
     
+    #sfx sweatdrop
+    
     voice "C-12-12.mp3" #Lucy (Vivi)
     lu "I-I, um… j-just pretend you didn't see anything, okay!?"
     
@@ -107,6 +113,7 @@ label scene12:
     voice "C-12-20.mp3" #Beepy (Hikari)
     bp "I mean, I only did that because I raided it last night… There isn't much there anyways."
     
+    #music cut
     voice "C-12-21.mp3" #Makoto (Reece Bridger)
     pro "Hold up, wait wait {b}wait!{/b}"
 
@@ -116,6 +123,7 @@ label scene12:
 
     #exit Lucy and twins stage left
 
+    #music lighthearted
     voice "C-12-22.mp3" #Makoto (Reece Bridger)
     pro "Beepy, what is going on here?"
     
@@ -146,7 +154,7 @@ label scene12:
     bp "I mean, your sister's an option - but with that lame schtick of yours, I dunno how she can even tolerate you."
     
     voice "C-12-31.mp3" #Beepy (Hikari)
-    bp "I felt there wasn't much of a point in having you be lonely and miserable the whole time…"
+    bp "I felt there wasn't much of a point in having you be lonely and miserable the whole time..."
 
     #show Beepy smiling
 
@@ -237,12 +245,17 @@ label scene12:
     bp "...Suit yourself."
 
     #exit Beepy stage right
+    
+    #music cut
+    "Lucy takes a deep breath, as if to steady herself."
 
     voice "C-12-55.mp3" #Lucy (Vivi)
     lu "Um… I-I am Lucifer of Pride…"
 
     #show Lucy frightened
 
+    #sfx sweatdrop
+    
     voice "C-12-56.mp3" #Lucy (Vivi)
     lu "No, wait! I wasn't supposed to start like that! L-L-Lemme try again!"
     
@@ -254,6 +267,7 @@ label scene12:
 
     #show Lucy crying
 
+    #music lighthearted
     voice "C-12-59.mp3" #Lucy (Vivi)
     lu "{b}{i}Uwaaaaaaaah!{/b}{/i}"
     
@@ -287,11 +301,13 @@ label scene12:
     voice "C-12-66.mp3" #Bubble 
     bb "Nu-uh~! My intro's gonna be bigger and better than yours!"
 
+    #music cut
     "Before I know it, both of them are assaulting me."
 
     #show Bubble happy, show Mami pumped up
-    #both Bubble and Mami's lines play at the same time
+    #dual audio both Bubble and Mami's lines play at the same time
 
+    #music magical girl
     voice "C-12-67.mp3" #Mami 
     mm "Who makes you steal from the cookie jar!? It's me!"
     
@@ -318,10 +334,12 @@ label scene12:
 
     "The information overload threatens to overtake me!"
     "They make no effort to coordinate their introductions at all, resulting in an unbearable cacophony."
+    #music cut
     "And while I'm trying to prevent a headache from breaking out, the twins start arguing again."
 
     #show Bubble and Mami angry
 
+    #music hijinks
     voice "C-12-75.mp3" #Mami 
     mm "What the hell was that!? Your stupid intro messed everything up!"
     
@@ -344,11 +362,14 @@ label scene12:
 
     #q line here voiced by Yumi
 
+    #music cut
     voice "C-12-80.mp3" #??? 
     q "{b}MAKOTO{/b}"
 
     "{i}Shit.{/i}"
     "Too late. My soul is forfeit now."
+    #sfx slam
+    
     "Yumi bursts into the room."
 
     #enter Yumi stage right, annoyed
@@ -359,7 +380,7 @@ label scene12:
     #show Yumi surprised
 
     voice "C-12-82.mp3" #Yumi (Kaito)
-    sis "not… heard... me…?"
+    sis "not… heard... me...?"
 
     "As soon as Yumi surveys the scene, her rage subsides."
     "I can see her face growing as pale as a ghost, being constrained by half a dozen conflicting emotions all at once."
@@ -372,10 +393,15 @@ label scene12:
     #exit Yumi stage right
 
     "Yumi creeps her way back upstairs."
+    
+    scene black with dissolve
+    
+    #music lighthearted
     "It takes a long, painful while for Beepy to get the twins to settle down - but soon enough, the excitement dies."
     "Honestly, all that energy has me worn out to the point of exhaustion."
     "Still, Beepy {i}did{/i} put in all that effort to bring her friends over, so…"
     "The least I can do is get to know them."
+    scene hallway with dissolve
 
     voice "C-12-84.mp3" #Makoto (Reece Bridger)
     pro "Alright… lemme see if I can get this straight."
@@ -431,6 +457,7 @@ label scene12:
     bb "Yup yup, that's me, Beelzebub of Gluttony~! But you can just call me Bubble! *Giggle*"
 
     #show Bubble smiling
+    #sfx sparkle
 
     voice "C-12-96.mp3" #Bubble 
     bb "Nice to meetcha!"
@@ -444,9 +471,11 @@ label scene12:
     voice "C-12-98.mp3" #Bubble 
     bb "And you're Makoto, riiiight~?"
     
+    #music cut
     voice "C-12-99.mp3" #Makoto (Reece Bridger)
     pro "I-I am {i}not{/i} Makoto, I…"
 
+    #music dark chuuni
     "Who does this little girl think she is, ignoring my demonic heritage!?"
     "Such an outrage will not stand… I must tell her who I really am to strike some fear into her heart!"
     "Feeling my willpower return, I strike a pose and begin my Satanic monologue."
@@ -461,8 +490,13 @@ label scene12:
     #show Lucy concerned, show Mami confused
 
     "I unleash my inner persona onto the unsuspecting masses, hoping to exude my dominance over them."
+    
+    #sfx downer
+    
+    #music cut
     "...They are not impressed in the slightest."
 
+    #music hijinks
     voice "C-12-102.mp3" #Mami 
     mm "...Oh my God."
     
@@ -490,6 +524,7 @@ label scene12:
     pro "God, lay off already! Do you even know what I'm dealing with right now!?"
 
     #show Lucy normal
+    #music cut
 
     voice "C-12-110.mp3" #Lucy (Vivi)
     lu "Actually… we do."
@@ -497,6 +532,7 @@ label scene12:
     voice "C-12-111.mp3" #Lucy (Vivi)
     lu "You see, Beepy told us everything that happened this morning…"
     
+    #music calm
     voice "C-12-112.mp3" #Lucy (Vivi)
     lu "You were challenged to… a-a \"duel\" by that other girl, Misaki."
     
@@ -548,12 +584,14 @@ label scene12:
 
     #show Lucy nervous
 
+    #music cut
     voice "C-12-123.mp3" #Lucy (Vivi)
     lu "S-So, um… will you let us help you?"
     
     voice "C-12-124.mp3" #Makoto (Reece Bridger)
     pro "Heheheh… what an absurd question. Of course I will."
     
+    #music lighthearted
     voice "C-12-125.mp3" #Makoto (Reece Bridger)
     pro "Your help will be invaluable; I'm confident that this is just what I'll need to show my rival the error of her ways."
     
@@ -646,6 +684,7 @@ label scene12:
 
     #exit all stage left
 
+    #music cut
     "Managing to wrestle myself away from the crowd, I head up the stairs to talk with Yumi."
     "Never in my millenia-spanning existence did I think I would deign to take my demon servants out to the supermarket, but… so be it."
     "If it will get me one step closer to realizing my dreams of world domination, then I'll try anything."

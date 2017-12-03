@@ -2,6 +2,7 @@ label scene7:
 
     scene living room with dissolve
 
+    #music calm
     "Time passes quickly. Surprisingly, Beepy and Yumi get along with each other - even better than it initially seemed."
     "Though, I’m not thrilled that their relationship hinges on their mutual exasperation…"
     
@@ -95,7 +96,7 @@ label scene7:
     "I'll have more than enough time to come up with a contingency plan."
 
     voice "C-7-26.mp3" #Yumi (Kaito)
-    sis "Makoto and I both have school tomorrow… We should think of getting to bed."
+    sis "Makoto and I both have school tomorrow... We should think of getting to bed."
     
     voice "C-7-27.mp3" #Yumi (Kaito)
     sis "Hey Beepy, do you want me to grab you a blanket? It gets chilly overnight!"
@@ -106,6 +107,7 @@ label scene7:
     voice "C-7-29.mp3" #Yumi (Kaito)
     sis "Heh, no problem! Just-- Just want to make sure you're comfortable while you're here, haha~!"
 
+    #sfx sweatdrop
     "Why is my sister giggling like a lunatic?"
 
     voice "C-7-30.mp3" #Makoto (Reece Bridger)
@@ -131,19 +133,21 @@ label scene7:
 
     #sfx something like a swoosh??
 
-    "With a dramatic flourish of my cape, I vanish like an ebony breeze caught by… by an errant breeze."
+    "With a dramatic flourish of my cape, I vanish like an ebony breeze caught by… by an errant consciousness. Or something."
 
-    #beepy and yumi delivering line at same time
+    #beepy and yumi dual audio
     #look into UI trick for this
     voice "C-7-37.mp3" #Beepy (Hikari)
     bp "...Weirdo."
 
     scene black with dissolve
+    #music cut
     "With no one following me, I make a beeline to my room."
 
     scene bedroom night with dissolve
     
     voice "C-7-38.mp3" #Makoto (Reece Bridger)
+    #music before bed
     pro "Finally, some privacy…"
     
     "Despite everything, my sanctum remains unsullied. The opportunity arises for me to reflect on events and chart a course for what lies ahead."
@@ -210,6 +214,7 @@ label scene7:
     voice "C-7-47.mp3" #Makoto (Reece Bridger)
     pro "...Beepy!?"
     
+    #sfx romantic
     voice "C-7-48.mp3" #Beepy (Hikari)
     bp "...Mornin’..."
     
@@ -270,6 +275,7 @@ label scene7:
     "...Yumi absolutely {i}cannot{/i} find out about this. Under no circumstance!"
     
     scene black with dissolve
+    #music cut
     
     "..."
     "... …"

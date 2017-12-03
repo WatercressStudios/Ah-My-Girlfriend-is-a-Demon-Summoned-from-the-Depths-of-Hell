@@ -1,5 +1,7 @@
 label scene3:
 
+    
+    #music horror
     scene black
     #cut the music
 
@@ -25,6 +27,7 @@ label scene3:
 
     #all q lines should be should be satan's VA
 
+    #music cut
     voice "C-3-2.mp3" #??? 
     q "Wow! Tomato juice! Did you get this for me?"
     
@@ -59,6 +62,7 @@ label scene3:
 
     #enter satan stage left
 
+    #music satan theme
     "...And before me was an… an oddly dressed girl?"
     "She was dressed in something I could only describe as... something from a tacky magical girl anime."
     "Somehow, it seemed to suit her just fine. She was smiling so giddily the entire time, and could hardly stay still."
@@ -80,7 +84,7 @@ label scene3:
     q "Like, I feel like, sometimes, people don't really {i}get{/i} me… but you do, don't you?"
     
     voice "C-3-14.mp3" #Makoto (Reece Bridger)
-    pro "Who… Who are you…?"
+    pro "Who... Who are you…?"
     
     #eyes widen
     voice "C-3-15.mp3" #??? 
@@ -109,12 +113,16 @@ label scene3:
     
     voice "C-3-22.mp3" #Makoto (Reece Bridger)
     pro "C-Country yokel…?"
+    
+    #music cut
 
     "The way she called me that was - to be frank - patronizing and a little insulting, but she said it in such a cheery and pleasant way."
     "It was hard to feel dispirited, even if she insulted you right in your face."
 
     #we should brainstorm how to best realize the flowery magical girl intro
-
+    
+    #music magical girl
+    
     voice "C-3-23.mp3" #??? 
     q "I'm the one that makes the traffic lights stay red for you, for a whole three minutes at a time!"
     
@@ -124,6 +132,7 @@ label scene3:
     voice "C-3-25.mp3" #??? 
     q "And don't you just hate it when you open a bag of popcorn and find loose kernels in it!? Yup, that's me too~!"
     
+    #sfx flourish
     voice "C-3-26.mp3" #??? 
     q "I'm Satan of Wrath! And I'm here to bring smiles to the faces of everyone around the world!"
 
@@ -131,6 +140,8 @@ label scene3:
     
     voice "C-3-27.mp3" #Makoto (Reece Bridger)
     pro "...Wait, {i}Satan{/i}!?"
+    
+    #music satan theme
     
     voice "C-3-28.mp3" #STan (Dani)
     st "Yup! Though my stage name is just S⛧Tan! I'm the world's very first idol, y'know!"
@@ -209,8 +220,7 @@ label scene3:
     voice "C-3-50.mp3" #STan (Dani)
     st "Ohhh, don't worry about it! It's all part of the {b}amazingly hellish deal{/b} we have to offer you~!"
 
-    "She beamed."
-    "She carried herself with such radiant, carefree aplomb it was almost blinding. I couldn't lower my defences - not even an inch."
+    "She beamed. She carried herself with such radiant, carefree aplomb it was almost blinding. I couldn't lower my defences - not even an inch."
 
     voice "C-3-51.mp3" #Makoto (Reece Bridger)
     pro "...You make it sound like you're trying to unload some kind of timeshare off on me."
@@ -242,7 +252,7 @@ label scene3:
     st "You're different from everyone else! I think you can really make a difference in the world~!"
     
     voice "C-3-60.mp3" #Makoto (Reece Bridger)
-    pro "...That's… odd to hear from you."
+    pro "...That's... odd to hear from you."
     
     voice "C-3-61.mp3" #Makoto (Reece Bridger)
     pro "Like, considering you're, uh, Satan. Ruler of the Damned, et cetera."
@@ -250,7 +260,7 @@ label scene3:
     voice "C-3-62.mp3" #STan (Dani)
     st "...Huh? I-I don't speak Latin."
 
-    "You have {i}got{/i} to be kidding…"
+    "You have {i}got{/i} to be kidding..."
 
     voice "C-3-63.mp3" #STan (Dani)
     st "And I'm in characterrr! It's 'S⛧Tan', silly! And don't forget the pentagram~!"
@@ -351,6 +361,8 @@ label scene3:
     voice "C-3-92.mp3" #STan (Dani)
     st "You see, it's not {i}me{/i} who's gonna be your familiar."
 
+    #sfx downer
+    
     "She frowned so obtusely, but her eyes looked me over with pity."
 
     voice "C-3-93.mp3" #Makoto (Reece Bridger)
@@ -367,6 +379,8 @@ label scene3:
     
     voice "C-3-97.mp3" #Makoto (Reece Bridger)
     pro "'Cute?’ I-I'm not cute, I'm… I'm rugged as heck!"
+    
+    #sfx downer
     
     voice "C-3-98.mp3" #STan (Dani)
     st "Ohhh, you sweet summer child…"
@@ -398,14 +412,16 @@ label scene3:
     
     "The demoness flashed me the saddest pair of puppy-dog eyes I had ever seen. What a pitiful display…"
     
+    #music cut
+    scene black with dissolve
+    "I closed my eyes to brace myself."
+    
     voice "C-3-106.mp3" #Makoto (Reece Bridger)
     pro "...Well, fine, if that's the case…"
     
     voice "C-3-107.mp3" #STan (Dani)
     st "{b}Yes! Okay then, {i}nooo{/i} peeking!"
-    
-    scene black with dissolve
-    "I closed my eyes to brace myself. This all felt so childlike, but… I had high hopes for what had yet to come."
+    "This all felt so childlike, but… I had high hopes for what had yet to come."
     "Oh, how wrong I was…"
 
     jump scene4

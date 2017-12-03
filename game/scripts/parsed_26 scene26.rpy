@@ -1,5 +1,6 @@
 label scene26:
     scene classroom evening1
+    #ambient clock ticking
 
     "This wasn't quite the finale I had hoped for."
     "Stuck in this stuffy classroom for an hour, an arm's reach from Misaki."
@@ -62,6 +63,11 @@ label scene26:
     "I couldn't stand it. Something didn't feel right about this."
     "The silence was grating. Perhaps smalltalk was the domain of simpler minds, but…"
     "...I would rather have that in their air than nothing at all."
+    
+    #sfx moving furniture chair against hard floor
+    #ambient clock stop
+    #music romantic
+    
     "Turning my chair around, I face her desk."
     
     scene classroom evening2 with dissolve
@@ -204,7 +210,7 @@ label scene26:
     riv "Ah… that's something of a relief though."
     
     voice "C-26-50.mp3" #Misaki (Kikari)
-    riv "...When I had found out, I thought you were just trying to one-up me as rivals are wont to do."
+    riv "...When I had found out, I thought you were just trying to one-up me, as rivals are wont to do."
     
     voice "C-26-51.mp3" #Misaki (Kikari)
     riv "...Perhaps I gave you too much credit."
@@ -215,6 +221,7 @@ label scene26:
     voice "C-26-53.mp3" #Makoto (Reece Bridger)
     pro "We're evenly matched. Perhaps you're a bit too prideful."
     
+    #sfx sweatdrop
     voice "C-26-54.mp3" #Misaki (Kikari)
     riv "...Th-That was… I…"
     
@@ -363,6 +370,7 @@ label scene26:
     voice "C-26-96.mp3" #Makoto (Reece Bridger)
     pro "Ufufu~!"
     
+    #music stop
     tea "H-Hey, you kids better not be enjoying yourselves in there!"
     
     voice "C-26-97.mp3" #Misaki (Kikari)
@@ -385,6 +393,7 @@ label scene26:
     tea "...Yeah, you kids better glower in jealousy at this discount coffee."
     tea "That's what detention's all about: regrets, silence, and reminiscing about all that time you lost out on…" 
     
+    #sfx ambient clock
     voice "C-26-100.mp3" #Makoto (Reece Bridger)
     pro "..."
     
@@ -395,6 +404,7 @@ label scene26:
 
     #fade to black
     #sfx alarm buzz
+    #stop ambient clock
     #adjust onomonopia depending on sfx we use
 
     "{b}BEEP!{/b}"

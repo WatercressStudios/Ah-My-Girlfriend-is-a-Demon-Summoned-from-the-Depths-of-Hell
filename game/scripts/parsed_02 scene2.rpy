@@ -2,6 +2,7 @@ label scene2:
 
     scene black
 
+    #music dissonant 
     "Today is a new day. If I am to overcome the trials that stand before me, I must redouble my efforts."
     "In order to hone the darkest magics from beyond the spiritual plane, I've had to resort to more... {i}drastic{/i} methods."
     "We are as mortals, after all. Without the blessings of the auspicious, we are as clay in the mud - without form, without the spark of divinity."
@@ -60,7 +61,7 @@ label scene2:
     voice "C-2-5.mp3" #Makoto (Reece Bridger)
     pro "Well, it's organic, at least, so… I hope demons like this."
 
-    #sfx opening a soda can and pouring
+    #sfx soda can
 
     "Cracking open a can, I pour some of the thick, red blood-substitute into a little dish."
     "Taking two fingers, I paint a circle with it. Perfect. It's large enough for me to comfortably occupy."
@@ -140,9 +141,13 @@ label scene2:
     pro "...Please?"
 
     #sfx strong wind
+    #music stop
 
-    "A strong gust of wind knocks me to the floor. I sprawl for a few precious moments, before reorienting myself."
+    "A strong gust of wind knocks me to the floor."
+    "I sprawl for a few precious moments, before reorienting myself."
 
+    #music intense
+    
     voice "C-2-18.mp3" #Makoto (Reece Bridger)
     pro "..What… What is the meaning of this?"
 
