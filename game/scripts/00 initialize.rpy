@@ -20,6 +20,8 @@ define tea = Character('Teacher', color="#800000")
 ######################
 #Obsolete if we use Ren'Py's image directory!
 
+
+
 ##################
 # BG Declaration #
 ##################
@@ -65,6 +67,16 @@ image white = "bgs/white.png"
 # CGs             #
 ###################
 #Potentially obsolete if we use Ren'Py's image directory!
+
+image intro1 = "cgs/intro/MakotoIntroCG-1.png"
+image intro2 = "cgs/intro/MakotoIntroCG-2.png"
+image intro3 = "cgs/intro/MakotoIntroCG-3.png"
+image intro4 = "cgs/intro/MakotoIntroCG-4.png"
+image satanintronormal = "cgs/stan/SatanIntroCG-Normal.png"
+image satanintrotongue = "cgs/stan/SatanIntroCG-Tongue.png"
+image satanintrowinktongue = "cgs/stan/SatanIntroCG-WinkTongue.png"
+image satanintrowink = "cgs/stan/SatanIntroCG-Wink.png"
+
 
 #######
 # VFX #
