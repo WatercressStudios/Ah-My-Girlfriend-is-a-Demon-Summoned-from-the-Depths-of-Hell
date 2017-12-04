@@ -1,6 +1,9 @@
 label scene10:
     scene classroom1
 
+    #sfx bell ring
+    #music school theme
+    "And with the bell's toll, the day begins in earnest."
     "The first step of my training is to survive another arduous day in this circle of Hell."
     "It seems I am to temporarily set aside any plans for world domination and endure hours upon hours of monotonous lectures and assignments."
     "The task itself is not difficult; all that is required of me is that I pay attention and take notes, as any diligent lord of darkness should."
@@ -17,6 +20,7 @@ label scene10:
 
     #enter Beepy stage left
 
+    #music cut
     voice "C-10-1.mp3" #Beepy (Hikari)
     bp "Hey, Makoto."
     
@@ -38,6 +42,7 @@ label scene10:
 
     scene classroom2 with dissolve
     
+    #music beepy theme
     voice "C-10-4.mp3" #Makoto (Reece Bridger)
     pro "What do you think you’re doing, Beepy!? You almost sent me to the afterlife just now!"
 
@@ -98,11 +103,13 @@ label scene10:
 
     scene white with dissolve
 
+    #music cut
     voice "C-10-19.mp3" #Makoto (Reece Bridger)
     pro "...She got in my way."
 
     scene meeting with dissolve
 
+    #music flashback
     voice "C-10-20.mp3" #Councillor 
     co "I must say, not only am I surprised to see anyone submit an application for an ‘Occult Club’ of all things…"
     
@@ -215,6 +222,7 @@ label scene10:
 
     scene white with dissolve
 
+    #music cut
     voice "C-10-53.mp3" #Makoto (Reece Bridger)
     pro "And that was how it all started."
     
@@ -249,6 +257,7 @@ label scene10:
 
     #show Beepy smiling
 
+    #music lighthearted
     voice "C-10-62.mp3" #Beepy (Hikari)
     bp "I think you like each other."
     
@@ -297,6 +306,7 @@ label scene10:
     voice "C-10-75.mp3" #Beepy (Hikari)
     bp "Just drop that whole ‘dark lord’ schtick and be normal for a change."
     
+    #music sad
     voice "C-10-76.mp3" #Makoto (Reece Bridger)
     pro "...Then everyone would really ignore me."
     
@@ -327,6 +337,7 @@ label scene10:
 
     #enter Beepy stage left
 
+    #music abrupt cut
     voice "C-10-82.mp3" #Beepy (Hikari)
     bp "Hey, Makoto."
     

@@ -18,7 +18,7 @@ label scene21:
 
     #hide satan’s business card. You know. If it’s there.
 
-    #play sfx ring
+    #sfx ring
 
     "brrring, brrring"
     "Please pick up..."
@@ -36,7 +36,7 @@ label scene21:
 
     "Son of a---"
 
-    #play elevatormusicfromhell
+    #music elevatormusicfromhell
 
     "Is everything just part of a conspiracy to waste my valuable time?"
 
@@ -69,7 +69,7 @@ label scene21:
     "Yes! This is it! I don’t need Satan at all! If I just master this, Elizabeth’s defeat will be in the palm of my hand! I just need--"
 
     #sudden cut
-    #play music literallyanythingelse
+    #music satan theme
     scene bedroom with dissolve
 
     voice "C-21-4.mp3" #STan (Dani)
@@ -161,6 +161,8 @@ label scene21:
     voice "C-21-24.mp3" #Makoto (Reece Bridger)
     pro "{b}What the fuck is this, a postal service!?{/b}"
 
+    #music cut
+    #sfx whoosh
     "I throw my phone at my bed and watch it bounce pathetically."
 
     #play sfx knock
@@ -170,6 +172,7 @@ label scene21:
 
     show beepy
 
+    #music beepy
     "I decide to let Beepy in. She could probably sneak in herself, anyways."
 
     voice "C-21-26.mp3" #Makoto (Reece Bridger)
@@ -294,9 +297,11 @@ label scene21:
     voice "C-21-65.mp3" #Makoto (Reece Bridger)
     pro "Edge? It’s not edge, it’s a dark miasma, which... and a demon lord is a lone wolf that… works alone and..."
 
+    #music cut
     voice "C-21-66.mp3" #Beepy (Hikari)
     bp "Yeah, just... Look, I’m trying not to preach, or anything. Really."
 
+    #music dramatic/sad
     voice "C-21-67.mp3" #Beepy (Hikari)
     bp "But just because I’m not gonna tell you the answers doesn’t mean I won’t ask the questions."
 
@@ -343,8 +348,11 @@ label scene21:
     voice "C-21-80.mp3" #Beepy (Hikari)
     bp "Just... go ahead and do what makes you happy, alright?"
 
+    #sfx door close
     hide beepy with dissolve
 
+    #music cut
+    
     "..."
 
     "What a... nuisance."
@@ -367,7 +375,7 @@ label scene21:
 
     "I proceed unimpeded, the most productive I’ve been in months. No... eons!"
 
-    #sfx paper
+    #sfx paper crumpling
 
     scene bedroom with dissolve
     with dissolve
@@ -380,6 +388,7 @@ label scene21:
     #this isn’t a request it is an order
     #based upon all of the authority that I don’t have
 
+    #music flashback theme
     "...Are they serious?"
 
     "I open up the card."
@@ -404,6 +413,7 @@ label scene21:
 
     scene black with dissolve
 
+    #music cut
     "Nevertheless, I return to my research. There’s simply too much at stake for me to indulge this distraction."
 
     jump scene22

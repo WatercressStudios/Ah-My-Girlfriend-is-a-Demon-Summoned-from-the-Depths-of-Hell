@@ -9,6 +9,7 @@ label scene13:
 
     #enter Yumi stage left, show Yumi annoyed
 
+    #music yumi theme
     voice "C-13-1.mp3" #Yumi (Kaito)
     sis "Are you serious, Makoto? Do you think I’d {i}really{/i} take those demons anywhere?"
     
@@ -130,6 +131,7 @@ label scene13:
     voice "C-13-32.mp3" #Yumi (Kaito)
     sis "Oh, nonono, that’s not what I meant, haha! I-I’m just…"
     
+    #sfx sweatdrop
     voice "C-13-33.mp3" #Yumi (Kaito)
     sis "I guess I’ve always associated demons with, like, ‘fire and brimstone, rrrr big evil!’"
     
@@ -138,6 +140,8 @@ label scene13:
     
     voice "C-13-35.mp3" #Yumi (Kaito)
     sis "Ahahaha... R-Right."
+    
+    "It's not like Yumi was wrong, in any case..."
 
     #enter Lucy stage left
 
@@ -293,6 +297,7 @@ label scene13:
 
     scene black with dissolve
 
-    "With our farewells exchanged, I follow everyone else into the garage."
+    #music stop
+    "With our farewells exchanged, I follow everyone else outside."
 
     jump scene14

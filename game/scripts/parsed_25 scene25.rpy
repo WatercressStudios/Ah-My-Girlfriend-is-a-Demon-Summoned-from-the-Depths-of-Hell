@@ -18,8 +18,10 @@ label scene25:
     
     scene bathroom with dissolve
     
+    #music lighthearted
     "...I mean, she has a point, kind of. I'm the one trying to hype myself up in a public bathroom."
     
+    #sfx downer
     voice "C-25-6.mp3" #Makoto (Reece Bridger)
     pro "I-I'm trying to get in the mindset, here…"
     
@@ -108,6 +110,7 @@ label scene25:
 
     scene black with dissolve
     
+    #music cut
     voice "C-25-33.mp3" #Beepy (Hikari)
     bp "...But not literally. That's assault."
     
@@ -115,6 +118,7 @@ label scene25:
     "... …"
     "... … …" 
 
+    #music misaki theme
     scene rooftop with dissolve
     "Through the winding hallways and the mountainous staircases, I had finally reached the rooftop."
     "The wind cut against my face. On all sides, I was surrounded by towering chain-link fences."
@@ -192,18 +196,21 @@ label scene25:
     voice "C-25-57.mp3" #Makoto (Reece Bridger)
     pro "If you tire yourself out, it'll make the rest that comes after that much more fulfilling, right?"
     
+    #sfx downer
     voice "C-25-58.mp3" #Beepy (Hikari)
     bp "...I {i}really{/i} hate it when you use my own logic against me…"
     
     voice "C-25-59.mp3" #Beepy (Hikari)
     bp "Fiiiine, let's do this."
     
+    #sfx sparkle
     voice "C-25-60.mp3" #STan (Dani)
     st "Yaaaayyy~! It'll be just like when we were little imps!"
     
     voice "C-25-61.mp3" #STan (Dani)
     st "Sticking our hands into cookie jars, playing tag, setting fire to villages… Ooh, I'm getting nostalgic thinking about it~"
     
+    #music cut
     voice "C-25-62.mp3" #Makoto (Reece Bridger)
     pro "I accept your infernal terms, Countess Elizabeth. May the better team win."
     
@@ -216,12 +223,14 @@ label scene25:
     voice "C-25-65.mp3" #Misaki (Kikari)
     riv "But perhaps if you groveled at my feet first, I might reconsider…" 
     
+    #sfx downer
     voice "C-25-66.mp3" #Beepy (Hikari)
     bp "Your girlfriend has some really kinky fetishes..."
     
     voice "C-25-67.mp3" #Makoto (Reece Bridger)
     pro "I will not be dissuaded! Go, Belphegor of Sloth!" 
     
+    #music battle theme
     voice "C-25-68.mp3" #Beepy (Hikari)
     bp "Aaah, fine, fine, you don't have to shout, jeez…" 
 
@@ -237,6 +246,7 @@ label scene25:
     voice "C-25-71.mp3" #STan (Dani)
     st "Thaaaaat's me!"
     
+    #sfx sparkle
     voice "C-25-72.mp3" #STan (Dani)
     st "Y'know that feeling when you're eating a burger and the patty slides out onto your--"
     
@@ -253,7 +263,7 @@ label scene25:
     pro "That's ridiculous. She's just making stuff up."
     
     voice "C-25-77.mp3" #Misaki (Kikari)
-    riv ".Ah, well, the school does have security cameras, but…"
+    riv "Ah, well, the school does have security cameras, but…"
     
     voice "C-25-78.mp3" #Misaki (Kikari)
     riv "W-Wait, I...! Grrr, don't distract me! It's time we ended this!"
@@ -281,6 +291,8 @@ label scene25:
 
     "S_Tan cupped her hands together, holding them at her waist. Her eyebrows furrowed, concentrating intensely…"
     #sfx low hum
+    
+    #sfx energy crackling
     "Her hands began to glow with an awesome power…!"
     
     voice "C-25-85.mp3" #STan (Dani)
@@ -296,6 +308,7 @@ label scene25:
     voice "C-25-87.mp3" #STan (Dani)
     st "{i}{b}Prism Shower Sparkle Beam~!{/b}{/i}"
 
+    #music abrupt cut
     #sfx energy blast
     scene white
 
@@ -320,6 +333,7 @@ label scene25:
     voice "C-25-89.mp3" #Beepy (Hikari)
     bp "Oh. I uh, had my eyes closed. S_Tan gave me a warning, so…"
     
+    #music comedy
     voice "C-25-90.mp3" #STan (Dani)
     st "Beepyyy… you were supposed to keel over, defeated by the forces of good…"
     
@@ -352,6 +366,7 @@ label scene25:
     voice "C-25-99.mp3" #Makoto (Reece Bridger)
     pro "Oh. I guess that explains everything."
     
+    #sfx sweatdrop
     voice "C-25-100.mp3" #Makoto (Reece Bridger)
     pro "Beepy's always been pretty oblivious to anything involving love..."
     
@@ -391,6 +406,7 @@ label scene25:
     voice "C-25-111.mp3" #STan (Dani)
     st "But she's very stubborn! It's all 'doom and gloom' this and really angsty poetry."
     
+    #sfx downer
     voice "C-25-112.mp3" #STan (Dani)
     st "I feel bad for her, honestly… it must be hard to make friends."
     
@@ -400,6 +416,7 @@ label scene25:
     voice "C-25-114.mp3" #Misaki (Kikari)
     riv "{b}TMI, S_Tan!{/b} Ergh, you're saying all this to piss me off, aren't you!?"
     
+    #music cut
     voice "C-25-115.mp3" #Misaki (Kikari)
     riv "That's it! Makoto! Face me! Right here, right now!"
     
@@ -414,6 +431,7 @@ label scene25:
     voice "C-25-118.mp3" #Beepy (Hikari)
     bp "...You're shrewd, I'll give you that…"
     
+    #sfx ambient wind
     voice "C-25-119.mp3" #Makoto (Reece Bridger)
     pro "..."
 
@@ -447,8 +465,10 @@ label scene25:
     voice "C-25-129.mp3" #Misaki (Kikari)
     riv "Sebastian Wolfgang IV! Prepare to meet your maker as you traipse from this mortal coil!"
 
+    #music final battle music
     #cg jojo posing time
     #change poses with each line linked to a character
+    #sfx add sword clash for every pose
 
     voice "C-25-130.mp3" #Makoto (Reece Bridger)
     pro "This spell conjures up the southwestern winds brought to bear by Pazuzu himself! Within the mind's eye, there is no respite from the storm!"
@@ -499,10 +519,12 @@ label scene25:
     voice "C-25-143.mp3" #Beepy (Hikari)
     bp "This isn't some schlocky romcom, S_Tan…"
 
+    #music cut
     scene black with dissolve
     "Our climatic duel went on for what felt like hours."
     "And as the dust cleared…"
 
+    #music ambient wind
     scene rooftop with dissolve
     #misaki's exhausted
 
@@ -524,11 +546,12 @@ label scene25:
     voice "C-25-149.mp3" #Makoto (Reece Bridger)
     pro "Then… then how do we decide--"
 
-    #sfx door slam
+    #sfx metal door slam
     #misaki surprised
 
     "Suddenly, the door swung open. A senior student with a red armband ran out onto the rooftop." 
 
+    #music lighthearted
     voice "C-25-150.mp3" #Hall Monitor 
     hm "What the hell's going on up here!?"
     
@@ -613,8 +636,9 @@ label scene25:
     voice "C-25-175.mp3" #Misaki (Kikari)
     riv "...This is so embarrassing…"
     
+    #music cut
     "..."
-    "... …"
-    "... … …"
+    "... ..."
+    "... ... ..."
 
     jump scene26

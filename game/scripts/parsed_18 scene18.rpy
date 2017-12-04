@@ -1,11 +1,14 @@
 label scene18:
 
+    #music school
     scene black with dissolve
 
     "Here again..."
 
     scene school hallway with dissolve
 
+    #sfx ambient murmuring 
+    
     "..."
     "I try to walk through the halls, pushing past the mundanes walking in the opposite direction and pushing through those who seem to think it wise to stand right in the middle - even though others are trying to travel.."
     "I fail to understand these people. Why are they so ignorant as to inconvenience everybody else for what seems like no benefit?"
@@ -37,6 +40,8 @@ label scene18:
 
     scene cafeteria with dissolve
 
+    #sfx ambient sounds of an eatery
+    
     "The school cafeteria."
     "Disorder, uncleanliness, and horrible food reign supreme here, hanging over its subjects like a miasma. Few survived a trip here with their sanity in-tact, and those that did found it hard to desensitize themselves to the pain."
     "Of course, being a regular customer and being… mentally {i}stronger{/i} than the rest, I had adjusted to this place."
@@ -63,10 +68,11 @@ label scene18:
     "She had bent like a… bendy… thing. She was so easily willing to give me my muffin."
     "This would be easy."
 
-    vs "Alright, that's $4.00."
+    vs "Alright, that's ¥400."
 
+    #sfx coins jingle
     "Not a hefty price to pay. I reach into my wallet, pull out my coins, and…"
-    "$2.00."
+    "¥200."
     "I freeze. Stop. Look down at the coins, counting and counting and recounting and recounting to make sure I have the right number."
     "I don't."
     "I don't have enough money."
@@ -92,7 +98,7 @@ label scene18:
     "This definitely feels like humiliation." 
     "Still, I suppose that I cannot complain..."
 
-    vs "Alright, that's $8."
+    vs "Alright, that's ¥800."
     
     voice "C-18-8.mp3" #Misaki (Kikari)
     riv "H-Here."

@@ -49,6 +49,7 @@ label scene23:
     "So even she knows what’s been happening… Well, I guess it was hard not to notice."
     "I take a deep breath… and bare my soul before everyone present."
 
+    #music serious
     voice "C-23-5.mp3" #Makoto (Reece Bridger)
     pro "I, um… I just want to apologize for my mood the past several days."
     
@@ -70,15 +71,19 @@ label scene23:
     voice "C-23-11.mp3" #Makoto (Reece Bridger)
     pro "I’m sorry I’ve been such a… big idiot."
 
+    scene black with dissolve
     "I can’t even look anyone in the eye while I was talking. My eyes remain glued to the table."
     "I’m so convinced that they won’t accept my apology that I can’t bear to bring my head up."
+    #music cut
     "...And yet, when I finally do muster up the courage to look at everyone else…"
 
     #enter Beepy, twins, and Lucy stage left, show all smiling
 
+    scene living room with dissolve
     "I see… smiling faces."
     "Did… did my words get through to them?"
 
+    #music yumi theme or a happy end theme
     voice "C-23-12.mp3" #Beepy (Hikari)
     bp "Well, look at that. Even a self-proclaimed demon lord is capable of humility, huh?"
     
@@ -154,6 +159,7 @@ label scene23:
 
     #show Yumi smiling
 
+    #music cut
     voice "C-23-29.mp3" #Yumi (Kaito)
     sis "Alright, think that takes care of everything!"
     
@@ -162,6 +168,7 @@ label scene23:
 
     #enter twins stage left
 
+    #music lighthearted
     voice "C-23-31.mp3" #Bubble 
     bb "Oh, oh, oh! I am! I am!"
     
@@ -171,8 +178,12 @@ label scene23:
     voice "C-23-33.mp3" #Bubble 
     bb "Oooh, I’ll even have some of that leftover lasagna from last night~!"
     
+    #sfx tweak
+    
     voice "C-23-34.mp3" #Mami 
     mm "Hey, save some for us, you glutton!"
+    
+    #sfx tweak
     
     voice "C-23-35.mp3" #Bubble 
     bb "Who’re you callin’ a glutton, you greedy pig!?"
@@ -215,6 +226,8 @@ label scene23:
     voice "C-23-43.mp3" #Beepy (Hikari)
     bp "Hm? What’re you getting all red for?"
     
+    #sfx sweatdrop
+    
     voice "C-23-44.mp3" #Yumi (Kaito)
     sis "Ah--!"
 
@@ -233,6 +246,8 @@ label scene23:
 
     #show Beepy tired
 
+    #sfx downer
+    
     voice "C-23-48.mp3" #Beepy (Hikari)
     bp "Well… so much for the cozy atmosphere."
 
@@ -253,6 +268,7 @@ label scene23:
     voice "C-23-52.mp3" #Beepy (Hikari)
     bp "Oh. Right. Almost forgot."
     
+    #music cut
     voice "C-23-53.mp3" #Makoto (Reece Bridger)
     pro "Also… there’s something I still have to do."
 
@@ -264,6 +280,7 @@ label scene23:
     voice "C-23-55.mp3" #Makoto (Reece Bridger)
     pro "It’s something that only I can take care of. Something I can only do by myself."
     
+    #music calm
     voice "C-23-56.mp3" #Makoto (Reece Bridger)
     pro "I won’t ask any of you to shoulder the burden. This time, I’ll handle it on my own."
     

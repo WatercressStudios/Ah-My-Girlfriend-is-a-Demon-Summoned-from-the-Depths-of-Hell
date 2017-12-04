@@ -9,6 +9,7 @@ label scene5:
 
     "I spot a curious lump beneath my sheets."
 
+    #music beepy theme
     voice "C-5-2.mp3" #Beepy (Hikari)
     bp "Zzz~"
     
@@ -52,6 +53,8 @@ label scene5:
     voice "C-5-14.mp3" #Beepy (Hikari)
     bp "Haaaaahn…"
 
+    #sfx bedsprings squeak
+    
     "Sitting up straight, she stretches and yawns. Her mannerisms were terribly cat-like…" 
     "The smell of lavender and jasmine filled the room. Was that Beepy's scent? It’s easier to tell, now that it's just the two of us…"
     "She wasn't taking me seriously at all. Her eyes listlessly drifted around the room."
@@ -112,7 +115,7 @@ label scene5:
     bp "I have an eidetic memory - though it's pretty much dedicated to takeout menus."
     
     voice "C-5-31.mp3" #Makoto (Reece Bridger)
-    pro ".This is ridiculous! What am I supposed to do with a-a demon that just eats and sleeps!?"
+    pro "This is ridiculous! What am I supposed to do with a-a demon that just eats and sleeps!?"
     
     voice "C-5-32.mp3" #Beepy (Hikari)
     bp "I ‘ono. I kinda like having a roommate."
@@ -298,7 +301,9 @@ label scene5:
     bp "I'm gonna see what else is in the house. Catch you later, {i}Sir Demon Lord{/i} or whatever."
 
     #beepy exit stage left
+    #music cut
 
+    #sfx door close
     "Untangling herself from the covers, she strode to the door and left me to my thoughts once more."
 
     voice "C-5-85.mp3" #Makoto (Reece Bridger)
@@ -310,6 +315,7 @@ label scene5:
     voice "C-5-86.mp3" #Makoto (Reece Bridger)
     pro "...Tch. Basic emotions. I should redouble my efforts."
     
+    #music dark chuuni
     voice "C-5-87.mp3" #Makoto (Reece Bridger)
     pro "I have a plan, after all. This uppity… {i}upstart{/i} can't derail them now!"
 
@@ -330,6 +336,7 @@ label scene5:
 
     "There is a divine purpose to this, after all. I cannot allow my plans to be foiled so easily."
 
+    #music cut
     voice "C-5-92.mp3" #Yumi (Kaito)
     sis "{b}Makoto!{/b} Are you still in your room!?"
     

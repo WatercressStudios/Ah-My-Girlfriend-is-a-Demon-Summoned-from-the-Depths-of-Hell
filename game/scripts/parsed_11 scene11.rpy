@@ -8,6 +8,8 @@ label scene11:
     #sfx bell ring
 
     "*RING!*"
+    
+    #music school
     "The bell sounds, signaling the end of study hall."
     "I let out a sigh of relief, having managed to cram in all I can in the nick of time."
     "I’m about to pack up and head to the next class when Beepy approaches me."
@@ -112,6 +114,8 @@ label scene11:
 
     "*RING!*"
     "The final bell rings, signalling the end of the school day."
+    
+    #music cut
     "With no other commitments, I start to make my way back home."
 
     jump scene12

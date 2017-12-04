@@ -1,4 +1,5 @@
 label scene27:
+    #music happy ending music
     scene courtyard evening1 with dissolve
 
     "Finally released from our imprisonment, we emerged into the blinding daylight."
@@ -42,6 +43,8 @@ label scene27:
 
     "In that moment, S_Tan barreled at us with a hug."
 
+    
+    #sfx squeeze
     voice "C-27-12.mp3" #Makoto (Reece Bridger)
     pro "A-Augh… this grip…!"
     
@@ -92,6 +95,7 @@ label scene27:
     voice "C-27-27.mp3" #Beepy (Hikari)
     bp "And if Misaki kicked your ass, well… at least you'll have a nice meal?"
     
+    #sfx sweatdrop
     voice "C-27-28.mp3" #Makoto (Reece Bridger)
     pro "This sounds suspiciously like something Bubble would come up with…"
     
@@ -100,6 +104,7 @@ label scene27:
 
     #satan grinning slyly
 
+    #sfx sparkle
     voice "C-27-30.mp3" #STan (Dani)
     st "...Hmmm~?"
     
@@ -201,6 +206,7 @@ label scene27:
     voice "C-27-58.mp3" #Makoto (Reece Bridger)
     pro "Heh, well, Countess. It seems they have a grand feast awaiting us~"
     
+    #music cut
     voice "C-27-59.mp3" #Misaki (Kikari)
     riv "...Are you serious? We don't have time for vapid festivities."
     
@@ -210,6 +216,7 @@ label scene27:
     "Misaki was scowling. What was she so upset about?"
     "That was always the question with her, it seemed. Even in times of revelry, she always found something to pick at."
 
+    #music hijinks
     voice "C-27-61.mp3" #Misaki (Kikari)
     riv "We just signed a pact to establish our organization, and you want to whittle time away eating and drinking?"
     

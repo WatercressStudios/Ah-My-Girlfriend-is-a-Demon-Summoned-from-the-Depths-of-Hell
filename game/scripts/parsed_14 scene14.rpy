@@ -2,6 +2,7 @@ label scene14:
 
     scene black with dissolve
 
+    #music lighthearted
     "Riding in the car always seemed so thrilling when I was younger."
 
     "I’m sure that if you had asked my younger self why I liked the feeling so much, he would have been able to give you an answer."
@@ -80,14 +81,16 @@ label scene14:
 
     "I am about to open my mouth to protest before a loud {i}BEEP{/i} explodes from the car."
 
+    #music cut
     voice "C-14-13.mp3" #Yumi (Kaito)
     sis "C’mon, we don’t have all day!"
 
     "I look at Lucifer, hoping that my expression allows her to understand my plight - to understand how much I don’t want to have to face this seemingly divine retribution."
 
-    "..."
+    #music sad
+    lu "..."
 
-    "..."
+    lu "..."
 
     "Her expression doesn’t change. She looks at me, then at the middle seat."
 
@@ -97,6 +100,7 @@ label scene14:
 
     "She did, didn’t she…?"
 
+    #music cut
     "I sigh as I slide into place."
 
     #scene carinside cg stuff
@@ -104,6 +108,9 @@ label scene14:
     "..."
 
     "..."
+    
+    #sfx car driving ambient 
+    #music car radio
 
     "I always like watching the people pass by."
     "Walking their small little routes, doing their small little duties, and living their small little lives. They all come into view, then leave as quickly as they came."
@@ -190,6 +197,7 @@ label scene14:
 
     "...So much for trying to forget. I sigh and lean back, letting my feet drop off the middle seat’s bump."
 
-    "It was going to be a long pilgrimage..." 
+    "It was going to be a long pilgrimage..."
+    #music stop
 
     jump scene15

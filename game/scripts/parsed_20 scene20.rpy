@@ -10,6 +10,7 @@ label scene20:
     "There’s no way it can end like that… I have to start my training right away so I can catch up and unlock ancient abilities that no one has ever--"
 
     #enter Bubble stage left, show Bubble excited
+    #music lighthearted
 
     voice "C-20-1.mp3" #Bubble 
     bb "{b}Makotoooooooooo~!{/b}"
@@ -26,6 +27,7 @@ label scene20:
 
     #show Bubble smiling
 
+    #sfx punipuni
     voice "C-20-4.mp3" #Bubble 
     bb "Hey! Hey! Didja know? Didja know?"
     
@@ -45,14 +47,17 @@ label scene20:
 
     #show Bubble excited
 
+    #sfx sparkle 
     voice "C-20-9.mp3" #Bubble 
     bb "It’s finally time!"
 
+    #music cut
     "Wait a minute, she couldn’t possibly mean…"
 
     voice "C-20-10.mp3" #Makoto (Reece Bridger)
     pro "You mean… it’s time to learn some magic at long last?"
     
+    #music chuuni bs
     voice "C-20-11.mp3" #Bubble 
     bb "Uh-huh! Uh-huh! I’m gonna teach you some super awesome magic today!"
 
@@ -77,6 +82,7 @@ label scene20:
     voice "C-20-17.mp3" #Makoto (Reece Bridger)
     pro "{b}Yeah!{/b}"
     
+    #music cut
     voice "C-20-18.mp3" #Bubble 
     bb "{b}Okay!{/b} The super awesome secret magical skill we’re going to learn today iiiiis…"
     
@@ -85,6 +91,7 @@ label scene20:
     
     scene kitchen with dissolve
 
+    #music lighthearted
     "Bubble drags me into the kitchen and presents the stove like how Mother Harlot presents her seven-headed beast."
     
     voice "C-20-20.mp3" #Bubble 
@@ -115,7 +122,7 @@ label scene20:
     #show Bubble smiling
 
     voice "C-20-26.mp3" #Bubble 
-    bb "Then just relax! I’ll teach how to make a super awesome meal in no time!"
+    bb "Then just relax! I’ll teach you how to make a super awesome meal in no time!"
     
     voice "C-20-27.mp3" #Bubble 
     bb "Besides, we gotta put the food we got yesterday to use somehow! Don’t tell me you bought all of it without even thinking about it!"
@@ -194,11 +201,13 @@ label scene20:
 
     #show Bubble confused
 
+    #sfx downer
     voice "C-20-45.mp3" #Bubble 
     bb "Though, you can’t really eat lasagna for breakfast, can you…?"
 
     #show Bubble smiling
 
+    #sfx sparkle
     voice "C-20-46.mp3" #Bubble 
     bb "Oh well, never stopped me before! And you shouldn’t let it stop you, either, Makoto~!"
 
@@ -213,16 +222,19 @@ label scene20:
     "Turns out we have more than enough ingredients, and Bubble is there to guide me through every step in preparing the dish."
     "She’s actually rather competent when it comes to preparing a meal - a far cry from her usual childish self."
     "In no time, we manage to combine all the ingredients together and place it in the oven, heating it at a temperature to rival that of Muspelheim."
+    #music cut
     "And soon enough… it is done."
 
     scene living room with dissolve
 
+    #music calm
     "I can smell every inch of melted cheese, savory meat, and assorted veggies from the pan."
     "Even I have to admit… it looks devilishly delightful."
     "And out of the corner of my eye, I can see Bubble taking in every square inch, her eyes as big as… well, dinner plates."
 
     #enter Bubble stage left, show Bubble drooling
 
+    #sfx sparkle
     voice "C-20-48.mp3" #Bubble 
     bb "{i}Oooooooooooooooh~!{/i} It smells so goooooooood~!"
     
@@ -381,18 +393,24 @@ label scene20:
 
     "...I take it back. They’re brats through and through."
 
-    scene black with dissolve
+    scene living room with dissolve
 
     "We all gather at the table to enjoy the delicious lasagna."
     "I do feel proud about learning how to cook something, but…"
+    
+    #music irritable, moody
+    
     "In the end, I ended up not learning anything for tomorrow. I haven’t learned any dark arts of any kind in the past three days."
-    "Knowing that, my mood turns sour in almost a heartbeat."
+    "Knowing that, my mood turns sour in almost a heartbeat. Was I tricked? Did I allow my defences to falter??"
     "All I’ve been doing is spinning my wheels while my rival gathers more and more power…"
-    "And all these demons have been doing is wasting my time, pulling me in different directions and not accomplishing anything important!"
+    "And all these demons have been doing is wasting my time, pulling me in different directions and not accomplishing anything truly important!"
     "What the hell have I been doing all this time!?"
     "I don’t feel any closer to attaining ultimate power - not through shopping, nor through being a model, and {i}especially{/i} not through cooking."
     "Now there’s no more time left… I feel wholly unprepared for the final battle tomorrow."
     "I suppose the only thing left to do is for me to study up on my own. I should have done this sort of thing from the beginning…."
+    
+    scene black with dissolve
+    
     "Without another word to anyone, I finish up my plate and head straight for my room."
 
     jump scene21

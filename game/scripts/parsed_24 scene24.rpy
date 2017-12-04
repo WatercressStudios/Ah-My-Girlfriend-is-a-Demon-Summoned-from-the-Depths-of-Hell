@@ -1,6 +1,7 @@
 label scene24:
     scene classroom1 with dissolve
 
+    #music flashback or classroom
     "It’s another ordinary day for the students of Akumahou High School."
     "Yet another long, tiresome day of sitting through endless lectures; the students accept their fate and absorb knowledge like flies."
     "There are those who look forward to the oncoming weekend, but have their excitement dulled by the ever-present monotony."
@@ -34,6 +35,7 @@ label scene24:
     "But… something feels off."
     "It took me longer than usual to fling my backpack over my shoulders and make my way out the door."
     "I don’t think it was this heavy when I came in today… and no curse was placed upon it to make it heavier, either."
+    #music cut
     "..."
     "...Oh, wait."
     "I know exactly what’s going on."
@@ -42,10 +44,13 @@ label scene24:
     voice "C-24-1.mp3" #Makoto (Reece Bridger)
     pro "Alright, Beepy, come on out."
 
+    #sfx unzip
+    
     "My hunch is right. As soon as I unzip my backpack, Beepy emerges, stretching."
 
     #enter Beepy stage right
 
+    #music beepy theme
     voice "C-24-2.mp3" #Beepy (Hikari)
     bp "Aww… I was hoping to surprise you during your big fight."
     
@@ -119,6 +124,7 @@ label scene24:
 
     #q line here voiced by Misaki
     #show Beepy tired
+    #music cut
 
     voice "C-24-21.mp3" #??? 
     q "{i}There{/i} you are!"
@@ -127,6 +133,7 @@ label scene24:
     bp "Oh… Nevermind. I’ll tell you later."
 
     #enter Misaki stage left
+    #music misaki theme
 
     "In an instant, Beepy’s bragging is brought to a halt by… her."
     "My fated rival - her eyes blazing brighter than supernova - approaches me without a moment to spare."
@@ -177,10 +184,13 @@ label scene24:
     "The sparks of our rivalry intensify with every retort."
     "It’s hard to believe it’s all built up to this moment, but we’re so close to finally settling this."
     "She may brag all she wants, but we both know who’s going to come out on top in the end…"
+    #music cut
+    "Oh, right, Satan's here too. Right."
 
     #exit Misaki stage left
     #enter Satan stage left
 
+    #music satan theme
     voice "C-24-35.mp3" #STan (Dani)
     st "Omigosh, I can hardly believe it! The climatic showdown is here at last~!"
     
@@ -196,6 +206,7 @@ label scene24:
     voice "C-24-39.mp3" #STan (Dani)
     st "Make it gory and exciting for everyone watching, but don’t forget to have fun, too~!"
 
+    #music cut
     "...Satan arrives just as Misaki and I go our separate ways."
     "No one else is left to hear her encouraging words - except for Beepy."
 
@@ -211,6 +222,7 @@ label scene24:
 
     "Beepy follows me, leaving a bewildered Satan by herself."
 
+    #music school
     voice "C-24-42.mp3" #Beepy (Hikari)
     bp "By the way, I meant to ask you earlier, but…"
     

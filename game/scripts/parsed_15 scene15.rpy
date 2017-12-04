@@ -6,6 +6,7 @@ label scene15:
 
     scene store exterior with dissolve
 
+    #music market
     "The supermarket."
     "A place of sheer, unadulterated anarchy - a place where mortals trample over one another to get the best deals on their bread and water."
     "A place where the fat cats indulge in capitalistic greed, preying on the needs of the weary in order to surround themselves with hedonistic pleasures."
@@ -53,6 +54,7 @@ label scene15:
 
     "Somehow, my dull tone did nothing to deter her excitement."
 
+    #sfx sparkle
     voice "C-15-12.mp3" #Bubble 
     bb "Awesome! Awesome! Awesome!"
     
@@ -151,6 +153,7 @@ label scene15:
     "One thing that I seemed to had forgotten was that the supermarket was a place of sheer, bitter cold."
 
     scene store interior with dissolve
+    #sfx ambient murmuring
 
     "The three of us walked down the aisles of this maze; I pushed the trolley in front of me while music that could only have been written by Beleth played on the loudspeakers above."
     "We were about a third of the way through our grocery list - foodstuffs which could help replenish my mana for the upcoming fight - as we went down yet another aisle."
@@ -165,7 +168,7 @@ label scene15:
     voice "C-15-37.mp3" #Bubble 
     bb "Don't take those!"
 
-    "As it turns out, it is only Bubble. I let my my eyes bore into her until she further elaborates on why she just did what she did."
+    "As it turns out, it's only Bubble. I let my my eyes bore into her until she further elaborates on why she just did what she did."
 
     voice "C-15-38.mp3" #Bubble 
     bb "Those are caged eggs, those are bad!"
@@ -177,7 +180,7 @@ label scene15:
     bb "Those aren't made to be healthy, those are made to be cheap! You can't work with those if you want to make good food!"
 
     "I suppose it is only fitting that the spirit of gluttony is, itself, a picky eater."
-    "Oh well, I suppose I will humour her… {i}wishes,{/i} or whatever the word is."
+    "Oh well, I suppose I'll humour her... {i}wishes,{/i} or whatever the word is."
 
     voice "C-15-41.mp3" #Makoto (Reece Bridger)
     pro "What would you propose I use instead?"
@@ -194,10 +197,13 @@ label scene15:
     "Too little too late. I lean forward, grabbing the eggs from the top shelf, and place them carefully in the trolley."
     "All my hard earned money, gone. I sigh, begin to push forward, and--"
 
+    
+    #music cut
     #This line is Satan’s.
     voice "C-15-44.mp3" #STan (Dani)
     st "Hey! You guys!"
 
+    #music satan theme
     "A familiar voice calls, and I turn to see S_Tan walking down the aisle and waving to us. Sure enough, Misaki walks behind her, looking down at the ground as she pushes her own cart forward."
     "Great."
     "Just what I needed."
@@ -205,6 +211,7 @@ label scene15:
     voice "C-15-45.mp3" #Mami 
     mm "Yo, S_Tan~!"
     
+    #sfx sparkle
     voice "C-15-46.mp3" #Bubble 
     bb "Sati~!"
 
@@ -226,12 +233,13 @@ label scene15:
     pro "Excuse me?"
     
     voice "C-15-51.mp3" #Misaki (Kikari)
-    riv "I-i need to go p-past you. Move."
+    riv "I-I need to go p-past you. Move."
 
     "I suppose it would be unwise to cause a scene. I do as instructed. Misaki moves forward, heading to the self checkout at the end of the corridor."
     "She sends a card through it and begins to place her items there - a {i}beep{/i} sounding for each one."
     "I look away, focused on my own task. The next item on this list seems to be butter, which is attainable. I move, head along the aisle, and--"
 
+    #music cut
     voice "C-15-52.mp3" #Misaki (Kikari)
     riv "{b}Fuck!{/b}"
 
@@ -245,7 +253,7 @@ label scene15:
     "She looks at me, staring for a second."
 
     voice "C-15-54.mp3" #Misaki (Kikari)
-    riv "I-i don't have enough money. I only have a hundred, and..."
+    riv "I-I don't have enough money. I only have a few notes, and..."
 
     "She trails off, looking away for a moment."
 
@@ -253,14 +261,16 @@ label scene15:
     pro "Do you need everything there?"
     
     voice "C-15-56.mp3" #Misaki (Kikari)
-    riv "Y-Yes. I-i need to, um…"
+    riv "Y-Yes. I-I need to, um…"
     
     voice "C-15-57.mp3" #Misaki (Kikari)
     riv "..."
     
+    #sfx sweatdrop
     voice "C-15-58.mp3" #Misaki (Kikari)
     riv "I need to, um, replenish my mana for our fight."
 
+    #music market
     "She needs to replenish her power?"
     "Hmph."
     "I suppose I understand. Magic - {i}summoning{/i} to be more specific - was taxing. If the summoner wasn't in peak condition, then the spell would simply burn the flesh in order to meet its cost."
@@ -292,9 +302,9 @@ label scene15:
     "And finally put the last of her items under the scanner."
 
     voice "C-15-63.mp3" #Misaki (Kikari)
-    riv "$12."
+    riv "¥1200."
 
-    "That amount seemed pitiful. I reached into my wallet and pulled three $5 bills out, then gave them to her."
+    "That amount seemed pitiful. I reached into my wallet and pulled out two ¥1000 notes, then gave them to her."
 
     voice "C-15-64.mp3" #Makoto (Reece Bridger)
     pro "You can keep the change."
@@ -309,26 +319,31 @@ label scene15:
 
     "I try to give the best smile I can. Just for her. Just for today, before we meet again."
 
+
+    #sfx sparkle
     voice "C-15-67.mp3" #??? 
-    q "Aww, you guys are so cute together!"
+    st "Aww, you guys are so cute together!"
 
     "S_Tan walks over to the two of us, Mammon and Beelzebub behind her."
 
     voice "C-15-68.mp3" #??? 
-    q "Y'know, I bet you two would make, like, really good friends!"
+    st "Y'know, I bet you two would make, like, really good friends!"
 
-    #both say at same time
+    #music cut
+    #dual audio both say at same time
     voice "C-15-69.mp3" #Misaki (Kikari)
     riv "No we wouldn't."
     
     voice "C-15-70.mp3" #Makoto (Reece Bridger)
     pro "No we wouldn't."
 
+    
     "Silence, for a moment. We look - {i}glare{/i} - at each other before they erupt into laughter. Mammon and Satan giggle; Beelzebub collapses, breathless."
 
+    #music hijinks
     "The confusion is palpable. I look at the group, trying to understand their laughter."
 
-    #both say at same time
+    #dual audio; both say at same time
     voice "C-15-71.mp3" #Misaki (Kikari)
     riv "Why are you laughing?"
     
@@ -339,7 +354,8 @@ label scene15:
 
     voice "C-15-73.mp3" #STan (Dani)
     st "Yeah, definitely. You two would get along {i}so{/i} well with one another."
-
+    
+    #music cut
     "Unlikely, but I suppose for now I - {i}we{/i} - will humour the possibility."
 
     jump scene16
