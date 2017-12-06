@@ -256,8 +256,7 @@
     voice "C-1-44.mp3" #Makoto (Reece Bridger)
     pro "Y-You mean you were listening in on me!?"
 
-    show yumi closedspeak
-    
+    show yumi closedtalk
     voice "C-1-45.mp3" #Yumi (Kaito)
     sis "Uh, yeah; kinda hard not to when I could hear you from anywhere in the house."
 

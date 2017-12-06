@@ -135,24 +135,27 @@ label scene3:
     
     #music magical girl
     
-    scene satanintronormal with dissolve
+    show satanintronormal with dissolve
     voice "C-3-23.mp3" #??? 
     q "I'm the one that makes the traffic lights stay red for you, for a whole three minutes at a time!"
     
-    scene satanintrotongue
+    show satanintrotongue
+    hide satanintronormal
     voice "C-3-24.mp3" #??? 
     q "I'm the one who calls you on your phone when you're almost done with a full combo on your idol rhythm game!"
     
-    scene satanintrowinktongue
+    show satanintrowinktongue
+    hide satanintrotongue
     voice "C-3-25.mp3" #??? 
     q "And don't you just hate it when you open a bag of popcorn and find loose kernels in it!? Yup, that's me too~!"
     
-    scene satanintrowink
+    show satanintrowink
+    hide satanintrowinktongue
     #sfx flourish
     voice "C-3-26.mp3" #??? 
     q "I'm Satan of Wrath! And I'm here to bring smiles to the faces of everyone around the world!"
 
-    scene garage mess with dissolve
+    hide satanintrowink with dissolve
     show stan wink with dissolve
     
     voice "C-3-27.mp3" #Makoto (Reece Bridger)
