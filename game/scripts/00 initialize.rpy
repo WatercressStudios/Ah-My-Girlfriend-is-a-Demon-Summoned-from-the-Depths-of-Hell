@@ -30,7 +30,22 @@ image misaki fsurprise = im.Flip("misaki surprise.png", horizontal=True)
 image bubble fhappytalk = im.Flip("bubble happytalk.png", horizontal=True)
 image bubble fsurprise = im.Flip("bubble surprise.png", horizontal=True)
 image bubble fsadsmiletalk = im.Flip("bubble sadsmiletalk.png", horizontal=True)
+image bubble fscowltalk = im.Flip("bubble scowltalk.png", horizontal=True)
+image bubble fsmileclosed = im.Flip("bubble smileclosed.png", horizontal=True)
+image bubble fxd = im.Flip("bubble xd.png", horizontal=True)
+image bubble fxdlaugh = im.Flip("bubble xdlaugh.png", horizontal=True)
 image mami fstammer = im.Flip("mami stammer.png", horizontal=True)
+image mami fscowl = im.Flip("mami scowl.png", horizontal=True)
+image mami fshout = im.Flip("mami shout.png", horizontal=True)
+image mami fsmugtalk = im.Flip("mami smugtalk.png", horizontal=True)
+image mami fsmug = im.Flip("mami smug.png", horizontal=True)
+image mami fsmugclosed = im.Flip("mami smugclosed.png", horizontal=True)
+image mami fneutraltalk = im.Flip("mami neutraltalk.png", horizontal=True)
+image mami fsmirk = im.Flip("mami smirk.png", horizontal=True)
+image mami fxdtalk = im.Flip("mami xdtalk.png", horizontal=True)
+image mami fscowlclosed = im.Flip("mami scowlclosed.png", horizontal=True)
+image mami fneutral = im.Flip("mami neutral.png", horizontal=True)
+image mami fsmile = im.Flip("mami smile.png", horizontal=True)
 image lucy fneutraltalk = im.Flip("lucy neutraltalk.png", horizontal=True)
 image lucy ffrowntalk = im.Flip("lucy frowntalk.png", horizontal=True)
 image lucy fbigfrowntalk = im.Flip("lucy bigfrowntalk.png", horizontal=True)
@@ -105,6 +120,13 @@ image misakiintroangry = "cgs/misaki/MisakiIntroCG-AngryLookingAtViewer.png"
 image misakiintroclosed = "cgs/misaki/MisakiIntroCG-ClosedEyes.png"
 image misakiintrolook = "cgs/misaki/MisakiIntroCG-LookingAtViewer.png"
 image misakiintroopen = "cgs/misaki/MisakiIntroCG-OpenEyes.png"
+image car1 = "cgs/car/CarCG-1.png"
+image car2 = "cgs/car/CarCG-2.png"
+image car3 = "cgs/car/CarCG-3.png"
+image car4 = "cgs/car/CarCG-4.png"
+image car5 = "cgs/car/CarCG-5.png"
+image car6 = "cgs/car/CarCG-6.png"
+image car7 = "cgs/car/CarCG-7.png"
 
 
 #######
