@@ -441,7 +441,7 @@ label scene15:
             align (0.9, 1.0)
     show bubble fsmileclosed with easeinright:
             align (1.1, 1.0)
-    "S_Tan walks over to the two of us, Mammon and Beelzebub behind her."
+    "S_Tan walks over to the two of us, Mami and Bubble behind her."
 
     show stan smirktalk
     voice "C-15-68.mp3" #??? 
@@ -460,7 +460,7 @@ label scene15:
     show bubble fsurprise
     show mami neutral
     show misaki scowl
-    "Silence, for a moment. We look - {i}glare{/i} - at each other before they erupt into laughter. Mammon and Satan giggle; Beelzebub collapses, breathless."
+    "Silence, for a moment. We look - {i}glare{/i} - at each other before they erupt into laughter. Mami and S-Tan giggle; Bubble collapses, breathless."
 
     #music hijinks
     show bubble fxd

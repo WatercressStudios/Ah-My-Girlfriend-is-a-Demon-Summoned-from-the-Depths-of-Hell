@@ -2,11 +2,6 @@ label scene17:
 
     scene house night with dissolve
 
-    #show bubble, lucy, and mami
-    #bubble is on the far left, mami right next to her
-
-    #Touch this up based on how scene 16 ends
-
     "At long last, we finally reach my dwelling. Eager to leave the land of mortals, I head toward my room."
     "But unfortunately, I have more pressing matters to tend to."
     

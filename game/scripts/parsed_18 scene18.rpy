@@ -19,16 +19,22 @@ label scene18:
     "Until then, I suppose that this will be a mystery almost like the Voynich Manuscript."
     "And until then, I suppose that I won't know what makes the people around me tick."
 
+    show beepy eyebrowtalk with easeinleft:
+            align (0.0, 1.0)
     voice "C-18-1.mp3" #Beepy (Hikari)
     bp "So… Do the people here just stand around all lunchtime and block other people?"
     
+    show beepy eyebrow
     voice "C-18-2.mp3" #Makoto (Reece Bridger)
     pro "Essentially."
     
+    show beepy dreamworks
     voice "C-18-3.mp3" #Beepy (Hikari)
     bp "Oh well. I guess that means you get to relax before you eat."
 
-    "She winks and gives a smirk to me as the uninvited memories flood their way into my mind." "I’ve come from Math."
+    "She winks and gives a smirk to me as the uninvited memories flood their way into my mind." 
+    hide beepy with easeoutleft
+    "I’ve come from Math."
     "More specifically, it’s a subject where life is quantified through numbers; unfortunately, it is also taught by the seventh most powerful witch of the Metaworld."
     "Mrs. Yakubovich…"
     "The woman with the all-seeing eye. The woman with the bat's ears. The woman who can hear any conversation and smite the culprit if necessary."
@@ -82,14 +88,17 @@ label scene18:
     "I don't know what to do. I don't know how to tell the person here I don't have enough money without them getting annoyed."
     "I--"
 
+    show misaki angryquiet with easeinright
     voice "C-18-6.mp3" #Misaki (Kikari)
     riv "M-Make that two."
 
+    show misaki pout
     "Almost as if the bearer of bad news had come late, {i}she{/i} popped up right next to me, pink and pretty wallet in her hand."
     "Of {i}course{/i} things had to get worse."
 
     vs "So… two blueberry muffins?"
     
+    show misaki disgust
     voice "C-18-7.mp3" #Misaki (Kikari)
     riv "Y-yeah. One for me, one for h-him."
 
@@ -98,25 +107,34 @@ label scene18:
     "This definitely feels like humiliation." 
     "Still, I suppose that I cannot complain..."
 
+    show misaki pout
     vs "Alright, that's ¥800."
     
+    show misaki closedshout
     voice "C-18-8.mp3" #Misaki (Kikari)
     riv "H-Here."
 
+    show misaki poutclosed 
     "She hands the money. The woman at the concession stand gives a smile - toothy, likely fake - as she hands the two muffins to her."
+    show misaki wonder
     "There is a moment where she hangs there, staring at both bags. After it ends, she moves and gives me one with a shove."
-
+    
+    show misaki disgustclosed
     voice "C-18-9.mp3" #Misaki (Kikari)
     riv "There."
 
+    show misaki scowl
     "Silence."
 
+    show misaki shout
     voice "C-18-10.mp3" #Misaki (Kikari)
     riv "Now we're even."
     
+    show misaki pout
     voice "C-18-11.mp3" #Makoto (Reece Bridger)
     pro "Um, thanks?"
 
+    hide misaki with easeoutleft
     "She walks away as my throat barely even chokes the words out, not looking back as she disappears into the crowd."
     "What was that about?"
     "I am unsure. She mentioned something about this making us ‘even,' but I'm not sure why."

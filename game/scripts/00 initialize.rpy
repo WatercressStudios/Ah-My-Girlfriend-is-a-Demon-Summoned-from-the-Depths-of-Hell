@@ -34,6 +34,8 @@ image bubble fscowltalk = im.Flip("bubble scowltalk.png", horizontal=True)
 image bubble fsmileclosed = im.Flip("bubble smileclosed.png", horizontal=True)
 image bubble fxd = im.Flip("bubble xd.png", horizontal=True)
 image bubble fxdlaugh = im.Flip("bubble xdlaugh.png", horizontal=True)
+image bubble fxdshout = im.Flip("bubble xdshout.png", horizontal=True)
+image bubble fsmiletalk = im.Flip("bubble smiletalk.png", horizontal=True)
 image mami fstammer = im.Flip("mami stammer.png", horizontal=True)
 image mami fscowl = im.Flip("mami scowl.png", horizontal=True)
 image mami fshout = im.Flip("mami shout.png", horizontal=True)
@@ -52,10 +54,16 @@ image lucy fbigfrowntalk = im.Flip("lucy bigfrowntalk.png", horizontal=True)
 image lucy fneutral = im.Flip("lucy neutral.png", horizontal=True)
 image lucy fsmile = im.Flip("lucy smile.png", horizontal=True)
 image yumi fexasperated = im.Flip("yumi exasperated.png", horizontal=True)
+image yumi fsmiletalk = im.Flip("yumi smiletalk.png", horizontal=True)
 image yumi fexasperatedtalk = im.Flip("yumi exasperatedtalk.png", horizontal=True)
 image yumi fangry = im.Flip("yumi angry.png", horizontal=True)
 image yumi fangrytalk = im.Flip("yumi angrytalk.png", horizontal=True)
 image yumi fsurpriseshout = im.Flip("yumi surpriseshout.png", horizontal=True)
+image yumi fneutral = im.Flip("yumi neutral.png", horizontal=True)
+image yumi fneutralspeak = im.Flip("yumi neutralspeak.png", horizontal=True)
+image yumi fworry = im.Flip("yumi worry.png", horizontal=True)
+image yumi fworrytalk = im.Flip("yumi worrytalk.png", horizontal=True)
+
 
 ##################
 # BG Declaration #
@@ -93,9 +101,10 @@ image courtyard day2 = "bgs/School/courtyard day 2.jpg"
 image courtyard evening1 = "bgs/School/courtyard evening 1.jpg"
 image courtyard evening2 = "bgs/School/courtyard evening 2.jpg"
 image school hallway = "bgs/School/hallway.png"
-image meeting = "bgs/School/meeting.png"
 image rooftop = "bgs/School/rooftop.png"
 image white = "bgs/white.png"
+image parking = "bgs/parking.jpg"
+image meeting = im.Sepia("bgs/School/meeting.png")
 
 
 ###################
@@ -127,6 +136,9 @@ image car4 = "cgs/car/CarCG-4.png"
 image car5 = "cgs/car/CarCG-5.png"
 image car6 = "cgs/car/CarCG-6.png"
 image car7 = "cgs/car/CarCG-7.png"
+image satansepia = im.Sepia("cgs/stan/SatanIntroCG-Wink.png")
+image beepysepia = im.Sepia("cgs/beepy/BeepyIntroCG-Eyeroll.png")
+image misakisepia = im.Sepia("cgs/misaki/MisakiIntroCG-AngryLookingAtViewer.png")
 
 
 #######

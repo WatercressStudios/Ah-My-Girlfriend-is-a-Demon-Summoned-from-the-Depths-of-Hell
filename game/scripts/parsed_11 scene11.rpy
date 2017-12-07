@@ -14,49 +14,58 @@ label scene11:
     "I let out a sigh of relief, having managed to cram in all I can in the nick of time."
     "I’m about to pack up and head to the next class when Beepy approaches me."
 
-    #enter Beepy stage left
+    show beepy neutralclosed with easeinleft
 
     voice "C-11-1.mp3" #Beepy (Hikari)
     bp "Well, I think I’ll head home."
     
+    show beepy neutral
     voice "C-11-2.mp3" #Makoto (Reece Bridger)
     pro "Wait, you’re going already?"
 
     #show Beepy confused
 
+    show beepy eyebrowtalk
     voice "C-11-3.mp3" #Beepy (Hikari)
     bp "Uh… yeah?"
     
     voice "C-11-4.mp3" #Beepy (Hikari)
     bp "You don’t want me around anyways, so it’s fine, right?"
     
+    show beepy eyebrow
     voice "C-11-5.mp3" #Makoto (Reece Bridger)
     pro "I-I never said anything like that…"
     
+    show beepy neutraltalk
     voice "C-11-6.mp3" #Beepy (Hikari)
     bp "Trust me, you were probably thinking something like…"
 
     #show Beepy wide-eyed
 
+    show beepy smirk
     voice "C-11-7.mp3" #Beepy (Hikari)
     bp "’Away with you, oh slothy being of slothiness, lest ye get blasted into a million pieces by my death beam!’’"
 
     #show Beepy tired
 
+    show beepy smileclosed
     voice "C-11-8.mp3" #Beepy (Hikari)
     bp "Besides, the bed at home is comfier than your backpack."
     
     voice "C-11-9.mp3" #Makoto (Reece Bridger)
     pro "...You’re only realizing that {i}now{/i}?"
     
+    show beepy neutral
     voice "C-11-10.mp3" #Beepy (Hikari)
     bp "Yeah, I don’t want to admit it, but… Satan was right."
     
+    show beepy neutralclosed
     voice "C-11-11.mp3" #Beepy (Hikari)
     bp "I’m starting to get cramps all over…"
 
     "So you’ll worry about that, but not the strain on my back? Your priorities sure are something else…"
 
+    show beepy eyebrowtalk
     voice "C-11-12.mp3" #Beepy (Hikari)
     bp "You sure you don’t need me for anything else, though?"
     
@@ -66,13 +75,15 @@ label scene11:
     voice "C-11-14.mp3" #Makoto (Reece Bridger)
     pro "You can head back if you want, though."
     
+    show beepy neutral
     voice "C-11-15.mp3" #Beepy (Hikari)
     bp "‘Kay. Guess I’ll see you when you get home…"
     
+    show beepy neutralclosed
     voice "C-11-16.mp3" #Beepy (Hikari)
     bp "...Assuming I remember where your house is… Eh, it’ll probably be fine."
 
-    #exit Beepy stage right
+    hide beepy with easeoutright
 
     "With a lazy wave, Beepy slowly trudges out of the classroom."
     "I can’t help but watch her leave… Is it really alright for me to let her go on her way?"
@@ -87,20 +98,20 @@ label scene11:
     "No one bothers to approach me, but this is fine. I don’t have much interest in interacting with these lower lifeforms anyway."
     "But while I’m diligently studying, my mind keeps wandering back to yesterday…"
 
-    #show CG of Satan’s intro, sepia tone
+    scene satansepia with dissolve
 
     "Honestly, it’s still hard for me to believe any of that actually happened."
     "Summoning Satan in the flesh is a feat in and of itself, but learning I could get a free demon for a month…"
     "Well, that was an offer that I just couldn’t say no to."
 
-    #show CG of Beepy’s intro, sepia tone
+    scene beepysepia with dissolve
 
     "...Until she ended up sticking me with Beepy."
     "For someone who’s supposed to be an all-powerful demon, she hasn’t done much besides eat and sleep the whole time."
     "She’s kind of a nag, to boot - like Yumi, but even more intrusive."
     "I had thought that would be the full extent of my troubles, but…"
 
-    #show CG of Misaki’s intro, sepia tone
+    scene misakisepia with dissolve
 
     "But imagine my surprise when my rival also managed to summon a demon - and she actually got Satan!"
     "That must have been another method of hers to rile me up - and I fell for it all too easily."
