@@ -13,6 +13,7 @@
     #show CG of pro starring in the bathroom mirror, obscuring his face with his hand and smiling wickedly
     #music dark chuuni theme
 
+    scene intro1 with dissolve
     voice "C-1-1.mp3" #Makoto (Reece Bridger)
     pro "Come now, have you truly forgotten me?"
 
@@ -24,6 +25,7 @@
 
     #show pro’s face growing increasingly maniacal
 
+    scene intro2
     voice "C-1-4.mp3" #Makoto (Reece Bridger)
     pro "Like an errant lightning bolt from the heavens cast down onto the Earth, I appear to set the world ablaze!"
 
@@ -36,6 +38,8 @@
     #sfx bang
     #music abrupt cut
     #show pro’s face growing exasperated
+    
+    scene intro3 with vpunch
 
     "*BANG! BANG! BANG!*"
 
@@ -51,24 +55,29 @@
     voice "C-1-10.mp3" #Yumi (Kaito)
     sis "Don't gimme that, Makoto. You're just in there talking to yourself, aren't you?"
 
+    scene intro1
     voice "C-1-11.mp3" #Makoto (Reece Bridger)
     pro "M-My name isn’t Makoto! Not anymore…"
 
     voice "C-1-12.mp3" #Yumi (Kaito)
     sis "Come on, you’re in high school now. Do you really have the time for this nonsense right now?"
 
+    scene intro3
     voice "C-1-13.mp3" #Makoto (Reece Bridger)
     pro "Look, I-I’ll be done in here soon, j-just gimme a few more minutes, alright!?"
 
     voice "C-1-14.mp3" #Yumi (Kaito)
     sis "*sigh* Whatever. Just try to wrap up whatever you're doing soon, okay?"
 
-    voice "C-1-15.mp3" #Makoto (Reece Bridger)
-    pro "Okay..."
-
     #sfx footsteps
     
     "I could hear that vile person’s steps as she walked away."
+    
+    scene intro4
+    
+    voice "C-1-15.mp3" #Makoto (Reece Bridger)
+    pro "Okay..."
+    
     "Damn it, my concentration is all messed up! Who does she think she is, interrupting a demon lord in the middle of his monologue!?"
     "Now I gotta get back into character and recount my spiel all over again. Alright, from the top…"
 
@@ -86,6 +95,7 @@
 
     #show CG of pro starring in the bathroom mirror, obscuring his face with his hand and smiling wickedly
 
+    scene intro1 with dissolve
     voice "C-1-16.mp3" #Makoto (Reece Bridger)
     pro "Yes, it is I, Sebastian Wolfgang IV, all powerful commander of demons and ultimate terror!"
 
@@ -102,6 +112,7 @@
     pro "For you see, I have been preparing for a day like this for a long time - and now I shall attempt what no other mortal has dared attempt before…"
 
     #show pro’s face growing increasingly maniacal
+    scene intro2
 
     voice "C-1-21.mp3" #Makoto (Reece Bridger)
     pro "Yes, I shall perform a demon summoning!"
@@ -133,12 +144,14 @@
     #sfx bang
     #show pro’s face growing exasperated
     #music hard cut again
+    scene intro3 with vpunch
 
     "*BANG! BANG! BANG!*"
 
     voice "C-1-30.mp3" #Yumi (Kaito)
     sis "Alright, you had your fun already, Mr. Demon Lord. Come on out."
 
+    scene intro4
     voice "C-1-31.mp3" #Makoto (Reece Bridger)
     pro "..."
 
@@ -156,14 +169,17 @@
     "And the most bothersome force at that moment just so happened to be…"
 
     #show sis with annoyed expression
+    show yumi neutral with dissolve
 
     "...My sister, Yumi."
     "She usually knows her place and leaves me to my own devices, but every once in awhile she comes along to take the wind out of my sails."
     "If I could be considered a raging wildfire consuming all in my path, then she could be likened to a rainstorm that quells those flames."
     "In other words, she's a complete nuisance."
 
-    #sis "Don't look at me like that. I just wanna know what you were doing in there."
+    show yumi angrytalk
+    sis "Don't look at me like that. I just wanna know what you were doing in there."
 
+    show yumi angry
     "Was that all? Come now, dear sister, are you sure you weren't going to relay my tactics to any enemy spies?"
     "That's just like her, prying into a dark overlord’s business. Well, I suppose I can overlook this slight - just this once…"
     "...Especially considering I’m actually in a good mood today."
@@ -174,16 +190,20 @@
     voice "C-1-33.mp3" #Makoto (Reece Bridger)
     pro "Surely even you understand what that means by now, right?"
 
-    #show sis smiling sarcastically, with eyes half closed
+    show yumi exasperatedtalk
 
     voice "C-1-34.mp3" #Yumi (Kaito)
     sis "You mean you were letting the whole neighborhood know what a dork you are?"
 
+    show yumi exasperated
+    
     voice "C-1-35.mp3" #Makoto (Reece Bridger)
     pro "D-Dork!?"
 
     "Leave it to Yumi to misunderstand the subtle nuances of my existence. I guess I’ll have to spell it out in big, bold letters."
 
+    show yumi neutral
+    
     voice "C-1-36.mp3" #Makoto (Reece Bridger)
     pro "Hmph! You won’t be making such trite quips for long, dear sister!"
 
@@ -192,60 +212,82 @@
 
     #show sis surprised, have a question mark symbol briefly appear
 
+    show yumi worrytalk
+    
     voice "C-1-38.mp3" #Yumi (Kaito)
     sis "Wait… ‘summoning a demon…?’"
+    
+    show yumi worry
 
     voice "C-1-39.mp3" #Makoto (Reece Bridger)
     pro "Of course! It will be an all-powerful, almighty soldier of Hell who will follow my orders without question!"
 
+    show yumi neutral
+    
     voice "C-1-40.mp3" #Makoto (Reece Bridger)
     pro "With its power, I will lay waste to my enemies and conquer the world!"
 
     #show sis smiling sarcastically, with eyes half closed
+    
+    show yumi smirkspeak
 
     voice "C-1-41.mp3" #Yumi (Kaito)
     sis "You really think an all-powerful demon would follow a scrawny thing like you?"
 
+    show yumi smirk
+    
     "Ignore that comment, Sebastian. She knows not the forces she is dealing with."
     "I wouldn’t be surprised if she doesn’t have a single idea of what I was talking about, either."
 
     #show sis looking quizzical
 
+    show yumi neutralspeak
+    
     voice "C-1-42.mp3" #Yumi (Kaito)
     sis "Who was that ‘degenerate fool’ you were talking about anyways?"
 
     voice "C-1-43.mp3" #Makoto (Reece Bridger)
     pro "Huh!?"
-
+    
+    show yumi neutral
+    
     "Welp, spoke too soon."
-
+    
     voice "C-1-44.mp3" #Makoto (Reece Bridger)
     pro "Y-You mean you were listening in on me!?"
 
+    show yumi closedtalk
     voice "C-1-45.mp3" #Yumi (Kaito)
     sis "Uh, yeah; kinda hard not to when I could hear you from anywhere in the house."
 
+    show yumi closed
+    
     "Dammit, I was a fool to do my monologuing in the bathroom! Are there any safe havens left in this cruel world? Is nothing sacred!?"
 
     voice "C-1-46.mp3" #Makoto (Reece Bridger)
     pro "Th-That is none of your concern! I assure you, I will have everything dealt with in due time!"
 
     #show sis with annoyed expression, eyes closed
+    show yumi angrytalk
 
     voice "C-1-47.mp3" #Yumi (Kaito)
     sis "Look, I don’t really care what you do with this whole ‘dark lord’ business, but just try to keep yourself from doing anything stupid, alright?"
 
+    show yumi angryclosedtalk
+    
     voice "C-1-48.mp3" #Yumi (Kaito)
     sis "Mom and Dad may be off to Kamakura for awhile, but that doesn’t give you carte blanche to make a mess of things while they’re gone."
 
     #show sis with worried expression
 
+    show yumi exasperated
     voice "C-1-49.mp3" #Yumi (Kaito)
     sis "So… just try to behave yourself, okay?"
 
     voice "C-1-50.mp3" #Makoto (Reece Bridger)
     pro "Sure..."
 
+    hide yumi with easeoutright
     #exit sis stage left
 
     "Satisfied with my response, Yumi walks away without another word…"
