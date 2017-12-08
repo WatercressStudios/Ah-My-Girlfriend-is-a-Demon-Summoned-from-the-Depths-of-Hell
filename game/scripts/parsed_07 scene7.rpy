@@ -2,132 +2,182 @@ label scene7:
 
     scene living room with dissolve
 
+    show beepy neutral:
+            align (0.2,1.0)
+    show yumi closed:
+            align (0.7, 1.0)
+
     #music calm
     "Time passes quickly. Surprisingly, Beepy and Yumi get along with each other - even better than it initially seemed."
     "Though, I’m not thrilled that their relationship hinges on their mutual exasperation…"
     
+    
     "When we're done eating, we all take seats in the dining room."
+    
     voice "C-7-1.mp3" #Yumi (Kaito)
-    
+    show yumi neutralspeak
     sis "Alright, so to recap…"
-    voice "C-7-2.mp3" #Yumi (Kaito)
     
+    voice "C-7-2.mp3" #Yumi (Kaito)
     sis "Makoto performed some creepo summoning ritual…"
+    
+    show yumi neutral
     voice "C-7-3.mp3" #Makoto (Reece Bridger)
     pro "Yes."
     
+    show yumi closedtalk
     voice "C-7-4.mp3" #Yumi (Kaito)
     sis "...And actually managed to summon a demon."
     
+    show beepy neutralclosedtalk
+    show yumi exasperated
     voice "C-7-5.mp3" #Beepy (Hikari)
     bp "Seems so."
     
+    show beepy neutral
+    show yumi closedtalk
     voice "C-7-6.mp3" #Yumi (Kaito)
     sis "...And you're still sticking with that story? That you're his 'familiar' or whatever?"
     
+    show yumi closed
+    show beepy eyebrowtalk
     voice "C-7-7.mp3" #Beepy (Hikari)
     bp "I mean… have you seen my tail? Do you wanna touch my horns?"
     
+    show yumi worrytalk
+    show beepy eyebrow
     voice "C-7-8.mp3" #Yumi (Kaito)
     sis "I-I don't think that's appropriate conduct for a first introduction."
     
+    show beepy dreamworks
+    show yumi worry
     voice "C-7-9.mp3" #Beepy (Hikari)
     bp "It'd answer your questions, though..."
     
     voice "C-7-10.mp3" #Makoto (Reece Bridger)
     pro "None of this is fake, Yumi. How long is it going to be until you accept reality?"
     
+    show beepy smirk
     voice "C-7-11.mp3" #Beepy (Hikari)
     bp "You probably think I'm some old man in a mask, trying to scare you off the property."
     
+    show yumi exasperatedtalk
     voice "C-7-12.mp3" #Yumi (Kaito)
     sis "No! I-It's not like that; I just… it's taking a little to wrap my head around this whole mess, hehe~!"
     
+    show yumi exasperated
     "Yumi was acting very strange around Beepy, but I can’t quite put my finger on it..."
     
     "Perhaps she was still awed by a true demon’s presence? ...I suppose any mortal would react as such."
     
+    show yumi worrytalk
     voice "C-7-13.mp3" #Yumi (Kaito)
     sis "W-Well… I guess while you're here, you should stay. You can take the sofa if you like."
     
+    show beepy smile
     voice "C-7-14.mp3" #Beepy (Hikari)
     bp "Ah, sounds great. Thanks a bunch~"
     
+    show yumi angrytalk
     voice "C-7-15.mp3" #Yumi (Kaito)
     sis "And Makoto…"
 
+    show yumi angrywide
     "As she turned to face me, her face twisted into a stern glare."
-
+    
+    show yumi angrytalk
+    show beepy smirk
     voice "C-7-16.mp3" #Yumi (Kaito)
     sis "You're gonna work on fixing this whole summoning mess, right?"
     
+    show yumi angry
     voice "C-7-17.mp3" #Makoto (Reece Bridger)
     pro "What? But I need her to--"
     
+    show yumi angrywideshout
     voice "C-7-18.mp3" #Yumi (Kaito)
     sis "I'm talking about the crazy summoning crap in the garage! You need to clean that up before Mom and Dad find out!"
     
+    show yumi angrytalk
     voice "C-7-19.mp3" #Yumi (Kaito)
     sis "Seriously, Makoto… Summoning demons while they're on their business trip; if they catch wind of it, you'll get in so much trouble…"
-
+    
+    show yumi angry
     "...If I were grounded indefinitely, it {i}would{/i} stall my plans for world domination."
 
     voice "C-7-20.mp3" #Makoto (Reece Bridger)
     pro "I-I'll figure something out. Could you just keep quiet about all this for now?"
     
+    show yumi neutral
     voice "C-7-21.mp3" #Yumi (Kaito)
     sis "Hmph. I don't owe you anything, but… whatever."
     
+    show yumi angrytalk
     voice "C-7-22.mp3" #Yumi (Kaito)
     sis "Just remember: you brought her into this world, so you have to be the one to take her out!"
     
+    show beepy neutral
+    show yumi neutral
     voice "C-7-23.mp3" #Beepy (Hikari)
     bp "You, uh... Couldn't you word that any other way…?"
     
     voice "C-7-24.mp3" #Makoto (Reece Bridger)
     pro "Understood. I'll find a way to reverse the process."
     
+    show beepy neutralclosedtalk
     voice "C-7-25.mp3" #Beepy (Hikari)
     bp "Thaaaat doesn't sound much better…" 
 
+    show beepy neutralclosed
     "After that exchange, silence hung awkwardly over all of us."
     "It seems I had unwittingly formed a pact with my sister. I would have to resolve this situation in a timely manner."
     "My progenitors will be absent for some time, so..."
     "I'll have more than enough time to come up with a contingency plan."
 
+    show yumi neutralspeak
     voice "C-7-26.mp3" #Yumi (Kaito)
     sis "Makoto and I both have school tomorrow... We should think of getting to bed."
     
+    show yumi worrytalk
     voice "C-7-27.mp3" #Yumi (Kaito)
     sis "Hey Beepy, do you want me to grab you a blanket? It gets chilly overnight!"
     
+    show beepy smile
     voice "C-7-28.mp3" #Beepy (Hikari)
     bp "Nah, I can curl up just about anywhere. Thanks for the offer, though."
     
+    show yumi smiletalk
     voice "C-7-29.mp3" #Yumi (Kaito)
     sis "Heh, no problem! Just-- Just want to make sure you're comfortable while you're here, haha~!"
-
+    
+    show yumi smile
     #sfx sweatdrop
     "Why is my sister giggling like a lunatic?"
 
     voice "C-7-30.mp3" #Makoto (Reece Bridger)
     pro "Perhaps her fragile mind has already given in? I’m sure it cannot hope to comprehend the forces at play here..."
     
+    show yumi closedtalk
     voice "C-7-31.mp3" #Yumi (Kaito)
     sis "Huh? What'd you say?"
     
+    show yumi closed    
     voice "C-7-32.mp3" #Makoto (Reece Bridger)
     pro "Nothing, nothing at all! I, too, must depart to my bed chambers."
     
     voice "C-7-33.mp3" #Makoto (Reece Bridger)
     pro "...For tomorrow will be the beginning. The beginning of the end. Ufufu~"
     
+    show beepy neutralclosedtalk
     voice "C-7-34.mp3" #Beepy (Hikari)
     bp "Aw… I just got here, though…"
     
+    show beepy neutral
+    show yumi neutralspeak
     voice "C-7-35.mp3" #Yumi (Kaito)
     sis "He's just doing his monologuing thing again - and most of it's gibberish."
     
+    show yumi closed
     voice "C-7-36.mp3" #Makoto (Reece Bridger)
     pro "Ha. Soon you will come to realize that everything leading up to this point… it is all connected."
 
@@ -137,10 +187,13 @@ label scene7:
 
     #beepy and yumi dual audio
     #look into UI trick for this
+    show beepy neutraltalk
     voice "C-7-37.mp3" #Beepy (Hikari)
     bp "...Weirdo."
-
+    
     scene black with dissolve
+    hide beepy with dissolve
+    hide yumi with dissolve
     #music cut
     "With no one following me, I make a beeline to my room."
 
