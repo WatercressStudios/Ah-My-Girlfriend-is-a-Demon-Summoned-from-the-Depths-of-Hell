@@ -1,6 +1,6 @@
 label scene7:
 
-    scene living room with dissolve
+    scene kitchen with dissolve
 
     #music calm
     "Time passes quickly. Surprisingly, Beepy and Yumi get along with each other - even better than it initially seemed."

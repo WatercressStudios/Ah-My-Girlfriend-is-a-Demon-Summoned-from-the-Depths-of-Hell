@@ -327,17 +327,17 @@ label scene12:
     #exit Beepy stage right
     
     #music cut
-    #looks like we're getting CGs so leaving this part undone
     show lucy smile with easeinright:
             align (0.5,1.0)
     "Lucy takes a deep breath, as if to steady herself."
 
-    show black with dissolve
+    show lucydetermined with dissolve
     
     voice "C-12-55.mp3" #Lucy (Vivi)
     lu "Um… I-I am Lucifer of Pride…"
 
-    #show Lucy frightened
+    show lucyfrightened
+    hide lucydetermined
 
     #sfx sweatdrop
     
@@ -350,7 +350,8 @@ label scene12:
     voice "C-12-58.mp3" #Lucy (Vivi)
     lu "Of… of… of…"
 
-    #show Lucy crying
+    show lucycrying
+    hide lucyfrightened
 
     #music lighthearted
     voice "C-12-59.mp3" #Lucy (Vivi)
@@ -367,7 +368,7 @@ label scene12:
     show bubble fsadsmiletalk
     show mami scowlclosed
     
-    hide black with dissolve
+    hide lucycrying with dissolve
     
     "Well… that could have gone better."
     "She had a burst of confidence just a second ago, but it fell apart as soon as started talking."
@@ -393,14 +394,14 @@ label scene12:
     mm "Oh yeah!? Just watch! I'll pull off an intro so good that he'll be head-over-heels for me!"
     
     show bubble xdshout with easeinright:
-            align (0.4, 1.0)
+            align (0.6, 1.0)
             
     voice "C-12-66.mp3" #Bubble 
     bb "Nu-uh~! My intro's gonna be bigger and better than yours!"
 
     show bubble smiletalk
     show mami angrysmiletalk with easeinright:
-            align (0.6, 1.0)
+            align (0.4, 1.0)
     #music cut
     show beepy angry
     "Before I know it, both of them are assaulting me."
@@ -408,6 +409,7 @@ label scene12:
     #show Bubble happy, show Mami pumped up
     #dual audio both Bubble and Mami's lines play at the same time
 
+    show twinssmug with dissolve
     #music magical girl
     show mami neutraltalk
     voice "C-12-67.mp3" #Mami 
@@ -417,6 +419,8 @@ label scene12:
     voice "C-12-68.mp3" #Bubble 
     bb "Gimme your food~! Gimme your food~! {i}Gobble, gobble, munch~!{/i}"
     
+    show twinsirritated
+    hide twinssmug
     show mami smugtalk
     voice "C-12-69.mp3" #Mami 
     mm "Who makes you miserly with money!? It's me!"
@@ -425,50 +429,64 @@ label scene12:
     voice "C-12-70.mp3" #Bubble 
     bb "I'm the one who makes you eat~! {i}Crunch, crunch, crunch~!{/i}"
     
+    show twinsright
+    hide twinsirritated
     show mami neutraltalk
     voice "C-12-71.mp3" #Mami 
     mm "Who makes you say ‘charities suck!?' Yep, that's me too!"
     
+    show twinsleft
+    hide twinsright
     show bubble happytalk
     voice "C-12-72.mp3" #Bubble 
     bb "I'm here for every meal, be it dinner or lunch~!"
     
+    show twinsright
+    hide twinsleft
     show mami xdtalk
     voice "C-12-73.mp3" #Mami 
     mm "Hell yeah, Mammon of Greed! That's meeee~!"
     
+    show twinsleft
+    hide twinsright
     show bubble xdbigshout
     voice "C-12-74.mp3" #Bubble 
     bb "I'm Beelzebub of Gluttony, the cutest of the bunch~!"
-
+    
     show beepy eyebrow
+    show twinsright
+    hide twinsleft
     "The information overload threatens to overtake me!"
+    show mami fscowl
+    show bubble fscowl
+    show twinsleft
+    hide twinsright
     "They make no effort to coordinate their introductions at all, resulting in an unbearable cacophony."
     #music cut
-    show mami scowl
-    show bubble scowl
+    hide twinsleft with dissolve
+
     "And while I'm trying to prevent a headache from breaking out, the twins start arguing again."
 
     #show Bubble and Mami angry
 
     #music hijinks
-    show mami shout
+    show mami fshout
     voice "C-12-75.mp3" #Mami 
     mm "What the hell was that!? Your stupid intro messed everything up!"
     
-    show bubble scowltalk
+    show bubble fscowltalk
     voice "C-12-76.mp3" #Bubble 
     bb "No it didn't! {i}Your{/i} intro got in the way of {i}mine{/i}! What is your problem, you ultra jerkface!?"
     
-    show mami shoutvein
+    show mami fshoutvein
     voice "C-12-77.mp3" #Mami 
     mm "I'll tell you what my problem is! She's short, looks like an idiot, and talks just like one!"
     
-    show bubble xdshout
+    show bubble fxdshout
     voice "C-12-78.mp3" #Bubble 
     bb "You just described yourself, you big dummy!"
 
-    show mami xdangry
+    show mami fxdangry
     voice "C-12-79.mp3" #Mami 
     mm "{b}What was that!?{/b}"
 
@@ -480,8 +498,8 @@ label scene12:
 
     #q line here voiced by Yumi
 
-    show bubble surprise
-    show mami stammer
+    show bubble fsurprise
+    show mami fstammer
     show beepy eyebrow
     #music cut
     voice "C-12-80.mp3" #??? 
@@ -495,6 +513,7 @@ label scene12:
 
     #enter Yumi stage right, annoyed
     show mami fstammer
+    show bubble surprise
     show yumi angrywideshout with easeinright:
         align (1.0, 1.0)
 

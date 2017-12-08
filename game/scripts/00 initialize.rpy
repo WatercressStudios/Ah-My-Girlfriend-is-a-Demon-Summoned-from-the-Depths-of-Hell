@@ -24,9 +24,28 @@ image beepy fneutral = im.Flip("beepy neutral.png", horizontal=True)
 image beepy fneutraltalk = im.Flip("beepy neutraltalk.png", horizontal=True)
 image beepy fdreamworks = im.Flip("beepy dreamworks.png", horizontal=True)
 image beepy fangryclosed = im.Flip("beepy angryclosed.png", horizontal=True)
+image beepy fangry = im.Flip("beepy angry.png", horizontal=True)
+image beepy fsmileclosed = im.Flip("beepy smileclosed.png", horizontal=True)
+image beepy feyebrow = im.Flip("beepy eyebrow.png", horizontal=True)
+image beepy fsmile = im.Flip("beepy smile.png", horizontal=True)
+image beepy feyebrowtalk = im.Flip("beepy eyebrowtalk.png", horizontal=True)
+image beepy fneutralclosed = im.Flip("beepy neutralclosed.png", horizontal=True)
 image misaki fshout = im.Flip("misaki shout.png", horizontal=True)
+image misaki fblush = im.Flip("misaki blush.png", horizontal=True)
+image misaki fmildsurprise = im.Flip("misaki mildsurprise.png", horizontal=True)
+image misaki fdisgustblush = im.Flip("misaki disgustblush.png", horizontal=True)
+image misaki fshoutblush = im.Flip("misaki shoutblush.png", horizontal=True)
 image misaki fscowl = im.Flip("misaki scowl.png", horizontal=True)
+image misaki fscowlblush = im.Flip("misaki scowlblush.png", horizontal=True)
+image misaki fscowlclosed = im.Flip("misaki scowlclosed.png", horizontal=True)
 image misaki fsurprise = im.Flip("misaki surprise.png", horizontal=True)
+image misaki fsmug = im.Flip("misaki smug.png", horizontal=True)
+image misaki fsmugtalk = im.Flip("misaki smugtalk.png", horizontal=True)
+image misaki fwonder = im.Flip("misaki wonder.png", horizontal=True)
+image misaki fsmile = im.Flip("misaki smile.png", horizontal=True)
+image misaki fsmiletalk = im.Flip("misaki smiletalk.png", horizontal=True)
+image misaki fmildsurprise = im.Flip("misaki mildsurprise.png", horizontal=True)
+image misaki fclosedshout = im.Flip("misaki closedshout.png", horizontal=True)
 image bubble fhappytalk = im.Flip("bubble happytalk.png", horizontal=True)
 image bubble fsurprise = im.Flip("bubble surprise.png", horizontal=True)
 image bubble fsadsmiletalk = im.Flip("bubble sadsmiletalk.png", horizontal=True)
@@ -34,6 +53,10 @@ image bubble fscowltalk = im.Flip("bubble scowltalk.png", horizontal=True)
 image bubble fsmileclosed = im.Flip("bubble smileclosed.png", horizontal=True)
 image bubble fxd = im.Flip("bubble xd.png", horizontal=True)
 image bubble fxdlaugh = im.Flip("bubble xdlaugh.png", horizontal=True)
+image bubble fxdshout = im.Flip("bubble xdshout.png", horizontal=True)
+image bubble fsmiletalk = im.Flip("bubble smiletalk.png", horizontal=True)
+image bubble fscowl = im.Flip("bubble scowl.png", horizontal=True)
+image bubble fsad = im.Flip("bubble sad.png", horizontal=True)
 image mami fstammer = im.Flip("mami stammer.png", horizontal=True)
 image mami fscowl = im.Flip("mami scowl.png", horizontal=True)
 image mami fshout = im.Flip("mami shout.png", horizontal=True)
@@ -46,16 +69,25 @@ image mami fxdtalk = im.Flip("mami xdtalk.png", horizontal=True)
 image mami fscowlclosed = im.Flip("mami scowlclosed.png", horizontal=True)
 image mami fneutral = im.Flip("mami neutral.png", horizontal=True)
 image mami fsmile = im.Flip("mami smile.png", horizontal=True)
+image mami fshoutvein = im.Flip("mami shoutvein.png", horizontal=True)
+image mami fxdangry = im.Flip("mami xdangry.png", horizontal=True)
 image lucy fneutraltalk = im.Flip("lucy neutraltalk.png", horizontal=True)
 image lucy ffrowntalk = im.Flip("lucy frowntalk.png", horizontal=True)
 image lucy fbigfrowntalk = im.Flip("lucy bigfrowntalk.png", horizontal=True)
+image lucy fbigcry = im.Flip("lucy bigcry.png", horizontal=True)
 image lucy fneutral = im.Flip("lucy neutral.png", horizontal=True)
 image lucy fsmile = im.Flip("lucy smile.png", horizontal=True)
 image yumi fexasperated = im.Flip("yumi exasperated.png", horizontal=True)
+image yumi fsmiletalk = im.Flip("yumi smiletalk.png", horizontal=True)
 image yumi fexasperatedtalk = im.Flip("yumi exasperatedtalk.png", horizontal=True)
 image yumi fangry = im.Flip("yumi angry.png", horizontal=True)
 image yumi fangrytalk = im.Flip("yumi angrytalk.png", horizontal=True)
 image yumi fsurpriseshout = im.Flip("yumi surpriseshout.png", horizontal=True)
+image yumi fneutral = im.Flip("yumi neutral.png", horizontal=True)
+image yumi fneutralspeak = im.Flip("yumi neutralspeak.png", horizontal=True)
+image yumi fworry = im.Flip("yumi worry.png", horizontal=True)
+image yumi fworrytalk = im.Flip("yumi worrytalk.png", horizontal=True)
+
 
 ##################
 # BG Declaration #
@@ -93,9 +125,10 @@ image courtyard day2 = "bgs/School/courtyard day 2.jpg"
 image courtyard evening1 = "bgs/School/courtyard evening 1.jpg"
 image courtyard evening2 = "bgs/School/courtyard evening 2.jpg"
 image school hallway = "bgs/School/hallway.png"
-image meeting = "bgs/School/meeting.png"
 image rooftop = "bgs/School/rooftop.png"
 image white = "bgs/white.png"
+image parking = "bgs/parking.jpg"
+image meeting = im.Sepia("bgs/School/meeting.png")
 
 
 ###################
@@ -127,6 +160,19 @@ image car4 = "cgs/car/CarCG-4.png"
 image car5 = "cgs/car/CarCG-5.png"
 image car6 = "cgs/car/CarCG-6.png"
 image car7 = "cgs/car/CarCG-7.png"
+image satansepia = im.Sepia("cgs/stan/SatanIntroCG-Wink.png")
+image beepysepia = im.Sepia("cgs/beepy/BeepyIntroCG-Eyeroll.png")
+image misakisepia = im.Sepia("cgs/misaki/MisakiIntroCG-AngryLookingAtViewer.png")
+image lucycrying = "cgs/lucy/LucyIntroCG-Crying.png"
+image lucydetermined = "cgs/lucy/LucyIntroCG-Determined.png"
+image lucyfrightened = "cgs/lucy/LucyIntroCG-Frightened.png"
+image twinsirritated = "cgs/twins/TwinsIntroCG-Irritated.png"
+image twinsleft = "cgs/twins/TwinsIntroCG-ShiftLeft.png"
+image twinsright = "cgs/twins/TwinsIntroCG-ShiftRight.png"
+image twinssmug = "cgs/twins/TwinsIntroCG-Smug.png"
+image apologycard = "cgs/ApologyCardCG.png"
+image endcg = "cgs/SunsetCG.png"
+image sleepybeepy1 = "cgs/spbp/Sleepy Beepy 1.png"
 
 
 #######
