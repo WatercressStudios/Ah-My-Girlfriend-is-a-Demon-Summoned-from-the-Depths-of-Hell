@@ -3,13 +3,11 @@ label scene18:
     #music school
     scene black with dissolve
 
-    "Here again..."
-
     scene school hallway with dissolve
 
     #sfx ambient murmuring 
     
-    "..."
+    "Here again..."
     "I try to walk through the halls, pushing past the mundanes walking in the opposite direction and pushing through those who seem to think it wise to stand right in the middle - even though others are trying to travel.."
     "I fail to understand these people. Why are they so ignorant as to inconvenience everybody else for what seems like no benefit?"
     "To tell the truth, there are more things I don’t quite understand."

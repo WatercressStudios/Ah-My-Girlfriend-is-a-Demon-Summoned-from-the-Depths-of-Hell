@@ -160,7 +160,7 @@ label scene8:
     #music cut
     "In a haste, I hurry out of my room and head towards the living room."
 
-    scene living room with dissolve
+    scene kitchen with dissolve
 
     #music yumi theme
     "I still can’t believe I’ve been saddled with such a useless layabout… What was Satan even thinking!?"
