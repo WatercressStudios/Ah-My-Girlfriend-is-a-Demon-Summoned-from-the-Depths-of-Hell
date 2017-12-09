@@ -378,13 +378,13 @@ label scene13:
     pro "You, uh… coming with us?"
     
     show beepy neutralclosedtalk
-    voice "C-13-70.mp3" #Beepy (Hikari)
+    voice "C-13-70.wav" #Beepy (Hikari)
     bp "...Nah. Think I’d rather just lie around here. Bringing those three over was exhausting…"
 
     #show Beepy smiling
 
     show beepy smile
-    voice "C-13-71.mp3" #Beepy (Hikari)
+    voice "C-13-71.wav" #Beepy (Hikari)
     bp "Don’t worry about me… You go have fun with everyone else."
     
     voice "C-13-72.mp3" #Makoto (Reece Bridger)
@@ -398,7 +398,7 @@ label scene13:
     pro "We’ll be back soon."
     
     show beepy smileclosed
-    voice "C-13-74.mp3" #Beepy (Hikari)
+    voice "C-13-74.wav" #Beepy (Hikari)
     bp "Take your time…"
 
     scene black with dissolve

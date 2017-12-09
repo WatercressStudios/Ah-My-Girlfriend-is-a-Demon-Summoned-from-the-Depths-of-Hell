@@ -297,7 +297,7 @@ label scene15:
     "I look to see if there is anything else here I need, but I spot Misaki out of the corner of my eye. Of course, she'd be here with S-Tan too."
 
     show misaki mildsurprise
-    voice "C-15-47.mp3" #Misaki (Kikari)
+    voice "C-15-47.wav" #Misaki (Kikari)
     riv "Uh, hi."
     
     show misaki wonder
@@ -309,7 +309,7 @@ label scene15:
     "That doesn’t bother me in the slightest. I turn back to the aisle, and-"
 
     show misaki angryquiet
-    voice "C-15-49.mp3" #Misaki (Kikari)
+    voice "C-15-49.wav" #Misaki (Kikari)
     riv "Move."
     
     show misaki scowl
@@ -317,7 +317,7 @@ label scene15:
     pro "Excuse me?"
     
     show misaki disgust
-    voice "C-15-51.mp3" #Misaki (Kikari)
+    voice "C-15-51.wav" #Misaki (Kikari)
     riv "I-I need to go p-past you. Move."
 
     "I suppose it would be unwise to cause a scene. I do as instructed."
@@ -332,7 +332,7 @@ label scene15:
 
     #music cut
     show misaki shout
-    voice "C-15-52.mp3" #Misaki (Kikari)
+    voice "C-15-52.wav" #Misaki (Kikari)
     riv "{b}Fuck!{/b}"
 
     show misaki poutclosed
@@ -347,7 +347,7 @@ label scene15:
     "She looks at me, staring for a second."
 
     show misaki scowlclosed
-    voice "C-15-54.mp3" #Misaki (Kikari)
+    voice "C-15-54.wav" #Misaki (Kikari)
     riv "I-I don't have enough money. I only have a few notes, and..."
 
     "She trails off, looking away for a moment."
@@ -356,16 +356,16 @@ label scene15:
     pro "Do you need everything there?"
     
     show misaki disgustclosed
-    voice "C-15-56.mp3" #Misaki (Kikari)
+    voice "C-15-56.wav" #Misaki (Kikari)
     riv "Y-Yes. I-I need to, um…"
     
     show misaki pout
-    voice "C-15-57.mp3" #Misaki (Kikari)
+    voice "C-15-57.wav" #Misaki (Kikari)
     riv "..."
     
     #sfx sweatdrop
     show misaki blush
-    voice "C-15-58.mp3" #Misaki (Kikari)
+    voice "C-15-58.wav" #Misaki (Kikari)
     riv "I need to, um, replenish my mana for our fight."
 
     #music market
@@ -392,7 +392,7 @@ label scene15:
     "She paused, glaring at me."
 
     show misaki angryquiet
-    voice "C-15-60.mp3" #Misaki (Kikari)
+    voice "C-15-60.wav" #Misaki (Kikari)
     riv "There’s no need for you to do that."
     
     show misaki wonder
@@ -403,13 +403,13 @@ label scene15:
     "She pauses again. Looks away, for a moment…"
 
     show misaki scowlblush
-    voice "C-15-62.mp3" #Misaki (Kikari)
+    voice "C-15-62.wav" #Misaki (Kikari)
     riv "Fine."
 
     "And finally put the last of her items under the scanner."
 
     show misaki bashfulblush
-    voice "C-15-63.mp3" #Misaki (Kikari)
+    voice "C-15-63.wav" #Misaki (Kikari)
     riv "¥1200."
 
     "That amount seemed pitiful. I reached into my wallet and pulled out two ¥1000 notes, then gave them to her."
@@ -422,7 +422,7 @@ label scene15:
     "The noise that initially comes out of her mouth is akin to a growl, but she stops and collects herself."
 
     show misaki scowlclosed
-    voice "C-15-65.mp3" #Misaki (Kikari)
+    voice "C-15-65.wav" #Misaki (Kikari)
     riv "...Thanks."
     
     voice "C-15-66.mp3" #Makoto (Reece Bridger)
@@ -450,7 +450,7 @@ label scene15:
     #music cut
     #dual audio both say at same time
     show misaki disgustclosed
-    voice "C-15-69.mp3" #Misaki (Kikari)
+    voice "C-15-69.wav" #Misaki (Kikari)
     riv "No we wouldn't."
     
     voice "C-15-70.mp3" #Makoto (Reece Bridger)
@@ -470,7 +470,7 @@ label scene15:
     "The confusion is palpable. I look at the group, trying to understand their laughter."
 
     #dual audio; both say at same time
-    voice "C-15-71.mp3" #Misaki (Kikari)
+    voice "C-15-71.wav" #Misaki (Kikari)
     show misaki surpriseblush
     riv "Why are you laughing?"
     

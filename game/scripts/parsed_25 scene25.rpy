@@ -13,7 +13,7 @@ label scene25:
     voice "C-25-4.mp3" #Makoto (Reece Bridger)
     pro "...Well, unless we were both cast asunder, then… then I guess both of us would be losers."
     
-    voice "C-25-5.mp3" #Beepy (Hikari)
+    voice "C-25-5.wav" #Beepy (Hikari)
     bp "I thought you guys were {i}already{/i} losers."
     
     scene bathroom with dissolve
@@ -28,7 +28,7 @@ label scene25:
     
     show beepy neutraltalk
     
-    voice "C-25-7.mp3" #Beepy (Hikari)
+    voice "C-25-7.wav" #Beepy (Hikari)
     bp "Oh, uh. Don't mind me. Just thinking out loud."
     
     show beepy neutral
@@ -43,10 +43,10 @@ label scene25:
     
     show beepy eyebrowtalk
     
-    voice "C-25-10.mp3" #Beepy (Hikari)
+    voice "C-25-10.wav" #Beepy (Hikari)
     bp "...Uh…"
     
-    voice "C-25-11.mp3" #Beepy (Hikari)
+    voice "C-25-11.wav" #Beepy (Hikari)
     bp "...At least nobody will be watching?"
     
     show beepy smirk
@@ -56,7 +56,7 @@ label scene25:
     
     show beepy neutraltalk
     
-    voice "C-25-13.mp3" #Beepy (Hikari)
+    voice "C-25-13.wav" #Beepy (Hikari)
     bp "Theeeere you go."
     
     show beepy neutral
@@ -66,7 +66,7 @@ label scene25:
     
     show beepy naughty
     
-    voice "C-25-15.mp3" #Beepy (Hikari)
+    voice "C-25-15.wav" #Beepy (Hikari)
     bp "Huh. Guess not."
     
     "...She says as she takes a seat."
@@ -79,7 +79,7 @@ label scene25:
     
     show beepy eyebrowtalk
     
-    voice "C-25-17.mp3" #Beepy (Hikari)
+    voice "C-25-17.wav" #Beepy (Hikari)
     bp "You never told me why you need to change, though."
     
     voice "C-25-18.mp3" #Makoto (Reece Bridger)
@@ -87,12 +87,12 @@ label scene25:
     
     show beepy angryclosedtalk
     
-    voice "C-25-19.mp3" #Beepy (Hikari)
+    voice "C-25-19.wav" #Beepy (Hikari)
     bp "I-I don't think… Okay, sure, whatever."
     
     show beepy neutralclosedtalk
     
-    voice "C-25-20.mp3" #Beepy (Hikari)
+    voice "C-25-20.wav" #Beepy (Hikari)
     bp "I'm still not a hundred percent sold on this 'mortal combat' thing, like… you guys aren't gonna beat each other up, right?"
     
     show beepy neutralclosed
@@ -110,10 +110,10 @@ label scene25:
     
     show beepy smile
     
-    voice "C-25-24.mp3" #Beepy (Hikari)
+    voice "C-25-24.wav" #Beepy (Hikari)
     bp "...I don't see how any of this is classy, but… Well, try not to get hurt or anything."
     
-    voice "C-25-25.mp3" #Beepy (Hikari)
+    voice "C-25-25.wav" #Beepy (Hikari)
     bp "Don't do anything I wouldn't do."
     
     voice "C-25-26.mp3" #Makoto (Reece Bridger)
@@ -121,7 +121,7 @@ label scene25:
     
     show beepy smirk
     
-    voice "C-25-27.mp3" #Beepy (Hikari)
+    voice "C-25-27.wav" #Beepy (Hikari)
     bp "Is there no greater purpose in life?"
     
     voice "C-25-28.mp3" #Makoto (Reece Bridger)
@@ -136,7 +136,7 @@ label scene25:
     
     show beepy smirk
     
-    voice "C-25-30.mp3" #Beepy (Hikari)
+    voice "C-25-30.wav" #Beepy (Hikari)
     bp "You, uh… look… {i}distinguished?{/i}"
     
     show beepy neutralclosed
@@ -146,7 +146,7 @@ label scene25:
     
     show beepy angrytalk
     
-    voice "C-25-32.mp3" #Beepy (Hikari)
+    voice "C-25-32.wav" #Beepy (Hikari)
     bp "Kick her ass, Makoto!"
     
     #Fuck yeah duuude
@@ -154,7 +154,7 @@ label scene25:
     scene black with dissolve
     
     #music cut
-    voice "C-25-33.mp3" #Beepy (Hikari)
+    voice "C-25-33.wav" #Beepy (Hikari)
     bp "...But not literally. That's assault."
     
     #Awwwwww
@@ -175,7 +175,7 @@ label scene25:
     show beepy neutral:
         align (.85, 1.0)
 
-    voice "C-25-34.mp3" #Misaki (Kikari)
+    voice "C-25-34.wav" #Misaki (Kikari)
     riv "You're late! For a moment, I suspected you had fled like the cowardly lion you are!"
     
     show misaki smug
@@ -198,7 +198,7 @@ label scene25:
     show misaki closedshout
     show beepy eyebrow
     
-    voice "C-25-38.mp3" #Misaki (Kikari)
+    voice "C-25-38.wav" #Misaki (Kikari)
     riv "I-- {b}Servant!{/b} We've been over this!"
     
     show misaki smug
@@ -217,7 +217,7 @@ label scene25:
     show stan serious
     show misaki stammer
     
-    voice "C-25-41.mp3" #Misaki (Kikari)
+    voice "C-25-41.wav" #Misaki (Kikari)
     riv "Wh-- I'm not trying to be cute! Don't change the subject!"
     
     show misaki smug
@@ -229,39 +229,39 @@ label scene25:
     
     show beepy neutraltalk
     
-    voice "C-25-43.mp3" #Beepy (Hikari)
+    voice "C-25-43.wav" #Beepy (Hikari)
     bp "No clue." 
     
     show beepy neutral
     show misaki shout
     
-    voice "C-25-44.mp3" #Misaki (Kikari)
+    voice "C-25-44.wav" #Misaki (Kikari)
     riv "Enough! I've bided my time, and now it is time! The witching hour beckons!"
     
     show beepy angry
     show stan serious
     
-    voice "C-25-45.mp3" #Misaki (Kikari)
+    voice "C-25-45.wav" #Misaki (Kikari)
     riv "Eternity everlasting waits for no mere mortal! It is time to settle our thousand year rivalry!"
     
     show misaki what
     show beepy angrytalk
     show stan wince
     
-    voice "C-25-46.mp3" #Beepy (Hikari)
+    voice "C-25-46.wav" #Beepy (Hikari)
     bp "...For someone in a hurry, she sure is monologuing a lot."
     
     show misaki shout
     show beepy angry
     show stan smirk
     
-    voice "C-25-47.mp3" #Misaki (Kikari)
+    voice "C-25-47.wav" #Misaki (Kikari)
     riv "Sebastian Wolfgang IV! I challenge you to a demon battle!"
     
     show beepy eyebrowtalk
     show misaki smug
     
-    voice "C-25-48.mp3" #Beepy (Hikari)
+    voice "C-25-48.wav" #Beepy (Hikari)
     bp "W-Wait, demon battle?"
     
     show beepy angryclosed
@@ -273,15 +273,15 @@ label scene25:
     show stan neutral
     show misaki smugclosedtalk
     
-    voice "C-25-50.mp3" #Misaki (Kikari)
+    voice "C-25-50.wav" #Misaki (Kikari)
     riv "A mere mortal, through their inferior looking glass, cannot perceive the true potential of the opportunities granted to them every day."
     
     show misaki shout
     
-    voice "C-25-51.mp3" #Misaki (Kikari)
+    voice "C-25-51.wav" #Misaki (Kikari)
     riv "But we! We are the truest of demon lords! And we have honed our skills in preparing our servants for this day!"
     
-    voice "C-25-52.mp3" #Misaki (Kikari)
+    voice "C-25-52.wav" #Misaki (Kikari)
     riv "It is time to demonstrate their full potential! We shall be as their bloodthirsty leaders, destined to clash forevermore."
     
     show stan cheekyclosedtalk
@@ -297,7 +297,7 @@ label scene25:
     
     show beepy angrytalk
     
-    voice "C-25-55.mp3" #Beepy (Hikari)
+    voice "C-25-55.wav" #Beepy (Hikari)
     bp "...I don't recall agreeing to mortal combat. You know how hard it is to clean blood stains?"
     
     voice "C-25-56.mp3" #Makoto (Reece Bridger)
@@ -310,12 +310,12 @@ label scene25:
     show stan neutral
     
     #sfx downer
-    voice "C-25-58.mp3" #Beepy (Hikari)
+    voice "C-25-58.wav" #Beepy (Hikari)
     bp "...I {i}really{/i} hate it when you use my own logic against me…"
     
     show beepy neutral
     
-    voice "C-25-59.mp3" #Beepy (Hikari)
+    voice "C-25-59.wav" #Beepy (Hikari)
     bp "Fiiiine, let's do this."
     
     show stan smirktalk
@@ -336,17 +336,17 @@ label scene25:
     
     show misaki smugclosedtalk
     
-    voice "C-25-63.mp3" #Misaki (Kikari)
+    voice "C-25-63.wav" #Misaki (Kikari)
     riv "Ah! How gracious of you to admit your own trembling weakness. But it will not be enough!"
     
-    voice "C-25-64.mp3" #Misaki (Kikari)
+    voice "C-25-64.wav" #Misaki (Kikari)
     riv "I've been looking forward to squashing you like the pesky insect that you are!" 
     
     show misaki smugtalk
     show beepy angry
     show stan bashful
     
-    voice "C-25-65.mp3" #Misaki (Kikari)
+    voice "C-25-65.wav" #Misaki (Kikari)
     riv "But perhaps if you groveled at my feet first, I might reconsider…" 
     
     show beepy naughty
@@ -354,7 +354,7 @@ label scene25:
     show stan cheekyclosed
     
     #sfx downer
-    voice "C-25-66.mp3" #Beepy (Hikari)
+    voice "C-25-66.wav" #Beepy (Hikari)
     bp "Your girlfriend has some really kinky fetishes..."
     
     show beepy neutral
@@ -366,21 +366,21 @@ label scene25:
     show beepy angryclosedtalk
     
     #music battle theme
-    voice "C-25-68.mp3" #Beepy (Hikari)
+    voice "C-25-68.wav" #Beepy (Hikari)
     bp "Aaah, fine, fine, you don't have to shout, jeez…" 
     
     show beepy eyebrowtalk
 
     #enter beepy stage left
 
-    voice "C-25-69.mp3" #Beepy (Hikari)
+    voice "C-25-69.wav" #Beepy (Hikari)
     bp "So, uh… how is this supposed to--"
     
     show beepy angry
     show stan wink
     show misaki shout
     
-    voice "C-25-70.mp3" #Misaki (Kikari)
+    voice "C-25-70.wav" #Misaki (Kikari)
     riv "I choose you! Satan of Wrath!"
     
     show misaki smug
@@ -408,7 +408,7 @@ label scene25:
     show beepy eyebrowtalk
     show stan scheming
     
-    voice "C-25-75.mp3" #Beepy (Hikari)
+    voice "C-25-75.wav" #Beepy (Hikari)
     bp "Seriously, what audience? Are we being recorded?"
     
     show beepy angry
@@ -418,12 +418,12 @@ label scene25:
     
     show misaki stammer
     
-    voice "C-25-77.mp3" #Misaki (Kikari)
+    voice "C-25-77.wav" #Misaki (Kikari)
     riv "Ah, well, the school does have security cameras, but…"
     
     show misaki scowl
     
-    voice "C-25-78.mp3" #Misaki (Kikari)
+    voice "C-25-78.wav" #Misaki (Kikari)
     riv "W-Wait, I...! Grrr, don't distract me! It's time we ended this!"
 
     "The two demons faced off against each other in the middle of the ring. Their retainers stood at the sidelines, staring daggers at one another."
@@ -436,7 +436,7 @@ label scene25:
     
     show misaki smugclosedtalk
     
-    voice "C-25-80.mp3" #Misaki (Kikari)
+    voice "C-25-80.wav" #Misaki (Kikari)
     riv "Fool as you are, I've prepared S_Tan to penetrate any and all defenses!"
     
     show beepy naughty
@@ -449,7 +449,7 @@ label scene25:
     show stan neutral
     show beepy angry
     
-    voice "C-25-82.mp3" #Beepy (Hikari)
+    voice "C-25-82.wav" #Beepy (Hikari)
     bp "..."
     
     voice "C-25-83.mp3" #Makoto (Reece Bridger)
@@ -515,10 +515,10 @@ label scene25:
     show beepy eyebrowtalk:
         align (.85, 1.0)
     
-    voice "C-25-88.mp3" #Beepy (Hikari)
+    voice "C-25-88.wav" #Beepy (Hikari)
     bp "...Huhwhat?"
     
-    voice "C-25-89.mp3" #Beepy (Hikari)
+    voice "C-25-89.wav" #Beepy (Hikari)
     bp "Oh. I uh, had my eyes closed. S_Tan gave me a warning, so…"
     
     show beepy neutral
@@ -531,15 +531,15 @@ label scene25:
     show stan sad
     show beepy eyebrowtalk
     
-    voice "C-25-91.mp3" #Beepy (Hikari)
+    voice "C-25-91.wav" #Beepy (Hikari)
     bp "What? Really? I honestly have no idea what I'm supposed to actually do, uh…"
     
-    voice "C-25-92.mp3" #Beepy (Hikari)
+    voice "C-25-92.wav" #Beepy (Hikari)
     bp "H-Hey, Makoto, I don't usually do any of this geeky chuuni stuff you guys do."
     
     show beepy neutral talk
     
-    voice "C-25-93.mp3" #Beepy (Hikari)
+    voice "C-25-93.wav" #Beepy (Hikari)
     bp "You got any acting advice? Is there a script? I didn't come prepared..." 
     
     voice "C-25-94.mp3" #Makoto (Reece Bridger)
@@ -550,7 +550,7 @@ label scene25:
     
     show beepy eyebrowtalk
     
-    voice "C-25-96.mp3" #Beepy (Hikari)
+    voice "C-25-96.wav" #Beepy (Hikari)
     bp "That? The sparkledust thingy? What even was that?"
     
     show beepy neutral
@@ -565,7 +565,7 @@ label scene25:
     show stan smileclosed
     show misaki what
 
-    voice "C-25-98.mp3" #Misaki (Kikari)
+    voice "C-25-98.wav" #Misaki (Kikari)
     riv "...Yes, it was her idea. For love is powerful enough to topple kingdoms, to right the most unjust wrongs…"
     
     voice "C-25-99.mp3" #Makoto (Reece Bridger)
@@ -577,7 +577,7 @@ label scene25:
     
     show beepy angrytalk
     
-    voice "C-25-101.mp3" #Beepy (Hikari)
+    voice "C-25-101.wav" #Beepy (Hikari)
     bp "H-Hey, I'm not oblivious! Not any more oblivious than you two dorks flirting it out!"
     
     show beepy angryclosed
@@ -588,7 +588,7 @@ label scene25:
     voice "C-25-102.mp3" #Makoto (Reece Bridger)
     pro "We're {i}not{/i} flirting!"
     
-    voice "C-25-103.mp3" #Misaki (Kikari)
+    voice "C-25-103.wav" #Misaki (Kikari)
     riv "We're {i}not{/i} flirting!"
     
     show beepy neutral
@@ -600,12 +600,12 @@ label scene25:
     
     show misaki scowl
     
-    voice "C-25-105.mp3" #Misaki (Kikari)
+    voice "C-25-105.wav" #Misaki (Kikari)
     riv "...Hm… that does sound plausible…"
     
     show beepy neutralclosedtalk
     
-    voice "C-25-106.mp3" #Beepy (Hikari)
+    voice "C-25-106.wav" #Beepy (Hikari)
     bp "...Orrrrr it's just a dumb little light show that doesn't mean anything?"
     
     show stan sadclosedtalk
@@ -616,13 +616,13 @@ label scene25:
     show stan wince
     show misaki shout
     
-    voice "C-25-108.mp3" #Misaki (Kikari)
+    voice "C-25-108.wav" #Misaki (Kikari)
     riv "S-Stop fraternizing with the enemy! This is war!"
     
     show stan sadclosed
     show beepy eyebrowtalk
     
-    voice "C-25-109.mp3" #Beepy (Hikari)
+    voice "C-25-109.wav" #Beepy (Hikari)
     bp "Say, S_Tan, she's been bossing you around a lot, huh?"
     
     show beepy eyebrow
@@ -641,19 +641,19 @@ label scene25:
     voice "C-25-112.mp3" #STan (Dani)
     st "I feel bad for her, honestly… it must be hard to make friends."
     
-    voice "C-25-113.mp3" #Beepy (Hikari)
+    voice "C-25-113.wav" #Beepy (Hikari)
     bp "Huh… yeah, no kidding."
     
     show misaki shoutblush
     
-    voice "C-25-114.mp3" #Misaki (Kikari)
+    voice "C-25-114.wav" #Misaki (Kikari)
     riv "{b}TMI, S_Tan!{/b} Ergh, you're saying all this to piss me off, aren't you!?"
     
     show misaki shout
     show stan neutral
     
     #music cut
-    voice "C-25-115.mp3" #Misaki (Kikari)
+    voice "C-25-115.wav" #Misaki (Kikari)
     riv "That's it! Makoto! Face me! Right here, right now!"
     
     voice "C-25-116.mp3" #Makoto (Reece Bridger)
@@ -668,7 +668,7 @@ label scene25:
     voice "C-25-117.mp3" #STan (Dani)
     st "Teehee! Y'see that? Now they're gonna make up and be friends!"
     
-    voice "C-25-118.mp3" #Beepy (Hikari)
+    voice "C-25-118.wav" #Beepy (Hikari)
     bp "...You're shrewd, I'll give you that…"
     
     #sfx ambient wind
@@ -680,15 +680,15 @@ label scene25:
     
     show misaki scowl
     
-    voice "C-25-121.mp3" #Misaki (Kikari)
+    voice "C-25-121.wav" #Misaki (Kikari)
     riv "It's fine, I didn't honestly expect much out of mere servants…"
     
-    voice "C-25-122.mp3" #Misaki (Kikari)
+    voice "C-25-122.wav" #Misaki (Kikari)
     riv "I had a backup plan. I cannot think of a more fitting way to end this…"
     
     show misaki smug
     
-    voice "C-25-123.mp3" #Misaki (Kikari)
+    voice "C-25-123.wav" #Misaki (Kikari)
     riv "...Then to decide it with a duel!" 
     
     voice "C-25-124.mp3" #Makoto (Reece Bridger)
@@ -696,12 +696,12 @@ label scene25:
     
     show misaki smugclosedtalk
     
-    voice "C-25-125.mp3" #Misaki (Kikari)
+    voice "C-25-125.wav" #Misaki (Kikari)
     riv "As we have always duelled! This time, you have no reason to hold anything back!"
     
     show misaki smugtalk
     
-    voice "C-25-126.mp3" #Misaki (Kikari)
+    voice "C-25-126.wav" #Misaki (Kikari)
     riv "There are no bystanders! Call upon the most arcane magicks you have to bear!"
     
     show misaki smug
@@ -714,7 +714,7 @@ label scene25:
     voice "C-25-128.mp3" #Makoto (Reece Bridger)
     pro "Countess Elizabeth, the Everlasting Matriarch of the Forgotten Reeeealms!"
     
-    voice "C-25-129.mp3" #Misaki (Kikari)
+    voice "C-25-129.wav" #Misaki (Kikari)
     riv "Sebastian Wolfgang IV! Prepare to meet your maker as you traipse from this mortal coil!"
 
     #music final battle music
@@ -725,10 +725,10 @@ label scene25:
     voice "C-25-130.mp3" #Makoto (Reece Bridger)
     pro "This spell conjures up the southwestern winds brought to bear by Pazuzu himself! Within the mind's eye, there is no respite from the storm!"
     
-    voice "C-25-131.mp3" #Misaki (Kikari)
+    voice "C-25-131.wav" #Misaki (Kikari)
     riv "A predictable plot! I have a counterspell for just the occasion!"
     
-    voice "C-25-132.mp3" #Misaki (Kikari)
+    voice "C-25-132.wav" #Misaki (Kikari)
     riv "Barriers crafted by Malphas himself! With this spell, I shall be as a stronghold, rendering mighty storms but petty, dying gasps."
     
     voice "C-25-133.mp3" #Makoto (Reece Bridger)
@@ -737,16 +737,16 @@ label scene25:
     voice "C-25-134.mp3" #Makoto (Reece Bridger)
     pro "Ufufu~ With the authority of Raum, I conjure a quake that will render your humble abodes to rubble!"
     
-    voice "C-25-135.mp3" #Misaki (Kikari)
+    voice "C-25-135.wav" #Misaki (Kikari)
     riv "But a true queen need not a throne to dominate those that would threaten her!"
     
-    voice "C-25-136.mp3" #Misaki (Kikari)
+    voice "C-25-136.wav" #Misaki (Kikari)
     riv "With the spell of Beleth, all shall remain as my loyal subjects! With the power of love, my empire will remain immortal and eternal!"
     
     voice "C-25-137.mp3" #Makoto (Reece Bridger)
     pro "But do you have but the presence of mind to not quiver in his presence?"
     
-    voice "C-25-138.mp3" #Misaki (Kikari)
+    voice "C-25-138.wav" #Misaki (Kikari)
     riv "Ohoho! Is that a challenge, you treacherous worm~?"
 
     #at this point both characters should cycle rapidly between 3 poses 
@@ -756,19 +756,19 @@ label scene25:
 
     #include sprites of demon girls in the foreground, backs turned to audience; probably sitting down so you only see their heads
 
-    voice "C-25-139.mp3" #Beepy (Hikari)
+    voice "C-25-139.wav" #Beepy (Hikari)
     bp "...They seem to be enjoying this a little too much."
     
     voice "C-25-140.mp3" #STan (Dani)
     st "Awww, they really are in love~!"
     
-    voice "C-25-141.mp3" #Beepy (Hikari)
+    voice "C-25-141.wav" #Beepy (Hikari)
     bp "They're made for each other. I'm not sure whether to call it cute or concerning."
     
     voice "C-25-142.mp3" #STan (Dani)
     st "You think so too, right!? Ohhh, I hope they make up and kiss after all this…"
     
-    voice "C-25-143.mp3" #Beepy (Hikari)
+    voice "C-25-143.wav" #Beepy (Hikari)
     bp "This isn't some schlocky romcom, S_Tan…"
 
     #music cut
@@ -783,7 +783,7 @@ label scene25:
     voice "C-25-144.mp3" #Makoto (Reece Bridger)
     pro "Hah… haaah…"
     
-    voice "C-25-145.mp3" #Misaki (Kikari)
+    voice "C-25-145.wav" #Misaki (Kikari)
     riv "Huff… hoo…"
     
     voice "C-25-146.mp3" #Makoto (Reece Bridger)
@@ -791,10 +791,10 @@ label scene25:
     
     show misaki surpriseblush
     
-    voice "C-25-147.mp3" #Misaki (Kikari)
+    voice "C-25-147.wav" #Misaki (Kikari)
     riv "Grgh… I-I don't want to admit it, but… you… have honed your craft. Just a little."
     
-    voice "C-25-148.mp3" #Misaki (Kikari)
+    voice "C-25-148.wav" #Misaki (Kikari)
     riv "This is frustrating… we're evenly matched…"
     
     voice "C-25-149.mp3" #Makoto (Reece Bridger)
@@ -807,13 +807,13 @@ label scene25:
     "Suddenly, the door swung open. A senior student with a red armband ran out onto the rooftop." 
 
     #music lighthearted
-    voice "C-25-150.mp3" #Hall Monitor 
+    voice "HM-1.wav" #Hall Monitor 
     hm "What the hell's going on up here!?"
     
     voice "C-25-151.mp3" #Makoto (Reece Bridger)
     pro "Ah! I… uh…" 
     
-    voice "C-25-152.mp3" #Misaki (Kikari)
+    voice "C-25-152.wav" #Misaki (Kikari)
     riv "We… were just…"
     
     voice "C-25-153.mp3" #Makoto (Reece Bridger)
@@ -821,13 +821,13 @@ label scene25:
     
     show misaki smug
     
-    voice "C-25-154.mp3" #Misaki (Kikari)
+    voice "C-25-154.wav" #Misaki (Kikari)
     riv "Yeah! Sun is, is nice, heh, eheh.."
     
-    voice "C-25-155.mp3" #Hall Monitor 
+    voice "HM-2.wav" #Hall Monitor 
     hm "I heard shouting! And both of you should know that students aren't allowed on the rooftop!"
     
-    voice "C-25-156.mp3" #Hall Monitor 
+    voice "HM-3.wav" #Hall Monitor 
     hm "...A-And what's with those… outrageous costumes??"
     
     voice "C-25-157.mp3" #Makoto (Reece Bridger)
@@ -835,15 +835,15 @@ label scene25:
     
     show misaki shoutblush
     
-    voice "C-25-158.mp3" #Misaki (Kikari)
+    voice "C-25-158.wav" #Misaki (Kikari)
     riv "They're rune-imbibed tunics!"
     
     show misaki pout
     
-    voice "C-25-159.mp3" #Hall Monitor 
+    voice "HM-4.wav" #Hall Monitor 
     hm "...Whatever they are, they're against uniform regulations."
     
-    voice "C-25-160.mp3" #Hall Monitor 
+    voice "HM-5.wav" #Hall Monitor 
     hm "I don't know what kind of messed up date you two are on, but…"
     
     show misaki shoutblush
@@ -852,31 +852,31 @@ label scene25:
     voice "C-25-161.mp3" #Makoto (Reece Bridger)
     pro "We're {i}not{/i} dating!"
     
-    voice "C-25-162.mp3" #Misaki (Kikari)
+    voice "C-25-162.wav" #Misaki (Kikari)
     riv "We're {i}not{/i} dating!"
     
     show misaki stammer
 
-    voice "C-25-163.mp3" #Hall Monitor 
-    hm ".Between the uniform violations, entering restricted areas, and the noise complaints…"
+    voice "HM-6.wav" #Hall Monitor 
+    hm "Between the uniform violations, entering restricted areas, and the noise complaints…"
     
-    voice "C-25-164.mp3" #Hall Monitor 
+    voice "HM-7.wav" #Hall Monitor 
     hm "...And aren't you two supposed to be in class!?"
     
     voice "C-25-165.mp3" #Makoto (Reece Bridger)
-    pro ".Oh, shit."
+    pro "Oh, shit."
     
     show misaki surpriseblush
     
-    voice "C-25-166.mp3" #Misaki (Kikari)
-    riv "..Ah… ahaha~"
+    voice "C-25-166.wav" #Misaki (Kikari)
+    riv "...Ah… ahaha~"
 
     "It would appear… that our climatic showdown had dragged on too long. And we were both late for our classes."
 
     voice "C-25-167.mp3" #Makoto (Reece Bridger)
     pro "That… that's an {i}excellent{/i} point, Mister Hall Monitor, so if you excuse us, we should really--"
     
-    voice "C-25-168.mp3" #Hall Monitor 
+    voice "HM-8.wav" #Hall Monitor 
     hm "Hold it. I'm issuing both of you detention slips."
     
     show misaki surprise
@@ -884,25 +884,25 @@ label scene25:
     voice "C-25-169.mp3" #Makoto (Reece Bridger)
     pro "Wh-What!?"
     
-    voice "C-25-170.mp3" #Misaki (Kikari)
+    voice "C-25-170.wav" #Misaki (Kikari)
     riv "That's… that's outrageous!"
     
-    voice "C-25-171.mp3" #Hall Monitor 
+    voice "HM-9.wav" #Hall Monitor 
     hm "I don't make the rules. Report to A-2 after school."
     
     #sfx door clang
 
     scene black with dissolve
-    voice "C-25-172.mp3" #Hall Monitor 
+    voice "HM-10.wav" #Hall Monitor 
     hm "C'mon, this way. Off the roof."
     
-    voice "C-25-173.mp3" #Hall Monitor 
+    voice "HM-11.wav" #Hall Monitor 
     hm "...And get out of those ridiculous costumes. Or, magic whatsits, honestly…"
     
     voice "C-25-174.mp3" #Makoto (Reece Bridger)
     pro "Ow, okay man, jeez, you don't have to shove."
     
-    voice "C-25-175.mp3" #Misaki (Kikari)
+    voice "C-25-175.wav" #Misaki (Kikari)
     riv "...This is so embarrassing…"
     
     #music cut

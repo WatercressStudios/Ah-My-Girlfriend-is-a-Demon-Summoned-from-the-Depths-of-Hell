@@ -22,12 +22,12 @@ label scene27:
     
     show stan neutral
     show beepy feyebrowtalk
-    voice "C-27-2.mp3" #Beepy (Hikari)
+    voice "C-27-2.wav" #Beepy (Hikari)
     bp "...Huh? They're together?"
     
     show misaki fscowl
     show beepy fdreamworks
-    voice "C-27-3.mp3" #Beepy (Hikari)
+    voice "C-27-3.wav" #Beepy (Hikari)
     bp "...And they {i}aren't{/i} shouting nonsense at each other. What witchcraft is this?"
     
     show stan cheekyclosedtalk
@@ -43,17 +43,17 @@ label scene27:
     pro "What are you two doing out here?"
     
     show misaki fclosedshout
-    voice "C-27-7.mp3" #Misaki (Kikari)
+    voice "C-27-7.wav" #Misaki (Kikari)
     riv "Hmph. After leaving us to rot in our cells, you have some gumption to show your faces."
     
     show misaki fscowlclosed
     show beepy fsmileclosed
-    voice "C-27-8.mp3" #Beepy (Hikari)
+    voice "C-27-8.wav" #Beepy (Hikari)
     bp "Well, I mean… detention was for {i}you two,{/i} not us."
     
     show misaki fscowl
     show beepy fsmile
-    voice "C-27-9.mp3" #Beepy (Hikari)
+    voice "C-27-9.wav" #Beepy (Hikari)
     bp "Would {i}you{/i} wanna serve time for something you didn't do?"
     
     show stan neutraltalk 
@@ -83,7 +83,7 @@ label scene27:
     pro "I… I think my ribs are… p-puncturing my diaphragm!"
     
     show misaki fshoutblush
-    voice "C-27-14.mp3" #Misaki (Kikari)
+    voice "C-27-14.wav" #Misaki (Kikari)
     riv "Cease, minion! Jeez…!"
     
     show beepy fsmileclosed
@@ -95,7 +95,7 @@ label scene27:
     "With a giddy smile, S_Tan bounced back away. Out of the corner of my eye, I could catch Beepy rolling her eyes."
     
     show misaki fdisgustblush
-    voice "C-27-16.mp3" #Misaki (Kikari)
+    voice "C-27-16.wav" #Misaki (Kikari)
     riv "...Rrgh…" 
 
     show misaki fscowl
@@ -109,7 +109,7 @@ label scene27:
     
     show beepy fneutraltalk
     show stan smileclosed
-    voice "C-27-19.mp3" #Beepy (Hikari)
+    voice "C-27-19.wav" #Beepy (Hikari)
     bp "You oughtta save it for the party, at least…"
     
     show misaki fmildsurprise
@@ -120,30 +120,30 @@ label scene27:
     
     show stan serious
     show misaki fwonder
-    voice "C-27-21.mp3" #Misaki (Kikari)
+    voice "C-27-21.wav" #Misaki (Kikari)
     riv "...What's this about, Makoto?"
     
     voice "C-27-22.mp3" #Makoto (Reece Bridger)
     pro "...This is the first I've heard of it. Your guess is as good as mine."
     
     show beepy fneutralclosed
-    voice "C-27-23.mp3" #Beepy (Hikari)
+    voice "C-27-23.wav" #Beepy (Hikari)
     bp "Shit. I wasn't supposed to mention that…"
     
     show beepy fneutral
-    voice "C-27-24.mp3" #Beepy (Hikari)
+    voice "C-27-24.wav" #Beepy (Hikari)
     bp "...Eh, whatever. Cat's out of the bag now."
     
     show beepy fsmile
-    voice "C-27-25.mp3" #Beepy (Hikari)
+    voice "C-27-25.wav" #Beepy (Hikari)
     bp "Lucy and the twins stayed behind to plan a party for you."
     
     show beepy fneutraltalk
-    voice "C-27-26.mp3" #Beepy (Hikari)
+    voice "C-27-26.wav" #Beepy (Hikari)
     bp "Their logic was like… if you won, sweet, we'll get to eat and have fun and celebrate."
     
     show beepy fneutral
-    voice "C-27-27.mp3" #Beepy (Hikari)
+    voice "C-27-27.wav" #Beepy (Hikari)
     bp "And if Misaki kicked your ass, well… at least you'll have a nice meal?"
     
     #sfx sweatdrop
@@ -151,7 +151,7 @@ label scene27:
     pro "This sounds suspiciously like something Bubble would come up with…"
     
     show beepy fsmileclosed
-    voice "C-27-29.mp3" #Beepy (Hikari)
+    voice "C-27-29.wav" #Beepy (Hikari)
     bp "...Riiiight, Bubble. Yeah. Her idea."
 
     #satan grinning slyly
@@ -162,7 +162,7 @@ label scene27:
     st "...Hmmm~?"
     
     show beepy fangry
-    voice "C-27-31.mp3" #Beepy (Hikari)
+    voice "C-27-31.wav" #Beepy (Hikari)
     bp "Shut up, Satan."
     
     show stan scheming
@@ -174,7 +174,7 @@ label scene27:
     st "Though, I wish you would've told me and my other sisters… I would've visited!"
     
     show beepy feyebrowtalk
-    voice "C-27-34.mp3" #Beepy (Hikari)
+    voice "C-27-34.wav" #Beepy (Hikari)
     bp "...Gee, I wonder why I didn't tell you."
     
     show beepy feyebrow
@@ -184,7 +184,7 @@ label scene27:
     
     show stan wince
     show beepy fsmile
-    voice "C-27-36.mp3" #Beepy (Hikari)
+    voice "C-27-36.wav" #Beepy (Hikari)
     bp "...Ah well, doesn't matter anyway. Here they are now."
     
     show stan serious
@@ -310,7 +310,7 @@ label scene27:
     
     #music cut
     show misaki fclosedshout
-    voice "C-27-59.mp3" #Misaki (Kikari)
+    voice "C-27-59.wav" #Misaki (Kikari)
     riv "...Are you serious? We don't have time for vapid festivities."
     
     show misaki fscowl
@@ -323,12 +323,12 @@ label scene27:
     "That was always the question with her, it seemed. Even in times of revelry, she always found something to pick at."
 
     #music hijinks
-    voice "C-27-61.mp3" #Misaki (Kikari)
+    voice "C-27-61.wav" #Misaki (Kikari)
     show misaki fsmugtalk
     riv "We just signed a pact to establish our organization, and you want to whittle time away eating and drinking?"
     
     show misaki fsmiletalk
-    voice "C-27-62.mp3" #Misaki (Kikari)
+    voice "C-27-62.wav" #Misaki (Kikari)
     riv "No, no, I won't have that! There's too much to do!"
     
     show misaki fsmile
@@ -337,13 +337,13 @@ label scene27:
     pro "...But they planned a party and everything…" 
     
     show misaki fsmugtalk
-    voice "C-27-64.mp3" #Misaki (Kikari)
+    voice "C-27-64.wav" #Misaki (Kikari)
     riv "As the Everlasting Matriarch of the Forgotten Realms, the value of time itself is not lost on me!"
     
     show misaki fsmug
 
     show beepy feyebrowtalk
-    voice "C-27-65.mp3" #Beepy (Hikari)
+    voice "C-27-65.wav" #Beepy (Hikari)
     bp "...Well, she's at it again."
     
     show stan pitytalk
@@ -355,37 +355,37 @@ label scene27:
     "Firmly grasping my hand, she tugged at me to follow along."
     #cg: misaki dragging makoto towards the horizon
 
-    voice "C-27-67.mp3" #Misaki (Kikari)
+    voice "C-27-67.wav" #Misaki (Kikari)
     riv "We have to submit that infernal paperwork, gather the necessary materials for rituals."
     
-    voice "C-27-68.mp3" #Misaki (Kikari)
+    voice "C-27-68.wav" #Misaki (Kikari)
     riv "{i}Proper{/i} materials, not the dollar-store junk you grabbed… from the dollar store."
     
     voice "C-27-69.mp3" #Makoto (Reece Bridger)
     pro "Hey, it worked, didn't it?"
     
-    voice "C-27-70.mp3" #Misaki (Kikari)
+    voice "C-27-70.wav" #Misaki (Kikari)
     riv "Not to mention the lessons! We have to set a curriculum if we are to influence the masses!"
     
-    voice "C-27-71.mp3" #Misaki (Kikari)
+    voice "C-27-71.wav" #Misaki (Kikari)
     riv "There are innumerable ways to greatness! Geomancy, necromancy, hydromancy…"
     
-    voice "C-27-72.mp3" #Misaki (Kikari)
+    voice "C-27-72.wav" #Misaki (Kikari)
     riv "...A-A whole lot of 'mancies!"
     
     voice "C-27-73.mp3" #Makoto (Reece Bridger)
     pro "I guess they would drive you a little antsy…" 
     
-    voice "C-27-74.mp3" #Misaki (Kikari)
+    voice "C-27-74.wav" #Misaki (Kikari)
     riv "Wh--! I… sh-shut your filthy mouth, sinner…" 
     
-    voice "C-27-75.mp3" #Misaki (Kikari)
+    voice "C-27-75.wav" #Misaki (Kikari)
     riv "If you're going to be my able-bodied assistant in this scheme, I'll need you at your best!"
     
     voice "C-27-76.mp3" #Makoto (Reece Bridger)
     pro "Wait, who's assisting who? We're supposed to be equals, right!?"
     
-    voice "C-27-77.mp3" #Misaki (Kikari)
+    voice "C-27-77.wav" #Misaki (Kikari)
     riv "You forfeited that privilege the instant you made that ghastly pun!"
 
     scene courtyard evening2 with dissolve
@@ -401,7 +401,7 @@ label scene27:
             align (1.1, 1.0)
 
     show beepy angry
-    voice "C-27-78.mp3" #Beepy (Hikari)
+    voice "C-27-78.wav" #Beepy (Hikari)
     bp "They're at it again…"
     
     show stan bashful
@@ -409,11 +409,11 @@ label scene27:
     st "I read that this is just another one of their mating rituals, y'know. It'll be fiiiine~!"
     
     show beepy neutraltalk
-    voice "C-27-80.mp3" #Beepy (Hikari)
+    voice "C-27-80.wav" #Beepy (Hikari)
     bp "...Welp. All's well that ends well, I guess."
     
     show beepy fneutralclosed
-    voice "C-27-81.mp3" #Beepy (Hikari)
+    voice "C-27-81.wav" #Beepy (Hikari)
     bp "...Jeez, I could use a nap."
     
     hide beepy with easeoutleft
@@ -478,7 +478,7 @@ label scene27:
     voice "C-27-94.mp3" #Yumi (Kaito)
     sis "{b}More{/b} of them! I don't even know who invited them!"
     
-    voice "C-27-95.mp3" #Beepy (Hikari)
+    voice "C-27-95.wav" #Beepy (Hikari)
     bp "It was probably S_Tan. Whole family's together, I think."
     
     voice "C-27-96.mp3" #Yumi (Kaito)
@@ -487,7 +487,7 @@ label scene27:
     voice "C-27-97.mp3" #Makoto (Reece Bridger)
     pro "Beepy!? What's going on over there?"
     
-    voice "C-27-98.mp3" #Beepy (Hikari)
+    voice "C-27-98.wav" #Beepy (Hikari)
     bp "It's nothing, don't worry about it. Enjoy your date with Misaki or whatever."
     
     voice "C-27-99.mp3" #Makoto (Reece Bridger)
@@ -503,13 +503,13 @@ label scene27:
     "I still need to figure out a way to send Beepy and S_Tan home. I promised my sister that much."
     "...But that can wait. Alongside the Countess, my path is clear."
     
-    voice "C-27-101.mp3" #Misaki (Kikari)
+    voice "C-27-101.wav" #Misaki (Kikari)
     riv "What are you monologuing about…?"
     
     voice "C-27-102.mp3" #Makoto (Reece Bridger)
     pro "Nothing. Just imagining the monument we're going to erect as a testament to our legacy."
     
-    voice "C-27-103.mp3" #Misaki (Kikari)
+    voice "C-27-103.wav" #Misaki (Kikari)
     riv "...D-Don't use that word, 'erect.' It's lewd!"
     
     voice "C-27-104.mp3" #Makoto (Reece Bridger)

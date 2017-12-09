@@ -19,7 +19,7 @@ label scene18:
 
     show beepy eyebrowtalk with easeinleft:
             align (0.0, 1.0)
-    voice "C-18-1.mp3" #Beepy (Hikari)
+    voice "C-18-1.wav" #Beepy (Hikari)
     bp "So… Do the people here just stand around all lunchtime and block other people?"
     
     show beepy eyebrow
@@ -27,7 +27,7 @@ label scene18:
     pro "Essentially."
     
     show beepy dreamworks
-    voice "C-18-3.mp3" #Beepy (Hikari)
+    voice "C-18-3.wav" #Beepy (Hikari)
     bp "Oh well. I guess that means you get to relax before you eat."
 
     "She winks and gives a smirk to me as the uninvited memories flood their way into my mind." 
@@ -51,7 +51,7 @@ label scene18:
     "Of course, being a regular customer and being… mentally {i}stronger{/i} than the rest, I had adjusted to this place."
     "Well, I had {i}mostly{/i} adjusted, at the very least. I headed to the front of the cafeteria, where the initial line had mostly dissipated."
 
-    voice "C-18-4.mp3" #Beepy (Hikari)
+    voice "C-18-4.wav" #Beepy (Hikari)
     bp "...Forget your room. {i}This{/i} is where I need to do some spring cleaning."
 
     "Don't, Beepy. Only suffering exists down that path."
@@ -87,7 +87,7 @@ label scene18:
     "I--"
 
     show misaki angryquiet with easeinright
-    voice "C-18-6.mp3" #Misaki (Kikari)
+    voice "C-18-6.wav" #Misaki (Kikari)
     riv "M-Make that two."
 
     show misaki pout
@@ -97,7 +97,7 @@ label scene18:
     vs "So… two blueberry muffins?"
     
     show misaki disgust
-    voice "C-18-7.mp3" #Misaki (Kikari)
+    voice "C-18-7.wav" #Misaki (Kikari)
     riv "Y-yeah. One for me, one for h-him."
 
     "One… for me?"
@@ -109,7 +109,7 @@ label scene18:
     vs "Alright, that's ¥800."
     
     show misaki closedshout
-    voice "C-18-8.mp3" #Misaki (Kikari)
+    voice "C-18-8.wav" #Misaki (Kikari)
     riv "H-Here."
 
     show misaki poutclosed 
@@ -118,14 +118,14 @@ label scene18:
     "There is a moment where she hangs there, staring at both bags. After it ends, she moves and gives me one with a shove."
     
     show misaki disgustclosed
-    voice "C-18-9.mp3" #Misaki (Kikari)
+    voice "C-18-9.wav" #Misaki (Kikari)
     riv "There."
 
     show misaki scowl
     "Silence."
 
     show misaki shout
-    voice "C-18-10.mp3" #Misaki (Kikari)
+    voice "C-18-10.wav" #Misaki (Kikari)
     riv "Now we're even."
     
     show misaki pout

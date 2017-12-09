@@ -16,7 +16,7 @@ label scene11:
 
     show beepy neutralclosed with easeinleft
 
-    voice "C-11-1.mp3" #Beepy (Hikari)
+    voice "C-11-1.wav" #Beepy (Hikari)
     bp "Well, I think I’ll head home."
     
     show beepy neutral
@@ -26,10 +26,10 @@ label scene11:
     #show Beepy confused
 
     show beepy eyebrowtalk
-    voice "C-11-3.mp3" #Beepy (Hikari)
+    voice "C-11-3.wav" #Beepy (Hikari)
     bp "Uh… yeah?"
     
-    voice "C-11-4.mp3" #Beepy (Hikari)
+    voice "C-11-4.wav" #Beepy (Hikari)
     bp "You don’t want me around anyways, so it’s fine, right?"
     
     show beepy eyebrow
@@ -37,36 +37,36 @@ label scene11:
     pro "I-I never said anything like that…"
     
     show beepy neutraltalk
-    voice "C-11-6.mp3" #Beepy (Hikari)
+    voice "C-11-6.wav" #Beepy (Hikari)
     bp "Trust me, you were probably thinking something like…"
 
     #show Beepy wide-eyed
 
     show beepy smirk
-    voice "C-11-7.mp3" #Beepy (Hikari)
+    voice "C-11-7.wav" #Beepy (Hikari)
     bp "’Away with you, oh slothy being of slothiness, lest ye get blasted into a million pieces by my death beam!’’"
 
     #show Beepy tired
 
     show beepy smileclosed
-    voice "C-11-8.mp3" #Beepy (Hikari)
+    voice "C-11-8.wav" #Beepy (Hikari)
     bp "Besides, the bed at home is comfier than your backpack."
     
     voice "C-11-9.mp3" #Makoto (Reece Bridger)
     pro "...You’re only realizing that {i}now{/i}?"
     
     show beepy neutral
-    voice "C-11-10.mp3" #Beepy (Hikari)
+    voice "C-11-10.wav" #Beepy (Hikari)
     bp "Yeah, I don’t want to admit it, but… Satan was right."
     
     show beepy neutralclosed
-    voice "C-11-11.mp3" #Beepy (Hikari)
+    voice "C-11-11.wav" #Beepy (Hikari)
     bp "I’m starting to get cramps all over…"
 
     "So you’ll worry about that, but not the strain on my back? Your priorities sure are something else…"
 
     show beepy eyebrowtalk
-    voice "C-11-12.mp3" #Beepy (Hikari)
+    voice "C-11-12.wav" #Beepy (Hikari)
     bp "You sure you don’t need me for anything else, though?"
     
     voice "C-11-13.mp3" #Makoto (Reece Bridger)
@@ -76,11 +76,11 @@ label scene11:
     pro "You can head back if you want, though."
     
     show beepy neutral
-    voice "C-11-15.mp3" #Beepy (Hikari)
+    voice "C-11-15.wav" #Beepy (Hikari)
     bp "‘Kay. Guess I’ll see you when you get home…"
     
     show beepy neutralclosed
-    voice "C-11-16.mp3" #Beepy (Hikari)
+    voice "C-11-16.wav" #Beepy (Hikari)
     bp "...Assuming I remember where your house is… Eh, it’ll probably be fine."
 
     hide beepy with easeoutright

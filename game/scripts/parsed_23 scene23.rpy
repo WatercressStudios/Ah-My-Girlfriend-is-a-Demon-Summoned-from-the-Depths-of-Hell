@@ -118,7 +118,7 @@ label scene23:
     "Did… did my words get through to them?"
 
     #music yumi theme or a happy end theme
-    voice "C-23-12.mp3" #Beepy (Hikari)
+    voice "C-23-12.wav" #Beepy (Hikari)
     bp "Well, look at that. Even a self-proclaimed demon lord is capable of humility, huh?"
     
     show lucy neutraltalk
@@ -142,7 +142,7 @@ label scene23:
     #show Beepy tired
 
     show beepy smileclosed
-    voice "C-23-17.mp3" #Beepy (Hikari)
+    voice "C-23-17.wav" #Beepy (Hikari)
     bp "Not now, you two… you’re spoiling the moment."
 
     show bubble smileclosed
@@ -181,17 +181,17 @@ label scene23:
     pro "Beepy…?"
     
     show beepy angryclosed
-    voice "C-23-24.mp3" #Beepy (Hikari)
+    voice "C-23-24.wav" #Beepy (Hikari)
     bp "Mmm…"
 
     #show Beepy smiling
 
     show beepy smileclosed
-    voice "C-23-25.mp3" #Beepy (Hikari)
+    voice "C-23-25.wav" #Beepy (Hikari)
     bp "Sure, I’ll accept your apology. I could tell you were being genuine and true to yourself just now."
     
     show beepy smile
-    voice "C-23-26.mp3" #Beepy (Hikari)
+    voice "C-23-26.wav" #Beepy (Hikari)
     bp "Besides… it’s too much trouble to hold a grudge for that long."
     
     show mami smile
@@ -277,11 +277,11 @@ label scene23:
     pro "Where were you sleeping last night?"
     
     show beepy neutralclosed
-    voice "C-23-38.mp3" #Beepy (Hikari)
+    voice "C-23-38.wav" #Beepy (Hikari)
     bp "Huh? Oh, that’s simple…"
 
     show beepy smile
-    voice "C-23-39.mp3" #Beepy (Hikari)
+    voice "C-23-39.wav" #Beepy (Hikari)
     bp "I was sleeping with Yumi."
     
     show lucy bigfrowntalk
@@ -302,7 +302,7 @@ label scene23:
     
     show beepy dreamworks
     show yumi blushsmile
-    voice "C-23-43.mp3" #Beepy (Hikari)
+    voice "C-23-43.wav" #Beepy (Hikari)
     bp "Hm? What’re you getting all red for?"
     
     #sfx sweatdrop
@@ -333,7 +333,7 @@ label scene23:
     #sfx downer
     
     show beepy neutralclosedtalk
-    voice "C-23-48.mp3" #Beepy (Hikari)
+    voice "C-23-48.wav" #Beepy (Hikari)
     bp "Well… so much for the cozy atmosphere."
 
     show beepy neutralclosed
@@ -343,11 +343,11 @@ label scene23:
     #hide Lucy and Yumi
 
     show beepy neutral
-    voice "C-23-49.mp3" #Beepy (Hikari)
+    voice "C-23-49.wav" #Beepy (Hikari)
     bp "So… what now?"
     
     show beepy neutraltalk
-    voice "C-23-50.mp3" #Beepy (Hikari)
+    voice "C-23-50.wav" #Beepy (Hikari)
     bp "It’s a new day, and we could all use some relaxing after last night."
     
     show beepy neutral
@@ -355,7 +355,7 @@ label scene23:
     pro "Well… I still need to go to school."
     
     show beepy angry
-    voice "C-23-52.mp3" #Beepy (Hikari)
+    voice "C-23-52.wav" #Beepy (Hikari)
     bp "Oh. Right. Almost forgot."
     
     #music cut
@@ -382,7 +382,7 @@ label scene23:
     pro "I won’t ask any of you to shoulder the burden. This time, I’ll handle it on my own."
     
     show beepy eyebrowtalk
-    voice "C-23-57.mp3" #Beepy (Hikari)
+    voice "C-23-57.wav" #Beepy (Hikari)
     bp "I’m coming with you, you know."
     
     show beepy eyebrow
@@ -411,7 +411,7 @@ label scene23:
     "Everyone stares pensively at me… until Beepy shrugs her shoulders."
 
     show beepy neutralclosedtalk
-    voice "C-23-64.mp3" #Beepy (Hikari)
+    voice "C-23-64.wav" #Beepy (Hikari)
     bp "Eh. Do what you gotta do, I guess."
     
     show bubble bigsmileclosedtalk

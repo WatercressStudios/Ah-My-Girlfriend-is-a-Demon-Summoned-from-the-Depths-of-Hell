@@ -155,7 +155,7 @@ label scene17:
     show beepy fneutraltalk with easeinright:
             align (1.1, 1.0)
     #music cut
-    voice "C-17-26.mp3" #Beepy (Hikari)
+    voice "C-17-26.wav" #Beepy (Hikari)
     bp "Nah. I was just reheating the leftover pizza. There’s even enough for everyone."
 
     show bubble bigsmiletalk
@@ -210,11 +210,11 @@ label scene17:
 
     show yumi angry
     show beepy angryclosed
-    voice "C-17-32.mp3" #Beepy (Hikari)
+    voice "C-17-32.wav" #Beepy (Hikari)
     bp "Pssshh. The {i}microwave?{/i}"
 
     show beepy angry
-    voice "C-17-33.mp3" #Beepy (Hikari)
+    voice "C-17-33.wav" #Beepy (Hikari)
     bp "Everyone knows that if you {i}really{/i} want to reheat pizza, you’ve gotta use the oven."
 
     "Then..."
@@ -242,7 +242,7 @@ label scene17:
     hide lucy with easeoutright
     show beepy neutralclosedtalk
     show yumi neutral
-    voice "C-17-37.mp3" #Beepy (Hikari)
+    voice "C-17-37.wav" #Beepy (Hikari)
     bp "Jeeeeeez. You think that {i}just{/i} because I’m a demon personifying sloth, I’ve gotta do everything the easy way?"
 
     show beepy neutralclosed
@@ -251,7 +251,7 @@ label scene17:
 
     show yumi surprise
     show beepy angrytalk
-    voice "C-17-39.mp3" #Beepy (Hikari)
+    voice "C-17-39.wav" #Beepy (Hikari)
     bp "Oh, really? What next? Electric eels are electric?"
 
     show beepy angry
@@ -260,7 +260,7 @@ label scene17:
 
     show beepy eyebrowtalk
     show yumi helpme
-    voice "C-17-41.mp3" #Beepy (Hikari)
+    voice "C-17-41.wav" #Beepy (Hikari)
     bp "And killer whales kill things?"
 
     show beepy eyebrow
@@ -268,7 +268,7 @@ label scene17:
     pro "Yes!"
 
     show beepy neutraltalk
-    voice "C-17-43.mp3" #Beepy (Hikari)
+    voice "C-17-43.wav" #Beepy (Hikari)
     bp "And red pandas are red?"
 
     show beepy neutral
@@ -277,13 +277,13 @@ label scene17:
 
     show yumi neutral
     show beepy angrytalk
-    voice "C-17-45.mp3" #Beepy (Hikari)
+    voice "C-17-45.wav" #Beepy (Hikari)
     bp "But you know what? An electric eel isn’t an eel, a killer whale isn’t a whale, and a red panda isn’t a panda!"
     
     #sfx sparkle
 
     show beepy dreamworks
-    voice "C-17-46.mp3" #Beepy (Hikari)
+    voice "C-17-46.wav" #Beepy (Hikari)
     bp "Your expectations can be wrong where you least expect it~!"
 
     show yumi exasperated
@@ -291,14 +291,14 @@ label scene17:
     pro "What does that have to do with you putting so much effort into reheating pizza?"
 
     show beepy neutral
-    voice "C-17-48.mp3" #Beepy (Hikari)
+    voice "C-17-48.wav" #Beepy (Hikari)
     bp "Nothin’. Just thought you might be able to relax with some fun animal trivia."
 
     voice "C-17-49.mp3" #Makoto (Reece Bridger)
     pro "Relax?! A battle deciding the fates of the two most powerful demon lords in the tri-state area will be upon us in less than two days, and you expect me to {i}relax!?{/i}"
 
     show beepy eyebrow
-    voice "C-17-50.mp3" #Beepy (Hikari)
+    voice "C-17-50.wav" #Beepy (Hikari)
     bp "...The hell is a tri-state area?"
 
     voice "C-17-51.mp3" #Makoto (Reece Bridger)
@@ -306,7 +306,7 @@ label scene17:
 
     show yumi angry
     show beepy neutralclosed
-    voice "C-17-52.mp3" #Beepy (Hikari)
+    voice "C-17-52.wav" #Beepy (Hikari)
     bp "Oh. ‘Kay."
 
     show yumi angrytalk
@@ -380,7 +380,7 @@ label scene17:
 
     show beepy neutraltalk with easeinleft
 
-    voice "C-17-63.mp3" #Beepy (Hikari)
+    voice "C-17-63.wav" #Beepy (Hikari)
     bp "Oh, yeah... I {i}did{/i} clean that, didn’t I...?"
 
     show beepy neutral
@@ -419,11 +419,11 @@ label scene17:
     #music cut
 
     show beepy neutraltalk
-    voice "C-17-73.mp3" #Beepy (Hikari)
+    voice "C-17-73.wav" #Beepy (Hikari)
     bp "The third page of your math notebook has a doodle of a wolf."
 
     show beepy eyebrowtalk
-    voice "C-17-74.mp3" #Beepy (Hikari)
+    voice "C-17-74.wav" #Beepy (Hikari)
     bp "One half is made of fire, and I {i}think{/i} the other half might be ice or something - but it’s kinda hard to tell because you’re not that good of an artist."
 
     show beepy eyebrow
@@ -432,7 +432,7 @@ label scene17:
 
     show beepy neutralclosedtalk
     #music beepy theme
-    voice "C-17-76.mp3" #Beepy (Hikari)
+    voice "C-17-76.wav" #Beepy (Hikari)
     bp "Iunno. I got bored when I was in your backpack, so I looked through some of your stuff. Thought bringing it up might prove my identity or somethin’."
 
     show beepy neutralclosed
@@ -444,12 +444,12 @@ label scene17:
     pro "And that isn’t a {i}doodle!{/i} It is a complex ritual to assist in the conjuring of a beast by developing an image from which it can manifest!"
 
     show beepy neutraltalk
-    voice "C-17-79.mp3" #Beepy (Hikari)
+    voice "C-17-79.wav" #Beepy (Hikari)
     bp "Yeah, whatever. I just figured your sis might make you clean the garage, so I went ahead and did it for ya."
 
     show beepy smile
     #sfx sparkle
-    voice "C-17-80.mp3" #Beepy (Hikari)
+    voice "C-17-80.wav" #Beepy (Hikari)
     bp "So now we can just relax for the rest of the night~!"
 
     voice "C-17-81.mp3" #Makoto (Reece Bridger)
@@ -458,37 +458,37 @@ label scene17:
     #music cut
 
     show beepy neutral
-    voice "C-17-82.mp3" #Beepy (Hikari)
+    voice "C-17-82.wav" #Beepy (Hikari)
     bp "...Oh."
 
-    voice "C-17-83.mp3" #Beepy (Hikari)
+    voice "C-17-83.wav" #Beepy (Hikari)
     bp "Okay."
 
     show beepy neutralclosed
-    voice "C-17-84.mp3" #Beepy (Hikari)
+    voice "C-17-84.wav" #Beepy (Hikari)
     bp "I mean..."
 
     #music sad
     show beepy fneutralclosed with easeinright:
             align (0.3, 1.0)
-    voice "C-17-85.mp3" #Beepy (Hikari)
+    voice "C-17-85.wav" #Beepy (Hikari)
     bp "I just thought, y’know, since I made you pizza - in the oven and everything - and cleaned the garage for you... you might spare a little bit of time to hang out with me."
 
     show beepy fneutralclosed with easeinright:
             align (0.1, 1.0)
-    voice "C-17-86.mp3" #Beepy (Hikari)
+    voice "C-17-86.wav" #Beepy (Hikari)
     bp "Especially because without my help you would’ve been stuck scrubbing the floor all night."
 
     show beepy fneutralclosed with easeinright:
             align (-0.1, 1.0)
     #sfx downer
-    voice "C-17-87.mp3" #Beepy (Hikari)
+    voice "C-17-87.wav" #Beepy (Hikari)
     bp "But I guess your responsibilities are just... too important."
     
     show beepy fneutralclosed with easeinright:
             align (-0.3, 1.0)
     
-    voice "C-17-88.mp3" #Beepy (Hikari)
+    voice "C-17-88.wav" #Beepy (Hikari)
     bp "To think... all of that {i}hard{/i} work, just... put to waste..."
     
     hide beepy with easeoutleft
@@ -512,7 +512,7 @@ label scene17:
 
     show beepy angrytalk with easeinleft:
         align (-0.1, 1.0)
-    voice "C-17-90.mp3" #Beepy (Hikari)
+    voice "C-17-90.wav" #Beepy (Hikari)
     bp "What? You want me to get Yumi to drive you somewhere? A nice place that’s too far away for that annoying Beepy to distract you from your super important training?"
 
     show beepy angry
@@ -521,14 +521,14 @@ label scene17:
 
     show beepy eyebrowtalk
     #music cut
-    voice "C-17-92.mp3" #Beepy (Hikari)
+    voice "C-17-92.wav" #Beepy (Hikari)
     bp "That means ‘hang out’ in normal people talk, right?"
 
     #music lighthearted
 
     show beepy smile
 
-    voice "C-17-93.mp3" #Beepy (Hikari)
+    voice "C-17-93.wav" #Beepy (Hikari)
     bp "Sweet! I’ll see what’s on TV~!"
 
     hide beepy with easeoutleft
@@ -545,10 +545,10 @@ label scene17:
     
     "With the stage set, she turns on the TV and starts channel-surfing."
 
-    voice "C-17-94.mp3" #Beepy (Hikari)
+    voice "C-17-94.wav" #Beepy (Hikari)
     bp "Whoaaaah! I’ve wanted to see this movie for weeks now! And whaddya know! It’s just starting!"
 
-    voice "C-17-95.mp3" #Beepy (Hikari)
+    voice "C-17-95.wav" #Beepy (Hikari)
     bp "What a {i}crazy{/i} coincidence!"
      
     scene movie1 with dissolve
@@ -584,11 +584,11 @@ label scene17:
 
     show beepy smile with easeinleft:
         align(0.1, 1.0)
-    voice "C-17-96.mp3" #Beepy (Hikari)
+    voice "C-17-96.wav" #Beepy (Hikari)
     bp "Yowza! I thought that’d be pretentious, but it really was as good as they said!"
 
     show beepy neutraltalk
-    voice "C-17-97.mp3" #Beepy (Hikari)
+    voice "C-17-97.wav" #Beepy (Hikari)
     bp "What’d you think, Makoto? Have a good time?"
 
     show beepy neutral
@@ -596,7 +596,7 @@ label scene17:
     pro "For the last time, call me--!"
 
     show beepy smile
-    voice "C-17-99.mp3" #Beepy (Hikari)
+    voice "C-17-99.wav" #Beepy (Hikari)
     bp "C’mooon, it’s no big deal. Relax, relax~"
 
     "First you steal two hours of my time, and now my dignity?"
@@ -609,7 +609,7 @@ label scene17:
     pro "...It was nice. I prefer the content of my eldritch texts, but as a brief intermission, I suppose it was an acceptable use of my time."
 
     show beepy eyebrowtalk
-    voice "C-17-101.mp3" #Beepy (Hikari)
+    voice "C-17-101.wav" #Beepy (Hikari)
     bp "But it was a {i}way{/i} better time than you would’ve had practicing for that dumb magic show you have in two days, right?"
 
     show beepy eyebrow
@@ -617,14 +617,14 @@ label scene17:
     pro "Hmph. What is two hours of enjoyment when put up against the potential for infinite power?"
 
     show beepy smileclosed
-    voice "C-17-103.mp3" #Beepy (Hikari)
+    voice "C-17-103.wav" #Beepy (Hikari)
     bp "...Eh. Guess that’s the best I could’ve gotten out of a sourpuss like you."
 
     voice "C-17-104.mp3" #Makoto (Reece Bridger)
     pro "Now if you’ll excuse me, I need to rejuvenate my energy in preparation for my next journey to the mortal realm."
 
     show beepy smile
-    voice "C-17-105.mp3" #Beepy (Hikari)
+    voice "C-17-105.wav" #Beepy (Hikari)
     bp "Sure, sure. Nighty night!"
 
     scene bedroom night with dissolve
@@ -682,26 +682,26 @@ label scene17:
 
     "..."
 
-    voice "C-17-106.mp3" #Beepy (Hikari)
+    voice "C-17-106.wav" #Beepy (Hikari)
     bp "Zzz..."
 
     #music romantic
     voice "C-17-107.mp3" #Makoto (Reece Bridger)
     pro "What!? Beepy!? How--"
 
-    voice "C-17-108.mp3" #Beepy (Hikari)
+    voice "C-17-108.wav" #Beepy (Hikari)
     bp "Oh... Hey, Makoto... Come here often?"
 
     voice "C-17-109.mp3" #Makoto (Reece Bridger)
     pro "How did you get in here!?"
 
-    voice "C-17-110.mp3" #Beepy (Hikari)
+    voice "C-17-110.wav" #Beepy (Hikari)
     bp "Who caaaaaaaaaaaaares?"
 
-    voice "C-17-111.mp3" #Beepy (Hikari)
+    voice "C-17-111.wav" #Beepy (Hikari)
     bp "I guess if you {i}really{/i} wanted, you could just kick me out."
 
-    voice "C-17-112.mp3" #Beepy (Hikari)
+    voice "C-17-112.wav" #Beepy (Hikari)
     bp "But then you’d have to get out of this nice, soft bed and go through all the trouble of undoing those locks..."
 
     "I have never at any point in my life felt such a poignant sense of defeat."
@@ -709,7 +709,7 @@ label scene17:
     voice "C-17-113.mp3" #Makoto (Reece Bridger)
     pro "...Whatever."
 
-    voice "C-17-114.mp3" #Beepy (Hikari)
+    voice "C-17-114.wav" #Beepy (Hikari)
     bp "G’night, Makotoooo~"
 
     voice "C-17-115.mp3" #Makoto (Reece Bridger)

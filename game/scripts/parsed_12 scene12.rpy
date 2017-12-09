@@ -121,7 +121,7 @@ label scene12:
     #enter Beepy stage right
 
     show beepy fdreamworks
-    voice "C-12-15.mp3" #Beepy (Hikari)
+    voice "C-12-15.wav" #Beepy (Hikari)
     bp "The least you could do is behave yourselves..."
     
     show lucy frowntalk
@@ -143,7 +143,7 @@ label scene12:
     mm "Yeah, but who was the one about to raid the entire fridge until Beepy stopped them!? Oh, right, it's you!"
     
     show beepy fangryclosed
-    voice "C-12-20.mp3" #Beepy (Hikari)
+    voice "C-12-20.wav" #Beepy (Hikari)
     bp "I mean, I only did that because I raided it last night… There isn't much there anyways."
     
     #music cut
@@ -170,15 +170,15 @@ label scene12:
     pro "Beepy, what is going on here?"
     
     show beepy neutraltalk
-    voice "C-12-23.mp3" #Beepy (Hikari)
+    voice "C-12-23.wav" #Beepy (Hikari)
     bp "Huh? Oh, well…"
     
     show beepy neutralclosedtalk
-    voice "C-12-24.mp3" #Beepy (Hikari)
+    voice "C-12-24.wav" #Beepy (Hikari)
     bp "I found my way home, as you see. It was actually pretty easy once I picked up the house's scent…"
     
     show beepy eyebrowtalk
-    voice "C-12-25.mp3" #Beepy (Hikari)
+    voice "C-12-25.wav" #Beepy (Hikari)
     bp "It smelled a little bit like that cape of yours… You know, you really should wash that thing sometime."
     
     show beepy eyebrow
@@ -189,38 +189,38 @@ label scene12:
     pro "*Sigh*... Nevermind. That's beside the point."
     
     show beepy neutralclosedtalk
-    voice "C-12-28.mp3" #Beepy (Hikari)
+    voice "C-12-28.wav" #Beepy (Hikari)
     bp "Right, anyways…"
 
     #show Beepy sad
 
     show beepy neutraltalk
-    voice "C-12-29.mp3" #Beepy (Hikari)
+    voice "C-12-29.wav" #Beepy (Hikari)
     bp "Once I made it back here, I realized there wasn't anyone for you to hang out with."
     
     show beepy dreamworks
-    voice "C-12-30.mp3" #Beepy (Hikari)
+    voice "C-12-30.wav" #Beepy (Hikari)
     bp "I mean, your sister's an option - but with that lame schtick of yours, I dunno how she can even tolerate you."
     
     show beepy neutraltalk
-    voice "C-12-31.mp3" #Beepy (Hikari)
+    voice "C-12-31.wav" #Beepy (Hikari)
     bp "I felt there wasn't much of a point in having you be lonely and miserable the whole time..."
 
     #show Beepy smiling
 
     show beepy smileclosed
-    voice "C-12-32.mp3" #Beepy (Hikari)
+    voice "C-12-32.wav" #Beepy (Hikari)
     bp "So I brought a couple of my friends over."
     
     voice "C-12-33.mp3" #Makoto (Reece Bridger)
     pro "Huh? Y-You can do that?"
     
     show beepy neutraltalk
-    voice "C-12-34.mp3" #Beepy (Hikari)
+    voice "C-12-34.wav" #Beepy (Hikari)
     bp "Why not? You're only bound to me, so having other demons around shouldn't be a problem."
     
     show beepy smile
-    voice "C-12-35.mp3" #Beepy (Hikari)
+    voice "C-12-35.wav" #Beepy (Hikari)
     bp "If Satan has issue with it, well… she can stuff it."
 
     "...Did she really do all that for me?"
@@ -231,10 +231,10 @@ label scene12:
     pro "Wow… I-I didn't expect you to go this far, Beepy."
     
     show beepy dreamworks
-    voice "C-12-37.mp3" #Beepy (Hikari)
+    voice "C-12-37.wav" #Beepy (Hikari)
     bp "Pretty great, huh? I bet you never knew what I was planning~"
     
-    voice "C-12-38.mp3" #Beepy (Hikari)
+    voice "C-12-38.wav" #Beepy (Hikari)
     bp "My poker face is unbeatable."
     
     voice "C-12-39.mp3" #Makoto (Reece Bridger)
@@ -242,11 +242,11 @@ label scene12:
 
     show beepy neutraltalk
 
-    voice "C-12-40.mp3" #Beepy (Hikari)
+    voice "C-12-40.wav" #Beepy (Hikari)
     bp "Anyways, I should probably introduce you, so…"
     
     show beepy eyebrowtalk
-    voice "C-12-41.mp3" #Beepy (Hikari)
+    voice "C-12-41.wav" #Beepy (Hikari)
     bp "Who wants to go first?"
 
     #enter twins, stage left
@@ -282,12 +282,12 @@ label scene12:
     "Good God, do these two do anything besides quarrel with each other?"
 
     show beepy angryclosedtalk
-    voice "C-12-47.mp3" #Beepy (Hikari)
+    voice "C-12-47.wav" #Beepy (Hikari)
     bp "...Alright, this is getting nowhere."
     
     show beepy angrytalk with easeinright:
             align(0.10, 1.0)
-    voice "C-12-48.mp3" #Beepy (Hikari)
+    voice "C-12-48.wav" #Beepy (Hikari)
     bp "Lucy, you go."
 
     #enter Lucy stage left
@@ -305,7 +305,7 @@ label scene12:
     lu "I-I couldn't! I mean, I'm not ready..."
     
     show beepy eyebrowtalk
-    voice "C-12-51.mp3" #Beepy (Hikari)
+    voice "C-12-51.wav" #Beepy (Hikari)
     bp "You don't have to do a flashy introduction, just say your name."
 
     #show Lucy determined
@@ -321,7 +321,7 @@ label scene12:
     lu "Besides, h-he deserves a proper introduction from all of us!"
     
     show beepy smile
-    voice "C-12-54.mp3" #Beepy (Hikari)
+    voice "C-12-54.wav" #Beepy (Hikari)
     bp "...Suit yourself."
 
     #exit Beepy stage right
@@ -696,7 +696,7 @@ label scene12:
     bb "Nyahahaha~! You sure are funny, Makoto!"
     
     show beepy angryclosed
-    voice "C-12-105.mp3" #Beepy (Hikari)
+    voice "C-12-105.wav" #Beepy (Hikari)
     bp "Not this again…"
     
     voice "C-12-106.mp3" #Makoto (Reece Bridger)
@@ -743,13 +743,13 @@ label scene12:
     pro "That stupid Satan… I go to all the trouble to summon her and she ends up helping my rival instead! It's unforgivable!"
     
     show beepy neutraltalk
-    voice "C-12-115.mp3" #Beepy (Hikari)
+    voice "C-12-115.wav" #Beepy (Hikari)
     bp "That's kinda her thing, dude. Making other people mad is what she lives for…"
 
     #show Beepy annoyed
 
     show beepy neutralclosedtalk
-    voice "C-12-116.mp3" #Beepy (Hikari)
+    voice "C-12-116.wav" #Beepy (Hikari)
     bp "I wouldn't be surprised if that stupid \"idol troupe\" thing was meant to annoy me specifically."
 
     #show Lucy nervous
@@ -873,7 +873,7 @@ label scene12:
     lu "Beepy dragged us away so suddenly, we didn't bring a whole lot with us… S-Sorry about that."
     
     show beepy neutraltalk
-    voice "C-12-139.mp3" #Beepy (Hikari)
+    voice "C-12-139.wav" #Beepy (Hikari)
     bp "I had to act fast, so… I ended up overlooking a few details."
     
     show beepy neutral

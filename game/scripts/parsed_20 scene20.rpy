@@ -342,7 +342,7 @@ label scene20:
     show beepy smile with easeinleft:
         align (0.20, 1.0)
 
-    voice "C-20-57.mp3" #Beepy (Hikari)
+    voice "C-20-57.wav" #Beepy (Hikari)
     bp "Mmm, lasagna… I was wondering where that smell was coming from."
     
     voice "C-20-58.mp3" #Lucy (Vivi)
