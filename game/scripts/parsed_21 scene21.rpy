@@ -18,7 +18,7 @@ label scene21:
 
     #hide satan’s business card. You know. If it’s there.
 
-    #sfx ring
+    play sound "sfx/Phone Ringing.mp3"
 
     "brrring, brrring"
     "Please pick up..."
@@ -127,7 +127,7 @@ label scene21:
 
     "Yes!"
 
-    #play sfx beep
+    play sound "sfx/Phone Ringing.mp3"
 
     voice "C-21-17.mp3" #STan (Dani)
     st "Hi! You’ve reached Satan of Wrath!"
@@ -162,10 +162,10 @@ label scene21:
     pro "{b}What the fuck is this, a postal service!?{/b}"
 
     #music cut
-    #sfx whoosh
+    play sound "sfx/Swish.mp3"
     "I throw my phone at my bed and watch it bounce pathetically."
 
-    #play sfx knock
+    play sound "sfx/Knocking on Door.mp3"
 
     voice "C-21-25.mp3" #Beepy (Hikari)
     bp "Hey, Makoto? Ya doin’ okay in there?"
@@ -412,7 +412,7 @@ label scene21:
     voice "C-21-80.mp3" #Beepy (Hikari)
     bp "Just... go ahead and do what makes you happy, alright?"
 
-    #sfx door close
+    play sound "sfx/Door Close.mp3"
     hide beepy with dissolve
 
     #music cut
@@ -439,14 +439,14 @@ label scene21:
 
     "I proceed unimpeded, the most productive I’ve been in months. No... eons!"
 
-    #sfx paper crumpling
+    play sound "sfx/Paper Slip.mp3"
 
     scene bedroom with dissolve
     with dissolve
 
     "...That is, until a piece of paper slips under my door."
 
-    show apology_card
+    show apologycard
 
     #we need the artists to draw the cover of a cute demonic apology card with flames and stuff
     #this isn’t a request it is an order

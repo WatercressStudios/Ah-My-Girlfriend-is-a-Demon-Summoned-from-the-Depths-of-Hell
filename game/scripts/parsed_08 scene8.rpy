@@ -27,7 +27,7 @@ label scene8:
     "But still, a demon should know their place in the presence of a demon lord."
     "Using all the strength I can muster, I manage to wrestle my arm away - but the force of my pushing ends up sending her off the bed."
 
-    #sfx whump
+    play sound "sfx/Punch.mp3"
 
     "WHUMP!"
 

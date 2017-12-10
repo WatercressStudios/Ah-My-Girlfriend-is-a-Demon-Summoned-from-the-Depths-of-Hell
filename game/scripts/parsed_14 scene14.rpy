@@ -89,7 +89,7 @@ label scene14:
     voice "C-14-12.mp3" #Lucy (Vivi)
     lu "I-I’m not sitting there."
 
-    #sfx car beep
+    play sound "sfx/Car Honk.mp3"
     "I am about to open my mouth to protest before a loud {i}BEEP{/i} explodes from the car."
 
     #music cut
@@ -125,7 +125,6 @@ label scene14:
 
     "..."
     
-    #sfx car driving ambient 
     #music car radio
 
     show car5 with dissolve
@@ -135,24 +134,24 @@ label scene14:
     "They interest me, in a way. I have no idea what lives they lead, and it is unlikely that their lives will ever be significant to my own; they--"
 
     show car6
-    #sfx window
+    play sound "sfx/Car Window Up.mp3"
 
     "...still do not fail to pique my attention. As insignificant as they are, as little as they matter to Demon Lord Sebastian Wolfgang IV, it is still interesting to watch them go about their daily lives. It is always fun to guess what they are doing, what they are--"
 
     show car7
-    #sfx window
+    play sound "sfx/Car Window Down.mp3"
 
     "...thinking. Although they are always out of my life the moment they come in, although it is likely I will forget about them mere moments after they leave, I appreciate them all the--"
 
     hide car7
-    #sfx window
+    play sound "sfx/Car Window Up.mp3"
 
     "...What {i}is{/i} that noise?"
 
     "I look around the car, trying to see what would have made that {i}infernal{/i} drone. I see my sister in the driver’s seat, a slight scowl on her face as she navigates the labyrinthine city streets. I see Mammon on the other side, absentmindedly looking out the window and seeing the city. I see Beelzebub, looking through her own window--"
 
     hide car6
-    #sfx window
+    play sound "sfx/Car Window Down.mp3"
 
     "And as the window goes down, the facts fall into place. I’ve found my culprit."
 
@@ -163,7 +162,7 @@ label scene14:
     bb "Juuuuussssttttttttttttt playin’ around!"
 
     show car6
-    #sfx window 
+    play sound "sfx/Car Window Down.mp3"
     "She presses the button on the door, sending the window downwards again."
 
     voice "C-14-16.mp3" #Makoto (Reece Bridger)
@@ -179,7 +178,7 @@ label scene14:
     bb "But it's {i}funnnnnnnnnnnnnnnnnnnn!{/i}"
 
     show car7
-    #sfx window
+    play sound "sfx/Car Window Up.mp3"
 
     "Somehow, even though I try to avoid them, memories of my more… immature self always seem to come back and haunt me."
 
@@ -192,21 +191,21 @@ label scene14:
     voice "C-14-22.mp3" #Makoto (Reece Bridger)
     pro "...I see."
 
-    #sfx window
+    play sound "sfx/Car Window Down.mp3"
     hide car7
     "Joy."
 
     voice "C-14-23.mp3" #Yumi (Kaito)
     sis "Aren’t you going to get bored of that?"
 
-    #sfx window
+    play sound "sfx/Car Window Up.mp3"
     hide car6
     "The frustration in her voice is growing by leaps and bounds. It seems as if brother and sister are united at last."
 
     voice "C-14-24.mp3" #Bubble 
     bb "{i}Mayyyyyyyyyybe.{/i} Not right now, though~!"
 
-    #sfx window
+    play sound "sfx/Car Window Down.mp3"
     show car6
 
     voice "C-14-25.mp3" #Yumi (Kaito)
@@ -215,7 +214,7 @@ label scene14:
     voice "C-14-26.mp3" #Bubble 
     bb "{i}Okayyyyyyyy.{/i}"
 
-    #sfx window
+    play sound "sfx/Car Window Up.mp3"
     hide car6
 
     "The window closes for a final time as Beelzebub slumps backwards, content with her shenanigans. It is almost as if she is a child, throwing a temper tantrum just because she wasn’t able to get her way."

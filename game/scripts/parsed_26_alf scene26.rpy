@@ -19,7 +19,7 @@ label scene26:
     tea "...It's not like I want to be here anymore than you guys do, so…" 
     "Excusing himself, he moved to exit the classroom."
 
-    #sfx door closing
+    play sound "sfx/Door Close.mp3"
 
     "As the door closed behind him. Silence hung over the room."
 
@@ -71,7 +71,7 @@ label scene26:
     "The silence was grating. Perhaps smalltalk was the domain of simpler minds, but…"
     "...I would rather have that in their air than nothing at all."
     
-    #sfx moving furniture chair against hard floor
+    play sound "sfx/Moving Furniture.mp3"
     #ambient clock stop
     #music romantic
     
@@ -245,7 +245,7 @@ label scene26:
     voice "C-26-53.mp3" #Makoto (Reece Bridger)
     pro "We're evenly matched. Perhaps you're a bit too prideful."
     
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     
     show misaki despair
     voice "C-26-54.mp3" #Misaki (Kikari)
@@ -435,7 +435,7 @@ label scene26:
     
     hide misaki with dissolve
     scene classroom evening1 with dissolve
-    #sfx door opening
+    play sound "sfx/Door Open.mp3"
 
     "Parting ways, we settled back into our seats as the councillor returned, a mug of coffee in hand."
 
@@ -444,7 +444,7 @@ label scene26:
     tea "...Yeah, you kids better glower in jealousy at this discount coffee."
     tea "That's what detention's all about: regrets, silence, and reminiscing about all that time you lost out on…" 
     
-    #sfx ambient clock
+    play sound "sfx/Clock.mp3"
     voice "C-26-100.mp3" #Makoto (Reece Bridger)
     pro "..."
     
@@ -454,8 +454,7 @@ label scene26:
     "Glancing aside to each other, we decide it best to bide our time and wait out the remaining minutes."
 
     #fade to black
-    #sfx alarm buzz
-    #stop ambient clock
+    play sound "sfx/Clock.mp3"
     #adjust onomonopia depending on sfx we use
 
     "{b}BEEP!{/b}"

@@ -22,7 +22,7 @@ label scene25:
     #music lighthearted
     "...I mean, she has a point, kind of. I'm the one trying to hype myself up in a public bathroom."
     
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     voice "C-25-6.mp3" #Makoto (Reece Bridger)
     pro "I-I'm trying to get in the mindset, here…"
     
@@ -309,7 +309,7 @@ label scene25:
     show beepy angryclosed
     show stan neutral
     
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     voice "C-25-58.mp3" #Beepy (Hikari)
     bp "...I {i}really{/i} hate it when you use my own logic against me…"
     
@@ -320,7 +320,7 @@ label scene25:
     
     show stan smirktalk
     
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     voice "C-25-60.mp3" #STan (Dani)
     st "Yaaaayyy~! It'll be just like when we were little imps!"
     
@@ -353,7 +353,7 @@ label scene25:
     show misaki disgustblush
     show stan cheekyclosed
     
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     voice "C-25-66.mp3" #Beepy (Hikari)
     bp "Your girlfriend has some really kinky fetishes..."
     
@@ -390,7 +390,7 @@ label scene25:
     voice "C-25-71.mp3" #STan (Dani)
     st "Thaaaaat's me!"
     
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     voice "C-25-72.mp3" #STan (Dani)
     st "Y'know that feeling when you're eating a burger and the patty slides out onto your--"
     
@@ -463,9 +463,9 @@ label scene25:
     show stan wink
 
     "S_Tan cupped her hands together, holding them at her waist. Her eyebrows furrowed, concentrating intensely…"
-    #sfx low hum
+    play sound "sfx/Shock.mp3"
     
-    #sfx energy crackling
+    play sound "sfx/Energy.mp3"
     "Her hands began to glow with an awesome power…!"
     
     show stan winktalk
@@ -475,7 +475,7 @@ label scene25:
     
     show stan wink
     
-    #sfx loud hum
+    play sound "sfx/Beam Loading 1.mp3"
     "An orb of light was slowly accumulating in her hands, pulsating with life. It was growing bigger, and bigger!"
     "Misaki was grinning cheekily on the other side of the arena, and dread washed over my face.” “Oh God, was this… something they planned together!?"
     
@@ -491,7 +491,7 @@ label scene25:
     show stan smirk
 
     #music abrupt cut
-    #sfx energy blast
+    play sound "sfx/Beam Shot.mp3"
     scene white
 
     "With a flourish of her hands, she unleashed the energy in one grand gesture."
@@ -571,7 +571,7 @@ label scene25:
     voice "C-25-99.mp3" #Makoto (Reece Bridger)
     pro "Oh. I guess that explains everything."
     
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     voice "C-25-100.mp3" #Makoto (Reece Bridger)
     pro "Beepy's always been pretty oblivious to anything involving love..."
     
@@ -637,7 +637,7 @@ label scene25:
     show stan sadclosed
     show beepy neutral
     
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     voice "C-25-112.mp3" #STan (Dani)
     st "I feel bad for her, honestly… it must be hard to make friends."
     
@@ -671,7 +671,7 @@ label scene25:
     voice "C-25-118.mp3" #Beepy (Hikari)
     bp "...You're shrewd, I'll give you that…"
     
-    #sfx ambient wind
+    play sound "sfx/Breeze.mp3"
     voice "C-25-119.mp3" #Makoto (Reece Bridger)
     pro "..."
 
@@ -724,31 +724,41 @@ label scene25:
 
     voice "C-25-130.mp3" #Makoto (Reece Bridger)
     pro "This spell conjures up the southwestern winds brought to bear by Pazuzu himself! Within the mind's eye, there is no respite from the storm!"
-    
+    play sound "sfx/Sword Clash.mp3"
+
     voice "C-25-131.mp3" #Misaki (Kikari)
     riv "A predictable plot! I have a counterspell for just the occasion!"
-    
+    play sound "sfx/Sword Clash.mp3"
+
     voice "C-25-132.mp3" #Misaki (Kikari)
     riv "Barriers crafted by Malphas himself! With this spell, I shall be as a stronghold, rendering mighty storms but petty, dying gasps."
-    
+    play sound "sfx/Sword Clash.mp3"
+
     voice "C-25-133.mp3" #Makoto (Reece Bridger)
     pro "Aha! A stronghold can be undermined and sieged!"
+    play sound "sfx/Sword Clash.mp3"
     
     voice "C-25-134.mp3" #Makoto (Reece Bridger)
     pro "Ufufu~ With the authority of Raum, I conjure a quake that will render your humble abodes to rubble!"
-    
+    play sound "sfx/Sword Clash.mp3"
+
     voice "C-25-135.mp3" #Misaki (Kikari)
     riv "But a true queen need not a throne to dominate those that would threaten her!"
-    
+    play sound "sfx/Sword Clash.mp3"
+
     voice "C-25-136.mp3" #Misaki (Kikari)
     riv "With the spell of Beleth, all shall remain as my loyal subjects! With the power of love, my empire will remain immortal and eternal!"
-    
+    play sound "sfx/Sword Clash.mp3"
+
     voice "C-25-137.mp3" #Makoto (Reece Bridger)
     pro "But do you have but the presence of mind to not quiver in his presence?"
-    
+    play sound "sfx/Sword Clash.mp3"
+
     voice "C-25-138.mp3" #Misaki (Kikari)
     riv "Ohoho! Is that a challenge, you treacherous worm~?"
+    play sound "sfx/Sword Clash.mp3"
 
+    
     #at this point both characters should cycle rapidly between 3 poses 
 
     "Our limbs flailed wildly, as if possessed by demons themselves. Perhaps we were."
@@ -800,7 +810,9 @@ label scene25:
     voice "C-25-149.mp3" #Makoto (Reece Bridger)
     pro "Then… then how do we decide--"
 
-    #sfx metal door slam
+    play sound "sfx/Metal Door Slam.mp3"
+
+    
     
     show misaki surprise
 
@@ -890,7 +902,7 @@ label scene25:
     voice "C-25-171.mp3" #Hall Monitor 
     hm "I don't make the rules. Report to A-2 after school."
     
-    #sfx door clang
+    play sound "sfx/Metal Door Close.mp3" 
 
     scene black with dissolve
     voice "C-25-172.mp3" #Hall Monitor 

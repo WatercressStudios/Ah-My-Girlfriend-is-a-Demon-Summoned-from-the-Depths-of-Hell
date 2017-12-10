@@ -74,7 +74,7 @@ label scene27:
     show misaki fblush
     show beepy fsmile
     show stan scheming
-    #sfx squeeze
+    play sound "sfx/Squeeze.mp3"
     voice "C-27-12.mp3" #Makoto (Reece Bridger)
     pro "A-Augh… this grip…!"
     
@@ -146,7 +146,7 @@ label scene27:
     voice "C-27-27.mp3" #Beepy (Hikari)
     bp "And if Misaki kicked your ass, well… at least you'll have a nice meal?"
     
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     voice "C-27-28.mp3" #Makoto (Reece Bridger)
     pro "This sounds suspiciously like something Bubble would come up with…"
     
@@ -156,7 +156,7 @@ label scene27:
 
     #satan grinning slyly
 
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     show stan neutral
     voice "C-27-30.mp3" #STan (Dani)
     st "...Hmmm~?"
@@ -267,7 +267,7 @@ label scene27:
     voice "C-27-52.mp3" #Bubble 
     bb "...Ah, oh well! The party's back there, so I'll make sure it's all hot and ready to go-"
     
-    #sfx yoink
+    play sound "sfx/Yoink.mp3"
     show lucy neutraltalk
     show mami fscowlclosed with easeinright:
             align (-0.1, 1.0)
@@ -445,7 +445,7 @@ label scene27:
     "Misaki's very determined to make this a success, and I don't intend to let her down."
     "Maybe things will calm down."
 
-    #sfx cell ring
+    play sound "sfx/Phone Ringing.mp3"
     "{b}RING! RING!{/b}"
 
     voice "C-27-86.mp3" #Makoto (Reece Bridger)
@@ -454,7 +454,7 @@ label scene27:
     voice "C-27-87.mp3" #Makoto (Reece Bridger)
     pro "It's from Yumi?"
 
-    #sfx beep
+    play sound "sfx/Phone Beeping.mp3"
     "{i}Beep.{/i}"
 
     voice "C-27-88.mp3" #Makoto (Reece Bridger)
@@ -493,7 +493,7 @@ label scene27:
     voice "C-27-99.mp3" #Makoto (Reece Bridger)
     pro "How many times do I have to tell you, this isn't a date--"
 
-    #sfx beep
+    play sound "sfx/Phone Beeping.mp3"
     "{i}Beep.{/i}"
 
     voice "C-27-100.mp3" #Makoto (Reece Bridger)

@@ -5,7 +5,7 @@ label scene18:
 
     scene school hallway with dissolve
 
-    #sfx ambient murmuring 
+    play sound "sfx/School Crowd.mp3"
     
     "Here again..."
     "I try to walk through the halls, pushing past the mundanes walking in the opposite direction and pushing through those who seem to think it wise to stand right in the middle - even though others are trying to travel.."
@@ -44,7 +44,7 @@ label scene18:
 
     scene cafeteria with dissolve
 
-    #sfx ambient sounds of an eatery
+    play sound "sfx/Crowd.mp3"
     
     "The school cafeteria."
     "Disorder, uncleanliness, and horrible food reign supreme here, hanging over its subjects like a miasma. Few survived a trip here with their sanity in-tact, and those that did found it hard to desensitize themselves to the pain."
@@ -74,7 +74,7 @@ label scene18:
 
     vs "Alright, that's ¥400."
 
-    #sfx coins jingle
+    play sound "sfx/Coins Jingling.mp3"
     "Not a hefty price to pay. I reach into my wallet, pull out my coins, and…"
     "¥200."
     "I freeze. Stop. Look down at the coins, counting and counting and recounting and recounting to make sure I have the right number."

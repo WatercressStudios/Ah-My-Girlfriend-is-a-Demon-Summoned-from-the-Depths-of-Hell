@@ -74,7 +74,7 @@ label scene15:
 
     "Somehow, my dull tone did nothing to deter her excitement."
 
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     show bubble xdbigshout
     show lucy neutral
     show mami scowl
@@ -208,7 +208,7 @@ label scene15:
     "One thing that I seemed to had forgotten was that the supermarket was a place of sheer, bitter cold."
 
     scene store interior with dissolve
-    #sfx ambient murmuring
+    play sound "sfx/Crowd.mp3"
 
     "The three of us walked down the aisles of this maze; I pushed the trolley in front of me while music that could only have been written by Beleth played on the loudspeakers above."
     "We were about a third of the way through our grocery list - foodstuffs which could help replenish my mana for the upcoming fight - as we went down yet another aisle."
@@ -284,7 +284,7 @@ label scene15:
     mm "Yo, S_Tan~!"
     
     show bubble bigsmileclosedtalk
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     voice "C-15-46.mp3" #Bubble 
     bb "Sati~!"
 
@@ -326,7 +326,7 @@ label scene15:
             align (0.35, 1.0)
     "Misaki moves forward, heading to the self checkout at the end of the corridor."
     show misaki pout
-    #sfx beep
+    play sound "sfx/Scanner.mp3"
     "She sends a card through it and begins to place her items there - a {i}beep{/i} sounding for each one."
     "I look away, focused on my own task. The next item on this list seems to be butter, which is attainable. I move, head along the aisle, and--"
 
@@ -363,7 +363,7 @@ label scene15:
     voice "C-15-57.mp3" #Misaki (Kikari)
     riv "..."
     
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     show misaki blush
     voice "C-15-58.mp3" #Misaki (Kikari)
     riv "I need to, um, replenish my mana for our fight."
@@ -431,7 +431,7 @@ label scene15:
     "I try to give the best smile I can. Just for her. Just for today, before we meet again."
 
 
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     voice "C-15-67.mp3" #??? 
     st "Aww, you guys are so cute together!"
 

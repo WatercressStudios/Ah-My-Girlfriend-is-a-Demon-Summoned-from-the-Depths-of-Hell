@@ -32,7 +32,7 @@ label scene22:
     "Why am I unable to sleep? Has the Sandman decided not to sprinkle his dust over me this evening?"
     "No… There has to be an explanation for why I’m feeling this way."
     
-    #sfx bedsprings creak
+    play sound "sfx/Swish.mp3"
     
     "I turn over on my side to try and find an answer."
 
