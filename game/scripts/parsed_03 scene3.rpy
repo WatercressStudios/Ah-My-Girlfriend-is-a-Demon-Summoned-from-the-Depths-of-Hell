@@ -127,7 +127,7 @@ label scene3:
     pro "C-Country yokel…?"
     
     #music cut
-
+    
     "The way she called me that was - to be frank - patronizing and a little insulting, but she said it in such a cheery and pleasant way."
     "It was hard to feel dispirited, even if she insulted you right in your face."
 

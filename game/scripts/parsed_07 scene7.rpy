@@ -31,7 +31,7 @@ label scene7:
     
     show beepy neutralclosedtalk
     show yumi exasperated
-    voice "C-7-5.wav" #Beepy (Hikari)
+    voice "C-7-5.mp3" #Beepy (Hikari)
     bp "Seems so."
     
     show beepy neutral
@@ -41,7 +41,7 @@ label scene7:
     
     show yumi closed
     show beepy eyebrowtalk
-    voice "C-7-7.wav" #Beepy (Hikari)
+    voice "C-7-7.mp3" #Beepy (Hikari)
     bp "I mean… have you seen my tail? Do you wanna touch my horns?"
     
     show yumi worrytalk
@@ -51,14 +51,14 @@ label scene7:
     
     show beepy dreamworks
     show yumi worry
-    voice "C-7-9.wav" #Beepy (Hikari)
+    voice "C-7-9.mp3" #Beepy (Hikari)
     bp "It'd answer your questions, though..."
     
     voice "C-7-10.mp3" #Makoto (Reece Bridger)
     pro "None of this is fake, Yumi. How long is it going to be until you accept reality?"
     
     show beepy smirk
-    voice "C-7-11.wav" #Beepy (Hikari)
+    voice "C-7-11.mp3" #Beepy (Hikari)
     bp "You probably think I'm some old man in a mask, trying to scare you off the property."
     
     show yumi exasperatedtalk
@@ -75,7 +75,7 @@ label scene7:
     sis "W-Well… I guess while you're here, you should stay. You can take the sofa if you like."
     
     show beepy smile
-    voice "C-7-14.wav" #Beepy (Hikari)
+    voice "C-7-14.mp3" #Beepy (Hikari)
     bp "Ah, sounds great. Thanks a bunch~"
     
     show yumi angrytalk
@@ -118,14 +118,14 @@ label scene7:
     
     show beepy neutral
     show yumi neutral
-    voice "C-7-23.wav" #Beepy (Hikari)
+    voice "C-7-23.mp3" #Beepy (Hikari)
     bp "You, uh... Couldn't you word that any other way…?"
     
     voice "C-7-24.mp3" #Makoto (Reece Bridger)
     pro "Understood. I'll find a way to reverse the process."
     
     show beepy neutralclosedtalk
-    voice "C-7-25.wav" #Beepy (Hikari)
+    voice "C-7-25.mp3" #Beepy (Hikari)
     bp "Thaaaat doesn't sound much better…" 
 
     show beepy neutralclosed
@@ -143,7 +143,7 @@ label scene7:
     sis "Hey Beepy, do you want me to grab you a blanket? It gets chilly overnight!"
     
     show beepy smile
-    voice "C-7-28.wav" #Beepy (Hikari)
+    voice "C-7-28.mp3" #Beepy (Hikari)
     bp "Nah, I can curl up just about anywhere. Thanks for the offer, though."
     
     show yumi smiletalk
@@ -169,7 +169,7 @@ label scene7:
     pro "...For tomorrow will be the beginning. The beginning of the end. Ufufu~"
     
     show beepy neutralclosedtalk
-    voice "C-7-34.wav" #Beepy (Hikari)
+    voice "C-7-34.mp3" #Beepy (Hikari)
     bp "Aw… I just got here, though…"
     
     show beepy neutral
@@ -188,7 +188,7 @@ label scene7:
     #beepy and yumi dual audio
     #look into UI trick for this
     show beepy neutraltalk
-    voice "C-7-37.wav" #Beepy (Hikari)
+    voice "C-7-37.mp3" #Beepy (Hikari)
     bp "...Weirdo."
     
     scene black with dissolve
@@ -252,7 +252,7 @@ label scene7:
     "As my senses clicked into place, I could feel something more."
     "It was close… it was very, {i}very{/i} close."
     
-    voice "C-7-45.wav" #Beepy (Hikari)
+    voice "C-7-45.mp3" #Beepy (Hikari)
     bp "...Nn…" 
     
     voice "C-7-46.mp3" #Makoto (Reece Bridger)
@@ -271,7 +271,7 @@ label scene7:
     #sfx romantic
     show sleepybeepy3
     hide sleepybeepy1
-    voice "C-7-48.wav" #Beepy (Hikari)
+    voice "C-7-48.mp3" #Beepy (Hikari)
     bp "...Mornin’..."
     
     show sleepybeepy1
@@ -281,12 +281,12 @@ label scene7:
     
     show sleepybeepy3
     hide sleepybeepy1
-    voice "C-7-50.wav" #Beepy (Hikari)
+    voice "C-7-50.mp3" #Beepy (Hikari)
     bp "Used the door…"
     
     show sleepybeepy4
     hide sleepybeepy3
-    voice "C-7-51.wav" #Beepy (Hikari)
+    voice "C-7-51.mp3" #Beepy (Hikari)
     bp "...S'comfy 'n' warm... "
 
     "She was curled up like a cat! And her body was pressing against mine! It was… she was so warm…!"
@@ -296,12 +296,12 @@ label scene7:
     
     show sleepybeepy2
     hide sleepybeepy4
-    voice "C-7-53.wav" #Beepy (Hikari)
+    voice "C-7-53.mp3" #Beepy (Hikari)
     bp "Eh… made it work.."
     
     show sleepybeepy3
     hide sleepybeepy2
-    voice "C-7-54.wav" #Beepy (Hikari)
+    voice "C-7-54.mp3" #Beepy (Hikari)
     bp "Could you keep it down…? People are tryin' to sleep…"
     
     show sleepybeepy1
@@ -311,7 +311,7 @@ label scene7:
     
     show sleepybeepy2
     hide sleepybeepy1
-    voice "C-7-56.wav" #Beepy (Hikari)
+    voice "C-7-56.mp3" #Beepy (Hikari)
     bp "Mmm… naaah. Way better than the sofa."
     
     show sleepybeepy1
@@ -327,7 +327,7 @@ label scene7:
     
     show sleepybeepy3
     hide sleepybeepy4
-    voice "C-7-58.wav" #Beepy (Hikari)
+    voice "C-7-58.mp3" #Beepy (Hikari)
     bp "Go to bed Makotooo… it'll be fine…"
     
     show sleepybeepy4
@@ -345,7 +345,7 @@ label scene7:
     
     show sleepybeepy2
     hide sleepbeepy4
-    voice "C-7-61.wav" #Beepy (Hikari)
+    voice "C-7-61.mp3" #Beepy (Hikari)
     bp "Won't happen again~"
 
     show sleepybeepy4

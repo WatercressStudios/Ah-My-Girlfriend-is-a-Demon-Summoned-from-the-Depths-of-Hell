@@ -13,7 +13,7 @@ label scene8:
 
     "I rise up and give the day my dark blessings, but then…"
 
-    voice "C-8-2.wav" #Beepy (Hikari)
+    voice "C-8-2.mp3" #Beepy (Hikari)
     bp "Mmn..."
     
     voice "C-8-3.mp3" #Makoto (Reece Bridger)
@@ -21,13 +21,15 @@ label scene8:
 
     "My arm remains stuck in place, as if some demonic force is keeping me locked to my bed."
     "In that instant, I look to my side and remember the fiend that had snuck into my bed late last night - one who refused to leave no matter what I tried."
+    
+    show sleepybeepy3 with dissolve
     "My face grows pale, and I am left with a dreadful realization:"
     "This is no dream. This is all real. Satan actually heeded my call and left me in the care of this…"
     "Well, I’m not sure if Beepy even counts as a terrifying demon. She hasn’t even done anything yet."
     "But still, a demon should know their place in the presence of a demon lord."
     "Using all the strength I can muster, I manage to wrestle my arm away - but the force of my pushing ends up sending her off the bed."
 
-    #sfx whump
+    hide sleepybeepy3 with vpunch
 
     "WHUMP!"
 
@@ -35,7 +37,7 @@ label scene8:
 
 
     show beepy neutralclosed with dissolve
-    voice "C-8-4.wav" #Beepy (Hikari)
+    voice "C-8-4.mp3" #Beepy (Hikari)
     bp "Mm… Morning already…?"
 
     #music beepy theme
@@ -45,7 +47,7 @@ label scene8:
     #show bp smiling
 
     show beepy smileclosed
-    voice "C-8-5.wav" #Beepy (Hikari)
+    voice "C-8-5.mp3" #Beepy (Hikari)
     bp "Mornin’. Did you sleep well last night?"
     
     voice "C-8-6.mp3" #Makoto (Reece Bridger)
@@ -60,7 +62,7 @@ label scene8:
     #show bp looking tired
 
     show beepy neutralclosedtalk
-    voice "C-8-8.wav" #Beepy (Hikari)
+    voice "C-8-8.mp3" #Beepy (Hikari)
     bp "Yeah, yeah, Savvy Woof, I heard you the first time…"
 
     show beepy neutralclosed
@@ -79,15 +81,15 @@ label scene8:
     #music romantic
 
     show beepy naughty
-    voice "C-8-10.wav" #Beepy (Hikari)
+    voice "C-8-10.mp3" #Beepy (Hikari)
     bp "Hey… don’t go."
     
     show beepy smileclosed
-    voice "C-8-11.wav" #Beepy (Hikari)
+    voice "C-8-11.mp3" #Beepy (Hikari)
     bp "Stay here… The bed feels so nice."
     
     show beepy smile
-    voice "C-8-12.wav" #Beepy (Hikari)
+    voice "C-8-12.mp3" #Beepy (Hikari)
     bp "You don’t have anything important to do anyways, right…?"
     
     voice "C-8-13.mp3" #Makoto (Reece Bridger)
@@ -108,7 +110,7 @@ label scene8:
 
     show beepy neutralclosedtalk
 
-    voice "C-8-15.wav" #Beepy (Hikari)
+    voice "C-8-15.mp3" #Beepy (Hikari)
     bp "Oh well… It was worth a shot, I suppose."
 
     show beepy neutralclosed 
@@ -118,13 +120,13 @@ label scene8:
     pro "God, I thought I set my alarm for 7:00 last night! Why didn’t it go off!?"
     
     show beepy smirk
-    voice "C-8-17.wav" #Beepy (Hikari)
+    voice "C-8-17.mp3" #Beepy (Hikari)
     bp "...Oh, that?"
 
     #show bp smiling
 
     show beepy smile
-    voice "C-8-18.wav" #Beepy (Hikari)
+    voice "C-8-18.mp3" #Beepy (Hikari)
     bp "I turned it off."
     
     voice "C-8-19.mp3" #Makoto (Reece Bridger)
@@ -133,11 +135,11 @@ label scene8:
     #music lighthearted
     
     show beepy neutralclosedtalk
-    voice "C-8-20.wav" #Beepy (Hikari)
+    voice "C-8-20.mp3" #Beepy (Hikari)
     bp "I don’t like to be woken up by loud noises… I don’t even like the {i}thought{/i} of being woken up by one, honestly."
     
     show beepy smileclosed
-    voice "C-8-21.wav" #Beepy (Hikari)
+    voice "C-8-21.mp3" #Beepy (Hikari)
     bp "It keeps you from enjoying a good night’s sleep, you know?"
 
     "Is sleeping the only thing she’s good for!? She’s more useless than I thought!"
@@ -145,7 +147,7 @@ label scene8:
     #show bp inquisitive
     
     show beepy eyebrowtalk
-    voice "C-8-22.wav" #Beepy (Hikari)
+    voice "C-8-22.mp3" #Beepy (Hikari)
     bp "But what’s so important out there, anyways? You could just stay here and forget about all that."
     
     show beepy dreamworks
@@ -160,7 +162,7 @@ label scene8:
     #show bp confused
 
     show beepy eyebrowtalk
-    voice "C-8-25.wav" #Beepy (Hikari)
+    voice "C-8-25.mp3" #Beepy (Hikari)
     bp "Are you doing that dumb demon lord thing aga--"
     
     show beepy eyebrow

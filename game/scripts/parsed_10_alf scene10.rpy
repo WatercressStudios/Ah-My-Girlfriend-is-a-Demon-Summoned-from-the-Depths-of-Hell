@@ -23,7 +23,7 @@ label scene10:
     show beepy eyebrowtalk with easeinleft
 
     #music cut
-    voice "C-10-1.wav" #Beepy (Hikari)
+    voice "C-10-1.mp3" #Beepy (Hikari)
     bp "Hey, Makoto."
     
     show beepy eyebrow
@@ -54,7 +54,7 @@ label scene10:
     #show Beepy annoyed
     
     show beepy angrytalk
-    voice "C-10-5.wav" #Beepy (Hikari)
+    voice "C-10-5.mp3" #Beepy (Hikari)
     bp "Chill, dude... I just wanted to ask you something."
     
     show beepy angry
@@ -65,13 +65,13 @@ label scene10:
     pro "All you’ve been doing is sleeping through every class, so why the change of heart?"
     
     show beepy neutralclosedtalk
-    voice "C-10-8.wav" #Beepy (Hikari)
+    voice "C-10-8.mp3" #Beepy (Hikari)
     bp "I already know all the material covered… so there’s no point in staying up anyway."
 
     #show Beepy quizzical
     
     show beepy neutraltalk
-    voice "C-10-9.wav" #Beepy (Hikari)
+    voice "C-10-9.mp3" #Beepy (Hikari)
     bp "...Is this a bad time? You look pretty stressed out…"
     
     show beepy neutral
@@ -86,11 +86,11 @@ label scene10:
     pro "*Sigh* Fine. What is it?"
     
     show beepy neutraltalk
-    voice "C-10-12.wav" #Beepy (Hikari)
+    voice "C-10-12.mp3" #Beepy (Hikari)
     bp "Well… I was just wondering…"
     
     show beepy eyebrowtalk
-    voice "C-10-13.wav" #Beepy (Hikari)
+    voice "C-10-13.mp3" #Beepy (Hikari)
     bp "What’s the deal with that Misaki girl?"
     
     show beepy eyebrow
@@ -100,10 +100,10 @@ label scene10:
     #show Beepy annoyed
     
     show beepy angrytalk
-    voice "C-10-15.wav" #Beepy (Hikari)
+    voice "C-10-15.mp3" #Beepy (Hikari)
     bp "No. I mean Misaki."
     
-    voice "C-10-16.wav" #Beepy (Hikari)
+    voice "C-10-16.mp3" #Beepy (Hikari)
     bp "Can you please just say a name that’s normal for once?"
     
     show beepy angry
@@ -145,11 +145,11 @@ label scene10:
     
     show misaki shout with easeinright
 
-    voice "C-10-25.wav" #Misaki (Kikari)
+    voice "C-10-25.mp3" #Misaki (Kikari)
     riv "Th-That’s a lie! Don’t believe his honeyed words! He’s a devious trickster at heart!"
     
     show misaki closedshout
-    voice "C-10-26.wav" #Misaki (Kikari)
+    voice "C-10-26.mp3" #Misaki (Kikari)
     riv "I had long ago planned for my own kingdom to become reality, when this {i}worthless troglodyte{/i} stole the opportunity from beneath me!"
     
     show misaki poutclosed
@@ -157,7 +157,7 @@ label scene10:
     pro "Who are you calling a troglodyte!?"
     
     show misaki shout
-    voice "C-10-28.wav" #Misaki (Kikari)
+    voice "C-10-28.mp3" #Misaki (Kikari)
     riv "Shall I call you a buffoon instead!?"
     
     show misaki wonder
@@ -189,10 +189,10 @@ label scene10:
     #enter Misaki stage right
     
     show misaki shout with easeinright
-    voice "C-10-36.wav" #Misaki (Kikari)
+    voice "C-10-36.mp3" #Misaki (Kikari)
     riv "Obviously it’s {i}me{/i} whose suited to run this club, not you!"
     
-    voice "C-10-37.wav" #Misaki (Kikari)
+    voice "C-10-37.mp3" #Misaki (Kikari)
     riv "Your lack of knowledge and presence in the astral plane is an embarrassment to dark mages everywhere!"
     
     show misaki pout
@@ -206,7 +206,7 @@ label scene10:
     pro "It does not need the leadership of a pathetic stargazer such as yourself!"
     
     show misaki disgust
-    voice "C-10-41.wav" #Misaki (Kikari)
+    voice "C-10-41.mp3" #Misaki (Kikari)
     riv "You {i}insolent fool{/i}! Do you wish to suffer eternal damnation beyond the end of time itself!?"
     
     voice "C-10-42.mp3" #Makoto (Reece Bridger)
@@ -215,13 +215,13 @@ label scene10:
     #show Misaki annoyed, eyes closed
     
     show misaki poutclosed
-    voice "C-10-43.wav" #Misaki (Kikari)
+    voice "C-10-43.mp3" #Misaki (Kikari)
     riv "Humph! Stubbornness like that won’t help you realize the error of your ways."
 
     #show Misaki confident
     
     show misaki smugtalk
-    voice "C-10-44.wav" #Misaki (Kikari)
+    voice "C-10-44.mp3" #Misaki (Kikari)
     riv "Perhaps it would be better to show you how easily I can bend the tapestry of life to my will."
     
     show misaki smug
@@ -229,15 +229,15 @@ label scene10:
     pro "What exactly are you implying, you audacious fraud!?"
     
     show misaki smugclosedtalk
-    voice "C-10-46.wav" #Misaki (Kikari)
+    voice "C-10-46.mp3" #Misaki (Kikari)
     riv "You may claim you know all there is to know about the dark arts…"
     
     show misaki smugtalk
-    voice "C-10-47.wav" #Misaki (Kikari)
+    voice "C-10-47.mp3" #Misaki (Kikari)
     riv "But until you can prove your mastery to me, you have no right to run this club!"
     
     show misaki shout
-    voice "C-10-48.wav" #Misaki (Kikari)
+    voice "C-10-48.mp3" #Misaki (Kikari)
     riv "You have exactly 72 Earth hours. Don’t disappoint me."
     
     show misaki smug
@@ -251,7 +251,7 @@ label scene10:
     pro "I’ll cast a spell so powerful and terrifying, you’ll have no choice but to kneel before me!"
     
     show misaki shout
-    voice "C-10-52.wav" #Misaki (Kikari)
+    voice "C-10-52.mp3" #Misaki (Kikari)
     riv "Don’t count on it, for it is {i}you{/i} who will recognize your rightful place at my side soon enough!"
 
     scene white with dissolve
@@ -270,11 +270,11 @@ label scene10:
     #enter Beepy stage left
     
     show beepy eyebrowtalk with dissolve
-    voice "C-10-56.wav" #Beepy (Hikari)
+    voice "C-10-56.mp3" #Beepy (Hikari)
     bp "That’s it? That’s more petty than I thought."
     
     show beepy neutraltalk
-    voice "C-10-57.wav" #Beepy (Hikari)
+    voice "C-10-57.mp3" #Beepy (Hikari)
     bp "Though, I guess I’m not surprised… People your age tend to do stuff like this for really stupid reasons."
     
     show beepy neutral
@@ -287,7 +287,7 @@ label scene10:
     "Beepy’s eyes roam the classroom in disinterest, until she finally looks back to me."
     
     show beepy neutraltalk
-    voice "C-10-60.wav" #Beepy (Hikari)
+    voice "C-10-60.mp3" #Beepy (Hikari)
     bp "Hey... Wanna know what I think?"
     
     show beepy neutral
@@ -298,7 +298,7 @@ label scene10:
     
     show beepy dreamworks
     #music lighthearted
-    voice "C-10-62.wav" #Beepy (Hikari)
+    voice "C-10-62.mp3" #Beepy (Hikari)
     bp "I think you like each other."
     
     voice "C-10-63.mp3" #Makoto (Reece Bridger)
@@ -313,10 +313,10 @@ label scene10:
     pro "Have you even {i}seen{/i} how we interact!? We argue more than Agni and Rudra!"
     
     show beepy eyebrowtalk
-    voice "C-10-66.wav" #Beepy (Hikari)
+    voice "C-10-66.mp3" #Beepy (Hikari)
     bp "Looks more like flirting to me, honestly."
     
-    voice "C-10-67.wav" #Beepy (Hikari)
+    voice "C-10-67.mp3" #Beepy (Hikari)
     bp "Though, I guess if you can flirt with someone as cute as that, then you must be doing something right."
     
     show beepy eyebrow
@@ -326,10 +326,10 @@ label scene10:
     #show Beepy annoyed
     
     show beepy angrytalk
-    voice "C-10-69.wav" #Beepy (Hikari)
+    voice "C-10-69.mp3" #Beepy (Hikari)
     bp "Jeez. Is this how you react when someone gives you attention?"
     
-    voice "C-10-70.wav" #Beepy (Hikari)
+    voice "C-10-70.mp3" #Beepy (Hikari)
     bp "At least you have a friend at all, man. I’d say that’s a good thing, since you don’t even talk to anyone else."
     
     show beepy angry
@@ -337,19 +337,19 @@ label scene10:
     pro "Wh-Who needs friends? Such mundane concepts are beneath a master of accursed magic and--"
     
     show beepy neutralclosedtalk
-    voice "C-10-72.wav" #Beepy (Hikari)
+    voice "C-10-72.mp3" #Beepy (Hikari)
     bp "{i}Ugggggh{/i}... you’re impossible."
 
     #show Beepy concerned
     
     show beepy neutraltalk
-    voice "C-10-73.wav" #Beepy (Hikari)
+    voice "C-10-73.mp3" #Beepy (Hikari)
     bp "All I’m saying is maybe if you acted like less of a weirdo, people would be more willing to talk with you."
     
-    voice "C-10-74.wav" #Beepy (Hikari)
+    voice "C-10-74.mp3" #Beepy (Hikari)
     bp "I mean, I’m no social butterfly either, but… it’s kinda sad that you’re not bothering to interact with anyone else."
     
-    voice "C-10-75.wav" #Beepy (Hikari)
+    voice "C-10-75.mp3" #Beepy (Hikari)
     bp "Just drop that whole ‘dark lord’ schtick and be normal for a change."
     
     show beepy neutral
@@ -387,7 +387,7 @@ label scene10:
     show beepy neutraltalk with easeinleft
 
     #music abrupt cut
-    voice "C-10-82.wav" #Beepy (Hikari)
+    voice "C-10-82.mp3" #Beepy (Hikari)
     bp "Hey, Makoto."
     
     show beepy neutral
@@ -395,7 +395,7 @@ label scene10:
     pro "Wh-What?"
     
     show beepy eyebrowtalk
-    voice "C-10-84.wav" #Beepy (Hikari)
+    voice "C-10-84.mp3" #Beepy (Hikari)
     bp "You think anyone’s looking at you funny for talking to yourself?"
     
     show beepy dreamworks

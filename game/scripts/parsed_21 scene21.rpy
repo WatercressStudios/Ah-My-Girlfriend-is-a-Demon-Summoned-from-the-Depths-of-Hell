@@ -6,7 +6,7 @@ label scene21:
 
     "While I could certainly study my eldritch texts - perhaps in an attempt to master time magic and repeat these past two days in a more productive manner - I have an easier option in front of me:"
 
-    #if we got a cg for Satan’s business card, show it. If not... don’t.
+    show satancard with dissolve
 
     "Satan’s business card."
 
@@ -16,7 +16,7 @@ label scene21:
 
     "With only a few hours of Satan’s time, I could easily make up the difference and then some."
 
-    #hide satan’s business card. You know. If it’s there.
+    hide satancard with dissolve
 
     #sfx ring
 
@@ -167,7 +167,7 @@ label scene21:
 
     #play sfx knock
 
-    voice "C-21-25.wav" #Beepy (Hikari)
+    voice "C-21-25.mp3" #Beepy (Hikari)
     bp "Hey, Makoto? Ya doin’ okay in there?"
 
     show beepy eyebrow with easeinleft
@@ -183,7 +183,7 @@ label scene21:
     
     show beepy smirk
 
-    voice "C-21-28.wav" #Beepy (Hikari)
+    voice "C-21-28.mp3" #Beepy (Hikari)
     bp "Well, I mean, that’s... kinda what she does? Satan of Wrath? Ring any bells?"
 
     voice "C-21-29.mp3" #Makoto (Reece Bridger)
@@ -194,7 +194,7 @@ label scene21:
     
     show beepy angrytalk
 
-    voice "C-21-31.wav" #Beepy (Hikari)
+    voice "C-21-31.mp3" #Beepy (Hikari)
     bp "Whoah, there, cowboy. You’re kinda missing the point, here."
 
     voice "C-21-32.mp3" #Makoto (Reece Bridger)
@@ -202,15 +202,15 @@ label scene21:
     
     show beepy angryclosedtalk
 
-    voice "C-21-33.wav" #Beepy (Hikari)
+    voice "C-21-33.mp3" #Beepy (Hikari)
     bp "No, not, like, the chuuni point. I mean the real people point."
 
-    voice "C-21-34.wav" #Beepy (Hikari)
+    voice "C-21-34.mp3" #Beepy (Hikari)
     bp "We don’t really do that whole ‘granting otherworldly powers to mortals’ thing. It’s a hell of a lawsuit, y’know?"
     
     show beepy neutraltalk
 
-    voice "C-21-35.wav" #Beepy (Hikari)
+    voice "C-21-35.mp3" #Beepy (Hikari)
     bp "Literally."
 
     voice "C-21-36.mp3" #Makoto (Reece Bridger)
@@ -218,33 +218,33 @@ label scene21:
     
     show beepy angrytalk
 
-    voice "C-21-37.wav" #Beepy (Hikari)
+    voice "C-21-37.mp3" #Beepy (Hikari)
     bp "Ouch! Check your privilege there, dude."
     
     show beepy neutraltalk
 
-    voice "C-21-38.wav" #Beepy (Hikari)
+    voice "C-21-38.mp3" #Beepy (Hikari)
     bp "You can’t just trust everything you see in comic books, movies, and venerated religious texts."
     
     show beepy smirk
 
-    voice "C-21-39.wav" #Beepy (Hikari)
+    voice "C-21-39.mp3" #Beepy (Hikari)
     bp "Demons are around to help people! Just, y’know, not conventionally."
     
     show beepy neutraltalk
 
-    voice "C-21-40.wav" #Beepy (Hikari)
+    voice "C-21-40.mp3" #Beepy (Hikari)
     bp "No preaching or anything - that’s more the angels’ style, and if one of them stopped by instead of me, they’d have sent your ass to military school by now."
 
-    voice "C-21-41.wav" #Beepy (Hikari)
+    voice "C-21-41.mp3" #Beepy (Hikari)
     bp "But we don’t really indulge people’s desires to rain unholy destruction on their playground bullies and exes, either."
 
-    voice "C-21-42.wav" #Beepy (Hikari)
+    voice "C-21-42.mp3" #Beepy (Hikari)
     bp "Instead, we just sorta... help people to help themselves."
     
     show beepy smileclosed
 
-    voice "C-21-43.wav" #Beepy (Hikari)
+    voice "C-21-43.mp3" #Beepy (Hikari)
     bp "The things you humans call vices can just be ways of taking care of yourselves."
     
     show beepy smile
@@ -254,20 +254,20 @@ label scene21:
     
     show beepy eyebrow
 
-    voice "C-21-45.wav" #Beepy (Hikari)
+    voice "C-21-45.mp3" #Beepy (Hikari)
     bp "Yeah, that’s real edgy of you and all, but, um... Not really?"
     
     show beepy neutraltalk
 
-    voice "C-21-46.wav" #Beepy (Hikari)
+    voice "C-21-46.mp3" #Beepy (Hikari)
     bp "Indulging in your vices is just engaging with the world around you, y’know? Actually having desires and making decisions for yourself an’ stuff."
 
-    voice "C-21-47.wav" #Beepy (Hikari)
+    voice "C-21-47.mp3" #Beepy (Hikari)
     bp "But you just sorta hide in your little fantasy, so you don’t really do any of that."
     
     show beepy neutralclosed
 
-    voice "C-21-48.wav" #Beepy (Hikari)
+    voice "C-21-48.mp3" #Beepy (Hikari)
     bp "Pretty ironic, buuuut... because of the whole demon lord thing, you’re actually pure as the driven snow!"
     
     show beepy naughty
@@ -279,31 +279,31 @@ label scene21:
     
     show beepy angrytalk
 
-    voice "C-21-50.wav" #Beepy (Hikari)
+    voice "C-21-50.mp3" #Beepy (Hikari)
     bp "Uh, weren’t you just saying you were a demon lord or whatever? A little consistency’d be nice."
     
     show beepy angryclosed
 
-    voice "C-21-51.wav" #Beepy (Hikari)
+    voice "C-21-51.mp3" #Beepy (Hikari)
     bp "I mean, too much sin is obviously bad for you, but drinking too much water will kill you, too."
 
-    voice "C-21-52.wav" #Beepy (Hikari)
+    voice "C-21-52.mp3" #Beepy (Hikari)
     bp "But there’s a lot to gain if you just use some moderation."
     
     show beepy smile
 
-    voice "C-21-53.wav" #Beepy (Hikari)
+    voice "C-21-53.mp3" #Beepy (Hikari)
     bp "Sloth will tell you when to conserve your energy - and with a little bit of pride, you’ll know when you deserve better."
 
-    voice "C-21-54.wav" #Beepy (Hikari)
+    voice "C-21-54.mp3" #Beepy (Hikari)
     bp "Greed and gluttony... Well, let’s be real, they’re basically the same thing, but they can tell you to go after the things that make you happy."
     
     show beepy smileclosed
 
-    voice "C-21-55.wav" #Beepy (Hikari)
+    voice "C-21-55.mp3" #Beepy (Hikari)
     bp "Envy sorta does the same thing, too, and wrath will get you to change the things you don’t like."
 
-    voice "C-21-56.wav" #Beepy (Hikari)
+    voice "C-21-56.mp3" #Beepy (Hikari)
     bp "And hey! With enough lust, you just might cut the tsundere bullshit and start making out with that little arch-nemesis of yours."
     
     show beepy naughty
@@ -313,12 +313,12 @@ label scene21:
     
     show beepy smirk
 
-    voice "C-21-58.wav" #Beepy (Hikari)
+    voice "C-21-58.mp3" #Beepy (Hikari)
     bp "See, this is what I’m talking about! You’re simultaneously the least {i}and{/i} most serious person I’ve ever met, and it just... doesn’t look all that healthy!"
     
     show beepy naughty
 
-    voice "C-21-59.wav" #Beepy (Hikari)
+    voice "C-21-59.mp3" #Beepy (Hikari)
     bp "So whaddya say? Why not just relax a bit~?"
 
     voice "C-21-60.mp3" #Makoto (Reece Bridger)
@@ -326,12 +326,12 @@ label scene21:
     
     show beepy smile
 
-    voice "C-21-61.wav" #Beepy (Hikari)
+    voice "C-21-61.mp3" #Beepy (Hikari)
     bp "I guess? I mean, maybe not all at once. Just bring it down to like, a six? ‘Cuz right now you’re at a fifty."
     
     show beepy smileclosed
 
-    voice "C-21-62.wav" #Beepy (Hikari)
+    voice "C-21-62.mp3" #Beepy (Hikari)
     bp "And the scale only goes to ten."
 
     voice "C-21-63.mp3" #Makoto (Reece Bridger)
@@ -339,7 +339,7 @@ label scene21:
     
     show beepy neutralclosedtalk
 
-    voice "C-21-64.wav" #Beepy (Hikari)
+    voice "C-21-64.mp3" #Beepy (Hikari)
     bp "Right, right. Just... I think you could benefit from a few friends, and the edge is... {i}kiiiiinda{/i} getting in the way."
 
     voice "C-21-65.mp3" #Makoto (Reece Bridger)
@@ -348,16 +348,16 @@ label scene21:
     show beepy neutraltalk
 
     #music cut
-    voice "C-21-66.wav" #Beepy (Hikari)
+    voice "C-21-66.mp3" #Beepy (Hikari)
     bp "Yeah, just... Look, I’m trying not to preach, or anything. Really."
 
     #music dramatic/sad
-    voice "C-21-67.wav" #Beepy (Hikari)
+    voice "C-21-67.mp3" #Beepy (Hikari)
     bp "But just because I’m not gonna tell you the answers doesn’t mean I won’t ask the questions."
     
     show beepy eyebrowtalk
 
-    voice "C-21-68.wav" #Beepy (Hikari)
+    voice "C-21-68.mp3" #Beepy (Hikari)
     bp "I mean, what do you actually {i}get{/i} out of the whole demon lord thing? Is it actually worth it?"
 
     voice "C-21-69.mp3" #Makoto (Reece Bridger)
@@ -365,7 +365,7 @@ label scene21:
     
     show beepy eyebrow
 
-    voice "C-21-70.wav" #Beepy (Hikari)
+    voice "C-21-70.mp3" #Beepy (Hikari)
     bp "Right. Yeah. Demon powers. But, like, what would you {i}do{/i} with them?"
 
     "..."
@@ -377,12 +377,12 @@ label scene21:
     
     show beepy smirk
 
-    voice "C-21-72.wav" #Beepy (Hikari)
+    voice "C-21-72.mp3" #Beepy (Hikari)
     bp "See? Your whole plan is all vague and shit."
     
     show beepy smile
 
-    voice "C-21-73.wav" #Beepy (Hikari)
+    voice "C-21-73.mp3" #Beepy (Hikari)
     bp "So hey! Let’s say instead of demon lording or whatever, you come watch another movie? Just for tonight."
 
     voice "C-21-74.mp3" #Makoto (Reece Bridger)
@@ -396,20 +396,20 @@ label scene21:
     
     show beepy angryclosed
 
-    voice "C-21-77.wav" #Beepy (Hikari)
+    voice "C-21-77.mp3" #Beepy (Hikari)
     bp "..."
     
     show beepy angryclosedtalk
 
-    voice "C-21-78.wav" #Beepy (Hikari)
+    voice "C-21-78.mp3" #Beepy (Hikari)
     bp "Sheesh, fine. Serves me right for putting so much effort into something..."
 
-    voice "C-21-79.wav" #Beepy (Hikari)
+    voice "C-21-79.mp3" #Beepy (Hikari)
     bp "Sorry. I’ll go ahead and leave you alone."
     
     show beepy neutralclosed
 
-    voice "C-21-80.wav" #Beepy (Hikari)
+    voice "C-21-80.mp3" #Beepy (Hikari)
     bp "Just... go ahead and do what makes you happy, alright?"
 
     #sfx door close

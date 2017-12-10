@@ -30,19 +30,25 @@ label scene2:
     "...There are greater powers to consult."
     "I will make an offering to the Dark One, then consort and make a bargain for yet greater power - power that will overcome the greatest tribulation I have encountered yet."
     "The cost is of no concern. I am already a demon."
+    
+    show chalice with dissolve
 
     voice "C-2-3.mp3" #Makoto (Reece Bridger)
     pro "...Pity I had to make some {i}adjustments,{/i} to the designs of this ritual."
 
     "Performing an invocation on a student budget is a challenge, after all. Sacrifices were necessary - and not the fun ones." 
     "I’m afraid a chalice crafted from genuine silver was… too decadent for this humble practitioner of black magic."
-
-    #show cg of chalice
-
+    
+    hide chalice with dissolve
+    show spraypaint with dissolve
+    
     "Spray-painting an ordinary chalice with silver paint, however, proved to be a more affordable alternative."
     "A show of thriftiness that would please Mammon of Greed himself."
     "...I ended up spray-painting most of the items for use in this ritual. I hope the fumes don't make me dizzy." 
     "At least dressing for the occasion isn't a problem. I have plenty of black to wear."
+    
+    hide spraypaint with dissolve
+    
     "And at the very least, procuring a pentagram was easy on the wallet."
     "It is drawn in salt - a traditional preparation of sorcerers. Its purpose? To assert dominance over the forces of chaos, to bring order to these unconquerable forces." 
 
@@ -52,7 +58,7 @@ label scene2:
     "I reach for something I've been keeping in a nearby fridge."
     "They say you're supposed to use blood for this sort of thing, but I… I'm a little squeamish around that kind of stuff."
 
-    #cg can of tomato juice
+    show juice with dissolve
 
     "So I got tomato juice instead. I'm kind of hoping it's a decent substitute."
     "I mean, I could use someone else's blood. My sister wasn't too thrilled with the idea, though."
@@ -63,6 +69,8 @@ label scene2:
 
     #sfx soda can
 
+    hide juice with dissolve
+    
     "Cracking open a can, I pour some of the thick, red blood-substitute into a little dish."
     "Taking two fingers, I paint a circle with it. Perfect. It's large enough for me to comfortably occupy."
     "Everything is almost ready. I can feel my hands tremble in anticipation, but I must remember to calm myself."

@@ -191,6 +191,10 @@ image jojo7 = "cgs/jojo/jojo7.png"
 image jojo8 = "cgs/jojo/jojo8.png"
 image jojo9 = "cgs/jojo/jojo9.png"
 image jojo10 = "cgs/jojo/jojo10.png"
+image chalice = "cgs/object/ChaliceCG.png"
+image spraypaint = "cgs/object/SpraypaintCG.png"
+image juice = "cgs/object/TomatoJuiceCG.png"
+image satancard = "cgs/object/SatanBusinessCardCG.png"
 
 
 #######

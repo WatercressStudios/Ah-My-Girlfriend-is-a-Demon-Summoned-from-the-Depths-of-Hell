@@ -53,7 +53,7 @@ label scene24:
     show beepy neutral with easeinright
 
     #music beepy theme
-    voice "C-24-2.wav" #Beepy (Hikari)
+    voice "C-24-2.mp3" #Beepy (Hikari)
     bp "Aww… I was hoping to surprise you during your big fight."
     
     show beepy neutraltalk
@@ -63,15 +63,15 @@ label scene24:
     
     show beepy smirk
     
-    voice "C-24-4.wav" #Beepy (Hikari)
+    voice "C-24-4.mp3" #Beepy (Hikari)
     bp "You know I can’t allow that."
     
-    voice "C-24-5.wav" #Beepy (Hikari)
+    voice "C-24-5.mp3" #Beepy (Hikari)
     bp "Letting you do this by yourself means having to take on both Misaki and Satan."
     
     show beepy neutralclosedtalk
     
-    voice "C-24-6.wav" #Beepy (Hikari)
+    voice "C-24-6.mp3" #Beepy (Hikari)
     bp "Which, honestly isn’t too hard… Actually, you could probably do it if you tried hard enough."
     
     show beepy neutral
@@ -81,15 +81,15 @@ label scene24:
     
     show beepy neutraltalk
     
-    voice "C-24-8.wav" #Beepy (Hikari)
+    voice "C-24-8.mp3" #Beepy (Hikari)
     bp "But I’m still technically bound to you. And I wouldn’t be a very good partner if I didn’t help you out with this."
     
-    voice "C-24-9.wav" #Beepy (Hikari)
+    voice "C-24-9.mp3" #Beepy (Hikari)
     bp "I mean, this whole thing is still really dumb and petty, but I’d rather help you out than leave you fighting by yourself."
 
     show beepy smile
 
-    voice "C-24-10.wav" #Beepy (Hikari)
+    voice "C-24-10.mp3" #Beepy (Hikari)
     bp "So… it’s alright. You can rely on me."
     
     show beepy smileclosed
@@ -110,7 +110,7 @@ label scene24:
 
     show beepy eyebrowtalk
 
-    voice "C-24-13.wav" #Beepy (Hikari)
+    voice "C-24-13.mp3" #Beepy (Hikari)
     bp "Hm?"
     
     show beepy eyebrow
@@ -120,17 +120,17 @@ label scene24:
     
     show beepy neutralclosedtalk
     
-    voice "C-24-15.wav" #Beepy (Hikari)
+    voice "C-24-15.mp3" #Beepy (Hikari)
     bp "Oh, that. Well…"
     
     show beepy neutraltalk
     
-    voice "C-24-16.wav" #Beepy (Hikari)
+    voice "C-24-16.mp3" #Beepy (Hikari)
     bp "You know how a cat can fit into almost any space if it tries hard enough?"
 
     show beepy smile
 
-    voice "C-24-17.wav" #Beepy (Hikari)
+    voice "C-24-17.mp3" #Beepy (Hikari)
     bp "It’s kinda like that. I’m pretty flexible, so small spaces aren’t a problem for me."
     
     voice "C-24-18.mp3" #Makoto (Reece Bridger)
@@ -138,10 +138,10 @@ label scene24:
     
     show beepy angrytalk
     
-    voice "C-24-19.wav" #Beepy (Hikari)
+    voice "C-24-19.mp3" #Beepy (Hikari)
     bp "Dude, I’m like, really good at being stealthy."
     
-    voice "C-24-20.wav" #Beepy (Hikari)
+    voice "C-24-20.mp3" #Beepy (Hikari)
     bp "There was this one time where I snuck into Satan’s room and--"
     
     show beepy neutral:
@@ -154,7 +154,7 @@ label scene24:
     voice "C-24-21.mp3" #??? 
     q "{i}There{/i} you are!"
     
-    voice "C-24-22.wav" #Beepy (Hikari)
+    voice "C-24-22.mp3" #Beepy (Hikari)
     bp "Oh… Nevermind. I’ll tell you later."
 
     show misaki smug with easeinright:
@@ -167,10 +167,10 @@ label scene24:
     show misaki smugtalk
     show beepy angry
 
-    voice "C-24-23.wav" #Misaki (Kikari)
+    voice "C-24-23.mp3" #Misaki (Kikari)
     riv "I’ve been looking for you ever since the bell rung! We were supposed to meet on the roof for our final battle, remember!?"
     
-    voice "C-24-24.wav" #Misaki (Kikari)
+    voice "C-24-24.mp3" #Misaki (Kikari)
     riv "Don’t tell me you’ve decided to chicken out now!"
     
     show misaki smug
@@ -187,12 +187,12 @@ label scene24:
     show misaki scowl
     show beepy eyebrowtalk
     
-    voice "C-24-27.wav" #Beepy (Hikari)
+    voice "C-24-27.mp3" #Beepy (Hikari)
     bp "Huh? Oh… Uh…"
     
     show beepy angrytalk
     
-    voice "C-24-28.wav" #Beepy (Hikari)
+    voice "C-24-28.mp3" #Beepy (Hikari)
     bp "We’re gonna totally beat you up, and stuff."
     
     show beepy angry
@@ -201,21 +201,21 @@ label scene24:
 
     show misaki smug
 
-    voice "C-24-29.wav" #Misaki (Kikari)
+    voice "C-24-29.mp3" #Misaki (Kikari)
     riv "Hehehehe~ Is that a fact?"
     
     show misaki smugclosedtalk
     
-    voice "C-24-30.wav" #Misaki (Kikari)
+    voice "C-24-30.mp3" #Misaki (Kikari)
     riv "Well, I’ll have you know that me and {i}my{/i} servant have been training nonstop these past few Earth days."
     
-    voice "C-24-31.wav" #Misaki (Kikari)
+    voice "C-24-31.mp3" #Misaki (Kikari)
     riv "And now, we are at a height reachable by no other being - not even you, Sebastian!"
     
     show misaki smugtalk
     show beepy angryclosed
     
-    voice "C-24-32.wav" #Misaki (Kikari)
+    voice "C-24-32.mp3" #Misaki (Kikari)
     riv "It will be most amusing to see you groveling at my feet as I claim that which is rightfully mine!"
     
     show misaki smug
@@ -277,7 +277,7 @@ label scene24:
     show stan wince
     show beepy neutraltalk
     
-    voice "C-24-41.wav" #Beepy (Hikari)
+    voice "C-24-41.mp3" #Beepy (Hikari)
     bp "Calm down, dude… Let’s just go already."
 
     hide stan with easeoutright
@@ -285,12 +285,12 @@ label scene24:
     "Beepy follows me, leaving a bewildered Satan by herself."
 
     #music school
-    voice "C-24-42.wav" #Beepy (Hikari)
+    voice "C-24-42.mp3" #Beepy (Hikari)
     bp "By the way, I meant to ask you earlier, but…"
     
     show beepy eyebrowtalk
     
-    voice "C-24-43.wav" #Beepy (Hikari)
+    voice "C-24-43.mp3" #Beepy (Hikari)
     bp "...What’s with that extra set of clothes?"
     
     voice "C-24-44.mp3" #Makoto (Reece Bridger)
@@ -301,7 +301,7 @@ label scene24:
     
     show beepy neutralclosed
     
-    voice "C-24-46.wav" #Beepy (Hikari)
+    voice "C-24-46.mp3" #Beepy (Hikari)
     bp "I dunno why, but… I’ve got a bad feeling about this."
 
     jump scene25
