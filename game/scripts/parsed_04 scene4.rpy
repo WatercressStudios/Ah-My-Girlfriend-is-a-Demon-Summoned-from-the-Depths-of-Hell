@@ -236,15 +236,17 @@ label scene4:
     voice "C-4-44.mp3" #Makoto (Reece Bridger)
     pro "Oof!"
     
+    
+    show satancard with dissolve
+    
     "She shoves a business card into my chest with such force that it - quite literally - took my breath away."
-
-    #cg business card
-
     "True to her word, there's a phone number on the back in excessively ornate writing."
 
     show stan bashfultalk
     voice "C-4-45.mp3" #STan (Dani)
     st "Now don't go sharing that number! It's highly sought after!"
+    
+    hide satancard with dissolve
     
     show stan cheekyclosedtalk
     voice "C-4-46.mp3" #STan (Dani)

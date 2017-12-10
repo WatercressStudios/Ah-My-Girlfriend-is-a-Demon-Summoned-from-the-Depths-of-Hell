@@ -177,6 +177,7 @@
     "In other words, she's a complete nuisance."
 
     show yumi angrytalk
+    voice "C-1-hashtagged.mp3" #Yumi (Kaito)
     sis "Don't look at me like that. I just wanna know what you were doing in there."
 
     show yumi angry
