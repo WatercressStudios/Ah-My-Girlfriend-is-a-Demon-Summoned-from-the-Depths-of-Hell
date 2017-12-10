@@ -1,5 +1,6 @@
 label scene13:
     scene living room with dissolve
+    play music lightheartedtheme fadein 1.0
 
     "When you’re a demon overlord who has powers beyond human comprehension, you expect fervent cooperation from anyone and everyone."
     "Surely, one would not think to question my motivations when their existence could be erased at the drop of a hat."

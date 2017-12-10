@@ -1,6 +1,7 @@
 label scene18:
 
     #music school
+    play music schooltheme fadein 1.0
     scene black with dissolve
 
     scene school hallway with dissolve

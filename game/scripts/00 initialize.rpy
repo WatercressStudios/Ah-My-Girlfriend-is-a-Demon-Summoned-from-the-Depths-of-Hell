@@ -188,6 +188,30 @@ image sleepybeepy1 = "cgs/spbp/Sleepy Beepy 1.png"
 # Music           #
 ###################
 
+define titlescreen = "music/Poppy Shop.ogg",
+define darkchuunitheme = "music/Splatters.ogg",
+define lightheartedtheme = "music/Quirky Shop.ogg",
+define intensetrack = "music/Dunkelster Traum.ogg",
+define satansthemeintro = "music/Magical Intro.ogg",
+define satanstheme = "music/Magical Main.ogg",
+define beepytheme = "music/Beepy_Theme.ogg",
+define misakitheme = "music/Requiem Waltz.ogg",
+#define magicalgirltrack = "music/",
+#define magicalgirltrackbeepyver = "music/",
+define battletheme = "music/Battle Odyssey.ogg",
+define elevatormusic = "music/Minigame.ogg",
+define romantictheme = "music/Evans Loop.ogg",
+define sadtheme = "music/Dawn.ogg",
+define moviethemeintro = "music/Techno War Intro.ogg",
+define movietheme = "music/Techno War Main.ogg",
+define credits = "music/Hope.ogg",
+define calmtrack = "music/Relax.ogg",
+define schooltheme = "music/Präludium (Guitar).mp3",
+define shenaniganstheme = "music/Banjo Utopia (Main).ogg",
+define shenanigansthemeintro = "music/Banjo Utopia (Intro).ogg",
+define flashbacktheme = "music/Puppenwalzer.ogg",
+define storetheme = "music/PoppyShop Cutoff.ogg"
+
 
 label start:
     jump scene1

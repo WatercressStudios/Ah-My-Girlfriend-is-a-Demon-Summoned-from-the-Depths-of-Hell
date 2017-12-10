@@ -2,6 +2,7 @@ label scene24:
     scene classroom1 with dissolve
 
     #music flashback or classroom
+    play music schooltheme fadein 1.0
     "It’s another ordinary day for the students of Akumahou High School."
     "Yet another long, tiresome day of sitting through endless lectures; the students accept their fate and absorb knowledge like flies."
     "There are those who look forward to the oncoming weekend, but have their excitement dulled by the ever-present monotony."
@@ -38,6 +39,7 @@ label scene24:
     "It took me longer than usual to fling my backpack over my shoulders and make my way out the door."
     "I don’t think it was this heavy when I came in today… and no curse was placed upon it to make it heavier, either."
     #music cut
+    stop music fadeout 1.0
     "..."
     "...Oh, wait."
     "I know exactly what’s going on."
@@ -53,6 +55,7 @@ label scene24:
     show beepy neutral with easeinright
 
     #music beepy theme
+    play music beepytheme fadein 1.0
     voice "C-24-2.mp3" #Beepy (Hikari)
     bp "Aww… I was hoping to surprise you during your big fight."
     
@@ -150,6 +153,7 @@ label scene24:
     #q line here voiced by Misaki
     #show Beepy tired
     #music cut
+    stop music fadeout 1.0
 
     voice "C-24-21.mp3" #??? 
     q "{i}There{/i} you are!"
@@ -160,6 +164,7 @@ label scene24:
     show misaki smug with easeinright:
         align (0.75, 1.0)
     #music misaki theme
+    play music misakitheme fadein 1.0
 
     "In an instant, Beepy’s bragging is brought to a halt by… her."
     "My fated rival - her eyes blazing brighter than supernova - approaches me without a moment to spare."
@@ -233,6 +238,7 @@ label scene24:
     "It’s hard to believe it’s all built up to this moment, but we’re so close to finally settling this."
     "She may brag all she wants, but we both know who’s going to come out on top in the end…"
     #music cut
+    stop music fadeout 1.0
     "Oh, right, Satan's here too. Right."
 
     hide misaki with easeoutright
@@ -241,6 +247,8 @@ label scene24:
     show beepy eyebrow
 
     #music satan theme
+    play music satansthemeintro fadein 1.0
+    queue music satanstheme
     voice "C-24-35.mp3" #STan (Dani)
     st "Omigosh, I can hardly believe it! The climatic showdown is here at last~!"
     
@@ -266,6 +274,7 @@ label scene24:
     st "Make it gory and exciting for everyone watching, but don’t forget to have fun, too~!"
 
     #music cut
+    stop music fadeout 1.0
     "...Satan arrives just as Misaki and I go our separate ways."
     "No one else is left to hear her encouraging words - except for Beepy."
 
@@ -285,6 +294,7 @@ label scene24:
     "Beepy follows me, leaving a bewildered Satan by herself."
 
     #music school
+    play music schooltheme fadein 1.0
     voice "C-24-42.mp3" #Beepy (Hikari)
     bp "By the way, I meant to ask you earlier, but…"
     

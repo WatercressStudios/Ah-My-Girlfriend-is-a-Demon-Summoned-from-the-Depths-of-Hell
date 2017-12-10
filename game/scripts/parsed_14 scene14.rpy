@@ -3,6 +3,7 @@ label scene14:
     scene house with dissolve
 
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
     "Riding in the car always seemed so thrilling when I was younger."
 
     "I’m sure that if you had asked my younger self why I liked the feeling so much, he would have been able to give you an answer."
@@ -93,12 +94,14 @@ label scene14:
     "I am about to open my mouth to protest before a loud {i}BEEP{/i} explodes from the car."
 
     #music cut
+    stop music fadeout 1.0
     voice "C-14-13.mp3" #Yumi (Kaito)
     sis "C’mon, we don’t have all day!"
 
     "I look at Lucifer, hoping that my expression allows her to understand my plight - to understand how much I don’t want to have to face this seemingly divine retribution."
 
     #music sad
+    play music sadtheme fadein 1.0
     lu "..."
     
     lu "..."
@@ -115,6 +118,7 @@ label scene14:
     "She did, didn’t she…?"
 
     #music cut
+    stop music fadeout 1.0
     show black with dissolve
     "I sigh as I slide into place."
 
@@ -127,6 +131,8 @@ label scene14:
     
     #sfx car driving ambient 
     #music car radio
+    #woops, we don't have the time :(
+    play music calmtrack fadein 1.0
 
     show car5 with dissolve
     hide black
@@ -229,5 +235,6 @@ label scene14:
     scene black with dissolve
     "It was going to be a long pilgrimage..."
     #music stop
+    stop music fadeout 1.0
 
     jump scene15

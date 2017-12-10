@@ -1,6 +1,7 @@
 label scene19:
     
     scene black with dissolve
+    scene black with dissolve
     #sfx bell
     
     "The remaining hours in the school day went by uneventfully."
@@ -11,6 +12,7 @@ label scene19:
     "Lucifer, on the other hand, ambushed me with other plans..." 
     
     #scene calm and gentle
+    play music calmtrack fadein 1.0
     scene living room with dissolve
     
     show lucy neutral with dissolve
@@ -46,6 +48,7 @@ label scene19:
     "What if she were to steal my soul and put it into such a painting? I couldn't live a lifetime in a frame. I can't achieve my goals in a state like that, and I'm sure it would be utterly boring!"
 
     "No, I must refuse."
+    stop music fadeout 0.5
 
     "Before I have a chance to continue my rant, she tears up."
     
@@ -62,6 +65,7 @@ label scene19:
     "I sigh exasperatedly; I don't want to deal with the blowback from a situation like this. If the others were to hear that I made Lucy cry, I'd never hear the end of it - or worse…"
 
     "Unfortunately, I have no other choice but to participate."
+    play music lightheartedtheme fadein 1.0
 
     "What a waste of time."
 

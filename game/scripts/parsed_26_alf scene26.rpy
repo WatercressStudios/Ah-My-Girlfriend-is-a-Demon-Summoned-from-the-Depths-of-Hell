@@ -74,6 +74,7 @@ label scene26:
     #sfx moving furniture chair against hard floor
     #ambient clock stop
     #music romantic
+    play music romantictheme fadein 1.0
     
     "Turning my chair around, I face her desk."
     
@@ -418,6 +419,7 @@ label scene26:
     pro "Ufufu~!"
     
     #music stop
+    stop music fadeout 1.0
     tea "H-Hey, you kids better not be enjoying yourselves in there!"
     
     show misaki blush

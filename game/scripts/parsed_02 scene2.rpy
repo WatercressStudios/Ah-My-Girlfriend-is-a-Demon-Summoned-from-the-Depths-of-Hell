@@ -2,7 +2,8 @@ label scene2:
 
     scene black
 
-    #music dissonant 
+    #music dissonant
+    play music intensetrack fadeout 1.0 fadein 3.0
     "Today is a new day. If I am to overcome the trials that stand before me, I must redouble my efforts."
     "In order to hone the darkest magics from beyond the spiritual plane, I've had to resort to more... {i}drastic{/i} methods."
     "We are as mortals, after all. Without the blessings of the auspicious, we are as clay in the mud - without form, without the spark of divinity."
@@ -130,6 +131,7 @@ label scene2:
     #sfx rumble
     #screen shake
     #change music to something more tense
+    #except we don't have that right now, rip ~Wolf
 
     "Wh-What was that? Is there an earthquake!?"
     "C'mon Makoto, wrap it up!"
@@ -141,12 +143,13 @@ label scene2:
     pro "...Please?"
 
     #sfx strong wind
-    #music stop
+    stop music
 
     "A strong gust of wind knocks me to the floor."
     "I sprawl for a few precious moments, before reorienting myself."
 
     #music intense
+    play music intensetrack fadein 1.0 fadeout 3.0
     
     voice "C-2-18.mp3" #Makoto (Reece Bridger)
     pro "..What… What is the meaning of this?"

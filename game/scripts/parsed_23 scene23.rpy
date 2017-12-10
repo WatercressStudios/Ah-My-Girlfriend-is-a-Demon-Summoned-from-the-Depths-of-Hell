@@ -1,5 +1,6 @@
 label scene23:
     scene bedroom with dissolve
+    play music calmtrack fadein 1.0
 
     "My eyes flutter open to greet the new day."
     "All that anxiety and loneliness from last night almost feels unreal."
@@ -74,6 +75,7 @@ label scene23:
 
     show beepy angry
     #music serious
+    play music intensetrack fadein 1.0
     voice "C-23-5.mp3" #Makoto (Reece Bridger)
     pro "I, um… I just want to apologize for my mood the past several days."
     
@@ -108,6 +110,7 @@ label scene23:
     "I can’t even look anyone in the eye while I was talking. My eyes remain glued to the table."
     "I’m so convinced that they won’t accept my apology that I can’t bear to bring my head up."
     #music cut
+    stop music fadeout 1.0
     "...And yet, when I finally do muster up the courage to look at everyone else…"
 
     #enter Beepy, twins, and Lucy stage left, show all smiling
@@ -118,6 +121,7 @@ label scene23:
     "Did… did my words get through to them?"
 
     #music yumi theme or a happy end theme
+    play music calmtrack
     voice "C-23-12.mp3" #Beepy (Hikari)
     bp "Well, look at that. Even a self-proclaimed demon lord is capable of humility, huh?"
     
@@ -217,6 +221,7 @@ label scene23:
     #show Yumi smiling
 
     #music cut
+    stop music fadeout 1.0
     show yumi smiletalk with easeinright:
             align (1.1, 1.0)
     voice "C-23-29.mp3" #Yumi (Kaito)
@@ -233,6 +238,7 @@ label scene23:
     show beepy neutral
     show yumi surprise
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
     voice "C-23-31.mp3" #Bubble 
     bb "Oh, oh, oh! I am! I am!"
     
@@ -359,6 +365,7 @@ label scene23:
     bp "Oh. Right. Almost forgot."
     
     #music cut
+    stop music fadeout 1.0
     voice "C-23-53.mp3" #Makoto (Reece Bridger)
     pro "Also… there’s something I still have to do."
 
@@ -376,6 +383,7 @@ label scene23:
     pro "It’s something that only I can take care of. Something I can only do by myself."
     
     #music calm
+    play music calmtrack fadein 1.0
     show beepy eyebrow
     show bubble sad
     voice "C-23-56.mp3" #Makoto (Reece Bridger)

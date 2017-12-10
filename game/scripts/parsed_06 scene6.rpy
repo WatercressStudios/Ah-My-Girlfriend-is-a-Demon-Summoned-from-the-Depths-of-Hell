@@ -4,6 +4,7 @@ label scene6:
     with dissolve
     
     #music yumi theme
+    play music lightheartedtheme fadein 1.0 fadeout 3.0
     "Sure enough, Yumi was waiting for me."
     "I thought her time-out was supposed to relax her, but instead it just wound her up even tighter."
 
@@ -54,6 +55,7 @@ label scene6:
     sis "Rrgh… I hate to admit it, but…"
     
     #music cut
+    stop music fadeout 0.5
     show yumi neutralspeak
     voice "C-6-13.mp3" #Yumi (Kaito)
     sis "...I might have to believe you."
@@ -75,6 +77,7 @@ label scene6:
     
     show yumi closed
     #music light hearted
+    play music lightheartedtheme fadein 1.0 fadeout 3.0
     voice "C-6-17.mp3" #Makoto (Reece Bridger)
     pro "W-What!? {b}Girlfriend?{/b}"
     
@@ -246,6 +249,7 @@ label scene6:
     pro "I’m right here!" 
     
     #dual UI for yumi and beepy
+    #otherwise known as doublespeak - if Echo doesn't know how to do it, Nolan does. We have documentation for it somewhere ~Wolf
     
     show yumi angrytalk
     voice "C-6-56.mp3" #Yumi (Kaito)
@@ -329,6 +333,7 @@ label scene6:
     "After some deliberation, we placed the order and bided our time..."
     
     #music cut
+    stop music fadeout 2.0
     scene black with dissolve
     "..."
     "... ..."

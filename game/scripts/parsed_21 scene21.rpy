@@ -33,10 +33,12 @@ label scene21:
 
     voice "C-21-3.mp3" #STan (Dani)
     st "I can’t come to the phone right now, and our servers are a {i}teensy{/i} bit over capacity, so please hold!"
+    stop music fadeout 1.0
 
     "Son of a---"
 
     #music elevatormusicfromhell
+    play music elevatormusic fadein 1.0
 
     "Is everything just part of a conspiracy to waste my valuable time?"
 
@@ -70,6 +72,8 @@ label scene21:
 
     #sudden cut
     #music satan theme
+    play music satansthemeintro fadein 1.0
+    queue music satanstheme
     scene bedroom with dissolve
 
     voice "C-21-4.mp3" #STan (Dani)
@@ -162,6 +166,7 @@ label scene21:
     pro "{b}What the fuck is this, a postal service!?{/b}"
 
     #music cut
+    stop music fadeout 1.0
     #sfx whoosh
     "I throw my phone at my bed and watch it bounce pathetically."
 
@@ -173,6 +178,7 @@ label scene21:
     show beepy eyebrow with easeinleft
 
     #music beepy
+    play music beepytheme fadein 1.0
     "I decide to let Beepy in. She could probably sneak in herself, anyways."
 
     voice "C-21-26.mp3" #Makoto (Reece Bridger)
@@ -348,10 +354,12 @@ label scene21:
     show beepy neutraltalk
 
     #music cut
+    stop music fadeout 1.0
     voice "C-21-66.mp3" #Beepy (Hikari)
     bp "Yeah, just... Look, I’m trying not to preach, or anything. Really."
 
     #music dramatic/sad
+    play music sadtheme fadein 1.0
     voice "C-21-67.mp3" #Beepy (Hikari)
     bp "But just because I’m not gonna tell you the answers doesn’t mean I won’t ask the questions."
     
@@ -416,7 +424,8 @@ label scene21:
     hide beepy with dissolve
 
     #music cut
-    
+    stop music fadeout 1.0
+
     "..."
 
     "What a... nuisance."
@@ -453,6 +462,7 @@ label scene21:
     #based upon all of the authority that I don’t have
 
     #music flashback theme
+    play music flashbacktheme fadein 1.0
     "...Are they serious?"
 
     "I open up the card."
@@ -478,6 +488,7 @@ label scene21:
     scene black with dissolve
 
     #music cut
+    stop music fadeout 1.0
     "Nevertheless, I return to my research. There’s simply too much at stake for me to indulge this distraction."
 
     jump scene22

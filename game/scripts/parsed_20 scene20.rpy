@@ -69,6 +69,7 @@ label scene20:
     bb "It’s finally time!"
 
     #music cut
+    stop music fadeout 1.0
     "Wait a minute, she couldn’t possibly mean…"
 
     voice "C-20-10.mp3" #Makoto (Reece Bridger)
@@ -77,6 +78,7 @@ label scene20:
     show bubble bigsmiletalk
     
     #music chuuni bs
+    play music darkchuunitheme fadein 1.0
     voice "C-20-11.mp3" #Bubble 
     bb "Uh-huh! Uh-huh! I’m gonna teach you some super awesome magic today!"
 
@@ -110,6 +112,7 @@ label scene20:
     show bubble bigsmileclosedtalk
     
     #music cut
+    stop music fadeout 1.0
     voice "C-20-18.mp3" #Bubble 
     bb "{b}Okay!{/b} The super awesome secret magical skill we’re going to learn today iiiiis…"
     
@@ -121,6 +124,7 @@ label scene20:
     scene kitchen with dissolve
 
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
     "Bubble drags me into the kitchen and presents the stove like how Mother Harlot presents her seven-headed beast."
     
     show bubble xdbigshout
@@ -274,11 +278,13 @@ label scene20:
     "She’s actually rather competent when it comes to preparing a meal - a far cry from her usual childish self."
     "In no time, we manage to combine all the ingredients together and place it in the oven, heating it at a temperature to rival that of Muspelheim."
     #music cut
+    stop music fadeout 1.0
     "And soon enough… it is done."
 
     scene living room with dissolve
 
     #music calm
+    play music calmtrack fadein 1.0
     "I can smell every inch of melted cheese, savory meat, and assorted veggies from the pan."
     "Even I have to admit… it looks devilishly delightful."
     "And out of the corner of my eye, I can see Bubble taking in every square inch, her eyes as big as… well, dinner plates."
@@ -494,6 +500,7 @@ label scene20:
     "I do feel proud about learning how to cook something, but…"
     
     #music irritable, moody
+    play music intensetrack fadein 1.0
     
     "In the end, I ended up not learning anything for tomorrow. I haven’t learned any dark arts of any kind in the past three days."
     "Knowing that, my mood turns sour in almost a heartbeat. Was I tricked? Did I allow my defences to falter??"

@@ -1,5 +1,6 @@
 label scene27:
     #music happy ending music
+    play music lightheartedtheme fadein 1.0
     scene courtyard evening1 with dissolve
 
     show misaki fsmug with easeinleft:
@@ -309,6 +310,7 @@ label scene27:
     pro "Heh, well, Countess. It seems they have a grand feast awaiting us~"
     
     #music cut
+    stop music fadeout 1.0
     show misaki fclosedshout
     voice "C-27-59.mp3" #Misaki (Kikari)
     riv "...Are you serious? We don't have time for vapid festivities."
@@ -323,6 +325,8 @@ label scene27:
     "That was always the question with her, it seemed. Even in times of revelry, she always found something to pick at."
 
     #music hijinks
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme
     voice "C-27-61.mp3" #Misaki (Kikari)
     show misaki fsmugtalk
     riv "We just signed a pact to establish our organization, and you want to whittle time away eating and drinking?"
@@ -437,6 +441,7 @@ label scene27:
     st "You go ahead guys! I'm gonna make a few calls~!"
 
     scene black with dissolve
+    play music calmtrack fadein 1.0
 
     "So, in the end, Misaki and I agreed to work together, and form the Occult Club."
     "We're not… dating or anything. It's just a mutually beneficial collaboration." 
@@ -460,6 +465,9 @@ label scene27:
     voice "C-27-88.mp3" #Makoto (Reece Bridger)
     pro "Hello?"
     
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme
+
     voice "C-27-89.mp3" #Yumi (Kaito)
     sis "{b}Makoto! Where the {i}hell{/i} are you!?{/b}"
     
@@ -514,6 +522,7 @@ label scene27:
     
     voice "C-27-104.mp3" #Makoto (Reece Bridger)
     pro "...But I was… w-whatever…" 
+    stop music fadeout 1.5
 
     #credits
 

@@ -8,9 +8,9 @@ label scene7:
             align (0.7, 1.0)
 
     #music calm
+    play music calmtrack fadein 1.0 fadeout 3.0
     "Time passes quickly. Surprisingly, Beepy and Yumi get along with each other - even better than it initially seemed."
     "Though, I’m not thrilled that their relationship hinges on their mutual exasperation…"
-    
     
     "When we're done eating, we all take seats in the dining room."
     
@@ -328,7 +328,7 @@ label scene7:
     "...Yumi absolutely {i}cannot{/i} find out about this. Under no circumstance!"
     
     scene black with dissolve
-    #music cut
+    stop music fadeout 2.0
     
     "..."
     "... …"
