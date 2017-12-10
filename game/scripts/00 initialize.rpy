@@ -1,19 +1,19 @@
 ######################### 
 # Character Declaration #
 #########################
-define pro = Character('Makoto', color="#800000")
-define bp = Character('Beepy', color="#800000")
-define st = Character('S\u26E7Tan', color="#800000")
-define riv = Character('Misaki', color="#800000")
-define sis = Character('Yumi', color="#800000")
-define mm = Character('Mami', color="#800000")
-define bb = Character('Bubble', color="#800000")
-define lu = Character('Lucy', color="#800000")
-define co = Character('Councillor', color="#800000")
-define q = Character('???', color="#800000")
-define hm = Character('Hall Monitor', color="#800000")
-define vs = Character('Lunch Lady', color="#800000")
-define tea = Character('Teacher', color="#800000")
+define pro = Character('Makoto', color="#800000", voice_tag="makoto")
+define bp = Character('Beepy', color="#800000", voice_tag="beepy")
+define st = Character('S\u26E7Tan', color="#800000", voice_tag="a_tan")
+define riv = Character('Misaki', color="#800000", voice_tag="misaki")
+define sis = Character('Yumi', color="#800000", voice_tag="yumi")
+define mm = Character('Mami', color="#800000", voice_tag="mami")
+define bb = Character('Bubble', color="#800000", voice_tag="bubble")
+define lu = Character('Lucy', color="#800000", voice_tag="lucy")
+define co = Character('Councillor', color="#800000", voice_tag="councillor")
+define q = Character('???', color="#800000", voice_tag="???")
+define hm = Character('Hall Monitor', color="#800000", voice_tag="hall monitor")
+define vs = Character('Lunch Lady', color="#800000", voice_tag="lunch lady")
+define tea = Character('Teacher', color="#800000", voice_tag="teacher")
 
 ######################
 # Sprite Declaration #
