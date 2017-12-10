@@ -6,7 +6,7 @@ label scene21:
 
     "While I could certainly study my eldritch texts - perhaps in an attempt to master time magic and repeat these past two days in a more productive manner - I have an easier option in front of me:"
 
-    #if we got a cg for Satan’s business card, show it. If not... don’t.
+    show satancard with dissolve
 
     "Satan’s business card."
 
@@ -16,7 +16,7 @@ label scene21:
 
     "With only a few hours of Satan’s time, I could easily make up the difference and then some."
 
-    #hide satan’s business card. You know. If it’s there.
+    hide satancard with dissolve
 
     play sound "sfx/Phone Ringing.mp3"
 

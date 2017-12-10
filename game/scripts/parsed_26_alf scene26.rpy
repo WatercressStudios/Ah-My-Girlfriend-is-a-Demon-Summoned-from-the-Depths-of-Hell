@@ -7,15 +7,21 @@ label scene26:
     "Usually, in times like this, Beepy would get bored and make some sardonic remark. She didn't tag along this time, though."
     "A teacher was at the front, kicking back in his seat. I recognize him from science."
     "He was the sort that tried to be friends with every student. It could've been perceived as cute, if it wasn't so annoying."
+    
     tea "Mm… can't say I'm particularly surprised."
     "He was shaking his head as he said this. I wanted to cut him down to size. I didn't need his pity nor his condescension." 
     "Instead, I remained silent. After all the hullabaloo on the rooftop, my energy is utterly drained."
     "Glancing aside to Misaki, she seems similarly quiet - the most quiet I've seen her in some time."
     "Like a barely restrained animal, she glares daggers at the councillor. Up front, and from his throne of power, he's largely unphased."
+    
     tea "Well… I hope you kids don't mind if I duck out to get a coffee. Don't tell on me to the principal, okay?"
+    
     tea "Haha… ha…"
+    
     "He laughed, trying to lighten the mood. There was no response."
+    
     tea "Well, you guys just stay put and… think about what you done."
+    
     tea "...It's not like I want to be here anymore than you guys do, so…" 
     "Excusing himself, he moved to exit the classroom."
 

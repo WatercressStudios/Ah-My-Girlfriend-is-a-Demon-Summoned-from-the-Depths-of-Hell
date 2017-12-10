@@ -264,19 +264,28 @@ label scene7:
     #cg beepy sleeping next to protag
     #protag delivery should be panicked whispering
 
+    show sleepybeepy1 with dissolve
     voice "C-7-47.mp3" #Makoto (Reece Bridger)
     pro "...Beepy!?"
     
     play sound "sfx/Swish.mp3"
+    show sleepybeepy3
+    hide sleepybeepy1
     voice "C-7-48.mp3" #Beepy (Hikari)
     bp "...Mornin’..."
     
+    show sleepybeepy1
+    hide sleepybeepy3
     voice "C-7-49.mp3" #Makoto (Reece Bridger)
     pro "Wh-What are you doing here!? How did you get in here!?"
     
+    show sleepybeepy3
+    hide sleepybeepy1
     voice "C-7-50.mp3" #Beepy (Hikari)
     bp "Used the door…"
     
+    show sleepybeepy4
+    hide sleepybeepy3
     voice "C-7-51.mp3" #Beepy (Hikari)
     bp "...S'comfy 'n' warm... "
 
@@ -285,28 +294,44 @@ label scene7:
     voice "C-7-52.mp3" #Makoto (Reece Bridger)
     pro "Th-This bed can't fit two people! What are you thinking!?"
     
+    show sleepybeepy2
+    hide sleepybeepy4
     voice "C-7-53.mp3" #Beepy (Hikari)
     bp "Eh… made it work.."
     
+    show sleepybeepy3
+    hide sleepybeepy2
     voice "C-7-54.mp3" #Beepy (Hikari)
     bp "Could you keep it down…? People are tryin' to sleep…"
     
+    show sleepybeepy1
+    hide sleepybeepy3
     voice "C-7-55.mp3" #Makoto (Reece Bridger)
     pro "Get out. {b}Get out!{/b}"
     
+    show sleepybeepy2
+    hide sleepybeepy1
     voice "C-7-56.mp3" #Beepy (Hikari)
     bp "Mmm… naaah. Way better than the sofa."
     
+    show sleepybeepy1
+    hide sleepybeepy2
     voice "C-7-57.mp3" #Makoto (Reece Bridger)
     pro "Rgh, grr…" 
     
     play sound "sfx/Paper Slip.mp3"
     "I tried to shove her off the bed, but she's way too heavy."
+    show sleepybeepy4
+    hide sleepybeepy1
     "...Augh! She's scooching even closer!"
     
+    show sleepybeepy3
+    hide sleepybeepy4
     voice "C-7-58.mp3" #Beepy (Hikari)
     bp "Go to bed Makotooo… it'll be fine…"
     
+    show sleepybeepy4
+    hide sleepybeepy3
     voice "C-7-59.mp3" #Makoto (Reece Bridger)
     pro "Wha--!"
     
@@ -318,11 +343,16 @@ label scene7:
     voice "C-7-60.mp3" #Makoto (Reece Bridger)
     pro "Grr… just one night. No more."
     
+    show sleepybeepy2
+    hide sleepbeepy4
     voice "C-7-61.mp3" #Beepy (Hikari)
     bp "Won't happen again~"
 
+    show sleepybeepy4
+    hide sleepybeepy2
     "...Why did it sound like she was taunting me just then? I’ve got a bad feeling about this."
-    #scene black
+   
+    scene black with dissolve
     "The situation being largely out of my control, I decided to live and let live. Drifting back to sleep as best I could…"
     "For a while, I could feel the rhythmic rise and fall of her chest as she slept. For whatever reason, the sensation was calming."
     "...Yumi absolutely {i}cannot{/i} find out about this. Under no circumstance!"

@@ -722,44 +722,61 @@ label scene25:
     #change poses with each line linked to a character
     #sfx add sword clash for every pose
 
+    show jojo1 with dissolve
     voice "C-25-130.mp3" #Makoto (Reece Bridger)
     pro "This spell conjures up the southwestern winds brought to bear by Pazuzu himself! Within the mind's eye, there is no respite from the storm!"
-    play sound "sfx/Sword Clash.mp3"
 
+    play sound "sfx/Sword Clash.mp3"
+    show jojo2 with dissolve
+    hide jojo1
     voice "C-25-131.mp3" #Misaki (Kikari)
     riv "A predictable plot! I have a counterspell for just the occasion!"
     play sound "sfx/Sword Clash.mp3"
-
+    
+    show jojo1 with dissolve
+    hide jojo2
     voice "C-25-132.mp3" #Misaki (Kikari)
     riv "Barriers crafted by Malphas himself! With this spell, I shall be as a stronghold, rendering mighty storms but petty, dying gasps."
     play sound "sfx/Sword Clash.mp3"
-
+    
+    show jojo4 with dissolve
+    hide jojo1
     voice "C-25-133.mp3" #Makoto (Reece Bridger)
     pro "Aha! A stronghold can be undermined and sieged!"
     play sound "sfx/Sword Clash.mp3"
     
+    show jojo5 with dissolve
+    hide jojo4
     voice "C-25-134.mp3" #Makoto (Reece Bridger)
     pro "Ufufu~ With the authority of Raum, I conjure a quake that will render your humble abodes to rubble!"
     play sound "sfx/Sword Clash.mp3"
-
+    
+    show jojo7 with dissolve
+    hide jojo5
     voice "C-25-135.mp3" #Misaki (Kikari)
     riv "But a true queen need not a throne to dominate those that would threaten her!"
     play sound "sfx/Sword Clash.mp3"
-
+    
+    show jojo6 with dissolve
+    hide jojo7
     voice "C-25-136.mp3" #Misaki (Kikari)
     riv "With the spell of Beleth, all shall remain as my loyal subjects! With the power of love, my empire will remain immortal and eternal!"
     play sound "sfx/Sword Clash.mp3"
-
+    
+    show jojo8 with dissolve
+    hide jojo6
     voice "C-25-137.mp3" #Makoto (Reece Bridger)
     pro "But do you have but the presence of mind to not quiver in his presence?"
     play sound "sfx/Sword Clash.mp3"
-
+    
+    show jojo9 with dissolve
+    hide jojo8
     voice "C-25-138.mp3" #Misaki (Kikari)
     riv "Ohoho! Is that a challenge, you treacherous worm~?"
     play sound "sfx/Sword Clash.mp3"
 
-    
-    #at this point both characters should cycle rapidly between 3 poses 
+    show jojo10 with dissolve
+    hide jojo9
 
     "Our limbs flailed wildly, as if possessed by demons themselves. Perhaps we were."
     "Spell after spell, hexes rattled with every breath. It was exhilarating."
@@ -819,7 +836,7 @@ label scene25:
     "Suddenly, the door swung open. A senior student with a red armband ran out onto the rooftop." 
 
     #music lighthearted
-    voice "C-25-150.mp3" #Hall Monitor 
+    voice "HM-1.wav" #Hall Monitor 
     hm "What the hell's going on up here!?"
     
     voice "C-25-151.mp3" #Makoto (Reece Bridger)
@@ -836,10 +853,10 @@ label scene25:
     voice "C-25-154.mp3" #Misaki (Kikari)
     riv "Yeah! Sun is, is nice, heh, eheh.."
     
-    voice "C-25-155.mp3" #Hall Monitor 
+    voice "HM-2.wav" #Hall Monitor 
     hm "I heard shouting! And both of you should know that students aren't allowed on the rooftop!"
     
-    voice "C-25-156.mp3" #Hall Monitor 
+    voice "HM-3.wav" #Hall Monitor 
     hm "...A-And what's with those… outrageous costumes??"
     
     voice "C-25-157.mp3" #Makoto (Reece Bridger)
@@ -852,10 +869,10 @@ label scene25:
     
     show misaki pout
     
-    voice "C-25-159.mp3" #Hall Monitor 
+    voice "HM-4.wav" #Hall Monitor 
     hm "...Whatever they are, they're against uniform regulations."
     
-    voice "C-25-160.mp3" #Hall Monitor 
+    voice "HM-5.wav" #Hall Monitor 
     hm "I don't know what kind of messed up date you two are on, but…"
     
     show misaki shoutblush
@@ -869,26 +886,26 @@ label scene25:
     
     show misaki stammer
 
-    voice "C-25-163.mp3" #Hall Monitor 
-    hm ".Between the uniform violations, entering restricted areas, and the noise complaints…"
+    voice "HM-6.wav" #Hall Monitor 
+    hm "Between the uniform violations, entering restricted areas, and the noise complaints…"
     
-    voice "C-25-164.mp3" #Hall Monitor 
+    voice "HM-7.wav" #Hall Monitor 
     hm "...And aren't you two supposed to be in class!?"
     
     voice "C-25-165.mp3" #Makoto (Reece Bridger)
-    pro ".Oh, shit."
+    pro "Oh, shit."
     
     show misaki surpriseblush
     
     voice "C-25-166.mp3" #Misaki (Kikari)
-    riv "..Ah… ahaha~"
+    riv "...Ah… ahaha~"
 
     "It would appear… that our climatic showdown had dragged on too long. And we were both late for our classes."
 
     voice "C-25-167.mp3" #Makoto (Reece Bridger)
     pro "That… that's an {i}excellent{/i} point, Mister Hall Monitor, so if you excuse us, we should really--"
     
-    voice "C-25-168.mp3" #Hall Monitor 
+    voice "HM-8.wav" #Hall Monitor 
     hm "Hold it. I'm issuing both of you detention slips."
     
     show misaki surprise
@@ -899,16 +916,16 @@ label scene25:
     voice "C-25-170.mp3" #Misaki (Kikari)
     riv "That's… that's outrageous!"
     
-    voice "C-25-171.mp3" #Hall Monitor 
+    voice "HM-9.wav" #Hall Monitor 
     hm "I don't make the rules. Report to A-2 after school."
     
     play sound "sfx/Metal Door Close.mp3" 
 
     scene black with dissolve
-    voice "C-25-172.mp3" #Hall Monitor 
+    voice "HM-10.wav" #Hall Monitor 
     hm "C'mon, this way. Off the roof."
     
-    voice "C-25-173.mp3" #Hall Monitor 
+    voice "HM-11.wav" #Hall Monitor 
     hm "...And get out of those ridiculous costumes. Or, magic whatsits, honestly…"
     
     voice "C-25-174.mp3" #Makoto (Reece Bridger)
