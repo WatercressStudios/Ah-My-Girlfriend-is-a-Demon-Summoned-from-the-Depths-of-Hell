@@ -824,7 +824,7 @@ label scene25:
     "Suddenly, the door swung open. A senior student with a red armband ran out onto the rooftop." 
 
     #music lighthearted
-    voice "HM-1.wav" #Hall Monitor 
+    voice "HM-1.mp3" #Hall Monitor 
     hm "What the hell's going on up here!?"
     
     voice "C-25-151.mp3" #Makoto (Reece Bridger)
@@ -841,10 +841,10 @@ label scene25:
     voice "C-25-154.mp3" #Misaki (Kikari)
     riv "Yeah! Sun is, is nice, heh, eheh.."
     
-    voice "HM-2.wav" #Hall Monitor 
+    voice "HM-2.mp3" #Hall Monitor 
     hm "I heard shouting! And both of you should know that students aren't allowed on the rooftop!"
     
-    voice "HM-3.wav" #Hall Monitor 
+    voice "HM-3.mp3" #Hall Monitor 
     hm "...A-And what's with those… outrageous costumes??"
     
     voice "C-25-157.mp3" #Makoto (Reece Bridger)
@@ -857,10 +857,10 @@ label scene25:
     
     show misaki pout
     
-    voice "HM-4.wav" #Hall Monitor 
+    voice "HM-4.mp3" #Hall Monitor 
     hm "...Whatever they are, they're against uniform regulations."
     
-    voice "HM-5.wav" #Hall Monitor 
+    voice "HM-5.mp3" #Hall Monitor 
     hm "I don't know what kind of messed up date you two are on, but…"
     
     show misaki shoutblush
@@ -874,10 +874,10 @@ label scene25:
     
     show misaki stammer
 
-    voice "HM-6.wav" #Hall Monitor 
+    voice "HM-6.mp3" #Hall Monitor 
     hm "Between the uniform violations, entering restricted areas, and the noise complaints…"
     
-    voice "HM-7.wav" #Hall Monitor 
+    voice "HM-7.mp3" #Hall Monitor 
     hm "...And aren't you two supposed to be in class!?"
     
     voice "C-25-165.mp3" #Makoto (Reece Bridger)
@@ -893,7 +893,7 @@ label scene25:
     voice "C-25-167.mp3" #Makoto (Reece Bridger)
     pro "That… that's an {i}excellent{/i} point, Mister Hall Monitor, so if you excuse us, we should really--"
     
-    voice "HM-8.wav" #Hall Monitor 
+    voice "HM-8.mp3" #Hall Monitor 
     hm "Hold it. I'm issuing both of you detention slips."
     
     show misaki surprise
@@ -904,16 +904,16 @@ label scene25:
     voice "C-25-170.mp3" #Misaki (Kikari)
     riv "That's… that's outrageous!"
     
-    voice "HM-9.wav" #Hall Monitor 
+    voice "HM-9.mp3" #Hall Monitor 
     hm "I don't make the rules. Report to A-2 after school."
     
     #sfx door clang
 
     scene black with dissolve
-    voice "HM-10.wav" #Hall Monitor 
+    voice "HM-10.mp3" #Hall Monitor 
     hm "C'mon, this way. Off the roof."
     
-    voice "HM-11.wav" #Hall Monitor 
+    voice "HM-11.mp3" #Hall Monitor 
     hm "...And get out of those ridiculous costumes. Or, magic whatsits, honestly…"
     
     voice "C-25-174.mp3" #Makoto (Reece Bridger)
