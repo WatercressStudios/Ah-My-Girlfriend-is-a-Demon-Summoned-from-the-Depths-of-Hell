@@ -12,7 +12,7 @@ label scene12:
     
     scene hallway with dissolve
 
-    #sfx door open
+    play sound "sfx/Door Open.mp3"
     "I open the door to my house and exchange my usual greeting."
     
 
@@ -40,7 +40,7 @@ label scene12:
     voice "C-12-4.mp3" #Mami 
     mm "{b}Hey!{/b} What do you think you're doing!?"
     
-    #sfx cartoon pull
+    play sound "sfx/Yoink.mp3"
 
     "Before I know it, the strange girl is violently pulled away…"
     "...by another, almost identical-looking girl. Only, her skin is a lighter shade of blue…"
@@ -93,7 +93,7 @@ label scene12:
     voice "C-12-11.mp3" #Lucy (Vivi)
     lu "{b}Ah!{/b} Wait! Y-Y-You're not supposed to see me either!"
     
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     
     show lucy frowntalk
     voice "C-12-12.mp3" #Lucy (Vivi)
@@ -339,7 +339,7 @@ label scene12:
     show lucyfrightened
     hide lucydetermined
 
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     
     voice "C-12-56.mp3" #Lucy (Vivi)
     lu "No, wait! I wasn't supposed to start like that! L-L-Lemme try again!"
@@ -355,7 +355,7 @@ label scene12:
 
     #music lighthearted
     voice "C-12-59.mp3" #Lucy (Vivi)
-    lu "{b}{i}Uwaaaaaaaah!{/b}{/i}"
+    lu "{b}{i}Uwaaaaaaaah!{/i}{/b}"
     
     voice "C-12-60.mp3" #Lucy (Vivi)
     lu "I'm so sorry! I forgot all of my lines!"
@@ -507,7 +507,7 @@ label scene12:
 
     "{i}Shit.{/i}"
     "Too late. My soul is forfeit now."
-    #sfx slam
+    play sound "sfx/Metal Door Slam.mp3"
     
     "Yumi bursts into the room."
 
@@ -631,7 +631,7 @@ label scene12:
     bb "Yup yup, that's me, Beelzebub of Gluttony~! But you can just call me Bubble! *Giggle*"
 
     #show Bubble smiling
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
 
     show bubble bigsmiletalk
     voice "C-12-96.mp3" #Bubble 
@@ -671,7 +671,7 @@ label scene12:
 
     "I unleash my inner persona onto the unsuspecting masses, hoping to exude my dominance over them."
     
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     
     #music cut
     show lucy angst

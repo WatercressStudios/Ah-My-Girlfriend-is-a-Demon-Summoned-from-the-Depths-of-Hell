@@ -1,7 +1,7 @@
 label scene19:
     
     scene black with dissolve
-    #sfx bell
+    play sound "sfx/Bell.mp3"
     
     "The remaining hours in the school day went by uneventfully."
     "Not a moment too soon, either. Beepy's curled-up mass weighed against my back."
@@ -163,7 +163,7 @@ label scene19:
 
     "Lucy sits in a chair just opposite, pulling out her sketchpad and beginning her work."
 
-    #sfx scribbling
+    play sound "sfx/Scribbling.mp3"
     voice "C-19-28.mp3" #Lucy (Vivi)
     lu "I'm going to start with a sketch of you - still life style - and then I'll work on a painting from that, okay?"
 
@@ -254,8 +254,6 @@ label scene19:
     show lucy neutral
     voice "C-19-41.mp3" #Makoto (Reece Bridger)
     pro "Yes, of course."
-
-    #sfx stop scribbling
     
     "She turns her sketchpad towards me and holds it up over her chest."
 

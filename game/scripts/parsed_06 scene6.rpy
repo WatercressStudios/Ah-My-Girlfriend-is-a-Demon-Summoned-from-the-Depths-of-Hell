@@ -82,7 +82,7 @@ label scene6:
     voice "C-6-18.mp3" #Yumi (Kaito)
     sis "Yeah, you don't really have the charisma for that. Or the personality. Or, well, anything that a girl would want."
     
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     
     show yumi exasperated
     voice "C-6-19.mp3" #Makoto (Reece Bridger)

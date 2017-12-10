@@ -35,7 +35,7 @@
     voice "C-1-6.mp3" #Makoto (Reece Bridger)
     pro "You stand in the presence of Sebastian Wolfgang IV, the Chaotic Lord of Thunder, the one that will bring this world to its--"
 
-    #sfx bang
+    play sound "sfx/Banging on Door.mp3"
     #music abrupt cut
     #show pro’s face growing exasperated
     
@@ -69,7 +69,7 @@
     voice "C-1-14.mp3" #Yumi (Kaito)
     sis "*sigh* Whatever. Just try to wrap up whatever you're doing soon, okay?"
 
-    #sfx footsteps
+    play sound "sfx/Footsteps on Wood.mp3"
     
     "I could hear that vile person’s steps as she walked away."
     
@@ -141,7 +141,7 @@
     voice "C-1-29.mp3" #Makoto (Reece Bridger)
     pro "Hahahaha… {i}{b}Aaaahahahahaha!!!{/b}{/i}"
 
-    #sfx bang
+    play sound "sfx/Banging on Door.mp3"
     #show pro’s face growing exasperated
     #music hard cut again
     scene intro3 with vpunch

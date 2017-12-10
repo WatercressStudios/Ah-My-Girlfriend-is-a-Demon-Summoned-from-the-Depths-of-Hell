@@ -67,7 +67,7 @@ label scene2:
     voice "C-2-5.mp3" #Makoto (Reece Bridger)
     pro "Well, it's organic, at least, so… I hope demons like this."
 
-    #sfx soda can
+    play sound "sfx/Tomato Juice Pour.mp3"
 
     hide juice with dissolve
     
@@ -80,7 +80,7 @@ label scene2:
 
     "Taking out my phone, I open the camera app, and ready the lens…"
 
-    #sfx camera snapshots
+    play sound "sfx/Camera Snapshot.mp3"
 
     "Good. Proper, unedited evidence in its purest form."
     
@@ -97,17 +97,17 @@ label scene2:
     pro "Alright, alright, let's chill for a bit. Gotta get into the right mindset."
     
 
-    #sfx swishing
+    play sound "sfx/Swish.mp3"
 
     "As if possessed, my hands make a myriad of movements, casting a spell to protect myself from charms and other nebulous incantations. Safety first, after all."
     "Alright, I think I'm {i}finally{/i} ready."
 
-    #sfx click
+    play sound "sfx/Light Switch.mp3"
     scene garage dark
 
     "I turn off the lights, leaving only candles to illuminate my makeshift altar."
 
-    #sfx locking door
+    play sound "sfx/Door Close Lock.mp3"
     "Finally, I lock the door behind me. This is it. The die has been cast."
     "Clasping my hands together once more, I bow my head and kneel. It is time to recite the incantation." 
 
@@ -127,7 +127,7 @@ label scene2:
     voice "C-2-14.mp3" #Makoto (Reece Bridger)
     pro "'...I command the forces of darkness to bestow their infernal power upon me!'"
 
-    #sfx breeze
+    play sound "sfx/Breeze.mp3"
 
     "I feel a low breeze caress my face. I'm not even done with the invocation."
     "Blinking, I refocus, though it's… a hell of a coincidence."
@@ -135,7 +135,7 @@ label scene2:
     voice "C-2-15.mp3" #Makoto (Reece Bridger)
     pro "O, open wide the gates of Hell and come forth from the abyss, to… to greet me as your brother and friend!"
 
-    #sfx rumble
+    play sound "sfx/Earthquake.mp3"
     #screen shake
     #change music to something more tense
 
@@ -148,7 +148,7 @@ label scene2:
     voice "C-2-17.mp3" #Makoto (Reece Bridger)
     pro "...Please?"
 
-    #sfx strong wind
+    play sound "sfx/Strong Wind.mp3"
     #music stop
 
     "A strong gust of wind knocks me to the floor."
@@ -161,7 +161,7 @@ label scene2:
 
     "The candles stubbornly remain aflame, despite the stormy conditions. A feeling of utter dread washes over me."
 
-    #sfx banging on door
+    play sound "sfx/Banging on Door.mp3"
 
     voice "C-2-19.mp3" #Yumi (Kaito)
     sis "{b}What the {i}hell{/i} are you doing in there, Makoto!? You better not be making a mess!{/b}"

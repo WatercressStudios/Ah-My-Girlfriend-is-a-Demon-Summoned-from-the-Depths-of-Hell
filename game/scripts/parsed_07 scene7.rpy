@@ -151,7 +151,7 @@ label scene7:
     sis "Heh, no problem! Just-- Just want to make sure you're comfortable while you're here, haha~!"
     
     show yumi smile
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     "Why is my sister giggling like a lunatic?"
 
     voice "C-7-30.mp3" #Makoto (Reece Bridger)
@@ -181,7 +181,7 @@ label scene7:
     voice "C-7-36.mp3" #Makoto (Reece Bridger)
     pro "Ha. Soon you will come to realize that everything leading up to this point… it is all connected."
 
-    #sfx something like a swoosh??
+    play sound "sfx/Swish.mp3"
 
     "With a dramatic flourish of my cape, I vanish like an ebony breeze caught by… by an errant consciousness. Or something."
 
@@ -215,7 +215,7 @@ label scene7:
     voice "C-7-41.mp3" #Makoto (Reece Bridger)
     pro "...The dawn of a new era, I should say. Ufufu~"
 
-    #sfx something like a swoosh??
+    play sound "sfx/Swish.mp3"
     "Chuckling to myself, I quickly toss my cape, my cloak, and my-- N-No, not my undergarments."
     "Even for someone with as black a soul as mine, that would be entirely too lewd."
 
@@ -228,7 +228,7 @@ label scene7:
     voice "C-7-44.mp3" #Makoto (Reece Bridger)
     pro "Yeah, that's gonna be real… {i}neato…{/i}"
 
-    #sfx flopping into bed
+    play sound "sfx/Swish.mp3"
 
     "Fatigue overcomes me as I collapse onto the bed."
     "Beepy’s faint, lingering scent hits me as my head presses against the pillow."
@@ -268,7 +268,7 @@ label scene7:
     voice "C-7-47.mp3" #Makoto (Reece Bridger)
     pro "...Beepy!?"
     
-    #sfx romantic
+    play sound "sfx/Swish.mp3"
     show sleepybeepy3
     hide sleepybeepy1
     voice "C-7-48.mp3" #Beepy (Hikari)
@@ -319,7 +319,7 @@ label scene7:
     voice "C-7-57.mp3" #Makoto (Reece Bridger)
     pro "Rgh, grr…" 
     
-    #sfx bedsprings creaking
+    play sound "sfx/Paper Slip.mp3"
     "I tried to shove her off the bed, but she's way too heavy."
     show sleepybeepy4
     hide sleepybeepy1
