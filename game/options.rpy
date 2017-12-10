@@ -284,3 +284,6 @@ init -1 python hide:
     ## More customizations can go here.
     
 default preferences.skip_unseen = True
+
+define config.voice_filename_format = "voice/{filename}"
+define config.has_voice = True

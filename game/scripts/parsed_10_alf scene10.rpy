@@ -1,7 +1,7 @@
 label scene10:
     scene classroom1
 
-    #sfx bell ring
+    play sound "sfx/Bell.mp3"
     #music school theme
     play music schooltheme fadein 1.0
     "And with the bell's toll, the day begins in earnest."

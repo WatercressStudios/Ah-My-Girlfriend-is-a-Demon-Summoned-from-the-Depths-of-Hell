@@ -21,13 +21,16 @@ label scene8:
 
     "My arm remains stuck in place, as if some demonic force is keeping me locked to my bed."
     "In that instant, I look to my side and remember the fiend that had snuck into my bed late last night - one who refused to leave no matter what I tried."
+    
+    show sleepybeepy3 with dissolve
     "My face grows pale, and I am left with a dreadful realization:"
     "This is no dream. This is all real. Satan actually heeded my call and left me in the care of this…"
     "Well, I’m not sure if Beepy even counts as a terrifying demon. She hasn’t even done anything yet."
     "But still, a demon should know their place in the presence of a demon lord."
     "Using all the strength I can muster, I manage to wrestle my arm away - but the force of my pushing ends up sending her off the bed."
 
-    #sfx whump
+    play sound "sfx/Punch.mp3"
+    hide sleepybeepy3 with vpunch
 
     "WHUMP!"
 

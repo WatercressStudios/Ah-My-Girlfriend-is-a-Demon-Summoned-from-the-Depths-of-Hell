@@ -1,19 +1,19 @@
 ######################### 
 # Character Declaration #
 #########################
-define pro = Character('Makoto', color="#800000")
-define bp = Character('Beepy', color="#800000")
-define st = Character('S\u26E7Tan', color="#800000")
-define riv = Character('Misaki', color="#800000")
-define sis = Character('Yumi', color="#800000")
-define mm = Character('Mami', color="#800000")
-define bb = Character('Bubble', color="#800000")
-define lu = Character('Lucy', color="#800000")
-define co = Character('Councillor', color="#800000")
-define q = Character('???', color="#800000")
-define hm = Character('Hall Monitor', color="#800000")
-define vs = Character('Lunch Lady', color="#800000")
-define tea = Character('Teacher', color="#800000")
+define pro = Character('Makoto', color="#800000", voice_tag="makoto")
+define bp = Character('Beepy', color="#800000", voice_tag="beepy")
+define st = Character('S\u26E7Tan', color="#800000", voice_tag="a_tan")
+define riv = Character('Misaki', color="#800000", voice_tag="misaki")
+define sis = Character('Yumi', color="#800000", voice_tag="yumi")
+define mm = Character('Mami', color="#800000", voice_tag="mami")
+define bb = Character('Bubble', color="#800000", voice_tag="bubble")
+define lu = Character('Lucy', color="#800000", voice_tag="lucy")
+define co = Character('Councillor', color="#800000", voice_tag="councillor")
+define q = Character('???', color="#800000", voice_tag="???")
+define hm = Character('Hall Monitor', color="#800000", voice_tag="hall monitor")
+define vs = Character('Lunch Lady', color="#800000", voice_tag="lunch lady")
+define tea = Character('Teacher', color="#800000", voice_tag="teacher")
 
 ######################
 # Sprite Declaration #
@@ -94,9 +94,10 @@ image yumi fworrytalk = im.Flip("yumi worrytalk.png", horizontal=True)
 ##################
 #Potentially obsolete if we use Ren'Py's image directory!
 
-image garage = "bgs/garage line.png"
-image garage evil = "bgs/garage line.png"
-image garage mess = "bgs/garage line.png"
+image garage = "bgs/House/garage/GarageBG-Normal.png"
+image garage evil = "bgs/House/garage/GarageBG-RitualLight.png"
+image garage mess = "bgs/House/garage/GarageBG-MessedUp.png"
+image garage dark = "bgs/House/garage/GarageBG-RitualDark.png"
 image store interior = "bgs/storeinterior.png"
 image store exterior = "bgs/superstore exterior.jpg"
 image store exteriornight = "bgs/superstore exterior night.jpg"
@@ -172,7 +173,28 @@ image twinsright = "cgs/twins/TwinsIntroCG-ShiftRight.png"
 image twinssmug = "cgs/twins/TwinsIntroCG-Smug.png"
 image apologycard = "cgs/ApologyCardCG.png"
 image endcg = "cgs/SunsetCG.png"
-image sleepybeepy1 = "cgs/spbp/Sleepy Beepy 1.png"
+image sleepybeepy1 = "cgs/spbp/1f.png"
+image sleepybeepy2 = "cgs/spbp/2f.png"
+image sleepybeepy3 = "cgs/spbp/3f.png"
+image sleepybeepy4 = "cgs/spbp/4f.png"
+image sleepybeepy5 = "cgs/spbp/5f.png"
+image sleepybeepy6 = "cgs/spbp/6f.png"
+image sleepybeepy7 = "cgs/spbp/7f.png"
+image sleepybeepy8 = "cgs/spbp/8f.png"
+image jojo1 = "cgs/jojo/jojo1.png"
+image jojo2 = "cgs/jojo/jojo2.png"
+image jojo3 = "cgs/jojo/jojo3.png"
+image jojo4 = "cgs/jojo/jojo4.png"
+image jojo5 = "cgs/jojo/jojo5.png"
+image jojo6 = "cgs/jojo/jojo6.png"
+image jojo7 = "cgs/jojo/jojo7.png"
+image jojo8 = "cgs/jojo/jojo8.png"
+image jojo9 = "cgs/jojo/jojo9.png"
+image jojo10 = "cgs/jojo/jojo10.png"
+image chalice = "cgs/object/ChaliceCG.png"
+image spraypaint = "cgs/object/SpraypaintCG.png"
+image juice = "cgs/object/TomatoJuiceCG.png"
+image satancard = "cgs/object/SatanBusinessCardCG.png"
 
 
 #######

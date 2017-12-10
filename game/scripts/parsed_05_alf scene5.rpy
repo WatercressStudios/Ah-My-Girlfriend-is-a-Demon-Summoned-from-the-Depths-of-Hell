@@ -59,7 +59,7 @@ label scene5:
     voice "C-5-14.mp3" #Beepy (Hikari)
     bp "Haaaaahn…"
 
-    #sfx bedsprings squeak
+    play sound "sfx/Paper Slip.mp3"
     show beepy neutralclosed
     
     "Sitting up straight, she stretches and yawns. Her mannerisms were terribly cat-like…" 
@@ -365,7 +365,7 @@ label scene5:
     
     hide beepy with easeoutleft
 
-    #sfx door close
+    play sound "sfx/Door Close.mp3"
     "Untangling herself from the covers, she strode to the door and left me to my thoughts once more."
 
     voice "C-5-85.mp3" #Makoto (Reece Bridger)
@@ -392,7 +392,7 @@ label scene5:
     "The things Beepy said…I might as well have been talking to Yumi."
 
     voice "C-5-90.mp3" #Makoto (Reece Bridger)
-    pro "No. They are blind to see the... the uh, the entropic circling of the stars above. It… {i}must{/b} be so."
+    pro "No. They are blind to see the... the uh, the entropic circling of the stars above. It… {i}must{/i} be so."
     
     voice "C-5-91.mp3" #Makoto (Reece Bridger)
     pro "Yeah. Exactly. I got this."
@@ -412,9 +412,9 @@ label scene5:
 
     "Rising from my bed, I turn to the door with a mighty flourish…"
 
-    #sfx crash
+    play sound "sfx/Crash.mp3"
 
-    "{b}{i}CRASH!{/b}{/i}"
+    "{b}{i}CRASH!{/i}{/b}"
 
     "...Aaaand my cape caught the fan on my desk. My head immediately jerked to see the it clatter to the floor."
 

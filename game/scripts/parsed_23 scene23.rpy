@@ -250,13 +250,13 @@ label scene23:
     voice "C-23-33.mp3" #Bubble 
     bb "Oooh, I’ll even have some of that leftover lasagna from last night~!"
     
-    #sfx tweak
+    play sound "sfx/Yoink.mp3"
     
     show mami shoutvein
     voice "C-23-34.mp3" #Mami 
     mm "Hey, save some for us, you glutton!"
     
-    #sfx tweak
+    play sound "sfx/Yoink.mp3"
     
     show bubble scowltalk
     voice "C-23-35.mp3" #Bubble 
@@ -311,7 +311,7 @@ label scene23:
     voice "C-23-43.mp3" #Beepy (Hikari)
     bp "Hm? What’re you getting all red for?"
     
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     
     show yumi blushpanic
     voice "C-23-44.mp3" #Yumi (Kaito)
@@ -336,7 +336,7 @@ label scene23:
     hide yumi with easeoutright
     #show Beepy tired
 
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     
     show beepy neutralclosedtalk
     voice "C-23-48.mp3" #Beepy (Hikari)

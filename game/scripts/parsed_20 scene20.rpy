@@ -38,7 +38,7 @@ label scene20:
 
     show bubble happytalk
 
-    #sfx punipuni
+    play sound "sfx/PuniPuni.mp3"
     voice "C-20-4.mp3" #Bubble 
     bb "Hey! Hey! Didja know? Didja know?"
     
@@ -64,7 +64,7 @@ label scene20:
 
     show bubble angrysmiletalk
 
-    #sfx sparkle 
+    play sound "sfx/Flourish.mp3"
     voice "C-20-9.mp3" #Bubble 
     bb "It’s finally time!"
 
@@ -254,13 +254,13 @@ label scene20:
 
     show bubble sadsmiletalk
 
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     voice "C-20-45.mp3" #Bubble 
     bb "Though, you can’t really eat lasagna for breakfast, can you…?"
 
     show bubble smile
 
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     voice "C-20-46.mp3" #Bubble 
     bb "Oh well, never stopped me before! And you shouldn’t let it stop you, either, Makoto~!"
 
@@ -292,7 +292,7 @@ label scene20:
     show bubble xdlaugh with easeinright:
         align (0.35, 1.0)
 
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     voice "C-20-48.mp3" #Bubble 
     bb "{i}Oooooooooooooooh~!{/i} It smells so goooooooood~!"
     

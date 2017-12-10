@@ -30,7 +30,7 @@ label scene16:
     voice "C-16-3.mp3" #Yumi (Kaito)
     sis "Cool."
 
-    show yumi fsmile
+    show yumi smile
     "She moves, hoisting up the trunk of the car above her head and letting it hang."
 
     show yumi fsmiletalk
@@ -184,7 +184,7 @@ label scene16:
     
     
     show bubble smileclosed
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     voice "C-16-30.mp3" #Bubble 
     bb "Okkkkaaaaayyyyyyyyyyyy..."
 
@@ -404,7 +404,7 @@ label scene16:
     "Of all the--"
     
 
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     voice "C-16-64.mp3" #Mami 
     show lucy neutral
     show mami sadclosedyell

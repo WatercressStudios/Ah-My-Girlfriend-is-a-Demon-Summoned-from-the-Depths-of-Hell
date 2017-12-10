@@ -31,7 +31,7 @@ label scene4:
     
     "She wasn't. I could hear her skipping to the other side of the garage."
     
-    #sfx chest opening
+    play sound "sfx/Opening Chest.mp3"
     
     "And she was opening the storage chest? I squinted to try and peek through…"
     
@@ -49,7 +49,7 @@ label scene4:
     voice "C-4-11.mp3" #STan (Dani)
     st "Ohhh, let's not be such a grumpy gus! C'mon, up we goooo~!"
     
-    #sfx boink
+    play sound "sfx/Squeeze.mp3"
     
     voice "C-4-12.mp3" #??? 
     q "I'm not grumpy… And d-don't grab me there, i-it's…! I'm ticklish… h-heheh, th-that's sexual harrassment, y-you know…"
@@ -85,7 +85,7 @@ label scene4:
     "With S⛧Tan and this girl right next to each other, one smiling so brightly and the other… {i}not…{/i}"
     "It really was looking at night and day."
     
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     
     show beepy neutraltalk
     voice "C-4-16.mp3" #Beepy (Hikari)
@@ -125,7 +125,7 @@ label scene4:
     voice "C-4-23.mp3" #Beepy (Hikari)
     bp "Nn… {i}Fiiiine,{/i} I'll do the stupid… idol thing…"
     
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     
     show beepy angryclosed
     show stan neutraltalk
@@ -168,7 +168,7 @@ label scene4:
     voice "C-4-30.mp3" #Beepy (Hikari)
     bp "...Where was I? ...Eh, whatever. I'm Belphegor of Sloth. Can I go now?"
     
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     #music fadeout
     stop music fadeout 1.5
     
@@ -237,21 +237,23 @@ label scene4:
     voice "C-4-43.mp3" #STan (Dani)
     st "I'm gonna give you my personal number! You can call me whenever you need help with anything, okay?"
     
-    #sfx shove
+    play sound "sfx/Yoink.mp3"
     
     show stan wink
     voice "C-4-44.mp3" #Makoto (Reece Bridger)
     pro "Oof!"
     
+    
+    show satancard with dissolve
+    
     "She shoves a business card into my chest with such force that it - quite literally - took my breath away."
-
-    #cg business card
-
     "True to her word, there's a phone number on the back in excessively ornate writing."
 
     show stan bashfultalk
     voice "C-4-45.mp3" #STan (Dani)
     st "Now don't go sharing that number! It's highly sought after!"
+    
+    hide satancard with dissolve
     
     show stan cheekyclosedtalk
     voice "C-4-46.mp3" #STan (Dani)
@@ -285,7 +287,7 @@ label scene4:
     voice "C-4-51.mp3" #STan (Dani)
     st "{b}Infernal vanishing ninjutsu, {i}gooo~!{/i}{/b}"
 
-    #sfx fwoosh
+    play sound "sfx/Swish.mp3"
     #music fadeout
     stop music fadeout 1.0
     scene white with dissolve
@@ -432,7 +434,7 @@ label scene4:
     voice "C-4-77.mp3" #Yumi (Kaito)
     sis "Let me through; I'm taking a look."
 
-    #sfx shove
+    play sound "sfx/Yoink.mp3"
     show yumi angry
     "She tried to shove past me, but I couldn’t let her do that."
     "If Yumi sees the aftermath, then summoning a demon will be the least of my worries!"
@@ -448,12 +450,12 @@ label scene4:
     voice "C-4-80.mp3" #Makoto (Reece Bridger)
     pro "N-Nooo!"
     
-    #sfx fling
+    play sound "sfx/Swish.mp3"
 
     "Placing both arms on my shoulders, she casts me aside like a ragdoll. It seems my resistance was infantile at best…"
     scene living room with vpunch
     show yumi closed with dissolve
-    #sfx thud
+    play sound "sfx/Thud.mp3"
 
     "I landed on my butt with a dull thud."
 
@@ -465,7 +467,7 @@ label scene4:
     sis "I’m not worried."
 
     show yumi neutral
-    #sfx door opening
+    play sound "sfx/Door Open.mp3"
     "Yumi swung the door to the garage open and surveyed the damage."
     
     #music cut
@@ -478,7 +480,7 @@ label scene4:
     "Her mouth became a solid, stone line. Disappointment flashed across her face in an instant."
     "This is the part where S⛧Tan cleaned it up for me, right…?"
     "Or mere mortals cannot hope to comprehend the chaos?"
-    #sfx door closing
+    play sound "sfx/Door Close.mp3"
     
     show yumi angry
     "Yumi waited a second, then gingerly closed the door and glared at me."
@@ -532,11 +534,11 @@ label scene4:
     
     show yumi angryshout
     voice "C-4-95.mp3" #Yumi (Kaito)
-    sis "Ooh, wait 'til they hear about this! You're gonna be in {b}{i}so{/b}{/i} much trouble!"
+    sis "Ooh, wait 'til they hear about this! You're gonna be in {b}{i}so{/i}{/b} much trouble!"
 
     hide yumi with easeoutright
     
-    #sfx stomping
+    play sound "sfx/Stomping Away.mp3"
 
     "Before I could reply, she’d already turned around and stomped off in a rage."
     "This is bad. This is really {b}really{/b} bad!"
@@ -564,7 +566,7 @@ label scene4:
     pro "I don't sound like that!"
     
     show yumi fangry
-    #sfx door opening
+    play sound "sfx/Door Open.mp3"
     "She slowly turned the knob…!"
     
     show yumi fangrytalk
@@ -661,7 +663,7 @@ label scene4:
     sis "Oh… okay… Good night, Makoto…"
 
     hide yumi with easeoutright
-    #sfx door closing
+    play sound "sfx/Door Close.mp3"
     "She shambled back into her room, almost like a zombie. She closed the door behind her."
 
     voice "C-4-120.mp3" #Makoto (Reece Bridger)

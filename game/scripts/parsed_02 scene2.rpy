@@ -31,19 +31,25 @@ label scene2:
     "...There are greater powers to consult."
     "I will make an offering to the Dark One, then consort and make a bargain for yet greater power - power that will overcome the greatest tribulation I have encountered yet."
     "The cost is of no concern. I am already a demon."
+    
+    show chalice with dissolve
 
     voice "C-2-3.mp3" #Makoto (Reece Bridger)
     pro "...Pity I had to make some {i}adjustments,{/i} to the designs of this ritual."
 
     "Performing an invocation on a student budget is a challenge, after all. Sacrifices were necessary - and not the fun ones." 
     "I’m afraid a chalice crafted from genuine silver was… too decadent for this humble practitioner of black magic."
-
-    #show cg of chalice
-
+    
+    hide chalice with dissolve
+    show spraypaint with dissolve
+    
     "Spray-painting an ordinary chalice with silver paint, however, proved to be a more affordable alternative."
     "A show of thriftiness that would please Mammon of Greed himself."
     "...I ended up spray-painting most of the items for use in this ritual. I hope the fumes don't make me dizzy." 
     "At least dressing for the occasion isn't a problem. I have plenty of black to wear."
+    
+    hide spraypaint with dissolve
+    
     "And at the very least, procuring a pentagram was easy on the wallet."
     "It is drawn in salt - a traditional preparation of sorcerers. Its purpose? To assert dominance over the forces of chaos, to bring order to these unconquerable forces." 
 
@@ -53,7 +59,7 @@ label scene2:
     "I reach for something I've been keeping in a nearby fridge."
     "They say you're supposed to use blood for this sort of thing, but I… I'm a little squeamish around that kind of stuff."
 
-    #cg can of tomato juice
+    show juice with dissolve
 
     "So I got tomato juice instead. I'm kind of hoping it's a decent substitute."
     "I mean, I could use someone else's blood. My sister wasn't too thrilled with the idea, though."
@@ -62,8 +68,10 @@ label scene2:
     voice "C-2-5.mp3" #Makoto (Reece Bridger)
     pro "Well, it's organic, at least, so… I hope demons like this."
 
-    #sfx soda can
+    play sound "sfx/Tomato Juice Pour.mp3"
 
+    hide juice with dissolve
+    
     "Cracking open a can, I pour some of the thick, red blood-substitute into a little dish."
     "Taking two fingers, I paint a circle with it. Perfect. It's large enough for me to comfortably occupy."
     "Everything is almost ready. I can feel my hands tremble in anticipation, but I must remember to calm myself."
@@ -73,7 +81,7 @@ label scene2:
 
     "Taking out my phone, I open the camera app, and ready the lens…"
 
-    #sfx camera snapshots
+    play sound "sfx/Camera Snapshot.mp3"
 
     "Good. Proper, unedited evidence in its purest form."
     
@@ -90,17 +98,17 @@ label scene2:
     pro "Alright, alright, let's chill for a bit. Gotta get into the right mindset."
     
 
-    #sfx swishing
+    play sound "sfx/Swish.mp3"
 
     "As if possessed, my hands make a myriad of movements, casting a spell to protect myself from charms and other nebulous incantations. Safety first, after all."
     "Alright, I think I'm {i}finally{/i} ready."
 
-    #sfx click
-    #change bg to darker variant 
+    play sound "sfx/Light Switch.mp3"
+    scene garage dark
 
     "I turn off the lights, leaving only candles to illuminate my makeshift altar."
 
-    #sfx locking door
+    play sound "sfx/Door Close Lock.mp3"
     "Finally, I lock the door behind me. This is it. The die has been cast."
     "Clasping my hands together once more, I bow my head and kneel. It is time to recite the incantation." 
 
@@ -120,7 +128,7 @@ label scene2:
     voice "C-2-14.mp3" #Makoto (Reece Bridger)
     pro "'...I command the forces of darkness to bestow their infernal power upon me!'"
 
-    #sfx breeze
+    play sound "sfx/Breeze.mp3"
 
     "I feel a low breeze caress my face. I'm not even done with the invocation."
     "Blinking, I refocus, though it's… a hell of a coincidence."
@@ -128,7 +136,7 @@ label scene2:
     voice "C-2-15.mp3" #Makoto (Reece Bridger)
     pro "O, open wide the gates of Hell and come forth from the abyss, to… to greet me as your brother and friend!"
 
-    #sfx rumble
+    play sound "sfx/Earthquake.mp3"
     #screen shake
     #change music to something more tense
     #except we don't have that right now, rip ~Wolf
@@ -142,8 +150,10 @@ label scene2:
     voice "C-2-17.mp3" #Makoto (Reece Bridger)
     pro "...Please?"
 
-    #sfx strong wind
+
     stop music
+
+    play sound "sfx/Strong Wind.mp3"
 
     "A strong gust of wind knocks me to the floor."
     "I sprawl for a few precious moments, before reorienting myself."
@@ -156,7 +166,7 @@ label scene2:
 
     "The candles stubbornly remain aflame, despite the stormy conditions. A feeling of utter dread washes over me."
 
-    #sfx banging on door
+    play sound "sfx/Banging on Door.mp3"
 
     voice "C-2-19.mp3" #Yumi (Kaito)
     sis "{b}What the {i}hell{/i} are you doing in there, Makoto!? You better not be making a mess!{/b}"

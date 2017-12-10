@@ -5,7 +5,7 @@ label scene11:
     "I’m concentrating harder than ever on my notes, while Beepy stares out the window, bored out of her mind."
     "And before I know it…"
 
-    #sfx bell ring
+    play sound "sfx/Bell.mp3"
 
     "*RING!*"
     
@@ -122,7 +122,7 @@ label scene11:
     "I must double my efforts and train harder than ever before! By the time my training is complete, they’ll be begging for mercy on judgement day!"
 
     scene classroom1 with dissolve
-    #sfx ring
+    play sound "sfx/Bell.mp3"
 
     "*RING!*"
     "The final bell rings, signalling the end of the school day."

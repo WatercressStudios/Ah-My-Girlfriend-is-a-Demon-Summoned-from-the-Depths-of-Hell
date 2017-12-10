@@ -20,7 +20,7 @@ label scene3:
     "The realization hit me: it wasn't a question of {i}who{/i}, but of what." 
     "A chill drifted down my spine. My attention immediately focused on the sound of footsteps against the asphalt."
 
-    #sfx echoey footsteps
+    play sound "sfx/Echoing Footsteps.mp3"
 
     "Left foot? Right foot? It was drawing ever closer…"
     "The presence was… unspeakably powerful. And it was drawing closer still."
@@ -57,7 +57,7 @@ label scene3:
     voice "C-3-9.mp3" #??? 
     q "Hey, is there a light in here? Oh, it's over here! Lemme just get that~!"
 
-    #sfx click
+    play sound "sfx/Light Switch.mp3"
     scene garage mess with dissolve
 
     "The lights flickered back to life…"
@@ -132,6 +132,7 @@ label scene3:
     pro "C-Country yokel…?"
     
     #music cut
+
     stop music fadeout 1.0
 
     "The way she called me that was - to be frank - patronizing and a little insulting, but she said it in such a cheery and pleasant way."
@@ -160,7 +161,7 @@ label scene3:
     
     show satanintrowink
     hide satanintrowinktongue
-    #sfx flourish
+    play sound "sfx/Flourish.mp3"
     voice "C-3-26.mp3" #??? 
     q "I'm Satan of Wrath! And I'm here to bring smiles to the faces of everyone around the world!"
 
@@ -218,7 +219,7 @@ label scene3:
     voice "C-3-38.mp3" #STan (Dani)
     st "Yes, congratulations! You're the Hell Hotline's 666,666th customer! Give yourself a big round of applause!"
 
-    #sfx  applause
+    play sound "sfx/Applause.mp3"
 
     show stan neutral
     "As she beamed, an uproarious applause filled the garage. From where specifically, it was impossible to tell."
@@ -443,7 +444,7 @@ label scene3:
     voice "C-3-92.mp3" #STan (Dani)
     st "You see, it's not {i}me{/i} who's gonna be your familiar."
 
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     
     show stan wince
     "She frowned so obtusely, but her eyes looked me over with pity."
@@ -466,7 +467,7 @@ label scene3:
     voice "C-3-97.mp3" #Makoto (Reece Bridger)
     pro "'Cute?’ I-I'm not cute, I'm… I'm rugged as heck!"
     
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     
     show stan pitytalk
     voice "C-3-98.mp3" #STan (Dani)
@@ -517,7 +518,7 @@ label scene3:
     pro "...Well, fine, if that's the case…"
     
     voice "C-3-107.mp3" #STan (Dani)
-    st "{b}Yes! Okay then, {i}nooo{/i} peeking!"
+    st "{b}Yes! Okay then, {i}nooo{/i} peeking!{/b}"
     "This all felt so childlike, but… I had high hopes for what had yet to come."
     "Oh, how wrong I was…"
 
