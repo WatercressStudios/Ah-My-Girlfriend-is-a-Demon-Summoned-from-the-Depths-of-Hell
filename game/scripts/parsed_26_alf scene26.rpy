@@ -8,24 +8,29 @@ label scene26:
     "A teacher was at the front, kicking back in his seat. I recognize him from science."
     "He was the sort that tried to be friends with every student. It could've been perceived as cute, if it wasn't so annoying."
     
+    voice "tea1.mp3"
     tea "Mm… can't say I'm particularly surprised."
     "He was shaking his head as he said this. I wanted to cut him down to size. I didn't need his pity nor his condescension." 
     "Instead, I remained silent. After all the hullabaloo on the rooftop, my energy is utterly drained."
     "Glancing aside to Misaki, she seems similarly quiet - the most quiet I've seen her in some time."
     "Like a barely restrained animal, she glares daggers at the councillor. Up front, and from his throne of power, he's largely unphased."
     
+    voice "tea2.mp3"
     tea "Well… I hope you kids don't mind if I duck out to get a coffee. Don't tell on me to the principal, okay?"
     
+    voice "tea3.mp3"
     tea "Haha… ha…"
     
     "He laughed, trying to lighten the mood. There was no response."
     
+    voice "tea4.mp3"
     tea "Well, you guys just stay put and… think about what you done."
     
+    voice "tea5.mp3"
     tea "...It's not like I want to be here anymore than you guys do, so…" 
     "Excusing himself, he moved to exit the classroom."
 
-    #sfx door closing
+    play sound "sfx/Door Close.mp3"
 
     "As the door closed behind him. Silence hung over the room."
 
@@ -77,7 +82,7 @@ label scene26:
     "The silence was grating. Perhaps smalltalk was the domain of simpler minds, but…"
     "...I would rather have that in their air than nothing at all."
     
-    #sfx moving furniture chair against hard floor
+    play sound "sfx/Moving Furniture.mp3"
     #ambient clock stop
     #music romantic
     
@@ -251,7 +256,7 @@ label scene26:
     voice "C-26-53.mp3" #Makoto (Reece Bridger)
     pro "We're evenly matched. Perhaps you're a bit too prideful."
     
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     
     show misaki despair
     voice "C-26-54.mp3" #Misaki (Kikari)
@@ -424,6 +429,7 @@ label scene26:
     pro "Ufufu~!"
     
     #music stop
+    voice "tea6.mp3"
     tea "H-Hey, you kids better not be enjoying yourselves in there!"
     
     show misaki blush
@@ -441,16 +447,23 @@ label scene26:
     
     hide misaki with dissolve
     scene classroom evening1 with dissolve
-    #sfx door opening
+    play sound "sfx/Door Open.mp3"
 
     "Parting ways, we settled back into our seats as the councillor returned, a mug of coffee in hand."
 
+    voice "tea7.mp3"
     tea "Sorry I took so long… Nobody else's around at this hour, 'sides the janitor."
+    
+    voice "tea8.mp3"
     tea "Had to make a cup for myself. Fresh, though! Haha… ha…"
+    
+    voice "tea9.mp3"
     tea "...Yeah, you kids better glower in jealousy at this discount coffee."
+    
+    voice "tea10.mp3"
     tea "That's what detention's all about: regrets, silence, and reminiscing about all that time you lost out on…" 
     
-    #sfx ambient clock
+    play sound "sfx/Clock.mp3"
     voice "C-26-100.mp3" #Makoto (Reece Bridger)
     pro "..."
     
@@ -460,11 +473,11 @@ label scene26:
     "Glancing aside to each other, we decide it best to bide our time and wait out the remaining minutes."
 
     #fade to black
-    #sfx alarm buzz
-    #stop ambient clock
+    play sound "sfx/Clock.mp3"
     #adjust onomonopia depending on sfx we use
 
     "{b}BEEP!{/b}"
+    voice "tea11.mp3"
     tea "Alright, time's up. You two are free to go. Go on, get."
     "Silently, we shuffle our way out until the classroom is no longer in sight."
     "..."

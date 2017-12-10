@@ -29,7 +29,7 @@ label scene9:
     "But no one is there. In fact, no one has bothered to approach me at all."
     "Meanwhile, the weight in my backpack is still there… Something’s {i}definitely{/i} wrong."
     
-    #sfx unzip
+    play sound "sfx/Bag Unzip.mp3"
     
     "I take it off for a brief moment. I unzip it slightly and gingerly put my hand inside, and that’s when I realize…"
     "Something’s in there that wasn’t before. Something soft, and… {i}squishy?{/i}"
@@ -153,7 +153,7 @@ label scene9:
     voice "C-9-26.mp3" #Makoto (Reece Bridger)
     pro "Sh-Shut up!"
     
-    #sfx zip
+    play sound "sfx/Bag Unzip.mp3"
 
     "I immediately zip up my backpack and throw it back over my shoulder, hiding Beepy’s presence from the world once again."
     "And at last… my rival and I face one another yet again."
@@ -322,7 +322,7 @@ label scene9:
     #music magical girl theme
     #show cg of Satan’s flowery introduction
 
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     
     show satanintrowink with dissolve
     hide black
@@ -458,7 +458,7 @@ label scene9:
     show misaki shout
     show stan serious
     voice "C-9-78.mp3" #Misaki (Kikari)
-    riv "You {b}{i}what?{/b}{/i}"
+    riv "You {b}{i}what?{/i}{/b}"
 
     #show Satan concerned
 
@@ -484,7 +484,7 @@ label scene9:
 
     #show Satan smiling coyly
     
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
 
     show stan winktalk
     show misaki surpriseblush
@@ -508,7 +508,7 @@ label scene9:
     voice "C-9-85.mp3" #Misaki (Kikari)
     riv "G-Get off me!"
     
-    #sfx shove
+    play sound "sfx/Punch.mp3"
 
     show stan serious with easeinleft:
             align (0.66, 1.0)

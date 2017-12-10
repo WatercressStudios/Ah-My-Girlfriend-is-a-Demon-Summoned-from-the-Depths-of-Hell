@@ -172,7 +172,7 @@ label scene13:
     voice "C-13-32.mp3" #Yumi (Kaito)
     sis "Oh, nonono, that’s not what I meant, haha! I-I’m just…"
     
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     show yumi exasperatedtalk
     voice "C-13-33.mp3" #Yumi (Kaito)
     sis "I guess I’ve always associated demons with, like, ‘fire and brimstone, rrrr big evil!’"

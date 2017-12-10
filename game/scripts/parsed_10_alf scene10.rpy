@@ -1,7 +1,7 @@
 label scene10:
     scene classroom1
 
-    #sfx bell ring
+    play sound "sfx/Bell.mp3"
     #music school theme
     "And with the bell's toll, the day begins in earnest."
     "The first step of my training is to survive another arduous day in this circle of Hell."

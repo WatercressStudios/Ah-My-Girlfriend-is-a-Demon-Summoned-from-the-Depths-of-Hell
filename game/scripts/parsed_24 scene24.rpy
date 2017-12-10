@@ -27,7 +27,7 @@ label scene24:
     "I’ve hardly been paying attention to any of the lectures lately… Well, I can always study later, I guess."
     "But as soon as the bell rings…"
 
-    #sfx bell ring
+    play sound "sfx/Bell.mp3"
 
     "*RING!*"
 
@@ -46,7 +46,7 @@ label scene24:
     voice "C-24-1.mp3" #Makoto (Reece Bridger)
     pro "Alright, Beepy, come on out."
 
-    #sfx unzip
+    play sound "sfx/Bag Unzip.mp3"
     
     "My hunch is right. As soon as I unzip my backpack, Beepy emerges, stretching."
 

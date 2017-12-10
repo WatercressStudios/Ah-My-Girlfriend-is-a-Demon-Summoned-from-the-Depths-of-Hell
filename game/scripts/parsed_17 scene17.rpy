@@ -10,7 +10,7 @@ label scene17:
             align(0.85, 1.0)
     
     #music yumi theme
-    #sfx door open
+    play sound "sfx/Door Open.mp3"
     "My elder sister is already waiting for me inside."
 
     #show yumi on right
@@ -42,7 +42,7 @@ label scene17:
     voice "C-17-6.mp3" #Mami 
     mm "{i}Yeeeeaaaah,{/i} hate to break it to you, but most of us are the fire and brimstone type."
     
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     show mami fsmirk
     show lucy frowntalk with easeinleft:
             align (0.50, 1.0)
@@ -59,7 +59,7 @@ label scene17:
     sis "Yeah, you’re a real fearsome bunch and all, but have you considered the help of a mortal artifact?"
 
     show yumi angryshout
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     voice "C-17-10.mp3" #Yumi (Kaito)
     sis "It’s called a {i}freezer.{/i}."
     
@@ -139,7 +139,7 @@ label scene17:
     pro "But now you’ve awoken, and your latent talent has allowed you to surpass even my years of study!"
 
     show yumi panictalk
-    #sfx sweatdrop
+    play sound "sfx/Sweatdrop.mp3"
     voice "C-17-23.mp3" #Yumi (Kaito)
     sis "What the hell are you on about this time?"
 
@@ -169,7 +169,7 @@ label scene17:
     show bubble bigsmileclosedtalk
     bb "Finally!"
     
-    #sfx yoink
+    play sound "sfx/Yoink.mp3"
 
     show lucy ffrowntalk
     show mami shout
@@ -177,13 +177,13 @@ label scene17:
     voice "C-17-28.mp3" #Mami 
     mm "Hey! Take one at a time!"
     
-    #sfx yoink
+    play sound "sfx/Yoink.mp3"
 
     show bubble scowltalk
     voice "C-17-29.mp3" #Bubble 
     bb "But if you steal it from me, then {i}you{/i} have two! How’s that fair!?"
 
-    #sfx yoink
+    play sound "sfx/Yoink.mp3"
 
     show mami fshoutvein
     voice "C-17-30.mp3" #Mami 
@@ -280,7 +280,7 @@ label scene17:
     voice "C-17-45.mp3" #Beepy (Hikari)
     bp "But you know what? An electric eel isn’t an eel, a killer whale isn’t a whale, and a red panda isn’t a panda!"
     
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
 
     show beepy dreamworks
     voice "C-17-46.mp3" #Beepy (Hikari)
@@ -362,7 +362,7 @@ label scene17:
     "I grab my instruments of purification - disguised as mere soap and a towel - from the closet, and pour holy water from the sink into a sacred vessel. With prudence, I may be able to salvage some experience from this."
 
     
-    #sfx door open
+    play sound "sfx/Door Open.mp3"
     
     #music cut
     "But when I finally make it to the battlefield..."
@@ -414,7 +414,7 @@ label scene17:
     pro "And I don’t know if I actually care..."
 
     voice "C-17-72.mp3" #Makoto (Reece Bridger)
-    pro "But your wretched life... is {b}{i}forfeit!{/b}{/i}"
+    pro "But your wretched life... is {b}{i}forfeit!{/i}{/b}"
 
     #music cut
 
@@ -448,7 +448,7 @@ label scene17:
     bp "Yeah, whatever. I just figured your sis might make you clean the garage, so I went ahead and did it for ya."
 
     show beepy smile
-    #sfx sparkle
+    play sound "sfx/Flourish.mp3"
     voice "C-17-80.mp3" #Beepy (Hikari)
     bp "So now we can just relax for the rest of the night~!"
 
@@ -481,7 +481,7 @@ label scene17:
 
     show beepy fneutralclosed with easeinright:
             align (-0.1, 1.0)
-    #sfx downer
+    play sound "sfx/Downer.mp3"
     voice "C-17-87.mp3" #Beepy (Hikari)
     bp "But I guess your responsibilities are just... too important."
     
@@ -541,7 +541,7 @@ label scene17:
     "Just as I begin to think that, Beepy abducts me to the living room. She sits me on the couch and snuggles up next to me before covering the two of us under an outright absurd number of blankets."
 
     scene movie2 with dissolve
-    #sfx turning on tv
+    play sound "sfx/Coming Soon.mp3"
     
     "With the stage set, she turns on the TV and starts channel-surfing."
 
@@ -562,14 +562,15 @@ label scene17:
     #music cut
     "Regardless, I’m her prisoner. Until this movie ends, these blankets may as well be made of concrete. No, worse - {i}magic resistant{/i} concrete. Needless to say, I’m not going anywhere."
 
-    #sfx dramatic music
-    #sfx explosions
+    play sound "sfx/Dramatic.mp3"
+    play sound "sfx/Explosion Movie.mp3"
     scene movie3 with dissolve
     
     #music film score
     "The movie itself seems to be about a society that consists entirely of giant robots. The giant robots can’t talk, so all they ever do is fight."
 
-    #sfx opening a sealed container, scifi stuff
+    play sound "sfx/Opening Chest.mp3"
+    play sound "sfx/Beam Shot.mp3"
     scene movie4 with dissolve
     
     "However, a group of teenaged giant robots runs into alien technology that gives each of them the power to release a human from their cockpit and control it remotely."
@@ -644,19 +645,19 @@ label scene17:
 
     "And now, we act."
 
-    #sfx door
+    play sound "sfx/Moving Furniture.mp3"
 
     "I shut my door."
 
-    #sfx click
+    play sound "sfx/Door Close.mp3"
 
     "I turn the knob lock."
 
-    #sfx slide
+    play sound "sfx/Door Knob Lock.mp3"
 
     "I slide over the deadbolt."
 
-    #sfx click
+    play sound "sfx/Door Bolt Lock.mp3"
 
     "And, of course, a padlock wouldn’t hurt."
 
@@ -666,12 +667,12 @@ label scene17:
 
     "Yes. This should do it."
 
-    #sfx click
+    play sound "sfx/Camera Snapshot.mp3"
     scene black
 
     "Satisfied with myself, I turn the lights off and get into bed."
 
-    #sfx fabric
+    play sound "sfx/Paper Slip.mp3"
 
     #music cut
     "And so, the sweet embrace of slumber is to grab hold of me once again."
