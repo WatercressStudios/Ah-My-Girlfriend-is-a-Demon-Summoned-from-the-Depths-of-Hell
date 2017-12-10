@@ -169,11 +169,11 @@ label scene25:
     "The wind cut against my face. On all sides, I was surrounded by towering chain-link fences."
     "I could feel swirling arcane forces, caged within like animals. How appropriate."
     
-    show misaki smugtalk:
-        align (.05, 1.0)
     show stan smileclosed
-    show beepy neutral:
+    show misaki smugtalk:
         align (.85, 1.0)
+    show beepy neutral:
+        align (.05, 1.0)
 
     voice "C-25-34.mp3" #Misaki (Kikari)
     riv "You're late! For a moment, I suspected you had fled like the cowardly lion you are!"
@@ -492,31 +492,34 @@ label scene25:
 
     #music abrupt cut
     play sound "sfx/Beam Shot.mp3"
-    scene white
+    show white with dissolve
 
+    show misaki wonder
+    show stan serious
+    show beepy neutralclosed
     "With a flourish of her hands, she unleashed the energy in one grand gesture."
     "I shielded my eyes, it was so bright! Was this her true power!?"
 
-    scene black with dissolve
+    show black with dissolve
+    hide white
+    
     "The light disappeared. I was afraid to look at what happened to Beepy."
     "I couldn't hear her. Was she obliterated in the blast? Was… was I foolhardy?"
     "I… I didn't want to lose Beepy. Not like this."
     "Steeling myself to face the truth, I reopened my eyes." 
 
-    scene rooftop with dissolve
+    hide black with dissolve
 
     "What I saw was… not quite what I was expecting."
     "Beepy was just… standing there."
     "For an awkward moment, all of us stood, staring and utterly dumbstruck."
     
-    show misaki pout:
-        align (.05, 1.0)
-    show stan sad
-    show beepy eyebrowtalk:
-        align (.85, 1.0)
+    show beepy eyebrowtalk
     
     voice "C-25-88.mp3" #Beepy (Hikari)
     bp "...Huhwhat?"
+    
+    show beepy neutraltalk
     
     voice "C-25-89.mp3" #Beepy (Hikari)
     bp "Oh. I uh, had my eyes closed. S_Tan gave me a warning, so…"
