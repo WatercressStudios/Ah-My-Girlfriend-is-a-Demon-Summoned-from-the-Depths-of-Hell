@@ -95,7 +95,7 @@ label scene2:
     "Alright, I think I'm {i}finally{/i} ready."
 
     #sfx click
-    #change bg to darker variant 
+    scene garage dark
 
     "I turn off the lights, leaving only candles to illuminate my makeshift altar."
 

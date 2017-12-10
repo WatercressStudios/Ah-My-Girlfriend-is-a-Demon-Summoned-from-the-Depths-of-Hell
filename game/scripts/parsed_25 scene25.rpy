@@ -722,35 +722,52 @@ label scene25:
     #change poses with each line linked to a character
     #sfx add sword clash for every pose
 
+    show jojo1 with dissolve
     voice "C-25-130.mp3" #Makoto (Reece Bridger)
     pro "This spell conjures up the southwestern winds brought to bear by Pazuzu himself! Within the mind's eye, there is no respite from the storm!"
     
+    show jojo2 with dissolve
+    hide jojo1
     voice "C-25-131.wav" #Misaki (Kikari)
     riv "A predictable plot! I have a counterspell for just the occasion!"
     
+    show jojo1 with dissolve
+    hide jojo2
     voice "C-25-132.wav" #Misaki (Kikari)
     riv "Barriers crafted by Malphas himself! With this spell, I shall be as a stronghold, rendering mighty storms but petty, dying gasps."
     
+    show jojo4 with dissolve
+    hide jojo1
     voice "C-25-133.mp3" #Makoto (Reece Bridger)
     pro "Aha! A stronghold can be undermined and sieged!"
     
+    show jojo5 with dissolve
+    hide jojo4
     voice "C-25-134.mp3" #Makoto (Reece Bridger)
     pro "Ufufu~ With the authority of Raum, I conjure a quake that will render your humble abodes to rubble!"
     
+    show jojo7 with dissolve
+    hide jojo5
     voice "C-25-135.wav" #Misaki (Kikari)
     riv "But a true queen need not a throne to dominate those that would threaten her!"
     
+    show jojo6 with dissolve
+    hide jojo7
     voice "C-25-136.wav" #Misaki (Kikari)
     riv "With the spell of Beleth, all shall remain as my loyal subjects! With the power of love, my empire will remain immortal and eternal!"
     
+    show jojo8 with dissolve
+    hide jojo6
     voice "C-25-137.mp3" #Makoto (Reece Bridger)
     pro "But do you have but the presence of mind to not quiver in his presence?"
     
+    show jojo9 with dissolve
+    hide jojo8
     voice "C-25-138.wav" #Misaki (Kikari)
     riv "Ohoho! Is that a challenge, you treacherous worm~?"
 
-    #at this point both characters should cycle rapidly between 3 poses 
-
+    show jojo10 with dissolve
+    hide jojo9
     "Our limbs flailed wildly, as if possessed by demons themselves. Perhaps we were."
     "Spell after spell, hexes rattled with every breath. It was exhilarating."
 
