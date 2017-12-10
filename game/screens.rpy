@@ -175,34 +175,61 @@ screen nvl(dialogue, items=None):
 # http://www.renpy.org/doc/html/screen_special.html#main-menu
 
 screen main_menu():
+    
+   tag menu
+   # Tells Ren'Py what images to display on screen.
+   add "ui/main/background.png"
+   add "ui/main/logo.png" at from_top2
+   add "ui/main/satan.png" at from_left
 
-    # This ensures that any other menu screen is replaced.
-    tag menu
+   # Imagebuttons, 'Auto' tells it to use both idle and hover states. Focus masks is something to do with the alpha properties but IDK off the top of my head.
+   imagebutton auto "ui/main/start_%s.png" xpos 0 ypos 529 focus_mask None action Start() at from_left
+   imagebutton auto "ui/main/load_%s.png" xpos 0 ypos 638 focus_mask None action ShowMenu('load') at from_left
+   imagebutton auto "ui/main/prefs_%s.png" xpos 0 ypos 747 focus_mask None action ShowMenu('preferences') at from_left
+   imagebutton auto "ui/main/extras_%s.png" xpos 0 ypos 856 focus_mask None action ShowMenu('preferences') at from_left
+   imagebutton auto "ui/main/quit_%s.png" xpos 0 ypos 970 focus_mask None action Quit(confirm=False) at from_left
 
-    # The background of the main menu.
-    window:
-        style "mm_root"
-
-    # The main menu buttons.
-    frame:
-        style_group "mm"
-        xalign .98
-        yalign .98
-
-        has vbox
-
-        textbutton _("Start Game") action Start()
-        textbutton _("Load Game") action ShowMenu("load")
-        textbutton _("Preferences") action ShowMenu("preferences")
-        textbutton _("Help") action Help()
-        textbutton _("Quit") action Quit(confirm=False)
 
 init -2:
-
-    # Make all the main menu buttons be the same size.
-    style mm_button:
-        size_group "mm"
-
+    # Defines transform properties to make images move.
+    transform fade_in:
+        alpha 0.0
+        linear 2.5 alpha 1.0
+    transform from_left:
+        alpha 0.0 xpos -500
+        linear 2.5 alpha 1.0 xpos 0
+    transform from_right:
+        alpha 0.0 xpos 2420
+        linear 2.5 alpha 1.0 xpos 1920
+    transform from_top:
+        alpha 0.0 ypos -1100
+        pause 2.5
+        linear 2.5 alpha 1.0 ypos 0
+    transform from_bottom:
+        alpha 0.0 ypos 2200
+        pause 2.5
+        linear 2.5 alpha 1.0 ypos 1080
+    transform from_bottom2:
+        alpha 0.0 ypos 1080
+        easein 2.5 alpha 1.0 ypos 0
+    transform from_left2:
+        alpha 0.0 xpos -500
+        pause 2.5
+        linear 2.5 alpha 1.0 xpos 0
+    transform from_right2:
+        alpha 0.0 xpos 2420
+        pause 2.5
+        linear 2.5 alpha 1.0 xpos 1920
+    transform effect1:
+        alpha 0.0
+        pause 2.5
+        linear 2.5 alpha 1.0
+    transform from_top2:
+        alpha 0.0 ypos -300
+        linear 2.5 alpha 1.0 ypos 0
+    transform from_bottom3:
+        alpha 0.0 ypos 1300
+        linear 2.5 alpha 1.0 ypos 1080
 
 
 ##############################################################################
