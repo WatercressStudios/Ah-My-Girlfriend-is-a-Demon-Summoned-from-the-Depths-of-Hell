@@ -8,20 +8,25 @@ label scene26:
     "A teacher was at the front, kicking back in his seat. I recognize him from science."
     "He was the sort that tried to be friends with every student. It could've been perceived as cute, if it wasn't so annoying."
     
+    voice "tea1.mp3"
     tea "Mm… can't say I'm particularly surprised."
     "He was shaking his head as he said this. I wanted to cut him down to size. I didn't need his pity nor his condescension." 
     "Instead, I remained silent. After all the hullabaloo on the rooftop, my energy is utterly drained."
     "Glancing aside to Misaki, she seems similarly quiet - the most quiet I've seen her in some time."
     "Like a barely restrained animal, she glares daggers at the councillor. Up front, and from his throne of power, he's largely unphased."
     
+    voice "tea2.mp3"
     tea "Well… I hope you kids don't mind if I duck out to get a coffee. Don't tell on me to the principal, okay?"
     
+    voice "tea3.mp3"
     tea "Haha… ha…"
     
     "He laughed, trying to lighten the mood. There was no response."
     
+    voice "tea4.mp3"
     tea "Well, you guys just stay put and… think about what you done."
     
+    voice "tea5.mp3"
     tea "...It's not like I want to be here anymore than you guys do, so…" 
     "Excusing himself, he moved to exit the classroom."
 
@@ -424,6 +429,7 @@ label scene26:
     pro "Ufufu~!"
     
     #music stop
+    voice "tea6.mp3"
     tea "H-Hey, you kids better not be enjoying yourselves in there!"
     
     show misaki blush
@@ -445,9 +451,16 @@ label scene26:
 
     "Parting ways, we settled back into our seats as the councillor returned, a mug of coffee in hand."
 
+    voice "tea7.mp3"
     tea "Sorry I took so long… Nobody else's around at this hour, 'sides the janitor."
+    
+    voice "tea8.mp3"
     tea "Had to make a cup for myself. Fresh, though! Haha… ha…"
+    
+    voice "tea9.mp3"
     tea "...Yeah, you kids better glower in jealousy at this discount coffee."
+    
+    voice "tea10.mp3"
     tea "That's what detention's all about: regrets, silence, and reminiscing about all that time you lost out on…" 
     
     play sound "sfx/Clock.mp3"
@@ -464,6 +477,7 @@ label scene26:
     #adjust onomonopia depending on sfx we use
 
     "{b}BEEP!{/b}"
+    voice "tea11.mp3"
     tea "Alright, time's up. You two are free to go. Go on, get."
     "Silently, we shuffle our way out until the classroom is no longer in sight."
     "..."
