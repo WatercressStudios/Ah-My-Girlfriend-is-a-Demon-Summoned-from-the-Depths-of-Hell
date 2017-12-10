@@ -2,8 +2,10 @@ label scene3:
 
     
     #music horror
+    #we don't have this rip
     scene black
     #cut the music
+    stop music fadeout 1.0
 
     "And suddenly, everything went quiet. An incense-filled smokiness hung in the air."
     "This didn't feel like a dream. It was all too real - down to every grain of salt beneath me."
@@ -64,6 +66,9 @@ label scene3:
     #enter satan stage right
 
     #music satan theme
+    play music satansthemeintro fadein 1.0
+    queue music satanstheme
+
     "...And before me was an… an oddly dressed girl?"
     "She was dressed in something I could only describe as... something from a tacky magical girl anime."
     "Somehow, it seemed to suit her just fine. She was smiling so giddily the entire time, and could hardly stay still."
@@ -127,13 +132,18 @@ label scene3:
     pro "C-Country yokel…?"
     
     #music cut
-    
+
+    stop music fadeout 1.0
+
     "The way she called me that was - to be frank - patronizing and a little insulting, but she said it in such a cheery and pleasant way."
     "It was hard to feel dispirited, even if she insulted you right in your face."
 
     #we should brainstorm how to best realize the flowery magical girl intro
     
     #music magical girl
+    #this will have to do for now
+    play music satansthemeintro fadein 1.0
+    queue music satanstheme
     
     show satanintronormal with dissolve
     voice "C-3-23.mp3" #??? 
@@ -500,6 +510,7 @@ label scene3:
     "The demoness flashed me the saddest pair of puppy-dog eyes I had ever seen. What a pitiful display…"
     
     #music cut
+    stop music fadeout 1.0
     scene black with dissolve
     "I closed my eyes to brace myself."
     

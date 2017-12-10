@@ -10,6 +10,7 @@ label scene5:
     "I spot a curious lump beneath my sheets."
 
     #music beepy theme
+    play music beepytheme fadein 1.0 fadeout 3.0
     voice "C-5-2.mp3" #Beepy (Hikari)
     bp "Zzz~"
     
@@ -360,6 +361,7 @@ label scene5:
 
     #beepy exit stage left
     #music cut
+    stop music fadeout 2.0
     
     hide beepy with easeoutleft
 
@@ -376,6 +378,7 @@ label scene5:
     pro "...Tch. Basic emotions. I should redouble my efforts."
     
     #music dark chuuni
+    play music darkchuunitheme fadein 1.0 fadeout 3.0
     voice "C-5-87.mp3" #Makoto (Reece Bridger)
     pro "I have a plan, after all. This uppity… {i}upstart{/i} can't derail them now!"
 
@@ -397,6 +400,7 @@ label scene5:
     "There is a divine purpose to this, after all. I cannot allow my plans to be foiled so easily."
 
     #music cut
+    stop music fadeout 1.0
     voice "C-5-92.mp3" #Yumi (Kaito)
     sis "{b}Makoto!{/b} Are you still in your room!?"
     

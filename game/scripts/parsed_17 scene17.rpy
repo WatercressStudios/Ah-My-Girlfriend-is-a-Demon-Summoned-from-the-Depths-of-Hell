@@ -10,7 +10,11 @@ label scene17:
             align(0.85, 1.0)
     
     #music yumi theme
+
+    play music calmtrack fadein 1.0
+
     play sound "sfx/Door Open.mp3"
+
     "My elder sister is already waiting for me inside."
 
     #show yumi on right
@@ -108,6 +112,7 @@ label scene17:
     sis "Oh, shut up. Beepy is already working on dinner for everyone anyways."
     
     #music cut
+    stop music fadeout 1.0
 
     show yumi angryclosed
     show lucy neutral
@@ -128,8 +133,6 @@ label scene17:
     show yumi worrytalk
     voice "C-17-20.mp3" #Yumi (Kaito)
     sis "...Excuse me?"
-
-    #music chuuni shit
     
     show yumi worry
     voice "C-17-21.mp3" #Makoto (Reece Bridger)
@@ -154,7 +157,6 @@ label scene17:
 
     show beepy fneutraltalk with easeinright:
             align (1.1, 1.0)
-    #music cut
     voice "C-17-26.mp3" #Beepy (Hikari)
     bp "Nah. I was just reheating the leftover pizza. There’s even enough for everyone."
 
@@ -165,6 +167,7 @@ label scene17:
     "She comes out with several plates of reheated pizza. They looks crisp and good as new."
 
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
     voice "C-17-27.mp3" #Bubble 
     show bubble bigsmileclosedtalk
     bb "Finally!"
@@ -310,7 +313,6 @@ label scene17:
     bp "Oh. ‘Kay."
 
     show yumi angrytalk
-    #music cut
     voice "C-17-53.mp3" #Yumi (Kaito)
     sis "The only ‘Armageddon’ here is what you did to the garage."
 
@@ -318,7 +320,7 @@ label scene17:
 
     show yumi closedtalk
     show beepy neutral
-    #music yumi theme
+    
     voice "C-17-54.mp3" #Yumi (Kaito)
     sis "Really about time you dealt with that, don’t you think?"
 
@@ -365,6 +367,7 @@ label scene17:
     play sound "sfx/Door Open.mp3"
     
     #music cut
+    stop music fadeout 1.0
     "But when I finally make it to the battlefield..."
 
     scene garage with dissolve
@@ -391,6 +394,7 @@ label scene17:
     pro "...I see..."
 
     #music fight
+    play music battletheme fadein 1.0
 
     voice "C-17-66.mp3" #Makoto (Reece Bridger)
     pro "You’re not Beepy!"
@@ -417,10 +421,12 @@ label scene17:
     pro "But your wretched life... is {b}{i}forfeit!{/i}{/b}"
 
     #music cut
+    stop music fadeout 1.0
 
     show beepy neutraltalk
     voice "C-17-73.mp3" #Beepy (Hikari)
     bp "The third page of your math notebook has a doodle of a wolf."
+    #ayyyyy lmoa ;) ~Wolf
 
     show beepy eyebrowtalk
     voice "C-17-74.mp3" #Beepy (Hikari)
@@ -432,6 +438,7 @@ label scene17:
 
     show beepy neutralclosedtalk
     #music beepy theme
+    play music beepytheme fadein 1.0
     voice "C-17-76.mp3" #Beepy (Hikari)
     bp "Iunno. I got bored when I was in your backpack, so I looked through some of your stuff. Thought bringing it up might prove my identity or somethin’."
 
@@ -456,6 +463,7 @@ label scene17:
     pro "Hmm... This is fantastic! Now I can spend this time preparing for my duel! Thanks to your support, Elizabeth’s demise will surely be at hand!"
 
     #music cut
+    stop music fadeout 2.0
 
     show beepy neutral
     voice "C-17-82.mp3" #Beepy (Hikari)
@@ -469,6 +477,7 @@ label scene17:
     bp "I mean..."
 
     #music sad
+    play music sadtheme fadein 1.0
     show beepy fneutralclosed with easeinright:
             align (0.3, 1.0)
     voice "C-17-85.mp3" #Beepy (Hikari)
@@ -521,10 +530,12 @@ label scene17:
 
     show beepy eyebrowtalk
     #music cut
+    stop music fadeout 1.0
     voice "C-17-92.mp3" #Beepy (Hikari)
     bp "That means ‘hang out’ in normal people talk, right?"
 
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
 
     show beepy smile
 
@@ -564,6 +575,7 @@ label scene17:
 
     play sound "sfx/Dramatic.mp3"
     play sound "sfx/Explosion Movie.mp3"
+
     scene movie3 with dissolve
     
     #music film score
@@ -606,6 +618,7 @@ label scene17:
     "Demons are more fierce than I could have ever known. And yet..."
 
     #music calm 
+    #keeping lighthearted for now, will make more of these cuts happen when we have the sfx/sfxmusic requested here
     voice "C-17-100.mp3" #Makoto (Reece Bridger)
     pro "...It was nice. I prefer the content of my eldritch texts, but as a brief intermission, I suppose it was an acceptable use of my time."
 
@@ -631,7 +644,9 @@ label scene17:
     scene bedroom night with dissolve
 
     #music before bed
+    stop music fadeout 1.0
     "Now then."
+    play music calmtrack fadein 1.0
 
     "I know the extent of Beepy’s villainous machinations. Though she said that the previous night was the last where she would occupy my bed, I’m far too intelligent to fall for such a blatant ruse."
 
@@ -675,6 +690,7 @@ label scene17:
     play sound "sfx/Paper Slip.mp3"
 
     #music cut
+    stop music fadeout 1.0
     "And so, the sweet embrace of slumber is to grab hold of me once again."
 
     "..."
@@ -687,6 +703,7 @@ label scene17:
     bp "Zzz..."
 
     #music romantic
+    play music romantictheme fadein 1.0
     voice "C-17-107.mp3" #Makoto (Reece Bridger)
     pro "What!? Beepy!? How--"
 
@@ -717,6 +734,7 @@ label scene17:
     pro "Good night, Beepy."
     
     #music cut
+    stop music fadeout 1.0
     "..."
     "... ..."
     "... ... ..."

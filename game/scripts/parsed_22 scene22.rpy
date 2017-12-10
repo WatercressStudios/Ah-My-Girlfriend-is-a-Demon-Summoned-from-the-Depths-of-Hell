@@ -1,6 +1,6 @@
 label scene22:
     scene bedroom night with dissolve
-
+    play music calmtrack fadein 1.0
     "Finally, my last-minute cramming is finished."
     "I allow myself a good, long stretch and take a moment to admire my handiwork."
     "Not even the greatest earthly philosophers with all of their combined knowledge could have accomplished in their entire lifetimes what I just did in mere hours."
@@ -43,6 +43,7 @@ label scene22:
     pro "Huh…?"
 
     #music moody and alone and sad
+    play music sadtheme fadein 1.0
     "But Beepy is not there."
     "She hasn’t snuck under my sheets and curled up beside me like she always has."
     "It’s more than just an answer I’ve found - it’s a realization that’s hit me like a truck."
@@ -87,6 +88,7 @@ label scene22:
     scene black with dissolve
 
     #music cut
+    stop music fadeout 1.0
     "...And finally start to sleep."
 
     jump scene23

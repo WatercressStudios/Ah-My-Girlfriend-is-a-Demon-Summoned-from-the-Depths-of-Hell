@@ -25,6 +25,8 @@ label scene12:
             align (0.35, 1.0)
 
     #music hijinks
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme
     voice "C-12-2.mp3" #Bubble 
     bb "Yay~! Welcome home, Makoto~!"
             
@@ -147,6 +149,7 @@ label scene12:
     bp "I mean, I only did that because I raided it last night… There isn't much there anyways."
     
     #music cut
+    stop music fadeout 1.0
     show beepy fneutral
     show lucy frowntalk
     show mami scowl
@@ -166,6 +169,7 @@ label scene12:
             align(0.5, 1.0)
 
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
     voice "C-12-22.mp3" #Makoto (Reece Bridger)
     pro "Beepy, what is going on here?"
     
@@ -325,8 +329,7 @@ label scene12:
     bp "...Suit yourself."
 
     #exit Beepy stage right
-    
-    #music cut
+
     show lucy smile with easeinright:
             align (0.5,1.0)
     "Lucy takes a deep breath, as if to steady herself."
@@ -353,7 +356,6 @@ label scene12:
     show lucycrying
     hide lucyfrightened
 
-    #music lighthearted
     voice "C-12-59.mp3" #Lucy (Vivi)
     lu "{b}{i}Uwaaaaaaaah!{/i}{/b}"
     
@@ -403,6 +405,7 @@ label scene12:
     show mami angrysmiletalk with easeinright:
             align (0.4, 1.0)
     #music cut
+    stop music fadeout 1.0
     show beepy angry
     "Before I know it, both of them are assaulting me."
 
@@ -411,6 +414,8 @@ label scene12:
 
     show twinssmug with dissolve
     #music magical girl
+    play music satansthemeintro fadein 1.0
+    queue music satanstheme
     show mami neutraltalk
     voice "C-12-67.mp3" #Mami 
     mm "Who makes you steal from the cookie jar!? It's me!"
@@ -463,6 +468,7 @@ label scene12:
     hide twinsright
     "They make no effort to coordinate their introductions at all, resulting in an unbearable cacophony."
     #music cut
+    stop music fadeout 1.0
     hide twinsleft with dissolve
 
     "And while I'm trying to prevent a headache from breaking out, the twins start arguing again."
@@ -470,6 +476,8 @@ label scene12:
     #show Bubble and Mami angry
 
     #music hijinks
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme
     show mami fshout
     voice "C-12-75.mp3" #Mami 
     mm "What the hell was that!? Your stupid intro messed everything up!"
@@ -502,6 +510,7 @@ label scene12:
     show mami fstammer
     show beepy eyebrow
     #music cut
+    stop music fadeout 1.0
     voice "C-12-80.mp3" #??? 
     q "{b}MAKOTO!!!{/b}"
 
@@ -546,6 +555,7 @@ label scene12:
     show black with dissolve
     
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
     "It takes a long, painful while for Beepy to get the twins to settle down - but soon enough, the excitement dies."
     show beepy neutral:
         align (0.05, 1.0)
@@ -648,6 +658,7 @@ label scene12:
     bb "And you're Makoto, riiiight~?"
     
     #music cut
+    stop music fadeout 1.0
     voice "C-12-99.mp3" #Makoto (Reece Bridger)
     pro "I-I am {i}not{/i} Makoto, I…"
 
@@ -656,6 +667,7 @@ label scene12:
     show lucy neutraltalk
     show beepy eyebrow
     #music dark chuuni
+    play music darkchuunitheme fadein 1.0
     "Who does this little girl think she is, ignoring my demonic heritage!?"
     "Such an outrage will not stand… I must tell her who I really am to strike some fear into her heart!"
     "Feeling my willpower return, I strike a pose and begin my Satanic monologue."
@@ -674,6 +686,7 @@ label scene12:
     play sound "sfx/Downer.mp3"
     
     #music cut
+    stop music fadeout 1.0
     show lucy angst
     show mami smugclosed
     show beepy angry
@@ -681,6 +694,8 @@ label scene12:
     "...They are not impressed in the slightest."
 
     #music hijinks
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme
     voice "C-12-102.mp3" #Mami 
     show mami smugcomment
     mm "...Oh my God."
@@ -720,6 +735,7 @@ label scene12:
     show beepy angry
     show lucy serioustalk
     #music cut
+    stop music fadeout 1.0
 
     voice "C-12-110.mp3" #Lucy (Vivi)
     lu "Actually… we do."
@@ -730,6 +746,7 @@ label scene12:
     show beepy neutral
     
     #music calm
+    play music calmtrack fadein 1.0
     show lucy neutraltalk
     voice "C-12-112.mp3" #Lucy (Vivi)
     lu "You were challenged to… a-a \"duel\" by that other girl, Misaki."
@@ -795,6 +812,7 @@ label scene12:
 
     show lucy neutraltalk
     #music cut
+    stop music fadeout 1.0
     voice "C-12-123.mp3" #Lucy (Vivi)
     lu "S-So, um… will you let us help you?"
     
@@ -803,6 +821,7 @@ label scene12:
     
     show lucy smile
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
     voice "C-12-125.mp3" #Makoto (Reece Bridger)
     pro "Your help will be invaluable; I'm confident that this is just what I'll need to show my rival the error of her ways."
     
@@ -927,6 +946,7 @@ label scene12:
     #exit all stage left
 
     #music cut
+    stop music fadeout 1.0
     "Managing to wrestle myself away from the crowd, I head up the stairs to talk with Yumi."
     "Never in my millenia-spanning existence did I think I would deign to take my demon servants out to the supermarket, but… so be it."
     "If it will get me one step closer to realizing my dreams of world domination, then I'll try anything."

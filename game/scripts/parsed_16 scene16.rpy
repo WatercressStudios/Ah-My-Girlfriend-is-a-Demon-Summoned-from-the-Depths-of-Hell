@@ -3,6 +3,7 @@ label scene16:
     scene black with dissolve
 
     #music market
+    play music storetheme
     "Eventually, we each go our separate ways, Misaki and Satan exit the supermarket early, to the sadness of the two demons and the indifference of myself."
     "Once we had everything we needed, we - {i}I{/i} paid and left, the voices of the twin demons squabbling behind me."
 
@@ -37,6 +38,7 @@ label scene16:
     sis "Okay, put your stuff in--"
     
     #music abrupt cut
+    stop music fadeout 0.5
     show yumi fsurpriseshout
     show lucy bigfrowntalk
     voice "C-16-5.mp3" #Mami 
@@ -49,6 +51,7 @@ label scene16:
     "...None of the above, apparently."
 
     #music intense
+    play music intensetrack fadein 1.0
     voice "C-16-6.mp3" #Mami 
     mm "Where is it? {b}Where is it!?{/b}"
     
@@ -103,6 +106,7 @@ label scene16:
     
     show bubble fsadsmiletalk
     #music cut
+    stop music fadeout 1.0
     voice "C-16-16.mp3" #Bubble 
     bb "Don't we need to go homeeeeee, though?"
     
@@ -133,6 +137,7 @@ label scene16:
     show bubble fsmileclosed
     show yumi fexasperatedtalk
     #music yumi's theme
+    play music calmtrack fadein 1.0
     "My sister sighs."
 
     voice "C-16-22.mp3" #Yumi (Kaito)
@@ -184,6 +189,7 @@ label scene16:
     bb "Okkkkaaaaayyyyyyyyyyyy..."
 
     #music cut
+    stop music fadeout 1.0
     hide bubble with easeoutright
     "She leaves, though in a different direction. I get the feeling she has no plans to help Yumi..."
     "Well, now it's up to us to look through the labyrinthine parking lot."
@@ -193,6 +199,7 @@ label scene16:
     
     scene parking with dissolve
     #music calm
+    play music calmtrack fadein 1.0
     "Now that the sun is nearly gone from the sky, there are almost no mortals inhabiting this parking lot. That is… convenient. Preferable, even. If I had to bump into someone, if I had to talk to someone who had no idea what the depths of this world were, I..."
     "...Wouldn't know what to do. And {i}God{/i} knew what would happen if the Demon Lord Sebastian Wolfgang IV was caught off guard."
     "But now was not the time for unlikely hypotheticals. I had a necklace I needed to find. I turned a corner and saw a new part of the parking lot. Cars. Abandoned trolleys. Litter."
@@ -225,12 +232,14 @@ label scene16:
     show mami sadtalk
     voice "C-16-34.mp3" #Mami 
     mm "It's…"
+    stop music fadeout 1.0
 
     show mami scowl
     "She pauses. Shakes her head. Continues."
 
     show mami sadsmiletalk
     #music sad
+    play music sadtheme fadein 1.0
     voice "C-16-35.mp3" #Mami 
     mm "It's a necklace that my friend Leviathan gave to me, back… around a year ago, I guess."
     
@@ -291,6 +300,7 @@ label scene16:
     "I guess I will need to hold Mami in a different light."
 
     #music cut
+    stop music fadeout 1.0
     show bubble bigsmileclosedtalk with easeinleft:
             align (0.4, 1.0)
     show lucy bigfrowntalk with easeinleft:
@@ -321,6 +331,7 @@ label scene16:
     bb "...got like, super flustered and stuff."
 
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
     
     show mami lecture
     "She giggles. You hear about twins finishing each other's sentences, but… I'm pretty sure that isn't what Mami's thinking."
@@ -371,6 +382,7 @@ label scene16:
     bb "Your sis got tired of waiting so she decided to take the stuff home without us."
 
     #music cut
+    stop music fadeout 1.0
     show lucy bigfrowntalk
     show mami panic
     "..."

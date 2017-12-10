@@ -20,6 +20,7 @@ label scene25:
     show beepy neutral
     
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
     "...I mean, she has a point, kind of. I'm the one trying to hype myself up in a public bathroom."
     
     play sound "sfx/Downer.mp3"
@@ -154,6 +155,8 @@ label scene25:
     scene black with dissolve
     
     #music cut
+    stop music fadeout 1.0
+    
     voice "C-25-33.mp3" #Beepy (Hikari)
     bp "...But not literally. That's assault."
     
@@ -164,6 +167,7 @@ label scene25:
     "... … …" 
 
     #music misaki theme
+    play music misakitheme fadein 1.0
     scene rooftop with dissolve
     "Through the winding hallways and the mountainous staircases, I had finally reached the rooftop."
     "The wind cut against my face. On all sides, I was surrounded by towering chain-link fences."
@@ -331,6 +335,7 @@ label scene25:
     show misaki smugclosed
     
     #music cut
+    stop music fadeout 1.0
     voice "C-25-62.mp3" #Makoto (Reece Bridger)
     pro "I accept your infernal terms, Countess Elizabeth. May the better team win."
     
@@ -366,6 +371,7 @@ label scene25:
     show beepy angryclosedtalk
     
     #music battle theme
+    play music battletheme fadein 1.0
     voice "C-25-68.mp3" #Beepy (Hikari)
     bp "Aaah, fine, fine, you don't have to shout, jeez…" 
     
@@ -491,8 +497,12 @@ label scene25:
     show stan smirk
 
     #music abrupt cut
+    stop music fadeout 0.5
+    #sfx energy blast
+
     play sound "sfx/Beam Shot.mp3"
     show white with dissolve
+
 
     show misaki wonder
     show stan serious
@@ -528,6 +538,8 @@ label scene25:
     show stan sadtalk
     
     #music comedy
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme
     voice "C-25-90.mp3" #STan (Dani)
     st "Beepyyy… you were supposed to keel over, defeated by the forces of good…"
     
@@ -656,6 +668,7 @@ label scene25:
     show stan neutral
     
     #music cut
+    stop music fadeout 1.0
     voice "C-25-115.mp3" #Misaki (Kikari)
     riv "That's it! Makoto! Face me! Right here, right now!"
     
@@ -721,6 +734,7 @@ label scene25:
     riv "Sebastian Wolfgang IV! Prepare to meet your maker as you traipse from this mortal coil!"
 
     #music final battle music
+    play music battletheme fadein 1.0
     #cg jojo posing time
     #change poses with each line linked to a character
     #sfx add sword clash for every pose
@@ -802,11 +816,13 @@ label scene25:
     bp "This isn't some schlocky romcom, S_Tan…"
 
     #music cut
+    stop music fadeout 1.0
     scene black with dissolve
     "Our climatic duel went on for what felt like hours."
     "And as the dust cleared…"
 
     #music ambient wind
+    #SFX BB not my preside- I mean job
     scene rooftop with dissolve
     show misaki blushclosed
 
@@ -839,7 +855,11 @@ label scene25:
     "Suddenly, the door swung open. A senior student with a red armband ran out onto the rooftop." 
 
     #music lighthearted
+
+    play music lightheartedtheme fadein 1.0
+
     voice "HM-1.mp3" #Hall Monitor 
+
     hm "What the hell's going on up here!?"
     
     voice "C-25-151.mp3" #Makoto (Reece Bridger)
@@ -938,6 +958,7 @@ label scene25:
     riv "...This is so embarrassing…"
     
     #music cut
+    stop music fadeout 1.0
     "..."
     "... ..."
     "... ... ..."

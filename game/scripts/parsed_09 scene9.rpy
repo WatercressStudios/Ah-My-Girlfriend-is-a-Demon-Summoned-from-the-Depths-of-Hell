@@ -2,6 +2,7 @@ label scene9:
     scene courtyard day1 with dissolve
 
     #music school
+    play music schooltheme fadein 1.0 fadeout 3.0
     "Akumahou High School - a modern-day prison that traps and contains the darkness I have grown so fond of."
     "Within these bland, uninviting borders, I am nothing more than an average high-schooler, carrying out the most mundane of business."
     "Every single student is indistinguishable from the rest, like a pack of ghosts on their way to the netherrealm."
@@ -22,6 +23,7 @@ label scene9:
     q "Probably not."
     
     #music cut
+    stop music fadeout 1.0
     voice "C-9-3.mp3" #Makoto (Reece Bridger)
     pro "{b}What the--!?{/b}"
 
@@ -44,6 +46,7 @@ label scene9:
     bp "Hey, close the bag… The sun’s hurting my eyes."
     
     #music beepy theme
+    play music beepytheme fadein 1.0 fadeout 3.0
     
     voice "C-9-6.mp3" #Makoto (Reece Bridger)
     pro "{b}B-Beepy!?{/b} What are you doing in there!?"
@@ -94,6 +97,7 @@ label scene9:
 
     #hide cg
     #music cut
+    stop music fadeout 1.0
     show black with dissolve
     #q line here voiced by Misaki
 
@@ -111,6 +115,7 @@ label scene9:
     #show cg of Misaki with a condescendingly smug look, flicking her hair back. Faceless students look at her in confusion
 
     #music misaki theme
+    play music misakitheme fadein 1.0 fadeout 3.0
     voice "C-9-22.mp3" #Misaki (Kikari)
     riv "Like a ballad composed by stars dancing across the universe, I have arrived once again!"
     
@@ -285,6 +290,7 @@ label scene9:
     #show Misaki confident, eyes closed
     
     #music cut
+    stop music fadeout 1.0
 
     show misaki smugclosedtalk
     voice "C-9-52.mp3" #Misaki (Kikari)
@@ -320,6 +326,8 @@ label scene9:
     "...she appears."
 
     #music magical girl theme
+    play music satansthemeintro fadein 1.0
+    queue music satanstheme
     #show cg of Satan’s flowery introduction
 
     play sound "sfx/Flourish.mp3"
@@ -347,6 +355,7 @@ label scene9:
     st "Yes, it’s all thanks to me, the master of wrath, the world’s original idol, the one and only--"
     
     #music abrupt cut
+    stop music fadeout 0.5
     show misaki closedshout:
             align (0.99, 1.0)
     voice "C-9-60.mp3" #Misaki (Kikari)
@@ -359,6 +368,8 @@ label scene9:
     "In an instant, the demon’s introduction was brought to a halt."
 
     #music satan theme
+    play music satansthemeintro fadein 1.0
+    queue music satanstheme
     show stan bashful
     voice "C-9-61.mp3" #STan (Dani)
     st "Why, sweetie, whatever is the matter?"
@@ -534,6 +545,7 @@ label scene9:
     #show Satan smiling
 
     #music cut
+    stop music fadeout 1.0
     show stan neutral
     voice "C-9-89.mp3" #STan (Dani)
     st "Which reminds me! How’s that demon I gave you working out, Makoto?"
@@ -558,6 +570,8 @@ label scene9:
     st "So I gave him a demon of his very own, free of charge~! At least, for a good month or so."
     
     #music hijinks
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme
     show misaki disgust
     show stan smileclosed
     voice "C-9-94.mp3" #Misaki (Kikari)
@@ -745,6 +759,7 @@ label scene9:
 
     #show Misaki annoyed
     #music cut
+    stop music fadeout 1.0
 
     show misaki disgust
     voice "C-9-125.mp3" #Misaki (Kikari)
@@ -762,6 +777,7 @@ label scene9:
     #show Misaki confident, eyes closes
 
     #music misaki theme
+    play music misakitheme fadein 1.0 fadeout 3.0
     
     show misaki smugclosedtalk
     voice "C-9-127.mp3" #Misaki (Kikari)
@@ -881,6 +897,7 @@ label scene9:
 
     #exit Misaki stage right
     #music cut
+    stop music fadeout 1.0
 
     scene courtyard day1 with dissolve
     "We shake hands on the arrangement, and the date is set in stone."
