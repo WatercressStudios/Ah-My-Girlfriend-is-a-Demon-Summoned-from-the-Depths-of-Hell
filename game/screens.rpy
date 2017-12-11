@@ -234,12 +234,12 @@ init -2:
 # navigation and background.
 # http://www.renpy.org/doc/html/screen_special.html#navigation
 screen navigation():
-    imagebutton auto "ui/navigation/return_%s.png" xpos 50 ypos 970 focus_mask None action Return() at effect1
-    imagebutton auto "ui/navigation/save_%s.png" xpos 350 ypos 1020 focus_mask None action ShowMenu('save') at effect1
-    imagebutton auto "ui/navigation/load_%s.png" xpos 600 ypos 970 focus_mask None action ShowMenu('load') at effect1
-    imagebutton auto "ui/navigation/prefs_%s.png" xpos 900 ypos 1020 focus_mask None action ShowMenu('preferences') at effect1
-    imagebutton auto "ui/navigation/title_%s.png" xpos 1150 ypos 970 focus_mask None action MainMenu() at effect1
-    imagebutton auto "ui/navigation/quit_%s.png" xpos 1450 ypos 1020 focus_mask None action Quit() at effect1
+    imagebutton auto "ui/navigation/return_%s.png" xpos 225 ypos 970 focus_mask None action Return() at effect1
+    imagebutton auto "ui/navigation/save_%s.png" xpos 400 ypos 1020 focus_mask None action ShowMenu('save') at effect1
+    imagebutton auto "ui/navigation/load_%s.png" xpos 675 ypos 970 focus_mask None action ShowMenu('load') at effect1
+    imagebutton auto "ui/navigation/prefs_%s.png" xpos 850 ypos 1020 focus_mask None action ShowMenu('preferences') at effect1
+    imagebutton auto "ui/navigation/title_%s.png" xpos 1125 ypos 970 focus_mask None action MainMenu() at effect1
+    imagebutton auto "ui/navigation/quit_%s.png" xpos 1300 ypos 1020 focus_mask None action Quit() at effect1
 
 
 ##############################################################################
@@ -268,17 +268,17 @@ screen load:
     use file_picker
     
 screen file_picker:
-    imagebutton auto "ui/saveload/quick_%s.png" xpos 378 ypos 823 focus_mask None action FilePage("quick") at effect1
-    imagebutton auto "ui/saveload/auto_%s.png" xpos 563 ypos 823 focus_mask None action FilePage("auto") at effect1
-    imagebutton auto "ui/saveload/1_%s.png" xpos 725 ypos 823 focus_mask None action FilePage(1) at effect1
-    imagebutton auto "ui/saveload/2_%s.png" xpos 818 ypos 823 focus_mask None action FilePage(2) at effect1
-    imagebutton auto "ui/saveload/3_%s.png" xpos 912 ypos 823 focus_mask None action FilePage(3) at effect1
-    imagebutton auto "ui/saveload/4_%s.png" xpos 1010 ypos 823 focus_mask None action FilePage(4) at effect1
-    imagebutton auto "ui/saveload/5_%s.png" xpos 1104 ypos 823 focus_mask None action FilePage(5) at effect1
-    imagebutton auto "ui/saveload/6_%s.png" xpos 1196 ypos 823 focus_mask None action FilePage(6) at effect1
-    imagebutton auto "ui/saveload/7_%s.png" xpos 1291 ypos 823 focus_mask None action FilePage(7) at effect1
-    imagebutton auto "ui/saveload/8_%s.png" xpos 1384 ypos 823 focus_mask None action FilePage(8) at effect1
-    imagebutton auto "ui/saveload/9_%s.png" xpos 1478 ypos 823 focus_mask None action FilePage(9) at effect1
+    imagebutton auto "ui/saveload/quick_%s.png" xpos 200 ypos 823 focus_mask None action FilePage("quick") at effect1
+    imagebutton auto "ui/saveload/auto_%s.png" xpos 450 ypos 823 focus_mask None action FilePage("auto") at effect1
+    imagebutton auto "ui/saveload/1_%s.png" xpos 975 ypos 823 focus_mask None action FilePage(1) at effect1
+    imagebutton auto "ui/saveload/2_%s.png" xpos 1050 ypos 823 focus_mask None action FilePage(2) at effect1
+    imagebutton auto "ui/saveload/3_%s.png" xpos 1125 ypos 823 focus_mask None action FilePage(3) at effect1
+    imagebutton auto "ui/saveload/4_%s.png" xpos 1200 ypos 823 focus_mask None action FilePage(4) at effect1
+    imagebutton auto "ui/saveload/5_%s.png" xpos 1275 ypos 823 focus_mask None action FilePage(5) at effect1
+    imagebutton auto "ui/saveload/6_%s.png" xpos 1350 ypos 823 focus_mask None action FilePage(6) at effect1
+    imagebutton auto "ui/saveload/7_%s.png" xpos 1425 ypos 823 focus_mask None action FilePage(7) at effect1
+    imagebutton auto "ui/saveload/8_%s.png" xpos 1500 ypos 823 focus_mask None action FilePage(8) at effect1
+    imagebutton auto "ui/saveload/9_%s.png" xpos 1575 ypos 823 focus_mask None action FilePage(9) at effect1
     
     imagebutton auto "ui/saveload/slot_%s.png" xpos 236 ypos 195 focus_mask True action FileAction(1) at effect1
     add "ui/saveload/empty.png" xpos 255 ypos 214 at effect1
