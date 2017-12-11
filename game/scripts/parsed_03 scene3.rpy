@@ -296,7 +296,7 @@ label scene3:
     "Finally feeling a tinge of pity, I sighed. It was hard not to give her the benefit of the doubt."
     
     show stan sadclosed
-    #voice "C-3-57.mp3" #Makoto (Reece Bridger)
+    voice "C-3-57.mp3" #Makoto (Reece Bridger)
     pro "Yeah, it-it's terrible."
     
     show stan neutraltalk
