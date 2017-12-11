@@ -255,14 +255,14 @@ screen navigation():
 
 screen save:
     tag menu
-    add "ui/main/background.png" 
+    add "ui/navigation/background.png" 
     add "ui/prefs/base.png" at effect1
     use navigation
     use file_picker
     
 screen load:
     tag menu
-    add "ui/main/background.png" 
+    add "ui/navigation/background.png" 
     add "ui/prefs/base.png" at effect1
     use navigation
     use file_picker
@@ -302,7 +302,7 @@ screen file_picker:
 screen load_save_slot:
     hbox:
         style_group "watercress"
-        textbutton _("Delete") xpos x+530 ypos y+125  action FileDelete(number) at effect1
+        textbutton _("Delete") xpos x+520 ypos y+125  action FileDelete(number) at effect1
 
     $ file_text = "% s\n  %s" % (FileTime(number, empty="Empty."), FileSaveName(number))
 
@@ -344,8 +344,9 @@ init -2:
 screen preferences():
 
     tag menu
-    add "ui/main/background.png" 
+    add "ui/navigation/background.png" 
     add "ui/prefs/base.png" at effect1
+    add "ui/prefs/prefs_titles.png" at effect1
     use navigation
     
     imagebutton auto "ui/prefs/fullscreen_%s.png" xpos 183 ypos 274 focus_mask None action Preference('display','fullscreen') at effect1
