@@ -438,7 +438,7 @@ label scene15:
 
 
     play sound "sfx/Flourish.mp3"
-    voice "C-15-67.mp3" #??? 
+    #voice "C-15-67.mp3" #??? 
     st "Aww, you guys are so cute together!"
 
     show stan smirk with easeinright:

@@ -88,7 +88,7 @@ label scene17:
 
     show bubble sad
     show yumi closed
-    voice "C-17-14.mp3" #Bubble 
+    #voice "C-17-14.mp3" #Bubble 
     bb "...Jiffy."
 
     show mami lecture with easeinleft:
@@ -189,7 +189,7 @@ label scene17:
     play sound "sfx/Yoink.mp3"
 
     show mami fshoutvein
-    voice "C-17-30.mp3" #Mami 
+    #voice "C-17-30.mp3" #Mami 
     mm "It’s because you started it! You stole from me like, 20 minutes ago!"
 
     hide bubble with easeoutright

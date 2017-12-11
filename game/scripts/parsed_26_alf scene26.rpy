@@ -472,8 +472,8 @@ label scene26:
     voice "C-26-100.mp3" #Makoto (Reece Bridger)
     pro "..."
     
-    voice "C-26-101.mp3" #Misaki (Kikari)
-    #riv "..."
+    #voice "C-26-101.mp3" #Misaki (Kikari)
+    riv "..."
 
     "Glancing aside to each other, we decide it best to bide our time and wait out the remaining minutes."
 
