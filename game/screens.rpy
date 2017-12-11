@@ -410,21 +410,22 @@ screen yesno_prompt(message, yes_action, no_action):
     modal True
 
     add "ui/yn/background.png" 
-    imagebutton auto "ui/yn/yes_%s.png" xpos 1393 ypos 574 xanchor 1.0 focus_mask None action yes_action at from_right
-    imagebutton auto "ui/yn/no_%s.png" xpos 1394 ypos 735 xanchor 1.0 focus_mask None action no_action at from_right
+    add "ui/yn/base_right.png" xanchor 1.0 xpos 1920 at effect1
+    imagebutton auto "ui/yn/yes_%s.png" xpos 1794 ypos 574 xanchor 1.0 focus_mask None action yes_action at effect1
+    imagebutton auto "ui/yn/no_%s.png" xpos 1794 ypos 635 xanchor 1.0 focus_mask None action no_action at effect1
     
     if message == layout.ARE_YOU_SURE:
-        add "ui/yn/message_quit.png" xanchor 1.0 at from_right
+        add "ui/yn/message_quit.png" xanchor 1.0 xpos 1920 at effect1
     elif message == layout.DELETE_SAVE:
-        add "ui/yn/message_delete.png" xanchor 1.0 at from_right
+        add "ui/yn/message_delete.png" xanchor 1.0 xpos 1920 at effect1
     elif message == layout.OVERWRITE_SAVE:
-        add "ui/yn/message_overwrite.png" xanchor 1.0 at from_right
+        add "ui/yn/message_overwrite.png" xanchor 1.0 xpos 1920 at effect1
     elif message == layout.LOADING:
-        add "ui/yn/message_load.png" xanchor 1.0 at from_right
+        add "ui/yn/message_load.png" xanchor 1.0 xpos 1920 at effect1
     elif message == layout.QUIT:
-        add "ui/yn/message_quit.png" xanchor 1.0 at from_right
+        add "ui/yn/message_quit.png" xanchor 1.0 xpos 1920 at effect1
     elif message == layout.MAIN_MENU:
-        add "ui/yn/message_title.png" xanchor 1.0 at from_right
+        add "ui/yn/message_title.png" xanchor 1.0 xpos 1920 at effect1
 
 
 ##############################################################################
