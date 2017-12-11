@@ -23,9 +23,10 @@ screen say(who, what, side_image=None, two_window=False):
                 style "say_vbox"
 
             if who:
-                text who id "who"
+                text who:
+                    id "who" xpos -270 ypos -20
 
-            text what id "what"
+            text what id "what" ypos 0
 
     else:
 
@@ -38,7 +39,7 @@ screen say(who, what, side_image=None, two_window=False):
                     style "say_who_window"
 
                     text who:
-                        id "who"
+                        id "who" xpos -200 ypos 0
 
             window:
                 id "window"
@@ -175,34 +176,56 @@ screen nvl(dialogue, items=None):
 # http://www.renpy.org/doc/html/screen_special.html#main-menu
 
 screen main_menu():
+    
+   tag menu
+   # Tells Ren'Py what images to display on screen.
+   add "ui/main/background.png"
+   add "ui/main/logo.png" at from_top2
+   add "ui/main/satan.png" at from_right
 
-    # This ensures that any other menu screen is replaced.
-    tag menu
+   # Imagebuttons, 'Auto' tells it to use both idle and hover states. Focus masks is something to do with the alpha properties but IDK off the top of my head.
+   imagebutton auto "ui/main/start_%s.png" xpos 0 ypos 480 focus_mask None action Start() at from_left
+   imagebutton auto "ui/main/load_%s.png" xpos 0 ypos 540 focus_mask None action ShowMenu('load') at from_left
+   imagebutton auto "ui/main/prefs_%s.png" xpos 0 ypos 600 focus_mask None action ShowMenu('preferences') at from_left
+   imagebutton auto "ui/main/extras_%s.png" xpos 0 ypos 660 focus_mask None action ShowMenu('preferences') at from_left
+   imagebutton auto "ui/main/quit_%s.png" xpos 0 ypos 720 focus_mask None action Quit(confirm=False) at from_left
 
-    # The background of the main menu.
-    window:
-        style "mm_root"
-
-    # The main menu buttons.
-    frame:
-        style_group "mm"
-        xalign .98
-        yalign .98
-
-        has vbox
-
-        textbutton _("Start Game") action Start()
-        textbutton _("Load Game") action ShowMenu("load")
-        textbutton _("Preferences") action ShowMenu("preferences")
-        textbutton _("Help") action Help()
-        textbutton _("Quit") action Quit(confirm=False)
 
 init -2:
-
-    # Make all the main menu buttons be the same size.
-    style mm_button:
-        size_group "mm"
-
+    # Defines transform properties to make images move.
+    transform fade_in:
+        alpha 0.0
+        linear 2.5 alpha 1.0
+    transform from_left:
+        alpha 0.0 xpos -500
+        linear 2.0 alpha 1.0 xpos 10
+    transform from_right:
+        alpha 0.0 xpos 2420
+        linear 2.5 alpha 1.0 xpos 0
+    transform from_top:
+        alpha 0.0 ypos -1100
+        linear 2.5 alpha 1.0 ypos 0
+    transform from_bottom:
+        alpha 0.0 ypos 2200
+        linear 2.5 alpha 1.0 ypos 1080
+    transform from_bottom2:
+        alpha 0.0 ypos 1080
+        easein 2.5 alpha 1.0 ypos 0
+    transform from_left2:
+        alpha 0.0 xpos -500
+        linear 2.5 alpha 1.0 xpos 0
+    transform from_right2:
+        alpha 0.0 xpos 2420
+        linear 2.5 alpha 1.0 xpos 1920
+    transform effect1:
+        alpha 0.0
+        linear 2.5 alpha 1.0
+    transform from_top2:
+        alpha 0.0 ypos -300
+        linear 1.25 alpha 1.0 ypos 0
+    transform from_bottom3:
+        alpha 0.0 ypos 1300
+        linear 2.5 alpha 1.0 ypos 1080
 
 
 ##############################################################################
@@ -212,32 +235,12 @@ init -2:
 # navigation and background.
 # http://www.renpy.org/doc/html/screen_special.html#navigation
 screen navigation():
-
-    # The background of the game menu.
-    window:
-        style "gm_root"
-
-    # The various buttons.
-    frame:
-        style_group "gm_nav"
-        xalign .98
-        yalign .98
-
-        has vbox
-
-        textbutton _("Return") action Return()
-        textbutton _("Preferences") action ShowMenu("preferences")
-        textbutton _("Save Game") action ShowMenu("save")
-        textbutton _("Load Game") action ShowMenu("load")
-        textbutton _("Main Menu") action MainMenu()
-        textbutton _("Help") action Help()
-        textbutton _("Quit") action Quit()
-
-init -2:
-
-    # Make all game menu navigation buttons the same size.
-    style gm_nav_button:
-        size_group "gm_nav"
+    imagebutton auto "ui/navigation/return_%s.png" xpos 225 ypos 970 focus_mask None action Return() at effect1
+    imagebutton auto "ui/navigation/save_%s.png" xpos 400 ypos 1020 focus_mask None action ShowMenu('save') at effect1
+    imagebutton auto "ui/navigation/load_%s.png" xpos 675 ypos 970 focus_mask None action ShowMenu('load') at effect1
+    imagebutton auto "ui/navigation/prefs_%s.png" xpos 850 ypos 1020 focus_mask None action ShowMenu('preferences') at effect1
+    imagebutton auto "ui/navigation/title_%s.png" xpos 1125 ypos 970 focus_mask None action MainMenu() at effect1
+    imagebutton auto "ui/navigation/quit_%s.png" xpos 1300 ypos 1020 focus_mask None action Quit() at effect1
 
 
 ##############################################################################
@@ -251,87 +254,86 @@ init -2:
 # a single screen, file_picker. We then use the file_picker screen
 # from simple load and save screens.
 
-screen file_picker():
-
-    frame:
-        style "file_picker_frame"
-
-        has vbox
-
-        # The buttons at the top allow the user to pick a
-        # page of files.
-        hbox:
-            style_group "file_picker_nav"
-
-            textbutton _("Previous"):
-                action FilePagePrevious()
-
-            textbutton _("Auto"):
-                action FilePage("auto")
-
-            textbutton _("Quick"):
-                action FilePage("quick")
-
-            for i in range(1, 9):
-                textbutton str(i):
-                    action FilePage(i)
-
-            textbutton _("Next"):
-                action FilePageNext()
-
-        $ columns = 2
-        $ rows = 5
-
-        # Display a grid of file slots.
-        grid columns rows:
-            transpose True
-            xfill True
-            style_group "file_picker"
-
-            # Display ten file slots, numbered 1 - 10.
-            for i in range(1, columns * rows + 1):
-
-                # Each file slot is a button.
-                button:
-                    action FileAction(i)
-                    xfill True
-
-                    has hbox
-
-                    # Add the screenshot.
-                    add FileScreenshot(i)
-
-                    $ file_name = FileSlotName(i, columns * rows)
-                    $ file_time = FileTime(i, empty=_("Empty Slot."))
-                    $ save_name = FileSaveName(i)
-
-                    text "[file_name]. [file_time!t]\n[save_name!t]"
-
-                    key "save_delete" action FileDelete(i)
-
-
-screen save():
-
-    # This ensures that any other menu screen is replaced.
+screen save:
     tag menu
-
+    add "ui/navigation/background.png" 
+    add "ui/prefs/base.png" at effect1
     use navigation
     use file_picker
-
-screen load():
-
-    # This ensures that any other menu screen is replaced.
+    
+screen load:
     tag menu
-
+    add "ui/navigation/background.png" 
+    add "ui/prefs/base.png" at effect1
     use navigation
     use file_picker
+    
+screen file_picker:
+    imagebutton auto "ui/saveload/quick_%s.png" xpos 200 ypos 823 focus_mask None action FilePage("quick") at effect1
+    imagebutton auto "ui/saveload/auto_%s.png" xpos 450 ypos 823 focus_mask None action FilePage("auto") at effect1
+    imagebutton auto "ui/saveload/1_%s.png" xpos 975 ypos 823 focus_mask None action FilePage(1) at effect1
+    imagebutton auto "ui/saveload/2_%s.png" xpos 1050 ypos 823 focus_mask None action FilePage(2) at effect1
+    imagebutton auto "ui/saveload/3_%s.png" xpos 1125 ypos 823 focus_mask None action FilePage(3) at effect1
+    imagebutton auto "ui/saveload/4_%s.png" xpos 1200 ypos 823 focus_mask None action FilePage(4) at effect1
+    imagebutton auto "ui/saveload/5_%s.png" xpos 1275 ypos 823 focus_mask None action FilePage(5) at effect1
+    imagebutton auto "ui/saveload/6_%s.png" xpos 1350 ypos 823 focus_mask None action FilePage(6) at effect1
+    imagebutton auto "ui/saveload/7_%s.png" xpos 1425 ypos 823 focus_mask None action FilePage(7) at effect1
+    imagebutton auto "ui/saveload/8_%s.png" xpos 1500 ypos 823 focus_mask None action FilePage(8) at effect1
+    imagebutton auto "ui/saveload/9_%s.png" xpos 1575 ypos 823 focus_mask None action FilePage(9) at effect1
+    
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 236 ypos 195 focus_mask True action FileAction(1) at effect1
+    add "ui/saveload/empty.png" xpos 255 ypos 214 at effect1
+    use load_save_slot(number=1, x=236, y=195) 
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 236 ypos 406 focus_mask True action FileAction(2) at effect1
+    add "ui/saveload/empty.png" xpos 255 ypos 425 at effect1
+    use load_save_slot(number=2, x=236, y=406) 
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 236 ypos 617 focus_mask True action FileAction(3) at effect1
+    add "ui/saveload/empty.png" xpos 255 ypos 636 at effect1
+    use load_save_slot(number=3, x=236, y=617) 
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 1023 ypos 195 focus_mask True action FileAction(4) at effect1
+    add "ui/saveload/empty.png" xpos 1042 ypos 214 at effect1
+    use load_save_slot(number=4, x=1023, y=195) 
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 1023 ypos 406 focus_mask True action FileAction(5) at effect1
+    add "ui/saveload/empty.png" xpos 1042 ypos 425 at effect1
+    use load_save_slot(number=5, x=1023, y=406) 
+    imagebutton auto "ui/saveload/slot_%s.png" xpos 1023 ypos 617 focus_mask True action FileAction(6) at effect1
+    add "ui/saveload/empty.png" xpos 1042 ypos 636 at effect1
+    use load_save_slot(number=6, x=1023, y=617) 
+    
+screen load_save_slot:
+    hbox:
+        style_group "watercress"
+        textbutton _("Delete") xpos x+520 ypos y+125  action FileDelete(number) at effect1
+
+    $ file_text = "% s\n  %s" % (FileTime(number, empty="Empty."), FileSaveName(number))
+
+    text file_text xpos x+295 ypos y+18 style_group "watercress" at effect1
+
+    add FileScreenshot(number) xpos x+19 ypos y+19 at effect1
+    
+init -2 python:
+    config.thumbnail_width = 260
+    config.thumbnail_height = 146
 
 init -2:
-    style file_picker_frame is menu_frame
-    style file_picker_nav_button is small_button
-    style file_picker_nav_button_text is small_button_text
-    style file_picker_button is large_button
-    style file_picker_text is large_button_text
+    style watercress_button:
+        is default
+        background None
+    style watercress_button_text:
+        is default
+        size 38
+        idle_color "#FFE2BC"
+        hover_color "#5B3D28"
+        insensitive_color "#808080"
+        drop_shadow [(2, 2,)]
+        drop_shadow_color (0, 0, 0, 100)
+    style watercress_text:
+         is default
+         size 42
+         color "#FFE2BC"
+         idle_color "#FFE2BC"
+         drop_shadow [(2, 2,)]
+         drop_shadow_color (0, 0, 0, 100)
 
 
 ##############################################################################
@@ -343,134 +345,60 @@ init -2:
 screen preferences():
 
     tag menu
-
-    # Include the navigation.
+    add "ui/navigation/background.png" 
+    add "ui/prefs/base.png" at effect1
+    add "ui/prefs/prefs_titles.png" at effect1
     use navigation
+    
+    imagebutton auto "ui/prefs/fullscreen_%s.png" xpos 183 ypos 274 focus_mask None action Preference('display','fullscreen') at effect1
+    imagebutton auto "ui/prefs/windowed_%s.png" xpos 505 ypos 273 focus_mask None action Preference('display', 'window')  at effect1
+    
+    imagebutton auto "ui/prefs/enabled_%s.png" xpos 183 ypos 432 focus_mask None action Preference('transitions', 'all') at effect1
+    imagebutton auto "ui/prefs/disabled_%s.png" xpos 505 ypos 432 focus_mask None action Preference('transitions', 'none') at effect1
+    
+    imagebutton auto "ui/prefs/skipall_%s.png" xpos 183 ypos 604 focus_mask None action Preference('skip', 'all') at effect1
+    imagebutton auto "ui/prefs/skipread_%s.png" xpos 505 ypos 603 focus_mask None action Preference('skip', 'seen') at effect1
+    
+    imagebutton auto "ui/prefs/stopskip_%s.png" xpos 183 ypos 768 focus_mask None action Preference('after choices', 'stop') at effect1 
+    imagebutton auto "ui/prefs/keepskip_%s.png" xpos 505 ypos 768 focus_mask None action Preference('after choices', 'skip') at effect1
+    
+    frame xpos 1170 ypos 456:
+        style_group "pref"
+        has vbox
+        bar value Preference("music volume")
+        at effect1
+    frame xpos 1170 ypos 701:
+        style_group "pref"
+        has vbox
+        bar value Preference("voice volume")
+        at effect1
+    frame xpos 1171 ypos 212:
+        style_group "pref"
+        has vbox
+        bar value Preference("text speed")
+        at effect1
+    frame xpos 1172 ypos 332:
+        style_group "pref"
+        has vbox
+        bar value Preference("auto-forward time")
+        at effect1
+    frame xpos 1171 ypos 572:
+        style_group "pref"
+        has vbox
+        bar value Preference("sound volume") 
+        at effect1
+        
 
-    # Put the navigation columns in a three-wide grid.
-    grid 3 1:
-        style_group "prefs"
-        xfill True
-
-        # The left column.
-        vbox:
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Display")
-                textbutton _("Window") action Preference("display", "window")
-                textbutton _("Fullscreen") action Preference("display", "fullscreen")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Transitions")
-                textbutton _("All") action Preference("transitions", "all")
-                textbutton _("None") action Preference("transitions", "none")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Text Speed")
-                bar value Preference("text speed")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                textbutton _("Joystick...") action Preference("joystick")
-
-
-        vbox:
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Skip")
-                textbutton _("Seen Messages") action Preference("skip", "seen")
-                textbutton _("All Messages") action Preference("skip", "all")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                textbutton _("Begin Skipping") action Skip()
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("After Choices")
-                textbutton _("Stop Skipping") action Preference("after choices", "stop")
-                textbutton _("Keep Skipping") action Preference("after choices", "skip")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Auto-Forward Time")
-                bar value Preference("auto-forward time")
-
-                if config.has_voice:
-                    textbutton _("Wait for Voice") action Preference("wait for voice", "toggle")
-
-        vbox:
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Music Volume")
-                bar value Preference("music volume")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Sound Volume")
-                bar value Preference("sound volume")
-
-                if config.sample_sound:
-                    textbutton _("Test"):
-                        action Play("sound", config.sample_sound)
-                        style "soundtest_button"
-
-            if config.has_voice:
-                frame:
-                    style_group "pref"
-                    has vbox
-
-                    label _("Voice Volume")
-                    bar value Preference("voice volume")
-
-                    textbutton _("Voice Sustain") action Preference("voice sustain", "toggle")
-                    if config.sample_voice:
-                        textbutton _("Test"):
-                            action Play("voice", config.sample_voice)
-                            style "soundtest_button"
-
-init -2:
-    style pref_frame:
-        xfill True
-        xmargin 5
-        top_margin 5
-
-    style pref_vbox:
-        xfill True
-
-    style pref_button:
-        size_group "pref"
-        xalign 1.0
-
-    style pref_slider:
-        xmaximum 192
-        xalign 1.0
-
-    style soundtest_button:
-        xalign 1.0
-
+        
+init -2 python: 
+    style.pref_frame.background = None
+    style.pref_slider.left_bar = "ui/prefs/bar_full.png"
+    style.pref_slider.right_bar = "ui/prefs/bar_empty.png"
+    style.pref_slider.thumb = None
+    style.pref_slider.thumb_offset = 0
+    style.pref_slider.xmaximum = 580
+    style.pref_slider.ymaximum = 51
+    style.pref_slider.xminimum = 580
 
 ##############################################################################
 # Yes/No Prompt
@@ -482,43 +410,23 @@ screen yesno_prompt(message, yes_action, no_action):
 
     modal True
 
-    window:
-        style "gm_root"
-
-    frame:
-        style_group "yesno"
-
-        xfill True
-        xmargin .05
-        ypos .1
-        yanchor 0
-        ypadding .05
-
-        has vbox:
-            xalign .5
-            yalign .5
-            spacing 30
-
-        label _(message):
-            xalign 0.5
-
-        hbox:
-            xalign 0.5
-            spacing 100
-
-            textbutton _("Yes") action yes_action
-            textbutton _("No") action no_action
-
-    # Right-click and escape answer "no".
-    key "game_menu" action no_action
-
-init -2:
-    style yesno_button:
-        size_group "yesno"
-
-    style yesno_label_text:
-        text_align 0.5
-        layout "subtitle"
+    add "ui/yn/background.png" 
+    add "ui/yn/base_right.png" xanchor 1.0 xpos 1920 at effect1
+    imagebutton auto "ui/yn/yes_%s.png" xpos 1794 ypos 574 xanchor 1.0 focus_mask None action yes_action at effect1
+    imagebutton auto "ui/yn/no_%s.png" xpos 1794 ypos 635 xanchor 1.0 focus_mask None action no_action at effect1
+    
+    if message == layout.ARE_YOU_SURE:
+        add "ui/yn/message_quit.png" xanchor 1.0 xpos 1920 at effect1
+    elif message == layout.DELETE_SAVE:
+        add "ui/yn/message_delete.png" xanchor 1.0 xpos 1920 at effect1
+    elif message == layout.OVERWRITE_SAVE:
+        add "ui/yn/message_overwrite.png" xanchor 1.0 xpos 1920 at effect1
+    elif message == layout.LOADING:
+        add "ui/yn/message_load.png" xanchor 1.0 xpos 1920 at effect1
+    elif message == layout.QUIT:
+        add "ui/yn/message_quit.png" xanchor 1.0 xpos 1920 at effect1
+    elif message == layout.MAIN_MENU:
+        add "ui/yn/message_title.png" xanchor 1.0 xpos 1920 at effect1
 
 
 ##############################################################################
@@ -552,9 +460,9 @@ init -2:
 
     style quick_button_text:
         is default
-        size 12
-        idle_color "#8888"
-        hover_color "#ccc"
+        size 24
+        idle_color "#888888"
+        hover_color "#5B3D28"
         selected_idle_color "#cc08"
         selected_hover_color "#cc0"
         insensitive_color "#4448"
