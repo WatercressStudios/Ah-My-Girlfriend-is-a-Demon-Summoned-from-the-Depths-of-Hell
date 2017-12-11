@@ -11,7 +11,7 @@ define bb = Character('Bubble', color="#611212", voice_tag="bubble")
 define lu = Character('Lucy', color="#611212", voice_tag="lucy")
 define co = Character('Councillor', color="#611212", voice_tag="councillor")
 define q = Character('???', color="#611212", voice_tag="???")
-define hm = Character('Hall Monitor', color="#611212"", voice_tag="hall monitor")
+define hm = Character('Hall Monitor', color="#611212", voice_tag="hall monitor")
 define vs = Character('Lunch Lady', color="#611212", voice_tag="lunch lady")
 define tea = Character('Teacher', color="#611212", voice_tag="teacher")
 
