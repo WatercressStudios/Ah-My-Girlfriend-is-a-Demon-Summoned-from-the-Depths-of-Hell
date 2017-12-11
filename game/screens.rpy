@@ -181,7 +181,8 @@ screen main_menu():
    # Tells Ren'Py what images to display on screen.
    add "ui/main/background.png"
    add "ui/main/logo.png" at from_top2
-   add "ui/main/satan.png" at from_right
+   #add "ui/main/satan.png" at from_right
+   add "ui/main/girls.png" at effect1
 
    # Imagebuttons, 'Auto' tells it to use both idle and hover states. Focus masks is something to do with the alpha properties but IDK off the top of my head.
    imagebutton auto "ui/main/start_%s.png" xpos 0 ypos 480 focus_mask None action Start() at from_left
