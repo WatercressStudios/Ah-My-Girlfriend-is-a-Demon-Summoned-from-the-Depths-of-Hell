@@ -234,12 +234,12 @@ init -2:
 # navigation and background.
 # http://www.renpy.org/doc/html/screen_special.html#navigation
 screen navigation():
-    imagebutton auto "ui/navigation/return_%s.png" xpos 100 ypos 972 focus_mask None action Return() at effect1
-    imagebutton auto "ui/navigation/save_%s.png" xpos 300 ypos 972 focus_mask None action ShowMenu('save') at effect1
-    imagebutton auto "ui/navigation/load_%s.png" xpos 500 ypos 972 focus_mask None action ShowMenu('load') at effect1
-    imagebutton auto "ui/navigation/prefs_%s.png" xpos 700 ypos 972 focus_mask None action ShowMenu('preferences') at effect1
-    imagebutton auto "ui/navigation/title_%s.png" xpos 900 ypos 972 focus_mask None action MainMenu() at effect1
-    imagebutton auto "ui/navigation/quit_%s.png" xpos 1100 ypos 972 focus_mask None action Quit() at effect1
+    imagebutton auto "ui/navigation/return_%s.png" xpos 50 ypos 970 focus_mask None action Return() at effect1
+    imagebutton auto "ui/navigation/save_%s.png" xpos 350 ypos 1020 focus_mask None action ShowMenu('save') at effect1
+    imagebutton auto "ui/navigation/load_%s.png" xpos 600 ypos 970 focus_mask None action ShowMenu('load') at effect1
+    imagebutton auto "ui/navigation/prefs_%s.png" xpos 900 ypos 1020 focus_mask None action ShowMenu('preferences') at effect1
+    imagebutton auto "ui/navigation/title_%s.png" xpos 1150 ypos 970 focus_mask None action MainMenu() at effect1
+    imagebutton auto "ui/navigation/quit_%s.png" xpos 1450 ypos 1020 focus_mask None action Quit() at effect1
 
 
 ##############################################################################
