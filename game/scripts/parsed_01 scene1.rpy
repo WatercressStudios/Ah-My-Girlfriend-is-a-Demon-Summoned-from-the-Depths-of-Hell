@@ -12,6 +12,7 @@
 
     #show CG of pro starring in the bathroom mirror, obscuring his face with his hand and smiling wickedly
     #music dark chuuni theme
+    play music darkchuunitheme fadeout 1.0 fadein 3.0
 
     scene intro1 with dissolve
     voice "C-1-1.mp3" #Makoto (Reece Bridger)
@@ -37,6 +38,7 @@
 
     play sound "sfx/Banging on Door.mp3"
     #music abrupt cut
+    stop music
     #show pro’s face growing exasperated
     
     scene intro3 with vpunch
@@ -86,6 +88,7 @@
 
     
     #music chuuni theme
+    play music darkchuunitheme fadeout 1.0 fadein 3.0
     "Tuesday: a day fraught with disaster and despair."
     "Wait, that doesn’t sound right…"
     "Tuesday: a mediocre day in a mediocre existence that highlights our mundane mediocrity for all to see."
@@ -144,6 +147,7 @@
     play sound "sfx/Banging on Door.mp3"
     #show pro’s face growing exasperated
     #music hard cut again
+    stop music
     scene intro3 with vpunch
 
     "*BANG! BANG! BANG!*"
@@ -161,6 +165,7 @@
     scene living room with dissolve
 
     #music yumi theme
+    play music lightheartedtheme
     "My attempt to escape this mundane existence was over as soon as it started."
     "In an instant, I’ve gone from Sebastian Wolfgang IV, a thousand year-old practitioner of the dark arts…"
     "...back to Makoto Takaya - a boring, normal high schooler with absolutely nothing special about him."
@@ -302,6 +307,7 @@
     pro "Plain old Makoto will behave himself - but Sebastian Wolfgang IV cannot be held down by mere mortals."
 
     #music stop
+    stop music fadeout 2.0
     "With confidence surging through me, I began walking towards my destiny…"
 
     jump scene2

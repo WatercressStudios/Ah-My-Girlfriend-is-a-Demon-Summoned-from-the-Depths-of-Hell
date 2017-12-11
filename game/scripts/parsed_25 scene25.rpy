@@ -20,6 +20,7 @@ label scene25:
     show beepy neutral
     
     #music lighthearted
+    play music lightheartedtheme fadein 1.0
     "...I mean, she has a point, kind of. I'm the one trying to hype myself up in a public bathroom."
     
     play sound "sfx/Downer.mp3"
@@ -154,6 +155,8 @@ label scene25:
     scene black with dissolve
     
     #music cut
+    stop music fadeout 1.0
+    
     voice "C-25-33.mp3" #Beepy (Hikari)
     bp "...But not literally. That's assault."
     
@@ -164,18 +167,19 @@ label scene25:
     "... … …" 
 
     #music misaki theme
+    play music misakitheme fadein 1.0
     scene rooftop with dissolve
     "Through the winding hallways and the mountainous staircases, I had finally reached the rooftop."
     "The wind cut against my face. On all sides, I was surrounded by towering chain-link fences."
     "I could feel swirling arcane forces, caged within like animals. How appropriate."
     
-    show misaki smugtalk:
-        align (.05, 1.0)
     show stan smileclosed
-    show beepy neutral:
+    show misaki smugtalk:
         align (.85, 1.0)
+    show beepy neutral:
+        align (.05, 1.0)
 
-    voice "C-25-34.mp3" #Misaki (Kikari)
+    #voice "C-25-34.mp3" #Misaki (Kikari)
     riv "You're late! For a moment, I suspected you had fled like the cowardly lion you are!"
     
     show misaki smug
@@ -315,7 +319,7 @@ label scene25:
     
     show beepy neutral
     
-    voice "C-25-59.mp3" #Beepy (Hikari)
+    #voice "C-25-59.mp3" #Beepy (Hikari)
     bp "Fiiiine, let's do this."
     
     show stan smirktalk
@@ -331,6 +335,7 @@ label scene25:
     show misaki smugclosed
     
     #music cut
+    stop music fadeout 1.0
     voice "C-25-62.mp3" #Makoto (Reece Bridger)
     pro "I accept your infernal terms, Countess Elizabeth. May the better team win."
     
@@ -366,6 +371,7 @@ label scene25:
     show beepy angryclosedtalk
     
     #music battle theme
+    play music battletheme fadein 1.0
     voice "C-25-68.mp3" #Beepy (Hikari)
     bp "Aaah, fine, fine, you don't have to shout, jeez…" 
     
@@ -491,32 +497,39 @@ label scene25:
     show stan smirk
 
     #music abrupt cut
-    play sound "sfx/Beam Shot.mp3"
-    scene white
+    stop music fadeout 0.5
+    #sfx energy blast
 
+    play sound "sfx/Beam Shot.mp3"
+    show white with dissolve
+
+
+    show misaki wonder
+    show stan serious
+    show beepy neutralclosed
     "With a flourish of her hands, she unleashed the energy in one grand gesture."
     "I shielded my eyes, it was so bright! Was this her true power!?"
 
-    scene black with dissolve
+    show black with dissolve
+    hide white
+    
     "The light disappeared. I was afraid to look at what happened to Beepy."
     "I couldn't hear her. Was she obliterated in the blast? Was… was I foolhardy?"
     "I… I didn't want to lose Beepy. Not like this."
     "Steeling myself to face the truth, I reopened my eyes." 
 
-    scene rooftop with dissolve
+    hide black with dissolve
 
     "What I saw was… not quite what I was expecting."
     "Beepy was just… standing there."
     "For an awkward moment, all of us stood, staring and utterly dumbstruck."
     
-    show misaki pout:
-        align (.05, 1.0)
-    show stan sad
-    show beepy eyebrowtalk:
-        align (.85, 1.0)
+    show beepy eyebrowtalk
     
     voice "C-25-88.mp3" #Beepy (Hikari)
     bp "...Huhwhat?"
+    
+    show beepy neutraltalk
     
     voice "C-25-89.mp3" #Beepy (Hikari)
     bp "Oh. I uh, had my eyes closed. S_Tan gave me a warning, so…"
@@ -525,6 +538,8 @@ label scene25:
     show stan sadtalk
     
     #music comedy
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme
     voice "C-25-90.mp3" #STan (Dani)
     st "Beepyyy… you were supposed to keel over, defeated by the forces of good…"
     
@@ -653,6 +668,7 @@ label scene25:
     show stan neutral
     
     #music cut
+    stop music fadeout 1.0
     voice "C-25-115.mp3" #Misaki (Kikari)
     riv "That's it! Makoto! Face me! Right here, right now!"
     
@@ -718,6 +734,7 @@ label scene25:
     riv "Sebastian Wolfgang IV! Prepare to meet your maker as you traipse from this mortal coil!"
 
     #music final battle music
+    play music battletheme fadein 1.0
     #cg jojo posing time
     #change poses with each line linked to a character
     #sfx add sword clash for every pose
@@ -799,11 +816,13 @@ label scene25:
     bp "This isn't some schlocky romcom, S_Tan…"
 
     #music cut
+    stop music fadeout 1.0
     scene black with dissolve
     "Our climatic duel went on for what felt like hours."
     "And as the dust cleared…"
 
     #music ambient wind
+    #SFX BB not my preside- I mean job
     scene rooftop with dissolve
     show misaki blushclosed
 
@@ -836,7 +855,11 @@ label scene25:
     "Suddenly, the door swung open. A senior student with a red armband ran out onto the rooftop." 
 
     #music lighthearted
-    voice "HM-1.wav" #Hall Monitor 
+
+    play music lightheartedtheme fadein 1.0
+
+    voice "HM-1.mp3" #Hall Monitor 
+
     hm "What the hell's going on up here!?"
     
     voice "C-25-151.mp3" #Makoto (Reece Bridger)
@@ -853,10 +876,10 @@ label scene25:
     voice "C-25-154.mp3" #Misaki (Kikari)
     riv "Yeah! Sun is, is nice, heh, eheh.."
     
-    voice "HM-2.wav" #Hall Monitor 
+    voice "HM-2.mp3" #Hall Monitor 
     hm "I heard shouting! And both of you should know that students aren't allowed on the rooftop!"
     
-    voice "HM-3.wav" #Hall Monitor 
+    voice "HM-3.mp3" #Hall Monitor 
     hm "...A-And what's with those… outrageous costumes??"
     
     voice "C-25-157.mp3" #Makoto (Reece Bridger)
@@ -869,10 +892,10 @@ label scene25:
     
     show misaki pout
     
-    voice "HM-4.wav" #Hall Monitor 
+    voice "HM-4.mp3" #Hall Monitor 
     hm "...Whatever they are, they're against uniform regulations."
     
-    voice "HM-5.wav" #Hall Monitor 
+    voice "HM-5.mp3" #Hall Monitor 
     hm "I don't know what kind of messed up date you two are on, but…"
     
     show misaki shoutblush
@@ -886,10 +909,10 @@ label scene25:
     
     show misaki stammer
 
-    voice "HM-6.wav" #Hall Monitor 
+    voice "HM-6.mp3" #Hall Monitor 
     hm "Between the uniform violations, entering restricted areas, and the noise complaints…"
     
-    voice "HM-7.wav" #Hall Monitor 
+    voice "HM-7.mp3" #Hall Monitor 
     hm "...And aren't you two supposed to be in class!?"
     
     voice "C-25-165.mp3" #Makoto (Reece Bridger)
@@ -905,7 +928,7 @@ label scene25:
     voice "C-25-167.mp3" #Makoto (Reece Bridger)
     pro "That… that's an {i}excellent{/i} point, Mister Hall Monitor, so if you excuse us, we should really--"
     
-    voice "HM-8.wav" #Hall Monitor 
+    voice "HM-8.mp3" #Hall Monitor 
     hm "Hold it. I'm issuing both of you detention slips."
     
     show misaki surprise
@@ -916,16 +939,16 @@ label scene25:
     voice "C-25-170.mp3" #Misaki (Kikari)
     riv "That's… that's outrageous!"
     
-    voice "HM-9.wav" #Hall Monitor 
+    voice "HM-9.mp3" #Hall Monitor 
     hm "I don't make the rules. Report to A-2 after school."
     
     play sound "sfx/Metal Door Close.mp3" 
 
     scene black with dissolve
-    voice "HM-10.wav" #Hall Monitor 
+    voice "HM-10.mp3" #Hall Monitor 
     hm "C'mon, this way. Off the roof."
     
-    voice "HM-11.wav" #Hall Monitor 
+    voice "HM-11.mp3" #Hall Monitor 
     hm "...And get out of those ridiculous costumes. Or, magic whatsits, honestly…"
     
     voice "C-25-174.mp3" #Makoto (Reece Bridger)
@@ -935,6 +958,7 @@ label scene25:
     riv "...This is so embarrassing…"
     
     #music cut
+    stop music fadeout 1.0
     "..."
     "... ..."
     "... ... ..."

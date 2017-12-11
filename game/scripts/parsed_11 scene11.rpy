@@ -10,6 +10,7 @@ label scene11:
     "*RING!*"
     
     #music school
+    play music schooltheme fadein 1.0
     "The bell sounds, signaling the end of study hall."
     "I let out a sigh of relief, having managed to cram in all I can in the nick of time."
     "I’m about to pack up and head to the next class when Beepy approaches me."
@@ -127,6 +128,7 @@ label scene11:
     "The final bell rings, signalling the end of the school day."
     
     #music cut
+    stop music fadeout 1.0
     "With no other commitments, I start to make my way back home."
 
     jump scene12

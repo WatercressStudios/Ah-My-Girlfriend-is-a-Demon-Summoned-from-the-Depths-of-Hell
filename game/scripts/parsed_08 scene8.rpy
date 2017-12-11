@@ -42,6 +42,7 @@ label scene8:
     bp "Mm… Morning already…?"
 
     #music beepy theme
+    play music beepytheme fadein 1.0 fadeout 3.0
     "As lethargic in the morning as she is any other time of day… If I had actually sold my soul for this, I’d be demanding it back right about now."
     "She eventually looks at me and gives me a lazy - if earnest - smile."
 
@@ -80,6 +81,7 @@ label scene8:
     "I turn back around to see…"
 
     #music romantic
+    play music romantictheme fadein 1.0 fadeout 3.0
 
     show beepy naughty
     voice "C-8-10.mp3" #Beepy (Hikari)
@@ -107,6 +109,7 @@ label scene8:
     #hide CG
 
     #music cut
+    stop music fadeout 1.0
     "I yank myself away from Beepy and race over to the closet, pulling together my school uniform as fast as I can."
 
     show beepy neutralclosedtalk
@@ -134,6 +137,7 @@ label scene8:
     pro "Y-You {b}What!?{/b}"
     
     #music lighthearted
+    play music lightheartedtheme fadein 1.0 fadeout 3.0
     
     show beepy neutralclosedtalk
     voice "C-8-20.mp3" #Beepy (Hikari)
@@ -176,11 +180,13 @@ label scene8:
     scene black with dissolve
 
     #music cut
+    stop music fadeout 1.0
     "In a haste, I hurry out of my room and head towards the living room."
 
     scene kitchen with dissolve
 
     #music yumi theme
+    play music calmtrack fadein 1.0
     "I still can’t believe I’ve been saddled with such a useless layabout… What was Satan even thinking!?"
     "She was probably too busy thinking of a good way to infuriate me to give decent help."
     "Well, that’s just fine! A being such as I - who has seen the beginning and end of all things - hardly needs help anyways."
@@ -268,6 +274,7 @@ label scene8:
     scene house with dissolve
 
     #music cut
+    stop music fadeout 1.0
     "I finish up breakfast faster than a hellhound before departing for school."
     "Usually, today would be like any other: I would leave my dark abode to challenge the world once again, looking down at the scurrying plebeians."
     "But today is an exceptional day - one brought about by the stars’ alignment, so that I can assert my dominance at long last."
@@ -278,6 +285,7 @@ label scene8:
     #show CG of pro riding train, holding onto a handrail while having his eyes closed and smiling wickedly
 
     #music dark chuuni
+    play music darkchuunitheme fadein 1.0 fadeout 3.0
     
     "Perhaps I shall forget all pretense and convince the world that I have unlocked unimaginable power."
     "‘Tremble before me, mundanes! I have arrived to bring about a new world order!’"

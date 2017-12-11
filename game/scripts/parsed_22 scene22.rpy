@@ -1,19 +1,19 @@
 label scene22:
     scene bedroom night with dissolve
-
+    play music calmtrack fadein 1.0
     "Finally, my last-minute cramming is finished."
     "I allow myself a good, long stretch and take a moment to admire my handiwork."
     "Not even the greatest earthly philosophers with all of their combined knowledge could have accomplished in their entire lifetimes what I just did in mere hours."
     "I feel unstoppable! Nothing can possibly wrest me away from my dark triumphs!"
     "Except, of course, for the sudden onset of exhaustion..."
 
-    voice "C-12-1.mp3" #Makoto (Reece Bridger)
+    voice "C-22-1.mp3" #Makoto (Reece Bridger)
     pro "Oof… how long have I been studying…?"
 
     "I glance over to my alarm clock to see how many fleeting hours have passed."
     "It’s 11:20 now. I should have been ready for bed 20 minutes ago!"
 
-    voice "C-12-2.mp3" #Makoto (Reece Bridger)
+    voice "C-22-2.mp3" #Makoto (Reece Bridger)
     pro "...Well, whatever. At least I did what I could."
 
     scene black with dissolve
@@ -36,13 +36,14 @@ label scene22:
     
     "I turn over on my side to try and find an answer."
 
-    voice "C-12-3.mp3" #Makoto (Reece Bridger)
+    voice "C-22-3.mp3" #Makoto (Reece Bridger)
     pro "Hey, Beepy…"
     
-    voice "C-12-4.mp3" #Makoto (Reece Bridger)
+    voice "C-22-4.mp3" #Makoto (Reece Bridger)
     pro "Huh…?"
 
     #music moody and alone and sad
+    play music sadtheme fadein 1.0
     "But Beepy is not there."
     "She hasn’t snuck under my sheets and curled up beside me like she always has."
     "It’s more than just an answer I’ve found - it’s a realization that’s hit me like a truck."
@@ -50,7 +51,7 @@ label scene22:
     "For the first time in my life, I feel… abandoned. Unwanted."
     "{i}Alone.{/i}"
 
-    voice "C-12-5.mp3" #Makoto (Reece Bridger)
+    voice "C-22-5.mp3" #Makoto (Reece Bridger)
     pro "..."
 
     "I turn over on my back, staring up at my bedroom ceiling and trying to make sense of it all."
@@ -69,7 +70,7 @@ label scene22:
     "They must think I want nothing to do with them now."
     "Or worse, Beepy must not want anything to do with me anymore…"
 
-    voice "C-12-6.mp3" #Makoto (Reece Bridger)
+    voice "C-22-6.mp3" #Makoto (Reece Bridger)
     pro "What have I been doing all this time…?"
 
     "I try to find the words to describe this pit of despair I’m in… but nothing comes from it."
@@ -87,6 +88,7 @@ label scene22:
     scene black with dissolve
 
     #music cut
+    stop music fadeout 1.0
     "...And finally start to sleep."
 
     jump scene23

@@ -5,6 +5,7 @@ label scene4:
     #all q lines voiced by beepy
     
     #music light hearted
+    play music lightheartedtheme fadein 1.0 fadeout 3.0
     voice "C-4-1.mp3" #STan (Dani)
     st "Ooookayyyy! Now remember, we can make anything happen if we all sing along~!"
     
@@ -57,6 +58,7 @@ label scene4:
     pro "What the…?"
     
     #music fade out
+    stop music fadeout 1.0
     
     voice "C-4-14.mp3" #STan (Dani)
     st "Okay! You can open your eyes, Makoto~!"
@@ -77,6 +79,7 @@ label scene4:
     #note: go back and revise based on Instant's concept!
 
     #music calm
+    play music calmtrack fadein 1.0 fadeout 3.0
     "She was cocooned in a comfy-looking robe. Wrapped as snuggly as she was, she almost ready for bed."
     "The dull expression on her face and the way her head tilted forward only provided more validation to that look." 
     "With S⛧Tan and this girl right next to each other, one smiling so brightly and the other… {i}not…{/i}"
@@ -134,6 +137,8 @@ label scene4:
     "Taking a deep breath, Beepy readied herself..."
 
     #music magical girl theme beepy ver
+    #we don't have this so we'll settle for...
+    play music beepytheme fadein 1.0 fadeout 3.0
     show beepyintroright with dissolve
     voice "C-4-25.mp3" #Beepy (Hikari)
     bp "Alright, uhhh… how'd it go again…?"
@@ -165,6 +170,7 @@ label scene4:
     
     play sound "sfx/Downer.mp3"
     #music fadeout
+    stop music fadeout 1.5
     
     voice "C-4-31.mp3" #Makoto (Reece Bridger)
     pro "..."
@@ -183,6 +189,7 @@ label scene4:
     "...Come to think of it, a C might be a bit too generous."
 
     #music lighthearted
+    play music lightheartedtheme fadein 1.0 fadeout 3.0
     voice "C-4-33.mp3" #STan (Dani)
     show stan pitytalk
     st "Way to go! I'm so proud of you, you put in so much effort this time~!"
@@ -282,6 +289,7 @@ label scene4:
 
     play sound "sfx/Swish.mp3"
     #music fadeout
+    stop music fadeout 1.0
     scene white with dissolve
 
     voice "C-4-52.mp3" #Makoto (Reece Bridger)
@@ -309,6 +317,7 @@ label scene4:
     
     show beepy neutralclosedtalk
     #music beepy theme
+    play music beepytheme fadein 1.0 fadeout 3.0
     voice "C-4-56.mp3" #Beepy (Hikari)
     bp "Boy, though… she watches too many shonen anime. Too much excitement." 
     
@@ -364,6 +373,7 @@ label scene4:
     hide beepy with easeoutleft
     #beepy exit stage left 
     #music fadeout
+    stop music fadeout 1.0
 
     "Without another word, she stepped out of view."
     "Suddenly alone, I was confronted by the mess left in the strange demon girls' wake."
@@ -383,6 +393,8 @@ label scene4:
     pro "I should find Beepy."
 
     #music everyday life
+    #you know what I'm about to say, right? Settle for calm.
+    play music calmtrack fadein 1.0 fadeout 3.0
     "When the energy finally returned to my legs, I headed towards the locked door and fiddled with it until it finally opened."
 
     scene living room with dissolve
@@ -459,6 +471,7 @@ label scene4:
     "Yumi swung the door to the garage open and surveyed the damage."
     
     #music cut
+    stop music fadeout 0.75
 
     show yumi surprise
     voice "C-4-83.mp3" #Yumi (Kaito)
@@ -489,6 +502,7 @@ label scene4:
     pro "Then… {i}not{/i} that."
     
     #music yumi theme
+    play music lightheartedtheme fadein 1.0 fadeout 3.0
     
     show yumi angryshout
     voice "C-4-88.mp3" #Yumi (Kaito)
@@ -574,8 +588,11 @@ label scene4:
     voice "C-4-102.mp3" #Beepy (Hikari)
     bp "...Hullo."
     
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme 
+    
     show beepy fneutral
-    voice "C-4-103.mp3" #Yumi (Kaito)
+    #voice "C-4-103.mp3" #Yumi (Kaito)
     sis "..."
     
     voice "C-4-104.mp3" #Makoto (Reece Bridger)
@@ -583,7 +600,8 @@ label scene4:
     
     show beepy fneutraltalk
     #music shenanigans
-    voice "C-4-105.mp3" #Beepy (Hikari)
+
+    #voice "C-4-105.mp3" #Beepy (Hikari)
     bp "I was trying to find yours, but... this, uh, wasn't it."
     
     voice "C-4-106.mp3" #Beepy (Hikari)
@@ -657,5 +675,6 @@ label scene4:
     "Alright. Time to do some damage control. I wouldn't make for a demon lord if I couldn't lay down the law in my own home."
     "Beepy’s wandering around like she owns the place… that will {i}definitely{/i} cause problems."
     "Steeling myself, I turn myself towards the door to my room and march forward."
+    stop music fadeout 2.0
      
     jump scene5

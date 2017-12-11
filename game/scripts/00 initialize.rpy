@@ -1,19 +1,19 @@
 ######################### 
 # Character Declaration #
 #########################
-define pro = Character('Makoto', color="#611212")
-define bp = Character('Beepy', color="#611212")
-define st = Character('S_Tan', color="#611212")
-define riv = Character('Misaki', color="#611212")
-define sis = Character('Yumi', color="#611212")
-define mm = Character('Mami', color="#611212")
-define bb = Character('Bubble', color="#611212")
-define lu = Character('Lucy', color="#611212")
-define co = Character('Councillor', color="#611212")
-define q = Character('???', color="#611212")
-define hm = Character('Hall Monitor', color="#611212")
-define vs = Character('Lunch Lady', color="#611212")
-define tea = Character('Teacher', color="#611212")
+define pro = Character('Makoto', color="#611212", voice_tag="makoto")
+define bp = Character('Beepy', color="#611212", voice_tag="beepy")
+define st = Character('S\u26E7Tan', color="#611212", voice_tag="a_tan")
+define riv = Character('Misaki', color="#611212", voice_tag="misaki")
+define sis = Character('Yumi', color="#611212", voice_tag="yumi")
+define mm = Character('Mami', color="#611212", voice_tag="mami")
+define bb = Character('Bubble', color="#611212", voice_tag="bubble")
+define lu = Character('Lucy', color="#611212", voice_tag="lucy")
+define co = Character('Councillor', color="#611212", voice_tag="councillor")
+define q = Character('???', color="#611212", voice_tag="???")
+define hm = Character('Hall Monitor', color="#611212"", voice_tag="hall monitor")
+define vs = Character('Lunch Lady', color="#611212", voice_tag="lunch lady")
+define tea = Character('Teacher', color="#611212", voice_tag="teacher")
 
 ######################
 # Sprite Declaration #
@@ -209,6 +209,30 @@ image satancard = "cgs/object/SatanBusinessCardCG.png"
 ###################
 # Music           #
 ###################
+
+define titlescreen = "music/Poppy Shop.ogg",
+define darkchuunitheme = "music/Splatters.ogg",
+define lightheartedtheme = "music/Quirky Shop.ogg",
+define intensetrack = "music/Dunkelster Traum.ogg",
+define satansthemeintro = "music/Magical Intro.ogg",
+define satanstheme = "music/Magical Main.ogg",
+define beepytheme = "music/Beepy_Theme.ogg",
+define misakitheme = "music/Requiem Waltz.ogg",
+#define magicalgirltrack = "music/",
+#define magicalgirltrackbeepyver = "music/",
+define battletheme = "music/Battle Odyssey.ogg",
+define elevatormusic = "music/Minigame.ogg",
+define romantictheme = "music/Evans Loop.ogg",
+define sadtheme = "music/Dawn.ogg",
+define moviethemeintro = "music/Techno War Intro.ogg",
+define movietheme = "music/Techno War Main.ogg",
+define credits = "music/Hope.ogg",
+define calmtrack = "music/Relax.ogg",
+define schooltheme = "music/Präludium (Guitar).mp3",
+define shenaniganstheme = "music/Banjo Utopia (Main).ogg",
+define shenanigansthemeintro = "music/Banjo Utopia (Intro).ogg",
+define flashbacktheme = "music/Puppenwalzer.ogg",
+define storetheme = "music/PoppyShop Cutoff.ogg"
 
 
 label start:

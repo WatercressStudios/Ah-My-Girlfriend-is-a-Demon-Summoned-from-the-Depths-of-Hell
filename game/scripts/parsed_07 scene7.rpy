@@ -8,9 +8,9 @@ label scene7:
             align (0.7, 1.0)
 
     #music calm
+    play music calmtrack fadein 1.0 fadeout 3.0
     "Time passes quickly. Surprisingly, Beepy and Yumi get along with each other - even better than it initially seemed."
     "Though, I’m not thrilled that their relationship hinges on their mutual exasperation…"
-    
     
     "When we're done eating, we all take seats in the dining room."
     
@@ -222,7 +222,7 @@ label scene7:
     voice "C-7-42.mp3" #Makoto (Reece Bridger)
     pro "Yes… tomorrow, I shall exact my revenge upon that cursed being."
     
-    voice "C-7-43.mp3" #Makoto (Reece Bridger)
+    #voice "C-7-43.mp3" #Makoto (Reece Bridger)
     pro "The false idol that claimed ultimate authority… I shall strike her down and claim both her throne and her title."
     
     voice "C-7-44.mp3" #Makoto (Reece Bridger)
@@ -358,7 +358,7 @@ label scene7:
     "...Yumi absolutely {i}cannot{/i} find out about this. Under no circumstance!"
     
     scene black with dissolve
-    #music cut
+    stop music fadeout 2.0
     
     "..."
     "... …"

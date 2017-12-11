@@ -7,6 +7,7 @@ label scene15:
     scene store exterior with dissolve
 
     #music market
+    play music storetheme fadein 1.0
     "The supermarket."
     "A place of sheer, unadulterated anarchy - a place where mortals trample over one another to get the best deals on their bread and water."
     "A place where the fat cats indulge in capitalistic greed, preying on the needs of the weary in order to surround themselves with hedonistic pleasures."
@@ -264,6 +265,7 @@ label scene15:
 
     
     #music cut
+    stop music fadeout 1.0
     #This line is Satan’s.
     show bubble surprise
     show mami fneutral
@@ -271,6 +273,8 @@ label scene15:
     st "Hey! You guys!"
 
     #music satan theme
+    play music satansthemeintro fadein 1.0
+    queue music satanstheme
     show stan wink with easeinright:
             align (0.8, 1.0)
     show mami fsmile
@@ -331,6 +335,7 @@ label scene15:
     "I look away, focused on my own task. The next item on this list seems to be butter, which is attainable. I move, head along the aisle, and--"
 
     #music cut
+    stop music fadeout 1.0
     show misaki shout
     voice "C-15-52.mp3" #Misaki (Kikari)
     riv "{b}Fuck!{/b}"
@@ -369,6 +374,7 @@ label scene15:
     riv "I need to, um, replenish my mana for our fight."
 
     #music market
+    play music storetheme fadein 1.0
     
     show misaki bashfulblush closed
     
@@ -444,10 +450,11 @@ label scene15:
     "S_Tan walks over to the two of us, Mami and Bubble behind her."
 
     show stan smirktalk
-    voice "C-15-68.mp3" #??? 
+    #voice "C-15-68.mp3" #??? 
     st "Y'know, I bet you two would make, like, really good friends!"
 
     #music cut
+    stop music fadeout 1.0
     #dual audio both say at same time
     show misaki disgustclosed
     voice "C-15-69.mp3" #Misaki (Kikari)
@@ -463,6 +470,8 @@ label scene15:
     "Silence, for a moment. We look - {i}glare{/i} - at each other before they erupt into laughter. Mami and S-Tan giggle; Bubble collapses, breathless."
 
     #music hijinks
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme
     show bubble fxd
     show mami xdtalk
     show stan cheekyclosed
@@ -470,7 +479,7 @@ label scene15:
     "The confusion is palpable. I look at the group, trying to understand their laughter."
 
     #dual audio; both say at same time
-    voice "C-15-71.mp3" #Misaki (Kikari)
+    #voice "C-15-71.mp3" #Misaki (Kikari)
     show misaki surpriseblush
     riv "Why are you laughing?"
     
@@ -490,6 +499,7 @@ label scene15:
     st "Yeah, definitely. You two would get along {i}so{/i} well with one another."
     
     #music cut
+    stop music fadeout 1.0
     scene black with dissolve
     "Unlikely, but I suppose for now I - {i}we{/i} - will humour the possibility."
     "..."
