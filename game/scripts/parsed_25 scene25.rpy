@@ -179,7 +179,7 @@ label scene25:
     show beepy neutral:
         align (.05, 1.0)
 
-    voice "C-25-34.mp3" #Misaki (Kikari)
+    #voice "C-25-34.mp3" #Misaki (Kikari)
     riv "You're late! For a moment, I suspected you had fled like the cowardly lion you are!"
     
     show misaki smug
@@ -319,7 +319,7 @@ label scene25:
     
     show beepy neutral
     
-    voice "C-25-59.mp3" #Beepy (Hikari)
+    #voice "C-25-59.mp3" #Beepy (Hikari)
     bp "Fiiiine, let's do this."
     
     show stan smirktalk

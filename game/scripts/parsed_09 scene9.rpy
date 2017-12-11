@@ -411,7 +411,7 @@ label scene9:
     show misaki scowl
     show stan neutraltalk
     voice "C-9-68.mp3" #STan (Dani)
-    st "Oh come on now, don’t be so uppity! I’m only making a good first impression for the students at Akuma--"
+    st "I’m only making a good first impression for the students at Akuma--"
 
     #show Satan adori
     show stan serioustalk
@@ -854,7 +854,7 @@ label scene9:
     show beepy eyebrow
     show stan cheekyclosedtalk
     voice "C-9-141.mp3" #STan (Dani)
-    st "I mean, just look at me! I can make lovely idols and blood splatters go together like water and oil!"
+    #st "I mean, just look at me! I can make lovely idols and blood splatters go together like water and oil!"
     
     show misaki stammer
     show beepy neutraltalk

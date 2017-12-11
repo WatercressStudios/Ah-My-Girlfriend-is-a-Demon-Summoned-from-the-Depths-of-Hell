@@ -711,7 +711,7 @@ label scene12:
     bb "Nyahahaha~! You sure are funny, Makoto!"
     
     show beepy angryclosed
-    voice "C-12-105.mp3" #Beepy (Hikari)
+    #voice "C-12-105.mp3" #Beepy (Hikari)
     bp "Not this again…"
     
     voice "C-12-106.mp3" #Makoto (Reece Bridger)

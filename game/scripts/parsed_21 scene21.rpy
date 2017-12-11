@@ -363,7 +363,7 @@ label scene21:
 
     #music dramatic/sad
     play music sadtheme fadein 1.0
-    voice "C-21-67.mp3" #Beepy (Hikari)
+    #voice "C-21-67.mp3" #Beepy (Hikari)
     bp "But just because I’m not gonna tell you the answers doesn’t mean I won’t ask the questions."
     
     show beepy eyebrowtalk

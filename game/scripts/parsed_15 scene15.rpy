@@ -450,7 +450,7 @@ label scene15:
     "S_Tan walks over to the two of us, Mami and Bubble behind her."
 
     show stan smirktalk
-    voice "C-15-68.mp3" #??? 
+    #voice "C-15-68.mp3" #??? 
     st "Y'know, I bet you two would make, like, really good friends!"
 
     #music cut
@@ -479,7 +479,7 @@ label scene15:
     "The confusion is palpable. I look at the group, trying to understand their laughter."
 
     #dual audio; both say at same time
-    voice "C-15-71.mp3" #Misaki (Kikari)
+    #voice "C-15-71.mp3" #Misaki (Kikari)
     show misaki surpriseblush
     riv "Why are you laughing?"
     

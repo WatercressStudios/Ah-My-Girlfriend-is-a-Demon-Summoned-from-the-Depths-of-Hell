@@ -222,7 +222,7 @@ label scene7:
     voice "C-7-42.mp3" #Makoto (Reece Bridger)
     pro "Yes… tomorrow, I shall exact my revenge upon that cursed being."
     
-    voice "C-7-43.mp3" #Makoto (Reece Bridger)
+    #voice "C-7-43.mp3" #Makoto (Reece Bridger)
     pro "The false idol that claimed ultimate authority… I shall strike her down and claim both her throne and her title."
     
     voice "C-7-44.mp3" #Makoto (Reece Bridger)

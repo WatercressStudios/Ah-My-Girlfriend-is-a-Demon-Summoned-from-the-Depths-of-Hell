@@ -128,7 +128,7 @@ label scene24:
     
     show beepy neutraltalk
     
-    voice "C-24-16.mp3" #Beepy (Hikari)
+    #voice "C-24-16.mp3" #Beepy (Hikari)
     bp "You know how a cat can fit into almost any space if it tries hard enough?"
 
     show beepy smile

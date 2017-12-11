@@ -211,7 +211,7 @@ label scene10:
     pro "It does not need the leadership of a pathetic stargazer such as yourself!"
     
     show misaki disgust
-    voice "C-10-41.mp3" #Misaki (Kikari)
+    #voice "C-10-41.mp3" #Misaki (Kikari)
     riv "You {i}insolent fool{/i}! Do you wish to suffer eternal damnation beyond the end of time itself!?"
     
     voice "C-10-42.mp3" #Makoto (Reece Bridger)
@@ -409,7 +409,7 @@ label scene10:
     bp "You think anyone’s looking at you funny for talking to yourself?"
     
     show beepy dreamworks
-    voice "C-10-85.mp3" #Makoto (Reece Bridger)
+    #voice "C-10-85.mp3" #Makoto (Reece Bridger)
     pro "..."
     
     voice "C-10-86.mp3" #Makoto (Reece Bridger)

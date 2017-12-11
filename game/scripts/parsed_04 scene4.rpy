@@ -588,8 +588,11 @@ label scene4:
     voice "C-4-102.mp3" #Beepy (Hikari)
     bp "...Hullo."
     
+    play music shenanigansthemeintro fadein 1.0
+    queue music shenaniganstheme 
+    
     show beepy fneutral
-    voice "C-4-103.mp3" #Yumi (Kaito)
+    #voice "C-4-103.mp3" #Yumi (Kaito)
     sis "..."
     
     voice "C-4-104.mp3" #Makoto (Reece Bridger)
@@ -597,9 +600,8 @@ label scene4:
     
     show beepy fneutraltalk
     #music shenanigans
-    play music shenanigansthemeintro fadein 1.0
-    queue music shenaniganstheme 
-    voice "C-4-105.mp3" #Beepy (Hikari)
+
+    #voice "C-4-105.mp3" #Beepy (Hikari)
     bp "I was trying to find yours, but... this, uh, wasn't it."
     
     voice "C-4-106.mp3" #Beepy (Hikari)

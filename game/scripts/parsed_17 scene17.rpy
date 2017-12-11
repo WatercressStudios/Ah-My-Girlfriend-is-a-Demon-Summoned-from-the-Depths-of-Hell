@@ -43,7 +43,7 @@ label scene17:
     show bubble sad
     show mami fsmugtalk with easeinleft:
             align (0.25, 1.0)
-    voice "C-17-6.mp3" #Mami 
+    #voice "C-17-6.mp3" #Mami 
     mm "{i}Yeeeeaaaah,{/i} hate to break it to you, but most of us are the fire and brimstone type."
     
     play sound "sfx/Sweatdrop.mp3"
@@ -81,7 +81,7 @@ label scene17:
     show mami shout
     show yumi surprise
     show lucy ffrowntalk
-    voice "C-17-13.mp3" #Mami 
+    #voice "C-17-13.mp3" #Mami 
     mm "Oh no you don’t!"
 
     #bubble enters left
@@ -93,7 +93,7 @@ label scene17:
 
     show mami lecture with easeinleft:
             align (0.3, 1.0) 
-    voice "C-17-15.mp3" #Mami 
+    #voice "C-17-15.mp3" #Mami 
     mm "Who do you think you are, trying to eat before everyone else? We’re starving too!"
     
     show yumi exasperated
@@ -104,7 +104,7 @@ label scene17:
     show mami disgust
     show lucy fneutral
     show bubble smile
-    voice "C-17-17.mp3" #Mami 
+    #voice "C-17-17.mp3" #Mami 
     mm "That’s different! I--"
 
     show yumi angryclosedtalk
@@ -177,7 +177,7 @@ label scene17:
     show lucy ffrowntalk
     show mami shout
     show yumi panicshout
-    voice "C-17-28.mp3" #Mami 
+    #voice "C-17-28.mp3" #Mami 
     mm "Hey! Take one at a time!"
     
     play sound "sfx/Yoink.mp3"

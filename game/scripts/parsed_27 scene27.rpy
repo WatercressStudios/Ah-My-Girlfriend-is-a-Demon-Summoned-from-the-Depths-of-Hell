@@ -28,7 +28,7 @@ label scene27:
     
     show misaki fscowl
     show beepy fdreamworks
-    voice "C-27-3.mp3" #Beepy (Hikari)
+    #voice "C-27-3.mp3" #Beepy (Hikari)
     bp "...And they {i}aren't{/i} shouting nonsense at each other. What witchcraft is this?"
     
     show stan cheekyclosedtalk
@@ -422,7 +422,7 @@ label scene27:
     
     hide beepy with easeoutleft
     show bubble fhappytalk
-    voice "C-27-82.mp3" #Bubble 
+    #voice "C-27-82.mp3" #Bubble 
     bb "Well I'm not sticking around! There's a delicious meal waiting back home!"
     
     hide bubble with easeoutleft

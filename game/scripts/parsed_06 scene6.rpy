@@ -261,7 +261,7 @@ label scene6:
 
     show beepy smile
     show yumi smile
-    "They shared a cheap laugh at my expense - likely the first of many"
+    "They shared a cheap laugh at my expense - likely the first of many."
     "Besides, capes ventilate themselves anyway, it's not a big deal!"
     
     show beepy eyebrowtalk

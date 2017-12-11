@@ -200,7 +200,7 @@ label scene26:
     riv "...Makoto, I… I was wondering. Why did you want to start an Occult Club?"
     
     show misaki wonder
-    voice "C-26-39.mp3" #Makoto (Reece Bridger)
+    #voice "C-26-39.mp3" #Makoto (Reece Bridger)
     pro "..."
 
     "Why did I originally turn in a form? That was a question I hadn't thought about in some time."
@@ -473,7 +473,7 @@ label scene26:
     pro "..."
     
     voice "C-26-101.mp3" #Misaki (Kikari)
-    riv "..."
+    #riv "..."
 
     "Glancing aside to each other, we decide it best to bide our time and wait out the remaining minutes."
 

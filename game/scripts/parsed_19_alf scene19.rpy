@@ -172,7 +172,7 @@ label scene19:
     voice "C-19-28.mp3" #Lucy (Vivi)
     lu "I'm going to start with a sketch of you - still life style - and then I'll work on a painting from that, okay?"
 
-    voice "C-19-29.mp3" #Makoto (Reece Bridger)
+    #voice "C-19-29.mp3" #Makoto (Reece Bridger)
     pro "Mm. Yeah, that's fine."
     
     show lucy smirk

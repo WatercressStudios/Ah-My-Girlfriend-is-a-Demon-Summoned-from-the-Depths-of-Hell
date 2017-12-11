@@ -49,7 +49,7 @@ label scene3:
     q "The other girls make fun of me because it's so sodium-rich and I need to watch my figure…"
     
     voice "C-3-8.mp3" #??? 
-    q "...But I think it's perfectly alright to indulge in your favourite things every now and then, isn’t it?"
+    q "...But I think it's pretty alright to indulge in your favourite things every now and then, isn’t it?"
 
     "I couldn't make out this person's face through the darkness, but the presence and the voice matched."
     "Were they one and the same? What's the meaning of this…?"
@@ -98,7 +98,7 @@ label scene3:
     pro "Who... Who are you…?"
     
     show stan surprise
-    voice "C-3-15.mp3" #??? 
+    #voice "C-3-15.mp3" #??? 
     q "..."
     
     show stan smirk
@@ -157,7 +157,7 @@ label scene3:
     show satanintrowinktongue
     hide satanintrotongue
     voice "C-3-25.mp3" #??? 
-    q "And don't you just hate it when you open a bag of popcorn and find loose kernels in it!? Yup, that's me too~!"
+    q "And don't you just hate it when you open a bag of popcorn and find loose teeth in it!? Yup, that's me too~!"
     
     show satanintrowink
     hide satanintrowinktongue
@@ -296,7 +296,7 @@ label scene3:
     "Finally feeling a tinge of pity, I sighed. It was hard not to give her the benefit of the doubt."
     
     show stan sadclosed
-    voice "C-3-57.mp3" #Makoto (Reece Bridger)
+    #voice "C-3-57.mp3" #Makoto (Reece Bridger)
     pro "Yeah, it-it's terrible."
     
     show stan neutraltalk

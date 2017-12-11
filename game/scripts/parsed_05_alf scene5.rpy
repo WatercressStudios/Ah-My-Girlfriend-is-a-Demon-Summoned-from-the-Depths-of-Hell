@@ -106,8 +106,6 @@ label scene5:
     voice "C-5-25.mp3" #Beepy (Hikari)
     bp "Is this how you introduce yourself to every girl…?"
     
-    bp "Ever heard of ‘hello, how are you?’"
-    
     show beepy eyebrow
     "Under Beepy’s piercing, incredulous look, I felt my resolve ebb away."
     "Eventually, she shrugged her shoulders."
@@ -208,7 +206,7 @@ label scene5:
 
     #move beepy slightly up so you only see her eyes
 
-    voice "C-5-47.mp3" #Beepy (Hikari)
+    #voice "C-5-47.mp3" #Beepy (Hikari)
     bp "Noooo, it's embarrassinggg…"
 
     "This change in behaviour was absolutely delicious - especially given the dumb looks Beepy had given me so far. In fact, it all felt deliciously karmic."
