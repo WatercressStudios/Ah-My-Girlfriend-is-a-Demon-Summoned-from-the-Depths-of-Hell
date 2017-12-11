@@ -194,6 +194,7 @@ screen main_menu():
         textbutton _("Start Game") action Start()
         textbutton _("Load Game") action ShowMenu("load")
         textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("Jukebox") action ShowMenu("jukebox")
         textbutton _("Help") action Help()
         textbutton _("Quit") action Quit(confirm=False)
 
@@ -204,6 +205,120 @@ init -2:
         size_group "mm"
 
 
+##############################################################################
+# Jukebox
+#
+# Music player
+
+init python in music_custom:
+    music_list = [
+        ["Banjo Utopia (Intro)", "Banjo Utopia (Intro).ogg"],
+        ["Banjo Utopia (Main)", "Banjo Utopia (Main).ogg"],
+        ["Battle Odyssey", "Battle Odyssey.ogg"],
+        ["Beepy Theme", "Beepy_Theme.ogg"],
+        ["Cherry Blosson", "Cherry Blossom.ogg"],
+        ["Dawn", "Dawn.ogg"],
+        ["Dunkelster Traum", "Dunkelster Traum.ogg"],
+        ["Evans Loop", "Evans Loop.ogg"],
+        ["Fight On Midpass", "Fight on Midpass.mp3"],
+        ["Heavy Burden", "Heavy Burden.ogg"],
+        ["Hope", "Hope.ogg"],
+        ["Horror Piano Atmosphere", "Horror Piano Atmosphere.ogg"],
+        ["Jazzy Shop", "Jazzy Shop.ogg"],
+        ["Magical Intro", "Magical Intro.ogg"],
+        ["Magical Main", "Magical Main.ogg"],
+        ["Minigame", "Minigame.ogg"],
+        ["Poppy Shop", "Poppy Shop.ogg"],
+        ["PoppyShop Cutoff", "PoppyShop Cutoff.ogg"],
+        ["Präludium (Guitar)", "Präludium (Guitar).mp3"],
+        ["Puppenwalzer", "Puppenwalzer.ogg"],
+        ["Quirky Shop", "Quirky Shop.ogg"],
+        ["Relax", "Relax.ogg"],
+        ["Requiem Waltz", "Requiem Waltz.ogg"],
+        ["Splatters", "Splatters.ogg"],
+        ["Techno War Intro", "Techno War Intro.ogg"],
+        ["Techno War Main", "Techno War Main.ogg"]   
+    ]
+    pos = 0
+    xgrid = 4
+    ygrid = 6
+
+    def move_to(aux_pos):
+        global pos
+        pos = aux_pos
+        if renpy.music.get_pause():
+            renpy.music.stop()
+        elif renpy.music.is_playing():
+            renpy.music.play("music/" + music_list[pos][1], fadeout = 1.0)
+
+    def move_by(delta):
+        move_to(delta_pos(delta))
+
+    def play():
+        if renpy.music.is_playing():
+            renpy.music.set_pause(False)
+        else:
+            renpy.music.play("music/" + music_list[pos][1])
+
+    def pause():
+        renpy.music.set_pause(True)
+
+    def stop():
+        renpy.music.stop()
+
+    def true_playing():
+        return renpy.music.is_playing and not renpy.music.get_pause()
+
+    def delta_pos(delta):
+        delta = pos + delta
+        while delta < 0:
+            delta += len(music_list)
+        while delta >= len(music_list):
+            delta -= len(music_list)
+        return delta
+
+screen jukebox():
+    tag menu
+
+    style_prefix "music_box"
+
+    frame:
+        frame:
+            background None
+            area 100, 20, 1210, 600
+            grid music_custom.xgrid music_custom.ygrid:
+                xfill True
+                yfill True
+
+                $ music_custom.counter = 0
+
+                for mpos in range(len(music_custom.music_list)):
+                    if music_custom.counter < music_custom.xgrid * music_custom.ygrid:
+                        textbutton _(music_custom.music_list[mpos][0]) action Function(music_custom.move_to, mpos)
+                        $ music_custom.counter += 1
+        hbox:
+            align 0.5, 0.8
+
+            if renpy.music.is_playing():
+                if renpy.music.get_pause():
+                    text "Paused: " align 0.5, 0.5
+                else:
+                    text "Playing: " align 0.5, 0.5
+            else:
+                text "Stopped: " align 0.5, 0.5
+
+            text music_custom.music_list[music_custom.pos][0]
+        hbox:
+            align 0.5, 0.9
+            spacing 30
+
+            textbutton _("Previous") action Function(music_custom.move_by, -1)
+            if (music_custom.true_playing()):
+                textbutton _("Pause") action Function(music_custom.pause)
+            else:
+                textbutton _("Play") action Function(music_custom.play)
+            textbutton _("Stop") action Function(music_custom.stop)
+            textbutton _("Next") action Function(music_custom.move_by, 1)
 
 ##############################################################################
 # Navigation
