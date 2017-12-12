@@ -516,7 +516,7 @@ label scene12:
 
     "{i}Shit.{/i}"
     "Too late. My soul is forfeit now."
-    play sound "sfx/Metal Door Slam.mp3"
+    play sound "sfx/Door Open.mp3"
     
     "Yumi bursts into the room."
 

@@ -131,7 +131,7 @@ label scene21:
 
     "Yes!"
 
-    play sound "sfx/Phone Ringing.mp3"
+    play sound "sfx/Phone Button.mp3"
 
     voice "C-21-17.mp3" #STan (Dani)
     st "Hi! You’ve reached Satan of Wrath!"

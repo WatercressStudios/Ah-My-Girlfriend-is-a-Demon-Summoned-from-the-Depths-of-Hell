@@ -6,7 +6,7 @@ label scene18:
 
     scene school hallway with dissolve
 
-    play sound "sfx/School Crowd.mp3"
+    play sound "sfx/School Crowd.mp3" fadein 2.0
     
     "Here again..."
     "I try to walk through the halls, pushing past the mundanes walking in the opposite direction and pushing through those who seem to think it wise to stand right in the middle - even though others are trying to travel.."
@@ -45,7 +45,7 @@ label scene18:
 
     scene cafeteria with dissolve
 
-    play sound "sfx/Crowd.mp3"
+    play sound "sfx/Crowd.mp3" fadein 2.0
     
     "The school cafeteria."
     "Disorder, uncleanliness, and horrible food reign supreme here, hanging over its subjects like a miasma. Few survived a trip here with their sanity in-tact, and those that did found it hard to desensitize themselves to the pain."

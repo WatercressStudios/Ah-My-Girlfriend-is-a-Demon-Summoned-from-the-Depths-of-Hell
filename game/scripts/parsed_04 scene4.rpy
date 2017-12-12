@@ -31,7 +31,7 @@ label scene4:
     
     "She wasn't. I could hear her skipping to the other side of the garage."
     
-    play sound "sfx/Opening Chest.mp3"
+    play sound "sfx/Opening Chest.mp3" fadein 0.3
     
     "And she was opening the storage chest? I squinted to try and peek through…"
     

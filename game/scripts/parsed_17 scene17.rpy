@@ -570,7 +570,7 @@ label scene17:
 
     "And if so, how long has it been in motion?"
 
-    #music cut
+    stop music fadeout 2.0
     "Regardless, I’m her prisoner. Until this movie ends, these blankets may as well be made of concrete. No, worse - {i}magic resistant{/i} concrete. Needless to say, I’m not going anywhere."
 
     play sound "sfx/Dramatic.mp3"
@@ -578,11 +578,11 @@ label scene17:
 
     scene movie3 with dissolve
     
-    #music film score
+    play music movietheme fadein 2.0
     "The movie itself seems to be about a society that consists entirely of giant robots. The giant robots can’t talk, so all they ever do is fight."
 
     play sound "sfx/Opening Chest.mp3"
-    play sound "sfx/Beam Shot.mp3"
+    play sound "sfx/Beam Shot.mp3" fadein 3.0
     scene movie4 with dissolve
     
     "However, a group of teenaged giant robots runs into alien technology that gives each of them the power to release a human from their cockpit and control it remotely."
@@ -593,6 +593,7 @@ label scene17:
 
     scene movie1 with dissolve
     
+    stop music fadeout 2.0
     "Before I know it, the film reaches its end, and the credits roll."
 
     show beepy smile with easeinleft:
@@ -600,6 +601,7 @@ label scene17:
     voice "C-17-96.mp3" #Beepy (Hikari)
     bp "Yowza! I thought that’d be pretentious, but it really was as good as they said!"
 
+    play music calmtrack fadein 1.0
     show beepy neutraltalk
     voice "C-17-97.mp3" #Beepy (Hikari)
     bp "What’d you think, Makoto? Have a good time?"
@@ -644,9 +646,7 @@ label scene17:
     scene bedroom night with dissolve
 
     #music before bed
-    stop music fadeout 1.0
     "Now then."
-    play music calmtrack fadein 1.0
 
     "I know the extent of Beepy’s villainous machinations. Though she said that the previous night was the last where she would occupy my bed, I’m far too intelligent to fall for such a blatant ruse."
 
@@ -682,7 +682,7 @@ label scene17:
 
     "Yes. This should do it."
 
-    play sound "sfx/Camera Snapshot.mp3"
+    play sound "sfx/Light Switch.mp3"
     scene black
 
     "Satisfied with myself, I turn the lights off and get into bed."

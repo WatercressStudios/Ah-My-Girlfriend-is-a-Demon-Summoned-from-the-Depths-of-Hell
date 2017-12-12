@@ -1,6 +1,7 @@
 ﻿label scene1:
     scene black with dissolve
 
+    stop music fadeout 3.0
     "Tuesday. The most accursed day of the week."
     "The foolish, unenlightened masses regularly assume that Monday is the worst out their lot -  but Tuesday is where the true despair begins."
     "They convince themselves that things won't be so bad, but as soon as Tuesday comes, they realize there is no escape."

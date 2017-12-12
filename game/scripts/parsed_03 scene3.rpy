@@ -5,7 +5,7 @@ label scene3:
     #we don't have this rip
     scene black
     #cut the music
-    stop music fadeout 1.0
+    stop music fadeout 2.0
 
     "And suddenly, everything went quiet. An incense-filled smokiness hung in the air."
     "This didn't feel like a dream. It was all too real - down to every grain of salt beneath me."
@@ -219,7 +219,7 @@ label scene3:
     voice "C-3-38.mp3" #STan (Dani)
     st "Yes, congratulations! You're the Hell Hotline's 666,666th customer! Give yourself a big round of applause!"
 
-    play sound "sfx/Applause.mp3"
+    play sound "sfx/Applause.mp3" fadein 0.5
 
     show stan neutral
     "As she beamed, an uproarious applause filled the garage. From where specifically, it was impossible to tell."
