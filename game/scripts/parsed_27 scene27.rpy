@@ -37,7 +37,7 @@ label scene27:
     
     show stan smileclosed 
     voice "C-27-5.mp3" #STan (Dani)
-    st "Teeheehee! The original idol S_Tan scores another convert~!"
+    st "Teeheehee! The original idol S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an scores another convert~!"
     
     show stan neutral
     voice "C-27-6.mp3" #Makoto (Reece Bridger)
@@ -69,7 +69,7 @@ label scene27:
             align (0.35, 1.0)
     show beepy fneutral
     show misaki fsurprise
-    "In that moment, S_Tan barreled at us with a hug."
+    "In that moment, S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an barreled at us with a hug."
 
     
     show misaki fblush
@@ -93,7 +93,7 @@ label scene27:
     voice "C-27-15.mp3" #STan (Dani)
     st "As you command, Misaki-chan~!"
     
-    "With a giddy smile, S_Tan bounced back away. Out of the corner of my eye, I could catch Beepy rolling her eyes."
+    "With a giddy smile, S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an bounced back away. Out of the corner of my eye, I could catch Beepy rolling her eyes."
     
     show misaki fdisgustblush
     voice "C-27-16.mp3" #Misaki (Kikari)
@@ -445,7 +445,7 @@ label scene27:
 
     "So, in the end, Misaki and I agreed to work together, and form the Occult Club."
     "We're not… dating or anything. It's just a mutually beneficial collaboration." 
-    "As insistent as S_Tan is on that point..."
+    "As insistent as S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an is on that point..."
     "In a way, I'm kind of glad. Everything else ended up working out for the best."
     "Misaki's very determined to make this a success, and I don't intend to let her down."
     "Maybe things will calm down."
@@ -487,7 +487,7 @@ label scene27:
     sis "{b}More{/b} of them! I don't even know who invited them!"
     
     voice "C-27-95.mp3" #Beepy (Hikari)
-    bp "It was probably S_Tan. Whole family's together, I think."
+    bp "It was probably S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an. Whole family's together, I think."
     
     voice "C-27-96.mp3" #Yumi (Kaito)
     sis "What're you… g-gimme back my phone!"
@@ -508,7 +508,7 @@ label scene27:
     pro "...Aaaand she hung up."
 
     "Things are about to get a whole lot more interesting on the homefront."
-    "I still need to figure out a way to send Beepy and S_Tan home. I promised my sister that much."
+    "I still need to figure out a way to send Beepy and S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an home. I promised my sister that much."
     "...But that can wait. Alongside the Countess, my path is clear."
     
     voice "C-27-101.mp3" #Misaki (Kikari)

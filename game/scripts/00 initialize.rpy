@@ -3,7 +3,7 @@
 #########################
 define pro = Character('Makoto', color="#611212", voice_tag="makoto")
 define bp = Character('Beepy', color="#611212", voice_tag="beepy")
-define st = Character('S\u26E7Tan', color="#611212", voice_tag="a_tan")
+define st = Character('S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an', color="#800000", voice_tag="a_tan")
 define riv = Character('Misaki', color="#611212", voice_tag="misaki")
 define sis = Character('Yumi', color="#611212", voice_tag="yumi")
 define mm = Character('Mami', color="#611212", voice_tag="mami")
@@ -214,6 +214,7 @@ define titlescreen = "music/Poppy Shop.ogg",
 define darkchuunitheme = "music/Splatters.ogg",
 define lightheartedtheme = "music/Quirky Shop.ogg",
 define intensetrack = "music/Dunkelster Traum.ogg",
+define horrorpiano = "music/Horror Piano Atmosphere.ogg",
 define satansthemeintro = "music/Magical Intro.ogg",
 define satanstheme = "music/Magical Main.ogg",
 define beepytheme = "music/Beepy_Theme.ogg",

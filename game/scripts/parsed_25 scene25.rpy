@@ -403,7 +403,7 @@ label scene25:
     show stan sadclosed
     
     voice "C-25-73.mp3" #Makoto (Reece Bridger)
-    pro "We know who you are, S_Tan. You really don't have to introduce yourself a third time."
+    pro "We know who you are, S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an. You really don't have to introduce yourself a third time."
     
     show stan smirktalk
     show beepy eyebrow
@@ -443,7 +443,7 @@ label scene25:
     show misaki smugclosedtalk
     
     voice "C-25-80.mp3" #Misaki (Kikari)
-    riv "Fool as you are, I've prepared S_Tan to penetrate any and all defenses!"
+    riv "Fool as you are, I've prepared S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an to penetrate any and all defenses!"
     
     show beepy naughty
     show misaki smug
@@ -468,7 +468,7 @@ label scene25:
     
     show stan wink
 
-    "S_Tan cupped her hands together, holding them at her waist. Her eyebrows furrowed, concentrating intensely…"
+    "S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an cupped her hands together, holding them at her waist. Her eyebrows furrowed, concentrating intensely…"
     play sound "sfx/Shock.mp3"
     
     play sound "sfx/Energy.mp3"
@@ -532,7 +532,7 @@ label scene25:
     show beepy neutraltalk
     
     voice "C-25-89.mp3" #Beepy (Hikari)
-    bp "Oh. I uh, had my eyes closed. S_Tan gave me a warning, so…"
+    bp "Oh. I uh, had my eyes closed. S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an gave me a warning, so…"
     
     show beepy neutral
     show stan sadtalk
@@ -638,7 +638,7 @@ label scene25:
     show beepy eyebrowtalk
     
     voice "C-25-109.mp3" #Beepy (Hikari)
-    bp "Say, S_Tan, she's been bossing you around a lot, huh?"
+    bp "Say, S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an, she's been bossing you around a lot, huh?"
     
     show beepy eyebrow
     show stan sadclosedtalk
@@ -662,7 +662,7 @@ label scene25:
     show misaki shoutblush
     
     voice "C-25-114.mp3" #Misaki (Kikari)
-    riv "{b}TMI, S_Tan!{/b} Ergh, you're saying all this to piss me off, aren't you!?"
+    riv "{b}TMI, S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an!{/b} Ergh, you're saying all this to piss me off, aren't you!?"
     
     show misaki shout
     show stan neutral
@@ -813,7 +813,7 @@ label scene25:
     st "You think so too, right!? Ohhh, I hope they make up and kiss after all this…"
     
     voice "C-25-143.mp3" #Beepy (Hikari)
-    bp "This isn't some schlocky romcom, S_Tan…"
+    bp "This isn't some schlocky romcom, S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an…"
 
     #music cut
     stop music fadeout 1.0

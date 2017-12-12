@@ -31,7 +31,7 @@ label scene4:
     
     "She wasn't. I could hear her skipping to the other side of the garage."
     
-    play sound "sfx/Opening Chest.mp3"
+    play sound "sfx/Opening Chest.mp3" fadein 0.3
     
     "And she was opening the storage chest? I squinted to try and peek through…"
     
@@ -74,7 +74,7 @@ label scene4:
             align (0.50, 1.0) 
     show stan neutral:
             align (0.85, 1.0)
-    "...And found S⛧Tan next to another strange-looking girl."
+    "...And found S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an next to another strange-looking girl."
 
     #note: go back and revise based on Instant's concept!
 
@@ -82,7 +82,7 @@ label scene4:
     play music calmtrack fadein 1.0 fadeout 3.0
     "She was cocooned in a comfy-looking robe. Wrapped as snuggly as she was, she almost ready for bed."
     "The dull expression on her face and the way her head tilted forward only provided more validation to that look." 
-    "With S⛧Tan and this girl right next to each other, one smiling so brightly and the other… {i}not…{/i}"
+    "With S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an and this girl right next to each other, one smiling so brightly and the other… {i}not…{/i}"
     "It really was looking at night and day."
     
     play sound "sfx/Downer.mp3"
@@ -270,7 +270,7 @@ label scene4:
     "As she was with everything, it seemed…"
     
     show stan neutral
-    "Just as quickly as she’d switched personae,, S⛧Tan lightened up again."
+    "Just as quickly as she’d switched personae, S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an lightened up again."
 
     show stan neutral
     voice "C-4-48.mp3" #STan (Dani)
@@ -295,7 +295,7 @@ label scene4:
     voice "C-4-52.mp3" #Makoto (Reece Bridger)
     pro "Wha!?"
     
-    "At first, there was silence. S⛧Tan threw some kind of capsule on the ground, but then…"
+    "At first, there was silence. S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an threw some kind of capsule on the ground, but then…"
     "A blinding light engulfed the garage!"
 
     scene garage mess with dissolve
@@ -377,7 +377,7 @@ label scene4:
 
     "Without another word, she stepped out of view."
     "Suddenly alone, I was confronted by the mess left in the strange demon girls' wake."
-    "The pentagram was in a mess now, trampled by S⛧Tan's excited running. Beepy didn't pay it any particular mind either."
+    "The pentagram was in a mess now, trampled by S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an's excited running. Beepy didn't pay it any particular mind either."
     "I frowned to myself. I spent so much time on it too…"
 
     voice "C-4-69.mp3" #Makoto (Reece Bridger)
@@ -478,7 +478,7 @@ label scene4:
     sis "..."
 
     "Her mouth became a solid, stone line. Disappointment flashed across her face in an instant."
-    "This is the part where S⛧Tan cleaned it up for me, right…?"
+    "This is the part where S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an cleaned it up for me, right…?"
     "Or mere mortals cannot hope to comprehend the chaos?"
     play sound "sfx/Door Close.mp3"
     
