@@ -157,7 +157,7 @@ label scene26:
     pro "Heh. True, very true."
     
     voice "C-26-27.mp3" #Makoto (Reece Bridger)
-    pro "...Still, though. S_Tan, she… she seemed to care about you a lot."
+    pro "...Still, though. S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an, she… she seemed to care about you a lot."
     
     show misaki closedshout
     voice "C-26-28.mp3" #Misaki (Kikari)
@@ -273,7 +273,7 @@ label scene26:
     pro "Heh."
     
     voice "C-26-57.mp3" #Misaki (Kikari)
-    riv "Oh don't look so self-assured! If S_Tan had pulled her weight, this'd be settled by now!"
+    riv "Oh don't look so self-assured! If S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an had pulled her weight, this'd be settled by now!"
     
     voice "C-26-58.mp3" #Makoto (Reece Bridger)
     pro "If she pulled her weight, huh…?" 
@@ -302,7 +302,7 @@ label scene26:
     pro "Heh. I was a bad listener too, but I… I think she had a point."
     
     voice "C-26-65.mp3" #Makoto (Reece Bridger)
-    pro "Did S_Tan ever talk to you about this sort of stuff?"
+    pro "Did S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an ever talk to you about this sort of stuff?"
     
     show misaki blushclosed
     voice "C-26-66.mp3" #Misaki (Kikari)
@@ -317,7 +317,7 @@ label scene26:
     voice "C-26-68.mp3" #Misaki (Kikari)
     riv "...She's been nice, though, I… I don't hate her."
 
-    "Misaki must've grown attached to S_Tan. Usually it takes a lot of goading to get such high praise from her."
+    "Misaki must've grown attached to S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an. Usually it takes a lot of goading to get such high praise from her."
 
     voice "C-26-69.mp3" #Makoto (Reece Bridger)
     pro "I guess they've been… they've been looking out for us more than we thought."

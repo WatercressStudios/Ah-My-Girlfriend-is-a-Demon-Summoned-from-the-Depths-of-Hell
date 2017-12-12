@@ -175,7 +175,7 @@ label scene3:
     
     show stan smileclosedtalk
     voice "C-3-28.mp3" #STan (Dani)
-    st "Yup! Though my stage name is just S⛧Tan! I'm the world's very first idol, y'know!"
+    st "Yup! Though my stage name is just S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an! I'm the world's very first idol, y'know!"
     
     show stan winktalk
     voice "C-3-29.mp3" #STan (Dani)
@@ -322,7 +322,7 @@ label scene3:
 
     show stan winktalk
     voice "C-3-63.mp3" #STan (Dani)
-    st "And I'm in characterrr! It's 'S⛧Tan', silly! And don't forget the pentagram~!"
+    st "And I'm in characterrr! It's 'S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an', silly! And don't forget the pentagram~!"
     
     show stan wink
     voice "C-3-64.mp3" #Makoto (Reece Bridger)
@@ -424,7 +424,7 @@ label scene3:
     
     show stan smirk
     voice "C-3-88.mp3" #Makoto (Reece Bridger)
-    pro "It's difficult not to get excited with the Princess of All Darkness at my side, Sa-- ...S⛧Tan."
+    pro "It's difficult not to get excited with the Princess of All Darkness at my side, Sa-- ...S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an."
 
     show stan serioustalk
     "Admittedly, uttering that trite nickname was a struggle - even for me. But it'd have to become habit if we were to rule this world together."

@@ -26,7 +26,7 @@ label scene21:
     #Satan’s lines in this scene should all be put through a phone filter if we have the time
 
     voice "C-21-1.mp3" #STan (Dani)
-    st "Hiya! You’ve called Hell’s top idol, S_Tan!"
+    st "Hiya! You’ve called Hell’s top idol, S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an!"
 
     voice "C-21-2.mp3" #Makoto (Reece Bridger)
     pro "Yes! Satan, I require your assis--"
@@ -139,7 +139,7 @@ label scene21:
     "At long last!"
 
     voice "C-21-18.mp3" #STan (Dani)
-    st "...Which is what I like to call my personal support hotline! {i}My{/i} name is S_Tan, silly!"
+    st "...Which is what I like to call my personal support hotline! {i}My{/i} name is S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an, silly!"
 
     "Are you kidding me? Even if this is a joke, it’s gone on way too long!"
 

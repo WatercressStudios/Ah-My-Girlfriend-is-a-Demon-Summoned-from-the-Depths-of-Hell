@@ -119,7 +119,7 @@ label scene5:
     bp "Sooo… I'm a demon of sloth, so it's pretty much me being cute and lazy. I don't know what else to tell you, uguu~"
     
     show beepy neutral
-    "Even her uguu sounded disingenuous! Why couldn’t I get S⛧Tan? Either way..."
+    "Even her uguu sounded disingenuous! Why couldn’t I get S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an? Either way..."
 
     voice "C-5-28.mp3" #Makoto (Reece Bridger)
     pro "That… can't be all. You're a demon, right?"
@@ -148,7 +148,7 @@ label scene5:
     
     show beepy neutralclosed
     voice "C-5-35.mp3" #Makoto (Reece Bridger)
-    pro "You mean, uh, S⛧Tan?"
+    pro "You mean, uh, S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an?"
     
     show beepy angryclosedtalk
     voice "C-5-36.mp3" #Beepy (Hikari)
@@ -285,7 +285,7 @@ label scene5:
     
     show beepy neutralclosedtalk
     voice "C-5-66.mp3" #Beepy (Hikari)
-    bp "...That's one of the {i}dumbest{/i} things I've ever heard - and S⛧Tan says some dumb crap."
+    bp "...That's one of the {i}dumbest{/i} things I've ever heard - and S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an says some dumb crap."
     
     show beepy neutralclosed
     voice "C-5-67.mp3" #Makoto (Reece Bridger)

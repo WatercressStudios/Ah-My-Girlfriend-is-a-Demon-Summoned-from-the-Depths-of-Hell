@@ -279,13 +279,13 @@ label scene15:
             align (0.8, 1.0)
     show mami fsmile
     show bubble surprise
-    "A familiar voice calls, and I turn to see S_Tan walking down the aisle and waving to us. Sure enough, Misaki walks behind her, looking down at the ground as she pushes her own cart forward."
+    "A familiar voice calls, and I turn to see S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an walking down the aisle and waving to us. Sure enough, Misaki walks behind her, looking down at the ground as she pushes her own cart forward."
     "Great."
     "Just what I needed."
 
     show mami fneutraltalk
     voice "C-15-45.mp3" #Mami 
-    mm "Yo, S_Tan~!"
+    mm "Yo, S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an~!"
     
     show bubble bigsmileclosedtalk
     play sound "sfx/Flourish.mp3"
@@ -298,7 +298,7 @@ label scene15:
     "The two demons move forward, their ensuing reunion as loud and overbearing as possible."
     show misaki pout with easeinright:
             align (1.1, 1.0)
-    "I look to see if there is anything else here I need, but I spot Misaki out of the corner of my eye. Of course, she'd be here with S-Tan too."
+    "I look to see if there is anything else here I need, but I spot Misaki out of the corner of my eye. Of course, she'd be here with S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an too."
 
     show misaki mildsurprise
     voice "C-15-47.mp3" #Misaki (Kikari)
@@ -447,7 +447,7 @@ label scene15:
             align (0.9, 1.0)
     show bubble fsmileclosed with easeinright:
             align (1.1, 1.0)
-    "S_Tan walks over to the two of us, Mami and Bubble behind her."
+    "S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an walks over to the two of us, Mami and Bubble behind her."
 
     show stan smirktalk
     #voice "C-15-68.mp3" #??? 
@@ -467,7 +467,7 @@ label scene15:
     show bubble fsurprise
     show mami neutral
     show misaki scowl
-    "Silence, for a moment. We look - {i}glare{/i} - at each other before they erupt into laughter. Mami and S-Tan giggle; Bubble collapses, breathless."
+    "Silence, for a moment. We look - {i}glare{/i} - at each other before they erupt into laughter. Mami and S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an giggle; Bubble collapses, breathless."
 
     #music hijinks
     play music shenanigansthemeintro fadein 1.0

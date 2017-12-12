@@ -476,7 +476,7 @@ label scene9:
     show stan serioustalk
     show misaki scowl
     voice "C-9-79.mp3" #STan (Dani)
-    st "Um, it’s S⛧Tan, dear. Don’t forget the pentagram, either."
+    st "Um, it’s S{k=-1.5}{b}{font=Quivira.otf}\u26e7{/font}{/b}T{/k}an, dear. Don’t forget the pentagram, either."
     
     show stan serious
     show misaki scowlclosed
