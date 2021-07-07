@@ -294,7 +294,7 @@ label scene25:
     st "Or until a victor is decided! Proper pacing is key to an enjoyable experience!"
 
     show stan pity
-    show beepy neutral closed
+    show beepy neutralclosed
 
     voice "C-25-54.mp3" #STan (Dani)
     st "...Though, I guess it doesn't really stop a lot of shonen shows from going on and on, and onnn…"
