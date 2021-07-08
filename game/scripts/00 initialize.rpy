@@ -1,4 +1,4 @@
-######################### 
+#########################
 # Character Declaration #
 #########################
 define pro = Character('Makoto', color="#611212", voice_tag="makoto")
@@ -229,7 +229,7 @@ define moviethemeintro = "music/Techno War Intro.ogg",
 define movietheme = "music/Techno War Main.ogg",
 define credits = "music/Hope.ogg",
 define calmtrack = "music/Relax.ogg",
-define schooltheme = "music/Präludium (Guitar).mp3",
+define schooltheme = "music/Praludium (Guitar).mp3",
 define shenaniganstheme = "music/Banjo Utopia (Main).ogg",
 define shenanigansthemeintro = "music/Banjo Utopia (Intro).ogg",
 define flashbacktheme = "music/Puppenwalzer.ogg",
